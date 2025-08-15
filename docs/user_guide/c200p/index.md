@@ -1,0 +1,83 @@
+# IR04
+
+## Overview
+- Check the [package content](overview.md#package-content).
+- View the router's [appearance](overview.md#appearance).
+- View the [interaces](overview.md#interfaces) layout. 
+- Check the [LED indicators](overview.md#leds) status.
+## Install
+- [Mount](install_power.md#install-router) the router on the wall or DIN-rail.
+- [Install](install_power.md#install-antennas) the 4G/WiFi antenna(s).
+- [Install](install_power.md#install-sim-cards) SIM card(s).
+## Power
+- Three ways to provide [power supply](install_power.md#power-supply) for the router.
+## Quick Setup
+- Connect the router to the Internet with Web-based [Quick Setup](quick_setup.md) wizard.
+
+-----
+## Management
+### I. System Status
+- [System Status](status.md): Check the [status](status.md) of the router system, including Mesh, Cellular, Wireless 2.4G and so on.
+
+### II. General Settings
+- [Cellular](cellular.md): Configure the [cellular](cellular.md) connection, including APN, SMS, Data Settings, AT Command and Modem Reset.
+- [Serial Service](serial_service.md): Configure [DB9](serial_service.md#db9rs-232422485) and [6PIN](serial_service.md#6pinrs-422485) serial ports for legacy PLC/SCADA communication.
+- [Input/Output](input_output.md): Check the status and configure the rules/schedules, for Digital/Analog ports to monitor sensors or trigger relays.
+- [WISP](wisp.md): Enable the router to wirelessly connect to a distant Wi-Fi network and share that connection locally via Ethernet/Wi-Fi, acting as a client bridge.
+- [Wireless 2.4G](wireless_2.4g.md): Customize the router's 2.4G wireless network, including SSID and password, mode, channel, channel width and transmit power, and so on.
+- [VPN](vpn.md): Help to access the Internet remotely, securely, and privately through tunneling technology which encrypts your personal information and hides your IP address from the public.
+- [Firmware](firmware.md): Update the router's [firmware](firmware.md) to be the latest version.
+
+### III. Advanced Settings
+
+**[Network](network.md)**
+
+- [LAN/WAN Switch](network.md#lanwan-switch): Switch the WAN/LAN port between local network switching (LAN mode) and wide-area routing (WAN mode).
+- [LAN](network.md#lan): Modify the router's LAN IP address, when necessary.
+- [Guest Network](network.md#guest-network): Create a guest network without disturbing the main netowrk's security and privacy.
+- [DHCP Server](network.md#dhcp-server): Specify the IP address for client devices by the router as a DHCP Server.
+- [IPv6](IPv6.md): Set up an IPv6 Connection.
+- [IGMP](network.md#igmp):  Manage and optimize multicast traffic for the client devices, like IPTV.
+- [QoS](network.md#qos): Prioritize connection of specific devices for a certain duration. 
+- [Custom DNS](network.md#custom-dns): Customize a DNS server to be resolved through for DNS names.
+- [DDNS](network.md#ddns): Map a domain name to the dynamic IP address of a network device.
+- [Static Routing](network.md#static-routing): Manually configure routings for data forwarding.
+- [Port Forwards](network.md#port-forwards): Set up public services on your local network with higher security.
+- [Port Trigger](network.md#port-trigger): Specify a triggering port and its corresponding external ports.
+- [DMZ](network.md#dmz): Disable DMZ unless necessary.
+- [Online Detection](network.md#online-detection): Ensure your network always online and operational.
+- [TTL](network.md#ttl): Set the maximum time for packets to survive in the network.
+- [Wake on LAN](network.md#wake-on-lan): Allow a computer to be turned on or awakened by a network message.
+- [UPnP](network.md#upnp): Allow applications or host devices to automatically find the front-end NAT device.
+- [USB Sharing](network.md#usb-sharing): Allow network-connected devices to access the shared files in the USB devices connected to the router.
+
+**[Security](security.md)**
+
+- [Firewall](security.md#firewall): Monitor and control incoming and outgoing network traffic based on predetermined security rules.
+- [MAC Filter](security.md#mac-filter): Prevent unauthorized devices with certain MAC address from accessing the network.
+- [IP Filter](security.md#ip-filter): Block or allow traffic to your network or system based on the IP addresses. 
+- [Domain Filter](security.md#domain-filter): Control or limit access to specific websites or Internet services by filtering domain name requests. 
+- [IP/MAC Binding](security.md#ipmac-binding): Bind network device's IP address to its MAC address. 
+- [WPS](security.md#wps): Set up a security-protected Wi-Fi connection without sharing/entering credentials. 
+- [WiFi Schedule](security.md#wifi-schedule): Turn on/off the router's wireless network automatically at a specific time.
+- [ALG](security.md#alg): Inspect and modify application-layer data in network traffic to allow it to pass through firewalls and other security devices more easily.
+
+**[System](system.md)**
+
+- [System Time](system.md#system-time): Configure the router's system time, necessary for some time-based functions.
+- [Firmware](system.md#firmware): Upgrade the firmware to the latest version.
+- [Backup/Restore](system.md#backuprestore): Backup the configuration file or restore it.
+- [Administration](system.md#administration): Access and manage the router from the local or remote devices.
+- [Admin Account](system.md#admin-account): Change the router's login password.
+- [Language](system.md#language): Customize the router's web management language.
+- [Timed Reboot](system.md#timed-reboot): Schedule for the router rebooting.
+- [Reboot](system.md#reboot): Reboot the router for the settings or changes to take effect.
+- [Reset](system.md#reset): Restore the router to its factory default settings.
+- [TR069](system.md#tr069): Configure the router's TR069 (CPE WAN Management).
+
+### IV. Diagnostic Tools
+- [Diagnosis](diagnostic_tools.md#diagnosis): The diagnosis result will indicate the status of Internet, Wireless, Devices, Services and System. You can click Download to reserve the diagnosis bin file.
+- [PING](diagnostic_tools.md#ping): Used to test the connectivity between the router and the tested host, and measure the round-trip time.
+- [TRACEROUTE](diagnostic_tools.md#traceroute): Used to test the route (path) your router has passed to reach the tested host, and measure transit delays of packets across an Internet Protocol network.
+- [NSLOOKUP](diagnostic_tools.md#nslookup): Checks if the DNS IP address of the WAN can work normally.
+- [System Log](diagnostic_tools.md#system-log): Tracks all the router behaviors. When the router does not work normally, download the system log and send it to our Technical Support for troubleshooting.

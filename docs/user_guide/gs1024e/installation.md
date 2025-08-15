@@ -1,4 +1,4 @@
-# Installation
+# Install
 
 <img src="../../../images/noteicon.png"/> GS1018PS2 is for illustration below. Your actual product may differ.
 

@@ -39,18 +39,6 @@
     <div class="cudy-product-model">IR04</div>
   </a>
 </div>
-<div class="cudy-product-card" style="text-align:center;">
-  <a href="c200p/">
-    <div class="cudy-product-catagory">VPN Router</div>
-    <img
-      src="http://cdn.shopify.com/s/files/1/0673/4748/0820/files/C200P-1.png?v=1743583768"
-      alt="C200P"
-      class="no-zoom"
-      onclick="event.stopPropagation()"
-      style="display:block; margin:0 auto; max-width:100%;">
-    <div class="cudy-product-model">C200P</div>
-  </a>
-</div>
 </div>
 </div>
 

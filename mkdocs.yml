@@ -21,21 +21,23 @@ theme:
     - navigation.indexes
     - navigation.tabs
     - navigation.top
+  palette:
+    # Light Mode
+    - scheme: default 
+      primary: "#008CFF"  
+      accent: "#008CFF"  
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode 
     
-  # palette:
-  #   - scheme: default
-  #     primary: white
-  #     accent: indigo
-  #     toggle:
-  #       icon: material/toggle-switch-off-outline
-  #       name: Switch to dark mode
-  #   - scheme: slate
-  #     primary: cyan
-  #     accent: cyan
-  #     toggle:
-  #       icon: material/toggle-switch
-  #       name: Switch to light mode
-  favicon: images/favicon.ico
+    # Dark Mode 
+    - scheme: slate 
+      primary: "#006BB3"  
+      accent: "#008CFF"  
+      toggle:
+        icon: material/toggle-switch 
+        name: Switch to light mode 
+  favicon: images/favicon.ico 
 
 # Plugins
 plugins:
@@ -108,7 +110,7 @@ nav:
     - WR3600:
       - WR3600: user_guide/wr3600/index.md
       - Overview: user_guide/wr3600/overview.md
-      - Connection: user_guide/wr3600/connection.md
+      - Connect: user_guide/wr3600/connection.md
       - Quick Setup: user_guide/wr3600/quick_setup.md
       - Management:
         - System Status: user_guide/wr3600/status.md
@@ -127,7 +129,7 @@ nav:
     - GP1200: 
       - GP1200: user_guide/gp1200/index.md
       - Overview: user_guide/gp1200/overview.md
-      - Connection: user_guide/gp1200/connection.md
+      - Connect: user_guide/gp1200/connection.md
       - Quick Setup: user_guide/gp1200/quick_setup.md 
       - Management:
         - Status: user_guide/gp1200/pon_status.md 
@@ -142,7 +144,7 @@ nav:
     - GS1024E:
       - GS1024E: user_guide/gs1024e/index.md
       - Overview: user_guide/gs1024e/overview.md  
-      - Installation: user_guide/gs1024e/installation.md
+      - Install: user_guide/gs1024e/installation.md
       - Management:
         - Log In/Out: user_guide/gs1024e/log_in_out.md
         - System Manage: user_guide/gs1024e/system_manage.md
@@ -171,6 +173,25 @@ nav:
           - Security: user_guide/ir04/security.md
           - System: user_guide/ir04/system.md
         - Diagnostic Tools: user_guide/ir04/diagnostic_tools.md
-    - C200P: user_guide/c200p/index.md
+    - C200P: 
+      - C200P: user_guide/c200p/index.md
+      - Overview: user_guide/c200p/overview.md  
+      - Connect: user_guide/c200p/connection.md
+      - Quick Setup: user_guide/c200p/quick_setup.md
+      - Management:
+        - System Status: user_guide/c200p/status.md
+        - General Settings:
+          - AP Management: user_guide/c200p/ap_management.md
+          - Wireless: user_guide/c200p/wireless.md
+          - Captive Portal: user_guide/c200p/captive_portal.md
+          - WAN Mode: user_guide/c200p/wan.md
+          - PoE: user_guide/c200p/poe.md
+          - VPN: user_guide/c200p/vpn.md
+          - Firmware: user_guide/c200p/firmware.md
+        - Advanced Settings: 
+          - Network: user_guide/c200p/network.md
+          - Security: user_guide/c200p/security.md
+          - System: user_guide/c200p/system.md
+        - Diagnostic Tools: user_guide/c200p/diagnostic_tools.md
   - FAQ:
     - FAQ: FAQ/index.md

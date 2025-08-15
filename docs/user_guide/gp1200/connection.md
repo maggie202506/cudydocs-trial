@@ -1,6 +1,6 @@
-# Connection 
+# Connect
 
-<img src="../../../images/gp1200/connection.png"  alt="security" style="width:600px">
+<img src="../../../images/gp1200/connection.png"  alt="" style="width:600px">
 
 1. Connect the provided power adapter to the Power jack.
 2. Connect the telephone to the LAN 1/2/3 port.

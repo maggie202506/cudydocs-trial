@@ -1,12 +1,23 @@
-.md-typeset { color: cyan-blue !important; }
-
-/* for home page product cards */
+/* ===== 主色调配置 (2025.08.15更新) ===== */
+:root {
+  /* 核心蓝色系 */
+  --md-primary-fg-color: #008CFF;        /* 导航栏/主按钮 */
+  --md-primary-fg-color--light: #4DA8FF; /* 悬浮状态 */
+  --md-primary-fg-color--dark: #006BB3;  /* 深色模式 */
+  
+  /* 保留默认文本色 */
+  --md-default-fg-color: #000000;        /* 强制锁定黑色文本 */
+}
+ 
+/* ===== 产品卡片系统 ===== */
 .cudy-product-row {
   font-family: 'Lato', sans-serif;
   font-size: 15px !important;
   display: block;
   margin: 0px;
+  color: inherit; /* 继承默认黑色 */
 }
+ 
 .cudy-product-row-box {
   float: left;
   width: 100%;
@@ -14,6 +25,7 @@
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
 }
+ 
 .cudy-product-card {
   float: left;
   width: 95%;
@@ -25,56 +37,60 @@
   border-style: solid;
   border-color: #ffffff;
   text-align: center;
+  transition: border-color 0.3s ease;
 }
-.cudy-product-card img{
+ 
+.cudy-product-card:hover {
+  border-color: #008CFF !important;  /* 悬停交互色 */
+}
+ 
+.cudy-product-card img {
   width: 70%;
 }
-div.cudy-product-model{
+ 
+/* 产品型号文字（特殊蓝色标识） */ 
+div.cudy-product-model  {
   font-weight: bold;
+  color: #008CFF;  /* 仅型号文字用蓝色 */
 }
+ 
 .cudy-product-model-ap1300 {
   font-size: 12px;
   font-weight: bold;
 }
-.cudy-product-card:hover {
-  border-color: #b6bde3 !important;
-}
-img.cudyboxshadow {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+ 
+/* ===== 响应式布局 ===== */
 @media only screen and (max-width: 30em) {
-	.cudy-product-row-box {
+  .cudy-product-row-box {
     grid-template-columns: 50% 50%;
   }
 }
-/* for cudy-S10 user manuel */
+ 
+/* ===== 其他组件 ===== */
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  color: inherit; /* 继承黑色 */
 }
-.flex-container, .s10-user-manual > div {
-  margin: 10px 20px;
+ 
+img.cudyboxshadow  {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-@media only screen and (max-width: 30em) {
-  .flex-container, .s10-user-manual > div {
-    margin: 0px 0px;
-  }
-}
+ 
+/* 桌面端布局 */
 @media only screen and (min-width: 992px) {
-  .cudy-50-desktop {
-    width: 50%;
-  }
-  .cudy-60-desktop {
-    width: 60%;
-  }
-  .cudy-70-desktop {
-    width: 70%;
-  }
-  .cudy-80-desktop {
-    width: 80%;
-  }
-  .cudy-90-desktop {
-    width: 90%;
-  }
+  .cudy-50-desktop { width: 50%; }
+  .cudy-60-desktop { width: 60%; }
+  .cudy-70-desktop { width: 70%; }
+  .cudy-80-desktop { width: 80%; }
+  .cudy-90-desktop { width: 90%; }
+}
+
+.md-footer {
+    background-color: #008CFF !important;
+}
+
+.md-footer-meta__inner {
+    color: white !important;
 }
