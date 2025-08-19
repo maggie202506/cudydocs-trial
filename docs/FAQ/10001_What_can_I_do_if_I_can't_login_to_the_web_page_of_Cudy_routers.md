@@ -9,7 +9,7 @@ Please follow the steps below.
 
     After powering on, wait for about 1 minute for the device to start up. At this time, you can use a mobile phone or other terminal to try to search for the SSID marked on the router label.
 
-<img src="../../images/10001/routerlabel.png">
+<img src="../../images/FAQ/10001/routerlabel.png">
 
 <img src="../../images/noteicon.png">**Note:** 
 
@@ -33,11 +33,11 @@ Please follow the steps below.
     - Right-click the Wired or Wi-Fi adapter and select Properties.
     - Under the Networking tab, double-click Internet Protocol Version 4 (TCP/IPv4) Properties.
 
-<img src="../../images/10001/TCPIPV4.png">
+<img src="../../images/FAQ/10001/TCPIPV4.png">
 
     - Select the radio buttons next to Obtain an IP address automatically and Obtain DNS server address automatically.
 
-<img src="../../images/10001/DHCPclient.png">
+<img src="../../images/FAQ/10001/DHCPclient.png">
 
 4. Verify that the router’s management address is correctly entered in the web browser.
 
