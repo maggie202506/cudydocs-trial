@@ -9,9 +9,9 @@ Please follow the steps below.
 
     After powering on, wait for about 1 minute for the device to start up. At this time, you can use a mobile phone or other terminal to try to search for the SSID marked on the router label.
 
-<img src="../../images/FAQ/10001/routerlabel.png">
+<img src="../../../images/FAQ/10001/routerlabel.png">
 
-<img src="../../images/noteicon.png">**Note:** 
+<img src="../../../images/noteicon.png">**Note:** 
 
     If you wait for more than 3 minutes, the router's default SSID still cannot be found. Please try to reset the router to factory default by long pressing the reset button for about 3 seconds. You can release the reset button when the LED flashes.  Then try again after the router restarts.
 
@@ -20,7 +20,7 @@ Please follow the steps below.
 
     **Network cable connection**: Please connect the computer to the LAN port of the router through a network cable. The LED of the LAN port you connect will be light on if there is one.
 
-<img src="../../images/noteicon.png">**Note:** 
+<img src="../../../images/noteicon.png">**Note:** 
 
     If you are using a mobile phone or tablet, turn off mobile data or VPN, if applicable.
 
@@ -33,11 +33,11 @@ Please follow the steps below.
     - Right-click the Wired or Wi-Fi adapter and select Properties.
     - Under the Networking tab, double-click Internet Protocol Version 4 (TCP/IPv4) Properties.
 
-<img src="../../images/FAQ/10001/TCPIPV4.png">
+<img src="../../../images/FAQ/10001/TCPIPV4.png">
 
     - Select the radio buttons next to Obtain an IP address automatically and Obtain DNS server address automatically.
 
-<img src="../../images/FAQ/10001/DHCPclient.png">
+<img src="../../../images/FAQ/10001/DHCPclient.png">
 
 4. Verify that the router’s management address is correctly entered in the web browser.
 
