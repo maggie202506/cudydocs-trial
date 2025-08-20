@@ -6,6 +6,7 @@ hide:
 
 # FAQ  (Frequently Asked Questions)
 * [What can I do if I can't login to the web page of Cudy routers?](10001_What_can_I_do_if_I_can't_login_to_the_web_page_of_Cudy_routers.md)
+* [How to recover Cudy devices' firmware via TFTP?](10002_How_to_recover_Cudy_devices'_firmware_via_TFTP.md)
 * [Forget my wireless password?](forgot_wireless_password.md)
 * [Forget my web management password?](forgot_management_password.md)
 * [Can’t log in to the router’s web management page?](cannot_login.md)
