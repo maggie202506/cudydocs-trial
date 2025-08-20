@@ -1,4 +1,4 @@
-# How_to_recover_Cudy_devices'_firmware_via_TFTP ?
+# How to recover Cudy devices' firmware via TFTP ?
 Dear Customer,
 
 Please follow the steps below.
