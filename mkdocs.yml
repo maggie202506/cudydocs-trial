@@ -176,5 +176,25 @@ nav:
           - Security: user_guide/ir04/security.md
           - System: user_guide/ir04/system.md
         - Diagnostic Tools: user_guide/ir04/diagnostic_tools.md
+    - C200P:
+      - C200P: user_guide/c200p/index.md
+      - Overview: user_guide/c200p/overview.md
+      - Connect: user_guide/c200p/connection.md
+      - Quick Setup: user_guide/c200p/quick_setup.md
+      - Management:
+        - System Status: user_guide/c200p/status.md
+        - General Settings:
+          - AP Management: user_guide/c200p/ap_management.md
+          - Wireless: user_guide/c200p/wireless.md
+          - Captive Portal: user_guide/c200p/captive_portal.md
+          - WAN Mode: user_guide/c200p/wan.md
+          - PoE: user_guide/c200p/poe.md
+          - VPN: user_guide/c200p/vpn.md
+          - Firmware: user_guide/c200p/firmware.md
+        - Advanced Settings:
+          - Network: user_guide/c200p/network.md
+          - Security: user_guide/c200p/security.md
+          - System: user_guide/c200p/system.md
+        - Diagnostic Tools: user_guide/c200p/diagnostic_tools.md          
   - FAQ:
     - FAQ: FAQ/index.md

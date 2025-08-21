@@ -1,0 +1,3494 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for Cudy Products">
+      
+      
+        <meta name="author" content="Cudy Docs">
+      
+      
+        <link rel="canonical" href="https://docs.cudy.com/user_guide/c200p/vpn/">
+      
+      
+        <link rel="prev" href="../poe/">
+      
+      
+        <link rel="next" href="../firmware/">
+      
+      
+      <link rel="icon" href="../../../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.6">
+    
+    
+      
+        <title>VPN - Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.35e1ed30.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="#008CFF" data-md-color-accent="#008CFF">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#vpn" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Docs" class="md-header__button md-logo" aria-label="Docs" data-md-component="logo">
+      
+  <img src="../../../images/cudyicon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              VPN
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="#008CFF" data-md-color-accent="#008CFF"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="#006BB3" data-md-color-accent="#008CFF"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/cudytech-pr/User-Guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cudy-docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+    
+  
+  User Guide
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../FAQ/" class="md-tabs__link">
+          
+  
+    
+  
+  FAQ
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Docs" class="md-nav__button md-logo" aria-label="Docs" data-md-component="logo">
+      
+  <img src="../../../images/cudyicon.png" alt="logo">
+
+    </a>
+    Docs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/cudytech-pr/User-Guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cudy-docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    User Guide
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            User Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../wr3600/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    WR3600
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            WR3600
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wr3600/overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wr3600/connection/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Connect
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wr3600/quick_setup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quick Setup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_5" id="__nav_2_2_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Management
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wr3600/status/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    System Status
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_5_2" id="__nav_2_2_5_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    General Settings
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            General Settings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wr3600/wan/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WAN Mode
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wr3600/wireless/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wireless
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wr3600/vpn/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    VPN
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wr3600/captive_portal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Captive Portal
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wr3600/firmware/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Firmware
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_5_3" id="__nav_2_2_5_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Advanced Settings
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_2_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Advanced Settings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wr3600/network/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Network
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wr3600/security/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Security
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wr3600/system/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    System
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wr3600/parental_control/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Parental Control
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wr3600/diagnostic_tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diagnostic Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../gp1200/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    GP1200
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            GP1200
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gp1200/overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gp1200/connection/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Connect
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gp1200/quick_setup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quick Setup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3_5" id="__nav_2_3_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Management
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gp1200/pon_status/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Status
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gp1200/pon_lan/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LAN
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gp1200/pon_wlan/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WLAN
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gp1200/pon_wan/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WAN
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gp1200/pon_service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Services
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gp1200/pon_advance/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Advance
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gp1200/pon_admin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admin
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gp1200/pon_diagnostics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diagnostics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gp1200/pon_statistics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Statistics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../gs1024e/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    GS1024E
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            GS1024E
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gs1024e/overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gs1024e/installation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Install
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4_4" id="__nav_2_4_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Management
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gs1024e/log_in_out/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Log In/Out
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gs1024e/system_manage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    System Manage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gs1024e/port_management/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Port Management
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gs1024e/protocol_management/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protocol Management
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gs1024e/vlan/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    VLAN
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gs1024e/qos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    QoS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gs1024e/tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../ir04/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    IR04
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            IR04
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ir04/overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ir04/install_power/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Install & Power
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ir04/quick_setup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quick Setup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5_5" id="__nav_2_5_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Management
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ir04/status/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    System Status
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5_5_2" id="__nav_2_5_5_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    General Settings
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_5_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            General Settings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ir04/cellular/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cellular
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ir04/serial_service/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Serial Service
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ir04/input_output/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Input/Output
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ir04/wisp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WISP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ir04/wireless_2.4g/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wireless 2.4G
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ir04/vpn/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    VPN
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ir04/firmware/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Firmware
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5_5_3" id="__nav_2_5_5_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Advanced Settings
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_5_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Advanced Settings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ir04/network/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Network
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ir04/security/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Security
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ir04/system/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    System
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ir04/diagnostic_tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diagnostic Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    C200P
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            C200P
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../connection/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Connect
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quick_setup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quick Setup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_6_5" id="__nav_2_6_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Management
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_6_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../status/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    System Status
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6_5_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_6_5_2" id="__nav_2_6_5_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    General Settings
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_6_5_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_6_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            General Settings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ap_management/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AP Management
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wireless/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Wireless
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../captive_portal/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Captive Portal
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wan/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WAN Mode
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../poe/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PoE
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    VPN
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    VPN
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pptp-vpn" class="md-nav__link">
+    PPTP VPN
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l2tp-vpn" class="md-nav__link">
+    L2TP VPN
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openvpn" class="md-nav__link">
+    OpenVPN
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wireguard-vpn" class="md-nav__link">
+    WireGuard VPN
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zerotier-vpn" class="md-nav__link">
+    ZeroTier VPN
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ipsec-site-to-site-vpn" class="md-nav__link">
+    IPSec (site-to-site) VPN
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../firmware/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Firmware
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6_5_3" id="__nav_2_6_5_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Advanced Settings
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_6_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Advanced Settings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../network/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Network
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../security/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Security
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../system/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    System
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../diagnostic_tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diagnostic Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../FAQ/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            FAQ
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pptp-vpn" class="md-nav__link">
+    PPTP VPN
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l2tp-vpn" class="md-nav__link">
+    L2TP VPN
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openvpn" class="md-nav__link">
+    OpenVPN
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wireguard-vpn" class="md-nav__link">
+    WireGuard VPN
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zerotier-vpn" class="md-nav__link">
+    ZeroTier VPN
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ipsec-site-to-site-vpn" class="md-nav__link">
+    IPSec (site-to-site) VPN
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+
+  <!-- Edit button -->
+  
+
+  <!--
+    Hack: check whether the content contains a h1 headline. If it
+    doesn't, the page title (or respectively site name) is used
+    as the main headline.
+  -->
+  
+
+  <!-- Markdown content -->
+  <h1 id="vpn">VPN<a class="headerlink" href="#vpn" title="Permanent link">&para;</a></h1>
+<p>This is only available in <em>Main Router and AP Controller</em> mode.</p>
+<p>VPN (Virtual Private Network) helps you access Internet resources remotely, securely, and privately through tunneling technology. When you access the Internet, VPN encrypts your personal information and hides your IP address from the public. For VPN users, it looks like the devices are directly connected. Cudy Router supports 6 types of VPN connections: PPTP, L2TP, OpenVPN, WireGuard, ZeroTier, IPSec (site-to-site). Please choose an appropriate VPN according to your needs and circumstances.</p>
+<p><a class="glightbox" href="../../../images/c200p/general-vpn2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/general-vpn2.png" alt="" width="800px" style="display: block; margin: 0 auto;"/></a> </p>
+<p><a class="glightbox" href="../../../images/noteicon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/noteicon.png" alt="" /></a> 
+Here demonstrates with AP controller working in <em>Main Router and AP Controller</em> mode as Router A (VPN server) and the other router as Router B (VPN Client). </p>
+<p>Before you enable VPN server, it is recommended to configure Dynamic DNS service or assign a static IP address for router's WAN port and synchronize your system time with Internet. </p>
+<hr />
+<h2 id="pptp-vpn">PPTP VPN<a class="headerlink" href="#pptp-vpn" title="Permanent link">&para;</a></h2>
+<p>PPTP VPN is used to create a PPTP VPN connection for remote devices to access your home network. Fast connection/disconnection and simple configuration satisfy the needs for users who is apt to frequently switch VPN environments. Please follow the steps below to set up a PPTP VPN connection.</p>
+<p><strong>STEP 1. Configure the PPTP Server on Router A:</strong>
+<a class="glightbox" href="../../../images/c200p/vpn-pptp-server.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/vpn-pptp-server.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+<ol>
+<li>
+<p>Log into the AP controller's management web page <a href="http://cudyac.net">cudyac.net</a> or <a href="http://192.168.10.1">192.168.10.1</a>.</p>
+</li>
+<li>
+<p>Go to <em>General Settings -&gt; VPN</em>. Toggle to enable VPN, and select <em>PPTP Server</em> as Protocol. </p>
+</li>
+<li>
+<p>Select an appropriate type of <em>Client Access</em>.</p>
+<ul>
+<li>Internet and Local Network: Allows simultaneous access to both public internet and private LAN resources through the VPN tunnel.</li>
+<li>Internet Only: Routes all traffic through the VPN, masking the client's real IP but blocking local LAN access.</li>
+<li>Local Network Only: Restricts access solely to private network resources, leaving internet traffic to bypass the VPN.</li>
+</ul>
+</li>
+<li>
+<p>Configure the PPTP Server.</p>
+<ul>
+<li>MPPE Encryption: Enable to encrypt the data transmitted via PPTP VPN, thus improve the communication security.</li>
+<li>Server IP/IP Start/Limit: Set to assign IP address for the VPN Clients.</li>
+<li>Username/Password: Set for the VPN client to access the VPN Server.</li>
+</ul>
+</li>
+<li>
+<p>Click <em>Save &amp; Apply</em>.    </p>
+</li>
+</ol>
+<p><strong>STEP 2. Configure PPTP Client on Router B:</strong>
+<a class="glightbox" href="../../../images/wr3600/wr3600 (86).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/wr3600/wr3600 (86).png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+<ol>
+<li>
+<p>Log into the Router B's management web page <em>http://cudy.net</em> or <em>192.168.10.1</em>. </p>
+</li>
+<li>
+<p>Go to <em>General Settings -&gt; VPN</em>. Enable VPN, and select <em>PPTP Client</em> as Protocol. </p>
+</li>
+<li>
+<p>Select Allow all devices or Ban all devices as <em>Default Rule</em>.</p>
+<ul>
+<li>Allow all devices: Permits all VPN-connected devices to access the local network by default. Convenient but less secure.</li>
+<li>Ban all devices: Blocks all devices by default, requiring manual exceptions. More secure but needs configuration.</li>
+</ul>
+</li>
+<li>
+<p>Enable <em>Site-to-Site</em> to allow communication between VPN server and Clients.</p>
+</li>
+<li>
+<p>Select an appropriate <em>VPN Policy</em>. </p>
+<ul>
+<li>Disable: VPN Policy is disabled. No restriction.</li>
+<li>VPN kill switch: Internet access will be disconnected upon VPN disconnection. It is highly recommended for users who transmit data all through VPN. Preferred (and optionally Alternate) DNS is required. </li>
+<li>Domain: Select and configure to allow specified domain(s) to transmit data through VPN or not. DNS and Domain are required.</li>
+<li>Remote Subnet: Select and configure to allow devices with the specified subnet to transmit data through VPN. IP address and Subnet mask are required.</li>
+</ul>
+</li>
+<li>
+<p>Configure the PPTP Client:</p>
+<ul>
+<li>Server Address/Username/Password: Enter the parameters provided by the PPTP Server.</li>
+<li>Encryption: Enable to ensure the data security for the PPTP clients.  </li>
+</ul>
+</li>
+<li>
+<p>Click <em>Save &amp; Apply</em>.</p>
+</li>
+</ol>
+<hr />
+<h2 id="l2tp-vpn">L2TP VPN<a class="headerlink" href="#l2tp-vpn" title="Permanent link">&para;</a></h2>
+<p>L2TP VPN Server is used to create a L2TP VPN connection for remote devices to access your home network. Compared with PPTP, L2TP supports multi-tunnel with authentication between two endpoints, thus users can set up different tunnels with various service quality. Please follow the steps below to set up a L2TP VPN connection.</p>
+<p><strong>STEP 1. Configure the L2TP Server on Router A:</strong>
+<a class="glightbox" href="../../../images/c200p/vpn-l2tp-server.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/vpn-l2tp-server.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+<ol>
+<li>
+<p>Log into the AP controller's management web page <a href="http://cudyac.net">cudyac.net</a> or <a href="http://192.168.10.1">192.168.10.1</a>. </p>
+</li>
+<li>
+<p>Go to <em>General Settings -&gt; VPN</em>. Enable VPN, and select <em>L2TP Server</em> as Protocol. </p>
+</li>
+<li>
+<p>Select an appropriate type of <em>Client Access</em>.</p>
+<ul>
+<li>Internet and Local Network: Allows simultaneous access to both public internet and private LAN resources through the VPN tunnel.</li>
+<li>Internet Only: Routes all traffic through the VPN, masking the client's real IP but blocking local LAN access.</li>
+<li>Local Network Only: Restricts access solely to private network resources, leaving internet traffic to bypass the VPN.</li>
+</ul>
+</li>
+<li>
+<p>Configure the L2TP Server.</p>
+<ul>
+<li>Server IP/IP Start/Limit: Set to assign IP address for the VPN Clients.</li>
+<li>Tunnel Secret (Optional): To set a L2TP VPN encryption as needed.</li>
+<li>Preshared Key (Optional): To set a IPSec encrytion as needed.</li>
+<li>MTU: Maximum Transmission Unit is 1400 by default. You may change it if necessary.</li>
+<li>Username/Password: Set to authenticate the VPN clients to access the VPN Server.</li>
+</ul>
+</li>
+<li>
+<p>Click <em>Save &amp; Apply</em>.</p>
+</li>
+</ol>
+<p><strong>STEP 2. Configure L2TP Client on Router B:</strong>
+<a class="glightbox" href="../../../images/wr3600/wr3600 (87).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/wr3600/wr3600 (87).png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+<ol>
+<li>
+<p>Log into the Router B's management web page https://cudy.net (or 192.168.10.1). </p>
+</li>
+<li>
+<p>Go to <em>General Settings -&gt; VPN</em>. Enable VPN, and select <em>L2TP Client</em> as Protocol. </p>
+</li>
+<li>
+<p>Select Allow all devices or Ban all devices as <em>Default Rule</em>.</p>
+<ul>
+<li>Allow all devices: Permits all VPN-connected devices to access the local network by default. Convenient but less secure.</li>
+<li>Ban all devices: Blocks all devices by default, requiring manual exceptions. More secure but needs configuration.</li>
+</ul>
+</li>
+<li>
+<p>Enable <em>Site-to-Site</em> to allow communication between VPN server and Clients.</p>
+</li>
+<li>
+<p>Select an appropriate <em>VPN Policy</em>.</p>
+<ul>
+<li>Disable: VPN Policy is disabled. No restriction.</li>
+<li>VPN kill switch: Internet access will be disconnected upon VPN disconnection. It is highly recommended for users who transmit data all through VPN. Preferred (and optionally Alternate) DNS is required. </li>
+<li>Domain: Select and configure to allow specified domain(s) to transmit data through VPN or not. DNS and Domain are required.</li>
+<li>Remote Subnet: Select and configure to allow devices with the specified subnet to transmit data through VPN. IP address and Subnet mask are required.</li>
+</ul>
+</li>
+<li>
+<p>Configure the L2TP Client:</p>
+<ul>
+<li>Server Address/Username/Password: Enter the parameters provided by the PPTP Server.</li>
+<li>Local Hostname: Customize or keep it as default.</li>
+<li>Tunnel Secret/Preshared Key: Enter the encryption if the L2TP Server has set it.</li>
+<li>MTU: Maximum Transmission Unit is 1400 by default, you may change it if necessary.</li>
+<li>Use custom tunnel IP: Enable and enter it if the L2TP Server provides a tunnel IP bound with the account.</li>
+</ul>
+</li>
+<li>
+<p>Click <em>Save &amp; Apply</em>.</p>
+</li>
+</ol>
+<hr />
+<h2 id="openvpn">OpenVPN<a class="headerlink" href="#openvpn" title="Permanent link">&para;</a></h2>
+<p>OpenVPN Server is used to create an OpenVPN connection for remote devices to access your home network. </p>
+<p>OpenVPN server requires a public IP. You can confirm whether the router has a public IP on the router management page <em>System Status -&gt; WAN -&gt; More details -&gt; Status</em>. If the public IP displayed is consistent with the IP address of the router's WAN port, it means that the router has a public IP. Please follow the steps below to set up an OpenVPN connection.</p>
+<p><strong>STEP 1. Configure the OpenVPN Server on Router A:</strong>
+<a class="glightbox" href="../../../images/c200p/vpn-openvpn-server.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/vpn-openvpn-server.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+<ol>
+<li>
+<p>Log into the AP controller's management web page <a href="http://cudyac.net">cudyac.net</a> or <a href="http://192.168.10.1">192.168.10.1</a>. </p>
+</li>
+<li>
+<p>Go to <em>General Settings -&gt; VPN</em>. Enable VPN, and select <em>OpenVPN Server</em> as Protocol. </p>
+</li>
+<li>
+<p>Select an appropriate type of <em>Client Access</em>.</p>
+<ul>
+<li>Internet and Local Network: Allows simultaneous access to both public internet and private LAN resources through the VPN tunnel.</li>
+<li>Internet Only: Routes all traffic through the VPN, masking the client's real IP but blocking local LAN access.</li>
+<li>Local Network Only: Restricts access solely to private network resources, leaving internet traffic to bypass the VPN.</li>
+</ul>
+</li>
+<li>
+<p>Configure the OpenVPN Server.</p>
+<ul>
+<li>OpenVPN Protocol: Select UDP or TCP as desired.</li>
+<li>Service Port: 1194 by defalut, keep it or change it as needed.</li>
+<li>VPN Subnet: Set up a VPN subnet segment.</li>
+<li>Subnet Mask: Select or customize as needed.</li>
+</ul>
+</li>
+<li>
+<p>Click <em>Save &amp; Apply</em>.</p>
+</li>
+<li>
+<p>Click <em>EXPORT</em> to export the configuration file, for the OpenVPN Client to upload.</p>
+</li>
+</ol>
+<p><strong>STEP 2. Configure OpenVPN Client on Router B:</strong>
+<a class="glightbox" href="../../../images/wr3600/wr3600 (89).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/wr3600/wr3600 (89).png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+<ol>
+<li>
+<p>Log into the Router B's management web page https://cudy.net (or 192.168.10.1). </p>
+</li>
+<li>
+<p>Go to <em>General Settings -&gt; VPN</em>. Enable VPN, and select <em>OpenVPN Client</em> as Protocol. </p>
+</li>
+<li>
+<p>Select Allow all devices or Ban all devices as <em>Default Rule</em>.</p>
+<ul>
+<li>Allow all devices: Permits all VPN-connected devices to access the local network by default. Convenient but less secure.</li>
+<li>Ban all devices: Blocks all devices by default, requiring manual exceptions. More secure but needs configuration.</li>
+</ul>
+</li>
+<li>
+<p>Enable <em>Site-to-Site</em> to allow communication between VPN server and Clients.</p>
+</li>
+<li>
+<p>Select an appropriate <em>VPN Policy</em>.</p>
+<ul>
+<li>Disable: VPN Policy is disabled. No restriction.</li>
+<li>VPN kill switch: Internet access will be disconnected upon VPN disconnection. It is highly recommended for users who transmit data all through VPN. Preferred (and optionally Alternate) DNS is required. </li>
+<li>Domain: Select and configure to allow specified domain(s) to transmit data through VPN or not. DNS and Domain are required.</li>
+<li>Remote Subnet: Select and configure to allow devices with the specified subnet to transmit data through VPN. IP address and Subnet mask are required.</li>
+</ul>
+</li>
+<li>
+<p>Click <em>Browse...</em> to locate the Configuration file (client.ovpn) you exported previously from the OpenVPN Server. The uploaded configuration file will be automatically read and the Server IP will be displayed.  </p>
+</li>
+<li>
+<p>Click <em>Save &amp; Apply</em>.</p>
+</li>
+</ol>
+<hr />
+<h2 id="wireguard-vpn">WireGuard VPN<a class="headerlink" href="#wireguard-vpn" title="Permanent link">&para;</a></h2>
+<p>WireGuard VPN Server is used to create a Wire Guard VPN connection for remote devices to access your home network. </p>
+<p>WireGuard VPN server requires a public IP. You can confirm whether the router has a public IP on the router management page <em>System Status -&gt; WAN -&gt; More details -&gt; Status</em>. If the public IP displayed is consistent with the IP address of the router's WAN port, it means that the router has a public IP. Please follow the steps below to set up a WireGuard VPN connection.</p>
+<p><strong>STEP 1. Configure the WireGuard Server on Router A:</strong>
+<a class="glightbox" href="../../../images/c200p/vpn-wiredguard-server.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/vpn-wiredguard-server.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+<ol>
+<li>
+<p>Log into the AP controller's management web page <a href="http://cudyac.net">cudyac.net</a> or <a href="http://192.168.10.1">192.168.10.1</a>. </p>
+</li>
+<li>
+<p>Go to <em>General Settings -&gt; VPN</em>. Enable VPN, and select <em>WireGuard Server</em> as Protocol. </p>
+</li>
+<li>
+<p>Select an appropriate type of <em>Client Access</em>.</p>
+<ul>
+<li>Internet and Local Network: Allows simultaneous access to both public internet and private LAN resources through the VPN tunnel.</li>
+<li>Internet Only: Routes all traffic through the VPN, masking the client's real IP but blocking local LAN access.</li>
+<li>Local Network Only: Restricts access solely to private network resources, leaving internet traffic to bypass the VPN.</li>
+</ul>
+</li>
+<li>
+<p>Configure the WireGuard Server:</p>
+<ul>
+<li>Endpoint Host: Public domain/IP for VPN clients to connect. Configure with either your public IP or a DNS domain, and ensure port forwarding/NAT rules on your router direct traffic to the AP controller's local IP.</li>
+<li>Listen Port: Designated port for VPN service to receive connections. Keep default unless port conflict/ISP blocking occurs.</li>
+<li>IP Address: Private LAN IP of the VPN server. Keep default unless subnet changes or IP conflicts arise.</li>
+<li>MTU: Packet size limit to optimize tunnel performance. 1420 by default. Keep default unless experiencing packet loss then reduce slightly.</li>
+</ul>
+</li>
+<li>
+<p>Click <em>Save &amp; Apply</em>. </p>
+</li>
+<li>
+<p>Then you will be required to configure the Client parameters. Click <em>Edit Item</em>.
+    <a class="glightbox" href="../../../images/c200p/vpn-wiredguard-server-client.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/vpn-wiredguard-server-client.png" alt="" width="700px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+</li>
+<li>
+<p>Click <em>Add</em> to add entries. Enter the required parameters and then click <em>Save</em>.
+    <a class="glightbox" href="../../../images/c200p/vpn-wiredguard-server-client2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/vpn-wiredguard-server-client2.png" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+<ul>
+<li>IP Address: Assign a static LAN IP to the client (e.g., 192.168.1.101) for stable access. Do ensure it's outside DHCP range.</li>
+<li>Remote Subnet: Specify the client's local subnet (e.g., 10.8.0.0/24) to enable cross-network access. Used for site-to-site VPNs.</li>
+<li>Hostname: Optional identifier (e.g., Branch-Office-1) for easier management.</li>
+</ul>
+</li>
+<li>
+<p>Click to export the configuration file, which is to be uploaded on the client for connection.
+    <a class="glightbox" href="../../../images/c200p/vpn-wiredguard-server-confile.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/vpn-wiredguard-server-confile.png" alt="" width="700px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+</li>
+</ol>
+<p><strong>STEP 2. Configure WireGuard Client on Router B:</strong>
+<a class="glightbox" href="../../../images/wr3600/wr3600 (95).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/wr3600/wr3600 (95).png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+<ol>
+<li>
+<p>Log into the Router B's management web page https://cudy.net (or 192.168.10.1).</p>
+</li>
+<li>
+<p>Go to <em>General Settings -&gt; VPN</em>. Enable VPN, and select <em>WireGuard Client</em> as Protocol. </p>
+</li>
+<li>
+<p>Select Allow all devices or Ban all devices as <em>Default Rule</em>.</p>
+</li>
+<li>
+<p>Enable <em>Site-to-Site</em> to allow communication between VPN server and Clients.</p>
+</li>
+<li>
+<p>Select an appropriate <em>VPN Policy</em>.</p>
+<ul>
+<li>Disable: VPN Policy is disabled. No restriction.</li>
+<li>VPN kill switch: Internet access will be disconnected upon VPN disconnection. It is highly recommended for users who transmit data all through VPN. Preferred (and optionally Alternate) DNS is required. </li>
+<li>Domain: Select and configure to allow specified domain(s) to transmit data through VPN or not. DNS and Domain are required.</li>
+<li>Remote Subnet: Select and configure to allow devices with the specified subnet to transmit data through VPN. IP address and Subnet mask are required.</li>
+</ul>
+</li>
+<li>
+<p>Click <em>Browse...</em> to locate the Configuration file (wg-client-x.conf) you exported previously from the WireGuard Server. The uploaded configuration file will be automatically read and such parameters as below will be displayed.  </p>
+</li>
+<li>
+<p>Confirm the parameters and then click <em>Save &amp; Apply</em>.</p>
+</li>
+</ol>
+<hr />
+<h2 id="zerotier-vpn">ZeroTier VPN<a class="headerlink" href="#zerotier-vpn" title="Permanent link">&para;</a></h2>
+<p>Zerotier is a third-party cloud platform for VPN connections. It can establish a VPN connection without any public IP address node to achieve secure and remote access. It is free for use with less than 50 nodes. It is simple and convenient to set up. Please follow the steps below to set up a ZeroTier VPN connection.</p>
+<p><strong>STEP 1. Register for a ZeroTier Account and Obtain a Network ID.</strong></p>
+<ol>
+<li>
+<p>Visit Zerotier website <a href="http://my.zerotier.com/">http://my.zerotier.com/</a>, sign up for an account and log in.
+    <a class="glightbox" href="../../../images/wr3600/wr3600 (96).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/wr3600/wr3600 (96).png" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+</li>
+<li>
+<p>Click <em>Network - &gt; Create A Network</em>. 
+    <a class="glightbox" href="../../../images/wr3600/wr3600 (97).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/wr3600/wr3600 (97).png" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+</li>
+<li>
+<p>Zerotier will create a new network and assign a NETWORK ID for you. Then click on the assigned NETWORK ID, and its setting page will display.
+    <a class="glightbox" href="../../../images/wr3600/wr3600 (99).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/wr3600/wr3600 (99).png" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+</li>
+<li>
+<p>Set <em>Access Control</em> to be Public for later convenient settings, and note down the Network ID.
+    <a class="glightbox" href="../../../images/wr3600/wr3600 (100).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/wr3600/wr3600 (100).png" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+<p><a class="glightbox" href="../../../images/noteicon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/noteicon.png"></a> Private Access Control requires authorization for the terminal or router to access the network, which is more secure but inconvenient. While Public Access Control allows for a direct the network access with authentication rather than authorization. You may choose either one accordingly.</p>
+</li>
+</ol>
+<p><strong>STEP 2. Configure ZeroTier Master on Router A.</strong>
+<a class="glightbox" href="../../../images/c200p/vpn-zerotier-master.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/vpn-zerotier-master.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+<ol>
+<li>
+<p>Log into the AP controller's management web page <a href="http://cudyac.net">cudyac.net</a> or <a href="http://192.168.10.1">192.168.10.1</a>. </p>
+</li>
+<li>
+<p>Go to <em>General Settings -&gt; VPN</em>. Enable VPN, and select <em>ZeroTier Master</em> as Protocol. </p>
+</li>
+<li>
+<p>Select an appropriate type of <em>Client Access</em>.</p>
+<ul>
+<li>Internet and Local Network: Allows simultaneous access to both public internet and private LAN resources through the VPN tunnel.</li>
+<li>Internet Only: Routes all traffic through the VPN, masking the client's real IP but blocking local LAN access.</li>
+<li>Local Network Only: Restricts access solely to private network resources, leaving internet traffic to bypass the VPN.</li>
+</ul>
+</li>
+<li>
+<p>Enter the ZeroTier Network ID noted down previously.</p>
+</li>
+<li>
+<p>Click <em>Save &amp; Apply</em>. Then it will display the Device ID.</p>
+</li>
+<li>
+<p>Back to the ZeroTier web page, you will see One device has joined this network.
+<a class="glightbox" href="../../../images/wr3600/wr3600 (103).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/wr3600/wr3600 (103).png" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+</li>
+</ol>
+<p><strong>STEP 3. Join ZeroTier Network on your device.</strong></p>
+<ol>
+<li>
+<p>Download and Install ZeroTier Software from <a href="https://www.zerotier.com/download/">https://www.zerotier.com/download/</a>.
+<a class="glightbox" href="../../../images/wr3600/wr3600 (104).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/wr3600/wr3600 (104).png" alt="" width="400px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+</li>
+<li>
+<p>Click the ZeroTier icon and then <em>Join New Network...</em>, enter the Network ID and click <em>Join</em>.
+<a class="glightbox" href="../../../images/wr3600/wr3600 (108).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/wr3600/wr3600 (108).png" alt="" width="400px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+</li>
+<li>
+<p>Back to the ZeroTier web page, you will see this new device and its Managed IP.
+<a class="glightbox" href="../../../images/wr3600/wr3600 (111).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/wr3600/wr3600 (111).png" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+</li>
+</ol>
+<p><strong>STEP 4. Configure the Static Route.</strong></p>
+<p>Go to <em>Settings -&gt; Advanced</em> on the ZeroTier web page. Under <em>Add Routes</em>, enter Router A's LAN IP segment 192.168.10.0/24 in Destination field and its Managed IP in <em>Via</em> field, and then click <em>Submit</em>.</p>
+<p><a class="glightbox" href="../../../images/wr3600/wr3600 (106).png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/wr3600/wr3600 (106).png" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+<p>Now your client devices can directly access the AP controller's management web page via 192.168.10.1 as well as the server via its IP address.</p>
+<hr />
+<h2 id="ipsec-site-to-site-vpn">IPSec (site-to-site) VPN<a class="headerlink" href="#ipsec-site-to-site-vpn" title="Permanent link">&para;</a></h2>
+<p>It is a secure tunneling protocol used to connect two different networks, typically a corporate network and a remote branch office network, over the Internet. It allows multiple users at the remote site to access resources on the main office network as if they were directly connected to it. Please follow the steps below to set up an IPSec (site-to-site) VPN connection.</p>
+<p><strong>STEP 1. Get both Routers in the Headquarter and Branch Office ready.</strong></p>
+<ol>
+<li>
+<p>Make sure both Routers are connected to the Internet, but two network can not be in the same LAN segment. 
+For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the branches should be in a different LAN segment, say, 192.168.20.0/24.</p>
+</li>
+<li>
+<p>Check and note down the WAN and LAN IP addresses of the Headquarter Router and Branch Office Router on their management Status page. WAN IP of the headquarters router is the remote gateway of the branch offices, and its LAN IP is the remote subnet of the branch offices; and vice versa.</p>
+</li>
+</ol>
+<p><strong>STEP 2: Configure the IPSec VPN on the Router in the Headquarter.</strong>
+<a class="glightbox" href="../../../images/c200p/vpn-ipsec.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/vpn-ipsec.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+<ol>
+<li>
+<p>Log into the AP controller's management web page <a href="http://cudyac.net">cudyac.net</a> or <a href="http://192.168.10.1">192.168.10.1</a>. </p>
+</li>
+<li>
+<p>Go to <em>General Settings -&gt; VPN</em>. Enable VPN, and select <em>IPSec (site-to-site)</em> as Protocol. </p>
+</li>
+<li>
+<p>Click <em>Add</em> to add IPSec Policies.
+    <a class="glightbox" href="../../../images/c200p/vpn-ipsec-settings.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/vpn-ipsec-settings.png" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
+<ul>
+<li>Policy Name: Name the policy as desired. </li>
+<li>Remote Gateway: Enter the WAN IP of the Router in branch office.</li>
+<li>Local Subnet: Auto-filled the LAN segment of the local router.</li>
+<li>Remote Subnet: Enter the LAN segment of the Router in branch office.</li>
+<li>Preshared key: Set an encryption key as desired.</li>
+<li>Dead Peer Detection: Enable to detect whether the peer end is alive or not.</li>
+<li>Check Interval: Keep 30 seconds as default or change as needed.</li>
+<li>DPD Timeout: Set when to perform PDP checking again. Keep 2 Minutes as default or change it as needed.</li>
+<li>DPD Action: Decide what to do after DPD detection failure, Restart, Hold or Clear. It is recommended to keep Restart as default.</li>
+</ul>
+</li>
+<li>
+<p>Click <em>Save &amp; Apply</em>. </p>
+</li>
+</ol>
+<p><strong>STEP 3: Configure the IPSec VPN on the Router in the Branch Office.</strong></p>
+<ol>
+<li>
+<p>Log into the Router B's management web page https://cudy.net (or 192.168.10.1). </p>
+</li>
+<li>
+<p>Go to <em>General Settings -&gt; VPN</em>. Enable VPN, and select <em>IPSec (site-to-site)</em> as Protocol. </p>
+</li>
+<li>
+<p>Click <em>Add</em> to add IPSec Policies.</p>
+<ul>
+<li>Policy Name: Name the policy as desired. </li>
+<li>Remote Gateway: Enter the WAN IP of the Router in the Headquarter.</li>
+<li>Local Subnet: Auto-filled the LAN segment of the local router.</li>
+<li>Remote Subnet: Enter the LAN segment of the Router in the Headquarter.</li>
+<li>Preshared key: Enter the encryption key set on the headquarter Router.</li>
+<li>Dead Peer Detection: Set all the settings, including Dead Peer Detection, Check Interval, DPD Timeout, DPD Action, the same as the headquarter Router.</li>
+</ul>
+</li>
+<li>
+<p>Click <em>Save &amp; Apply</em>. </p>
+</li>
+</ol>
+<p>Then, you can go confirm the connection between Headquarter Router and Branch Router.</p>
+<p><a class="glightbox" href="../../../images/noteicon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/noteicon.png"></a> </p>
+<ul>
+<li>If one of the routers does not have a public IP address, for instance the Branch Router, but the Headquarter Router has a public IP address, you can: </li>
+<li>Set Branch Router in the Initiator Mode and change the Headquarter Router from Initiator Mode to Responder Mode.</li>
+<li>Change the remote gateway on the Headquarter Router to be 0.0.0.0.</li>
+</ul>
+
+  <!-- Last update of source file -->
+  
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+        It's a separate element, as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <!--  Controls are self-explanatory. Order can be changed. -->
+            <div class="pswp__counter"></div>
+            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+            <!-- <button class="pswp__button pswp__button--share" title="Share"></button> -->
+            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+            <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+            <!-- element will get class pswp__preloader--active when preloader is running -->
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+            <div class="pswp__share-tooltip"></div> 
+          </div>
+
+          <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+          </button>
+
+          <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+          </button>
+
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
+        </div>
+    </div>
+</div>
+
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2025, Shenzhen Cudy Technology Co., Ltd.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["search.highlight", "navigation.indexes", "navigation.tabs", "navigation.top"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js"></script>
+      
+        <script src="../../../javascripts/analytics.js"></script>
+      
+        <script src="../../../javascripts/extra.js"></script>
+      
+        <script src="../../../javascripts/cookieconsent.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
