@@ -87,12 +87,24 @@ img.cudyboxshadow  {
   .cudy-90-desktop { width: 90%; }
 }
 
+.md-typeset .md-footer {
+  background-color: #008CFF;
+}
+
 .md-footer {
     background-color: #008CFF !important;
+    display: block !important;
+    height: auto !important;
+    opacity: 1 !important;
 }
 
 .md-footer-meta__inner {
     color: white !important;
+}
+
+.md-footer-social {
+  display: flex !important;
+  opacity: 1 !important;
 }
 
 /* 一级列表：实心圆（默认） */ 

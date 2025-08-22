@@ -89,3 +89,7 @@
     </div>
 </div>
 {% endblock %}
+
+{% block footer %}
+  {{ super() }}  <!-- 确保保留super()调用 -->
+{% endblock %}

@@ -20,12 +20,15 @@
 Check the [status](status.md) of the AP controller's system, including AP management, devices, LAN and so on.
 
 ### II. General Settings
+
+<img src="../../../images/noteicon.png" alt="" /> In AP Controller mode, *WAN Mode* and *VPN* are NOT available for configuration.
+
 - [AP Management](ap_management.md): Centralized control, configuration, and monitoring of wireless APs (Access Points), including auto-discovery, group policies, and real-time status tracking.    
 - [Wireless](wireless.md): Configure and manage wireless network settings for the controlled APs.
-- [Captive Portal](captive_portal.md): allows you to design a portal page for network access verification. 
-- [WAN Mode](wan.md):(only available for Main Router and AP Controller mode) Set your Internet connection. Select your Internet connection type and configure the required parameters.
+- [Captive Portal](captive_portal.md): Allow you to design a portal page for network access verification. 
+- [WAN Mode](wan.md): Set your Internet connection. Select your Internet connection type and configure the required parameters.
 - [PoE](poe.md): Allow remote control of power delivery to connected access points via Ethernet cables.
-- [VPN](vpn.md): (only available for Main Router and AP Controller mode) Help to access Internet resources remotely, securely, and privately through tunneling technology.
+- [VPN](vpn.md): Help to access Internet resources remotely, securely, and privately through tunneling technology.
 - [Firmware](firmware.md): Update the AP controller's firmware to be the latest version.
 
 ### III. Advanced Settings
@@ -78,8 +81,8 @@ Check the [status](status.md) of the AP controller's system, including AP manage
 - [TR069](system.md#tr069): Configure the AP controller's TR069 (CPE WAN Management).
 
 ### IV. Diagnostic Tools
-- [Diagnosis](diagnostic_tools.md#diagnosis): Automatically checks AP health and generates troubleshooting reports.
+- [Diagnosis](diagnostic_tools.md#diagnosis): Automatically check AP health and generates troubleshooting reports.
 - [PING](diagnostic_tools.md#ping): Used to test the connectivity between the AP controller and the tested host, and measure the round-trip time.
 - [TRACEROUTE](diagnostic_tools.md#traceroute): Used to test the route or path your AP controller has passed to reach the tested host, and measure transit delays of packets across an Internet Protocol network.
 - [NSLOOKUP](diagnostic_tools.md#nslookup): Query DNS servers to resolve domain names into IP addresses.
-- [System Log](diagnostic_tools.md#system-log): Tracks all the AP controller behaviors. 
+- [System Log](diagnostic_tools.md#system-log): Track all the AP controller behaviors. 
