@@ -2,462 +2,472 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.cudy.com/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/FAQ/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/faq/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/FAQ/10001_What_can_I_do_if_I_can%27t_login_to_the_web_page_of_Cudy_routers/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/faq/10001_What_can_I_do_if_I_can%27t_login_to_the_web_page_of_Cudy_routers/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/FAQ/10002_How_to_recover_Cudy_devices%27_firmware_via_TFTP/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/faq/10002_How_to_recover_Cudy_devices%27_firmware_via_TFTP/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/FAQ/10003_What_can_I_do_if_LT400_or_LT500%27s_speed__is_slow/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/faq/10003_What_can_I_do_if_LT400_or_LT500%27s_speed__is_slow/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/FAQ/10004_How_to_set_up_Parent_Control_on_the_Cudy_router/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/faq/10004_How_to_set_up_Parent_Control_on_the_Cudy_router/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/FAQ/cannot_access_Internet/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/faq/10005_How_to_configure_IP_Reservation_on_the_Cudy_router/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/FAQ/cannot_find_wireless_network/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/faq/10006_How_to_change_the_NAT_type_on_the_Cudy_router_for_game_console/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/FAQ/cannot_login/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/faq/cannot_access_Internet/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/FAQ/forgot_management_password/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/faq/cannot_find_wireless_network/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/FAQ/forgot_wireless_password/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/faq/cannot_login/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/Tutorials/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/faq/forgot_management_password/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/Tutorials/How_to_recover_Cudy_devices%27_firmware_via_TFTP/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/faq/forgot_wireless_password/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/Tutorials/How_to_set_up_Parent_Control_on_the_Cudy_router/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/tutorials/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/tutorials/How_to_recover_Cudy_devices%27_firmware_via_TFTP/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/c200p/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/tutorials/How_to_set_up_Parent_Control_on_the_Cudy_router/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/c200p/IPv6/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/c200p/ap_management/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/c200p/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/c200p/captive_portal/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/c200p/IPv6/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/c200p/connection/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/c200p/ap_management/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/c200p/dhcp/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/c200p/captive_portal/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/c200p/diagnostic_tools/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/c200p/connection/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/c200p/firmware/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/c200p/dhcp/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/c200p/network/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/c200p/diagnostic_tools/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/c200p/overview/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/c200p/firmware/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/c200p/poe/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/c200p/network/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/c200p/quick_setup/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/c200p/overview/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/c200p/security/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/c200p/poe/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/c200p/status/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/c200p/quick_setup/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/c200p/status_system/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/c200p/security/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/c200p/system/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/c200p/status/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/c200p/vpn/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/c200p/status_system/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/c200p/wan/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/c200p/system/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/c200p/wireless/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/c200p/vpn/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gp1200/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/c200p/wan/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gp1200/connection/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/c200p/wireless/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gp1200/overview/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gp1200/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gp1200/pon_admin/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gp1200/connection/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gp1200/pon_advance/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gp1200/overview/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gp1200/pon_diagnostics/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gp1200/pon_admin/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gp1200/pon_lan/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gp1200/pon_advance/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gp1200/pon_service/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gp1200/pon_diagnostics/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gp1200/pon_statistics/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gp1200/pon_lan/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gp1200/pon_status/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gp1200/pon_service/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gp1200/pon_wan/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gp1200/pon_statistics/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gp1200/pon_wlan/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gp1200/pon_status/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gp1200/quick_setup/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gp1200/pon_wan/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gs1024e/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gp1200/pon_wlan/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gs1024e/installation/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gp1200/quick_setup/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gs1024e/log_in_out/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gs1024e/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gs1024e/overview/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gs1024e/installation/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gs1024e/port_management/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gs1024e/log_in_out/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gs1024e/protocol_management/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gs1024e/overview/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gs1024e/qos/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gs1024e/port_management/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gs1024e/system_manage/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gs1024e/protocol_management/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gs1024e/tools/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gs1024e/qos/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/gs1024e/vlan/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gs1024e/system_manage/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/ir04/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gs1024e/tools/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/ir04/IPv6/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/gs1024e/vlan/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/ir04/cellular/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/ir04/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/ir04/diagnostic_tools/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/ir04/IPv6/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/ir04/firmware/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/ir04/cellular/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/ir04/input_output/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/ir04/diagnostic_tools/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/ir04/install_power/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/ir04/firmware/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/ir04/mesh/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/ir04/input_output/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/ir04/network/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/ir04/install_power/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/ir04/overview/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/ir04/mesh/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/ir04/quick_setup/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/ir04/network/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/ir04/security/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/ir04/overview/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/ir04/serial_service/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/ir04/quick_setup/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/ir04/status/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/ir04/security/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/ir04/system/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/ir04/serial_service/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/ir04/vpn/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/ir04/status/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/ir04/wireless_2.4g/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/ir04/system/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/ir04/wisp/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/ir04/vpn/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/wr3600/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/ir04/wireless_2.4g/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/wr3600/IPv6/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/ir04/wisp/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/wr3600/captive_portal/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/wr3600/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/wr3600/connection/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/wr3600/IPv6/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/wr3600/dhcp/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/wr3600/captive_portal/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/wr3600/diagnostic_tools/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/wr3600/connection/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/wr3600/firmware/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/wr3600/dhcp/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/wr3600/network/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/wr3600/diagnostic_tools/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/wr3600/overview/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/wr3600/firmware/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/wr3600/parental_control/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/wr3600/network/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/wr3600/quick_setup/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/wr3600/overview/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/wr3600/security/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/wr3600/parental_control/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/wr3600/status/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/wr3600/quick_setup/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/wr3600/system/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/wr3600/security/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/wr3600/vpn/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/wr3600/status/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/wr3600/wan/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/wr3600/system/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/User_Guide/wr3600/wireless/</loc>
-         <lastmod>2025-08-22</lastmod>
+         <loc>https://docs.cudy.com/user_guide/wr3600/vpn/</loc>
+         <lastmod>2025-08-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.cudy.com/user_guide/wr3600/wan/</loc>
+         <lastmod>2025-08-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.cudy.com/user_guide/wr3600/wireless/</loc>
+         <lastmod>2025-08-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

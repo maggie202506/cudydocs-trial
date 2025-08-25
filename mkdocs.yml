@@ -107,94 +107,94 @@ markdown_extensions:
 nav:
   - Home: index.md
   - User Guide:
-    - Overview: User_Guide/index.md
+    - Overview: user_guide/index.md
     - WR3600:
-      - WR3600: User_Guide/wr3600/index.md
-      - Overview: User_Guide/wr3600/overview.md
-      - Connect: User_Guide/wr3600/connection.md
-      - Quick Setup: User_Guide/wr3600/quick_setup.md
+      - WR3600: user_guide/wr3600/index.md
+      - Overview: user_guide/wr3600/overview.md
+      - Connect: user_guide/wr3600/connection.md
+      - Quick Setup: user_guide/wr3600/quick_setup.md
       - Management:
-        - System Status: User_Guide/wr3600/status.md
+        - System Status: user_guide/wr3600/status.md
         - General Settings:
-          - WAN Mode: User_Guide/wr3600/wan.md
-          - Wireless: User_Guide/wr3600/wireless.md
-          - VPN: User_Guide/wr3600/vpn.md
-          - Captive Portal: User_Guide/wr3600/captive_portal.md
-          - Firmware: User_Guide/wr3600/firmware.md
+          - WAN Mode: user_guide/wr3600/wan.md
+          - Wireless: user_guide/wr3600/wireless.md
+          - VPN: user_guide/wr3600/vpn.md
+          - Captive Portal: user_guide/wr3600/captive_portal.md
+          - Firmware: user_guide/wr3600/firmware.md
         - Advanced Settings:
-          - Network: User_Guide/wr3600/network.md
-          - Security: User_Guide/wr3600/security.md
-          - System: User_Guide/wr3600/system.md
-        - Parental Control: User_Guide/wr3600/parental_control.md
-        - Diagnostic Tools: User_Guide/wr3600/diagnostic_tools.md
+          - Network: user_guide/wr3600/network.md
+          - Security: user_guide/wr3600/security.md
+          - System: user_guide/wr3600/system.md
+        - Parental Control: user_guide/wr3600/parental_control.md
+        - Diagnostic Tools: user_guide/wr3600/diagnostic_tools.md
     - GP1200: 
-      - GP1200: User_Guide/gp1200/index.md
-      - Overview: User_Guide/gp1200/overview.md
-      - Connect: User_Guide/gp1200/connection.md
-      - Quick Setup: User_Guide/gp1200/quick_setup.md 
+      - GP1200: user_guide/gp1200/index.md
+      - Overview: user_guide/gp1200/overview.md
+      - Connect: user_guide/gp1200/connection.md
+      - Quick Setup: user_guide/gp1200/quick_setup.md 
       - Management:
-        - Status: User_Guide/gp1200/pon_status.md 
-        - LAN: User_Guide/gp1200/pon_lan.md 
-        - WLAN: User_Guide/gp1200/pon_wlan.md 
-        - WAN: User_Guide/gp1200/pon_wan.md 
-        - Services: User_Guide/gp1200/pon_service.md 
-        - Advance: User_Guide/gp1200/pon_advance.md
-        - Admin: User_Guide/gp1200/pon_admin.md  
-        - Diagnostics: User_Guide/gp1200/pon_diagnostics.md 
-        - Statistics: User_Guide/gp1200/pon_statistics.md 
+        - Status: user_guide/gp1200/pon_status.md 
+        - LAN: user_guide/gp1200/pon_lan.md 
+        - WLAN: user_guide/gp1200/pon_wlan.md 
+        - WAN: user_guide/gp1200/pon_wan.md 
+        - Services: user_guide/gp1200/pon_service.md 
+        - Advance: user_guide/gp1200/pon_advance.md
+        - Admin: user_guide/gp1200/pon_admin.md  
+        - Diagnostics: user_guide/gp1200/pon_diagnostics.md 
+        - Statistics: user_guide/gp1200/pon_statistics.md 
     - GS1024E:
-      - GS1024E: User_Guide/gs1024e/index.md
-      - Overview: User_Guide/gs1024e/overview.md  
-      - Install: User_Guide/gs1024e/installation.md
+      - GS1024E: user_guide/gs1024e/index.md
+      - Overview: user_guide/gs1024e/overview.md  
+      - Install: user_guide/gs1024e/installation.md
       - Management:
-        - Log In/Out: User_Guide/gs1024e/log_in_out.md
-        - System Manage: User_Guide/gs1024e/system_manage.md
-        - Port Management: User_Guide/gs1024e/port_management.md
-        - Protocol Management: User_Guide/gs1024e/protocol_management.md
-        - VLAN: User_Guide/gs1024e/vlan.md
-        - QoS: User_Guide/gs1024e/qos.md
-        - Tools: User_Guide/gs1024e/tools.md
+        - Log In/Out: user_guide/gs1024e/log_in_out.md
+        - System Manage: user_guide/gs1024e/system_manage.md
+        - Port Management: user_guide/gs1024e/port_management.md
+        - Protocol Management: user_guide/gs1024e/protocol_management.md
+        - VLAN: user_guide/gs1024e/vlan.md
+        - QoS: user_guide/gs1024e/qos.md
+        - Tools: user_guide/gs1024e/tools.md
     - IR04: 
-      - IR04: User_Guide/ir04/index.md
-      - Overview: User_Guide/ir04/overview.md  
-      - Install & Power: User_Guide/ir04/install_power.md
-      - Quick Setup: User_Guide/ir04/quick_setup.md
+      - IR04: user_guide/ir04/index.md
+      - Overview: user_guide/ir04/overview.md  
+      - Install & Power: user_guide/ir04/install_power.md
+      - Quick Setup: user_guide/ir04/quick_setup.md
       - Management:
-        - System Status: User_Guide/ir04/status.md
+        - System Status: user_guide/ir04/status.md
         - General Settings:
-          - Cellular: User_Guide/ir04/cellular.md
-          - Serial Service: User_Guide/ir04/serial_service.md
-          - Input/Output: User_Guide/ir04/input_output.md
-          - WISP: User_Guide/ir04/wisp.md
-          - Wireless 2.4G: User_Guide/ir04/wireless_2.4g.md
-          - VPN: User_Guide/ir04/vpn.md
-          - Firmware: User_Guide/ir04/firmware.md
+          - Cellular: user_guide/ir04/cellular.md
+          - Serial Service: user_guide/ir04/serial_service.md
+          - Input/Output: user_guide/ir04/input_output.md
+          - WISP: user_guide/ir04/wisp.md
+          - Wireless 2.4G: user_guide/ir04/wireless_2.4g.md
+          - VPN: user_guide/ir04/vpn.md
+          - Firmware: user_guide/ir04/firmware.md
         - Advanced Settings: 
-          - Network: User_Guide/ir04/network.md
-          - Security: User_Guide/ir04/security.md
-          - System: User_Guide/ir04/system.md
-        - Diagnostic Tools: User_Guide/ir04/diagnostic_tools.md
+          - Network: user_guide/ir04/network.md
+          - Security: user_guide/ir04/security.md
+          - System: user_guide/ir04/system.md
+        - Diagnostic Tools: user_guide/ir04/diagnostic_tools.md
     - C200P:
-      - C200P: User_Guide/c200p/index.md
-      - Overview: User_Guide/c200p/overview.md
-      - Connect: User_Guide/c200p/connection.md
-      - Quick Setup: User_Guide/c200p/quick_setup.md
+      - C200P: user_guide/c200p/index.md
+      - Overview: user_guide/c200p/overview.md
+      - Connect: user_guide/c200p/connection.md
+      - Quick Setup: user_guide/c200p/quick_setup.md
       - Management:
-        - System Status: User_Guide/c200p/status.md
+        - System Status: user_guide/c200p/status.md
         - General Settings:
-          - AP Management: User_Guide/c200p/ap_management.md
-          - Wireless: User_Guide/c200p/wireless.md
-          - Captive Portal: User_Guide/c200p/captive_portal.md
-          - WAN Mode: User_Guide/c200p/wan.md
-          - PoE: User_Guide/c200p/poe.md
-          - VPN: User_Guide/c200p/vpn.md
-          - Firmware: User_Guide/c200p/firmware.md
+          - AP Management: user_guide/c200p/ap_management.md
+          - Wireless: user_guide/c200p/wireless.md
+          - Captive Portal: user_guide/c200p/captive_portal.md
+          - WAN Mode: user_guide/c200p/wan.md
+          - PoE: user_guide/c200p/poe.md
+          - VPN: user_guide/c200p/vpn.md
+          - Firmware: user_guide/c200p/firmware.md
         - Advanced Settings:
-          - Network: User_Guide/c200p/network.md
-          - Security: User_Guide/c200p/security.md
-          - System: User_Guide/c200p/system.md
-        - Diagnostic Tools: User_Guide/c200p/diagnostic_tools.md          
+          - Network: user_guide/c200p/network.md
+          - Security: user_guide/c200p/security.md
+          - System: user_guide/c200p/system.md
+        - Diagnostic Tools: user_guide/c200p/diagnostic_tools.md          
   - Tutorials:
-    - Turtorials: Tutorials/index.md    
+    - Turtorials: tutorials/index.md    
   - FAQ:
-    - FAQ: FAQ/index.md
+    - FAQ: faq/index.md

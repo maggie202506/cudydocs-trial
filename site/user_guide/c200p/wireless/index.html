@@ -12,7 +12,7 @@
         <meta name="author" content="Cudy Docs">
       
       
-        <link rel="canonical" href="https://docs.cudy.com/User_Guide/c200p/wireless/">
+        <link rel="canonical" href="https://docs.cudy.com/user_guide/c200p/wireless/">
       
       
         <link rel="prev" href="../ap_management/">
@@ -276,7 +276,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../Tutorials/" class="md-tabs__link">
+        <a href="../../../tutorials/" class="md-tabs__link">
           
   
     
@@ -296,7 +296,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../FAQ/" class="md-tabs__link">
+        <a href="../../../faq/" class="md-tabs__link">
           
   
     
@@ -2749,7 +2749,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../Tutorials/" class="md-nav__link ">
+            <a href="../../../tutorials/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2806,7 +2806,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../FAQ/" class="md-nav__link ">
+            <a href="../../../faq/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2880,12 +2880,16 @@
 <p>To configure and manage wireless network settings for the controlled APs.</p>
 <p><a class="glightbox" href="../../../images/c200p/general-wireless.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/general-wireless.png" alt="" width="800px" style="border: 1px solid #eee;" /></a></p>
 <ul>
-<li>Name: Displays the wireless network name (SSID) visible to wireless clients.</li>
-<li>Broadcasting AP Group: Displays the AP Group of access points sharing this wireless configuration.</li>
-<li>Security: Displays the encryption and authentication methods for network protection.</li>
 <li>
-<p>Band: Displays the frequency range used for wireless transmission.</p>
+<p>Name: Displays the wireless network name (SSID) visible to wireless clients.</p>
+<p><a class="glightbox" href="../../../images/noteicon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/noteicon.png" alt="" /></a> APs in the same AP group will share an identical SSID, while different AP groups should have different SSIDs.</p>
 </li>
+<li>
+<p>Broadcasting AP Group: Displays the AP Group of access points sharing this wireless configuration.</p>
+</li>
+<li>Security: Displays the encryption and authentication methods for network protection.</li>
+<li>Band: Displays the frequency range used for wireless transmission.</li>
+<li>VLAN: Displays this AP group's VLAN ID for traffic segregation. Wireless client data frames are encapsulated with the configured 802.1Q VLAN tag upon egress from the AP's LAN interface.</li>
 <li>
 <p>Modify: Click <a class="glightbox" href="../../../images/c200p/edit.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/edit.png" alt="" width="20px"/></a> to edit the entry or <a class="glightbox" href="../../../images/c200p/delete.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/delete.png" alt="" width="20px"/></a> to delete the entry.</p>
 </li>
@@ -2905,6 +2909,7 @@
 </li>
 <li>Password: Set a password for the wireless network.</li>
 <li>Broadcasting AP Group: Select an AP Group for the access points.</li>
+<li>VLAN: (Optional) Assign a VLAN ID (10-4094) to this AP group/SSID to enable traffic segregation. Then ensure the connected switch port is configured as an 802.1Q trunk with the corresponding VLAN allowed.</li>
 <li>Hidden Network: Enable to avoid SSID broadcast and hide the network from casual scans but offers minimal security. Use only with WPA3 for industrial IoT.</li>
 <li>Separate Clients: Enable to isolate connected devices and block their communication, critical for IoT security in shared networks.</li>
 <li>Captive Portal: Enable a login/authentication gateway to control access. It is editable only when <em><a href="../captive_portal/">General Settings -&gt; Captive Portal</a></em> is enabled.</li>

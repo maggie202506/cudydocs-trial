@@ -12,7 +12,7 @@
         <meta name="author" content="Cudy Docs">
       
       
-        <link rel="canonical" href="https://docs.cudy.com/User_Guide/c200p/ap_management/">
+        <link rel="canonical" href="https://docs.cudy.com/user_guide/c200p/ap_management/">
       
       
         <link rel="prev" href="../status/">
@@ -276,7 +276,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../Tutorials/" class="md-tabs__link">
+        <a href="../../../tutorials/" class="md-tabs__link">
           
   
     
@@ -296,7 +296,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../FAQ/" class="md-tabs__link">
+        <a href="../../../faq/" class="md-tabs__link">
           
   
     
@@ -2793,7 +2793,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../Tutorials/" class="md-nav__link ">
+            <a href="../../../tutorials/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2850,7 +2850,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../FAQ/" class="md-nav__link ">
+            <a href="../../../faq/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2944,7 +2944,10 @@
   <!-- Markdown content -->
   <h1 id="ap-management">AP Management<a class="headerlink" href="#ap-management" title="Permanent link">&para;</a></h1>
 <p>This enables centralized control, configuration, and monitoring of wireless APs (Access Points), including auto-discovery, group policies, and real-time status tracking.</p>
+<p><a class="glightbox" href="../../../images/noteicon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/noteicon.png" alt="" /></a> A maxium of 10 APs or 100 clients are allowed in <em>Main Router and AP Controller</em> mode; while a maxium of 200 APs are allowed in <em>AP Controller</em> mode.</p>
+<hr />
 <h2 id="ap-list">AP List<a class="headerlink" href="#ap-list" title="Permanent link">&para;</a></h2>
+<p>Enables individual configuration and management for the APs, which are in the factory default state and connected in the same subnet with the AP controller.</p>
 <p><a class="glightbox" href="../../../images/c200p/ap-list.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/ap-list.png" alt="" width="800px" style="border: 1px solid #eee; display:block; margin:0 auto;" /></a></p>
 <ul>
 <li>Name: Displays the AP's name - user-defined identifier for the AP. Edit in <em>Config</em>.</li>
@@ -2961,7 +2964,7 @@
 <p>Tx/Rx Bytes: Shows data transmitted/received. Monitor bandwidth usage.</p>
 </li>
 <li>
-<p>Action**</p>
+<p>Action</p>
 <ul>
 <li><a class="glightbox" href="../../../images/c200p/view.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/view.png" alt=""/></a>: View AP details, including Overview, Radio, C lients and SSID.</li>
 <li><a class="glightbox" href="../../../images/c200p/config.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/config.png" alt=""/></a>: Configure the settings, including Name, LED Status, and 2.4GHz/5GHz channel, etc.</li>
@@ -2973,9 +2976,11 @@
 <li>Adopt: Authorize unmanaged APs to join controller.</li>
 <li>Upgrade: Install firmware updates.</li>
 </ul>
+<hr />
 <h2 id="ap-group">AP Group<a class="headerlink" href="#ap-group" title="Permanent link">&para;</a></h2>
+<p>Enables batch configuration for the APs in the same AP group, which can be created and customized. </p>
 <p><a class="glightbox" href="../../../images/c200p/ap-group.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/ap-group.png" alt="" width="800px" style="border: 1px solid #eee; display:block; margin:0 auto;" /></a></p>
-<p><strong>How to customize an AP Group?</strong></p>
+<p><strong>How to create an AP Group?</strong></p>
 <ol>
 <li>
 <p>Click <a class="glightbox" href="../../../images/c200p/ap-group-add.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/ap-group-add.png" alt="" width="50px"/></a> and create a name for the group. Click <em>Save &amp; Apply</em>.
@@ -2986,7 +2991,7 @@
 <a class="glightbox" href="../../../images/c200p/ap-group-create4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/ap-group-create4.png" alt="" width="500px" style="border: 1px solid #eee; display:block; margin:0 auto;" /></a></p>
 </li>
 </ol>
-<p><strong>Other Actions</strong></p>
+<p><strong>How to manage the APs in the same AP group?</strong></p>
 <ul>
 <li>
 <p><a class="glightbox" href="../../../images/c200p/config.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/config.png" alt=""/></a>: Batch-configure the APs in the same group.</p>
@@ -3013,6 +3018,7 @@
 <p><a class="glightbox" href="../../../images/c200p/reboot.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/c200p/reboot.png" alt=""/></a>: Reboot the AP systems remotely for fixes/updates.</p>
 </li>
 </ul>
+<p><a class="glightbox" href="../../../images/noteicon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../../images/noteicon.png" alt="" /></a> APs in the same AP group will share an identical SSID, while different AP groups should have different SSIDs. Refer to <a href="../wireless/">General Settings -&gt; Wireless</a> for more detailed configurations.</p>
 
   <!-- Last update of source file -->
   

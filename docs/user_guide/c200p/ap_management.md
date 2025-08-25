@@ -2,9 +2,14 @@
 
 This enables centralized control, configuration, and monitoring of wireless APs (Access Points), including auto-discovery, group policies, and real-time status tracking.
 
+<img src="../../../images/noteicon.png" alt="" /> A maxium of 10 APs or 100 clients are allowed in *Main Router and AP Controller* mode; while a maxium of 200 APs are allowed in *AP Controller* mode.
+
+----
 ## AP List 
+Enables individual configuration and management for the APs, which are in the factory default state and connected in the same subnet with the AP controller.
+
 <img src="../../../images/c200p/ap-list.png" alt="" width="800px" style="border: 1px solid #eee; display:block; margin:0 auto;" />
- 
+
 - Name: Displays the AP's name - user-defined identifier for the AP. Edit in *Config*.
 - Model: Displays the AP's hardware model. Auto-detected; used for compatibility checks.
 - Version: Displays the AP's firmware version. Use *Upgrade* to update if outdated.
@@ -17,7 +22,7 @@ This enables centralized control, configuration, and monitoring of wireless APs 
 - Clients: Shows the amount of connected devices. Check in *View-Clients* for details.
 - Tx/Rx Bytes: Shows data transmitted/received. Monitor bandwidth usage.
 
-- Action**
+- Action
     - <img src="../../../images/c200p/view.png" alt=""/>: View AP details, including Overview, Radio, C lients and SSID.
     - <img src="../../../images/c200p/config.png" alt=""/>: Configure the settings, including Name, LED Status, and 2.4GHz/5GHz channel, etc.
     - <img src="../../../images/c200p/forget.png" alt=""/>: Forget and remove AP from controller but still in the network.
@@ -26,10 +31,14 @@ This enables centralized control, configuration, and monitoring of wireless APs 
 - Adopt: Authorize unmanaged APs to join controller.
 - Upgrade: Install firmware updates.
 
+----
+
 ## AP Group
+Enables batch configuration for the APs in the same AP group, which can be created and customized. 
+
 <img src="../../../images/c200p/ap-group.png" alt="" width="800px" style="border: 1px solid #eee; display:block; margin:0 auto;" />
 
-**How to customize an AP Group?**
+**How to create an AP Group?**
 
 1. Click <img src="../../../images/c200p/ap-group-add.png" alt="" width="50px"/> and create a name for the group. Click *Save & Apply*.
 <img src="../../../images/c200p/ap-group-create.png" alt="" width="500px" style="border: 1px solid #eee; display:block; margin:0 auto;" />
@@ -37,7 +46,7 @@ This enables centralized control, configuration, and monitoring of wireless APs 
 2. Click <img src="../../../images/c200p/view.png" alt="" width="15px"/> and then <img src="../../../images/c200p/ap-group-add.png" alt="" width="50px"/>, select a groupable AP to add it into the group. Click *Save & Apply*.
 <img src="../../../images/c200p/ap-group-create4.png" alt="" width="500px" style="border: 1px solid #eee; display:block; margin:0 auto;" />
 
-**Other Actions**
+**How to manage the APs in the same AP group?**
 
 - <img src="../../../images/c200p/config.png" alt=""/>: Batch-configure the APs in the same group.
 
@@ -58,3 +67,5 @@ This enables centralized control, configuration, and monitoring of wireless APs 
 - <img src="../../../images/c200p/forget.png" alt=""/>: Forget and remove AP groups from controller but still in the network.
 
 - <img src="../../../images/c200p/reboot.png" alt=""/>: Reboot the AP systems remotely for fixes/updates.
+
+<img src="../../../images/noteicon.png" alt="" /> APs in the same AP group will share an identical SSID, while different AP groups should have different SSIDs. Refer to [General Settings -> Wireless](wireless.md) for more detailed configurations.

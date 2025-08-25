@@ -15,6 +15,8 @@ shows the amount of APs in the management and amount of them being online or off
 ## Devices
 shows the amount of devices connected to the controller, via 2.4G WiFi or 5G WiFi, or Wired which is only viewable on the *More Details -> (Devices) Status* page.
 
+<img src="../../../images/noteicon.png" alt=""/> In *Main Router and AP Controller* mode, here will display the WiFi and Wired devices connected in the LAN; in *AP Controller* mode, it will only display those connected to the controlled AP.
+
 <img src="../../../images/c200p/status-device.png" alt="" width="800px" style="border: 1px solid #eee;" />
 
 View the Device information about hostname, IP/MAC address, real-time rate, signal and connection duration.
