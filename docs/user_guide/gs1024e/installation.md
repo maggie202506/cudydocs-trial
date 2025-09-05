@@ -1,6 +1,7 @@
 # Install
 
-<img src="../../../images/noteicon.png"/> GS1018PS2 is for illustration below. Your actual product may differ.
+!!! Note
+    GS1018PS2 is for illustration below. Your actual product may differ.
 
 ## Rack Installation
 
@@ -13,11 +14,11 @@ To install the switch in an EIA standard-sized 19-inch rack, follow the steps be
 3. Secure the brackets to the rack with suitable screws, as illustrated below.
 <img src="../../../images/gs1024e/installation-2.png" alt="" width="800px"/>
 
-<img src="../../../images/noteicon.png"/>
 
-- Leave 5 to 10 cm gaps around the devices for air circulation.
-- Avoid placing heavy things on the device.
-- Mount devices in sequence from the bottom to top of the rack and ensure a certain clearance between devices for the purpose of heat dissipation.
+!!! Note
+    - Leave 5 to 10 cm gaps around the devices for air circulation.
+    - Avoid placing heavy things on the device.
+    - Mount devices in sequence from the bottom to top of the rack and ensure a certain clearance between devices for the purpose of heat dissipation.
 
 ----
 ## Desktop Installation

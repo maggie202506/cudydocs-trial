@@ -17,7 +17,7 @@
 <tbody>
     <tr>
     <td rowspan="3" style="text-align: left; vertical-align: middle;">
-    <img src="../../../images/wr3600/wr3600 (5).png" alt="System Icon" width="20" height="20"><br>(System)</td>
+    <img src="../../../images/wr3600/system-led.png" alt="System Icon" width="20" height="20"><br>(System)</td>
     <td><strong>On</strong></td>
     <td>The system has started up successfully.</td>
     </tr>
@@ -31,7 +31,7 @@
     </tr>
     <tr>
     <td rowspan="2" style="text-align: left; vertical-align: middle;">
-    <img src="../../../images/wr3600/wr3600 (6).png" alt="Internet Icon" width="20" height="20"><br>(Internet)</td>
+    <img src="../../../images/wr3600/internet-led.png" alt="Internet Icon" width="20" height="20"><br>(Internet)</td>
     <td><strong>On</strong></td>
     <td>Internet service is available.</td>
     </tr>
@@ -40,7 +40,7 @@
     <td>The Router’s Internet port is unplugged or no Internet available.</td>
     </tr>
     <tr>
-    <td rowspan="2" style="text-align: left; vertical-align: middle;">    <img src="../../../images/wr3600/wr3600 (7).png" alt="LAN Icon" width="20" height="20"><br>(LAN)</td>
+    <td rowspan="2" style="text-align: left; vertical-align: middle;">    <img src="../../../images/wr3600/lan-led.png" alt="LAN Icon" width="20" height="20"><br>(LAN)</td>
     <td><strong>On</strong></td>
     <td>1~4 powered-on device is connected to the Router’s LAN port.</td>
     </tr>
@@ -50,7 +50,7 @@
     </tr>
     <tr>
     <td rowspan="2" style="text-align: left; vertical-align: middle;">
-    <img src="../../../images/wr3600/wr3600 (8).png" alt="WAN Icon" width="20" height="20"><br>(WAN)</td>
+    <img src="../../../images/wr3600/wan-led.png" alt="WAN Icon" width="20" height="20"><br>(WAN)</td>
     <td><strong>On</strong></td>
     <td>The Router’s WAN port is connected.</td>
     </tr>
@@ -60,7 +60,7 @@
     </tr>
     <tr>
     <td rowspan="3" style="text-align: left; vertical-align: middle;">
-    <img src="../../../images/wr3600/wr3600 (9).png" alt="WAN Icon" width="20" height="20"><br>(2.4GHz Wireless)</td>
+    <img src="../../../images/wr3600/2.4g-led.png" alt="2.4G" width="20" height="20"><br>(2.4GHz Wireless)</td>
     <td><strong>On</strong></td>
     <td>2.4GHz Wireless Band is enabled.</td>
     </tr>
@@ -74,7 +74,7 @@
     </tr>
     <tr>
     <td rowspan="3" style="text-align: left; vertical-align: middle;">
-    <img src="../../../images/wr3600/wr3600 (10).png" alt="WAN Icon" width="20" height="20"><br>(5GHz Wireless)</td>
+    <img src="../../../images/wr3600/5g-led.png" alt="5G" width="20" height="20"><br>(5GHz Wireless)</td>
     <td><strong>On</strong></td>
     <td>5GHz Wireless Band is enabled.</td>
     </tr>
@@ -91,7 +91,7 @@
 </div>
 
 ## Back Panel
-<p><img src="../../../images/wr3600/wr3600 (11).png" width="500" alt=""></p>
+<p><img src="../../../images/wr3600/back-panel.png" width="500" alt=""></p>
 <div>
 <table>
     <tr>

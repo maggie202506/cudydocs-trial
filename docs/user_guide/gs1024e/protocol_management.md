@@ -130,7 +130,7 @@ Spanning Tree Protocol (STP) is a network protocol that prevents loops in a netw
 ## LLDP Config
 LLDP is a protocol used to exchange information between adjacent network devices. It helps in discovering device information, such as device type, port details, and VLAN information, which can be useful for network management and troubleshooting.
 
-<img src="../../../images/gs1024e/lldp c.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/lldp-config.png" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - LLDP Global: Select to Enable or Disable LLDP (Link Layer Discovery Protocol) globally.
 - Tx Interval: Enter the time interval (between 5-32768 seconds) between LLDP transmissions.
@@ -143,10 +143,10 @@ LLDP is a protocol used to exchange information between adjacent network devices
 - Port: Select the Port to be configured.
 - Admin Control: Select an option of Admin Control for LLDP on a port.
 
-         - Disable: LLDP is completely disabled on the port, preventing both transmission and reception of LLDP packets.
-         - Tx Only: The port transmits LLDP packets but does not receive them, useful for unidirectional information sharing.
-         - Rx Only: The port receives LLDP packets but does not transmit them, allowing it to gather information without broadcasting.
-         - Tx & Rx: The port both transmits and receives LLDP packets, enabling full bidirectional communication for comprehensive network discovery.
+    - Disable: LLDP is completely disabled on the port, preventing both transmission and reception of LLDP packets.
+    - Tx Only: The port transmits LLDP packets but does not receive them, useful for unidirectional information sharing.
+    - Rx Only: The port receives LLDP packets but does not transmit them, allowing it to gather information without broadcasting.
+    - Tx & Rx: The port both transmits and receives LLDP packets, enabling full bidirectional communication for comprehensive network discovery.
 
 *- Apply:* Click to save and apply the settings or changes.
 
@@ -154,7 +154,7 @@ LLDP is a protocol used to exchange information between adjacent network devices
 
 ## LLDP Neighbor
 
-<img src="../../../images/gs1024e/lldp neighbor.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/lldp-neighbor.png" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 The LLDP Neighbor list displays information about adjacent devices discovered via LLDP.
 

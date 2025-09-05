@@ -1,7 +1,7 @@
 # Input/Output 
 
 ## Status 
-<img src="../../../images/ir04/in_out status.png" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+<img src="../../../images/ir04/in-out-status.png" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
 ### I/O
 - **Digital Input** (Associated Pin 1/6): Detects high-level signals (e.g., 24V) for equipment status monitoring (limit switches/sensors).

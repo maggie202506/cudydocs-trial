@@ -1,7 +1,7 @@
 # Port Management
 
 ## Port Settings
-<img src="../../../images/gs1024e/port settings.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/port-settings.png" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - Port: Specifies the physical port on the switch.
 - State: Select the port state to be Enabled or Disabled.
@@ -14,7 +14,7 @@
 ---
 
 ## Port Trunk
-<img src="../../../images/gs1024e/port trunk.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/port-trunk.png" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - Trunk Group: Select a group of ports that can be managed as a single logical link.
 - Member Port: Specify the ports that are part of the trunk group.
@@ -28,7 +28,7 @@
 ---
 
 ## Port Mirror
-<img src="../../../images/gs1024e/port mirror.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/port-mirror.png" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - Session: Identify a specific mirroring session.
 - Port Mirror: Select to Disable or Enable the Port Mirror.
@@ -40,7 +40,7 @@
 ---
 
 ## Speed Limit
-<img src="../../../images/gs1024e/speedlimit3.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/speed-limit.png" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - Port: Specify the port to apply speed limits to.
 - Ingress Speed: Sets the maximum incoming data rate for the port.
@@ -62,7 +62,7 @@
 
 
 ## EEE Config
-<img src="../../../images/gs1024e/EEE config.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/EEE-config.png" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - EEE State: Select to Enable or Disable the Energy-Efficient Ethernet (EEE) state to manage power consumption.
   
@@ -71,7 +71,7 @@
 ---
 
 ## Storm Control
-<img src="../../../images/gs1024e/storm control.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/storm-control.png" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 Storm Suppression manages traffic storms by limiting the rate of unknown unicast, multicast, and broadcast packets.
 
@@ -87,7 +87,7 @@ Storm Suppression manages traffic storms by limiting the rate of unknown unicast
 ---
 
 ## Traffic Monitor
-<img src="../../../images/gs1024e/traffic monitor.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/traffic-monitor.png" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - Port: Displays the port being monitored.
 - Tx bytes: Displays the number of transmitted bytes.
@@ -100,7 +100,7 @@ Storm Suppression manages traffic storms by limiting the rate of unknown unicast
 ---
 
 ## MAC Manage
-<img src="../../../images/gs1024e/mac manage.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/mac-manage.png" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - Port Index: Identify the port for MAC address management.
 - Maximum MAC number: Set the maximum number of MAC addresses allowed on the port. 0 means disabled.

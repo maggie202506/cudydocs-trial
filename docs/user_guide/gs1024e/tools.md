@@ -11,22 +11,23 @@ Supports to test and assess the condition of the cables connected to specific po
 - Cable Status: Shows the condition of the cable.
 - Cable Length (m): Displays the length of the cable in meters.
 
-<img src="../../../images/noteicon.png"> Only support cable diagnostic for 1G speed.
+!!! Note
+    Only support cable diagnostic for 1G speed.
 
 ---
 
 ## Firmware Upgrade
 Updates the switch to its latest firmware, enhancing functionality, fixing bugs, or improving security.
 
-<img src="../../../images/gs1024e/firmware upgrade.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/firmware-upgrade.png" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 *- Select file*: Click to locate and upload the firmware file to be upgraded.
 
 *- Apply*: Click to start the firmware upgrading process.
 
-<img src="../../../images/noteicon.png">
-<li>Do not power off during the process, otherwise the machine may be damaged.</li> 
-<li>It is recommended to backup the current configuration before upgrading.</li> 
+!!! Note
+    - Do not power off during the process, otherwise the machine may be damaged.
+    - It is recommended to backup the current configuration before upgrading. 
 
 ---
 
@@ -88,4 +89,5 @@ Restarts the switch, reloading the current firmware and configuration without er
 
 *- Reboot*: Click to restart the switch.
 
-<img src="../../../images/noteicon.png"> To avoid damage to the device, please do not turn off the power during the restart process.
+!!! Note 
+    To avoid damage to the device, please do not turn off the power during the restart process.

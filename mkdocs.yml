@@ -41,13 +41,8 @@ theme:
 
 # Plugins
 plugins:
-  - search:
-      prebuild_index: filter_search_index.py
+  - search
   - include-markdown
-  - pdf-export:
-      verbose: true
-      media_type: print
-      enabled_if_env: ENABLE_PDF_EXPORT
   - glightbox 
 
 # Customization
@@ -142,18 +137,6 @@ nav:
         - Admin: user_guide/gp1200/pon_admin.md  
         - Diagnostics: user_guide/gp1200/pon_diagnostics.md 
         - Statistics: user_guide/gp1200/pon_statistics.md 
-    - GS1024E:
-      - GS1024E: user_guide/gs1024e/index.md
-      - Overview: user_guide/gs1024e/overview.md  
-      - Install: user_guide/gs1024e/installation.md
-      - Management:
-        - Log In/Out: user_guide/gs1024e/log_in_out.md
-        - System Manage: user_guide/gs1024e/system_manage.md
-        - Port Management: user_guide/gs1024e/port_management.md
-        - Protocol Management: user_guide/gs1024e/protocol_management.md
-        - VLAN: user_guide/gs1024e/vlan.md
-        - QoS: user_guide/gs1024e/qos.md
-        - Tools: user_guide/gs1024e/tools.md
     - IR04: 
       - IR04: user_guide/ir04/index.md
       - Overview: user_guide/ir04/overview.md  
@@ -173,7 +156,19 @@ nav:
           - Network: user_guide/ir04/network.md
           - Security: user_guide/ir04/security.md
           - System: user_guide/ir04/system.md
-        - Diagnostic Tools: user_guide/ir04/diagnostic_tools.md
+        - Diagnostic Tools: user_guide/ir04/diagnostic_tools.md        
+    - GS1024E:
+      - GS1024E: user_guide/gs1024e/index.md
+      - Overview: user_guide/gs1024e/overview.md  
+      - Install: user_guide/gs1024e/installation.md
+      - Management:
+        - Log In/Out: user_guide/gs1024e/log_in_out.md
+        - System Manage: user_guide/gs1024e/system_manage.md
+        - Port Management: user_guide/gs1024e/port_management.md
+        - Protocol Management: user_guide/gs1024e/protocol_management.md
+        - VLAN: user_guide/gs1024e/vlan.md
+        - QoS: user_guide/gs1024e/qos.md
+        - Tools: user_guide/gs1024e/tools.md
     - C200P:
       - C200P: user_guide/c200p/index.md
       - Overview: user_guide/c200p/overview.md

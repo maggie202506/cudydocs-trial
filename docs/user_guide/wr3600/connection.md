@@ -10,13 +10,13 @@
 
 ## Connect the router
 1. Connect the powered-off modem to the router’s WAN port with an Ethernet cable.
-<img src="../../../images/wr3600/connection.png" alt="" width="1000px">
+<img src="../../../images/wr3600/connection.png" alt="" width="800px">
+
 2. Power on the modem, and then wait about 2 minutes for it to restart.
 3. Connect the power adapter to the router, and wait about 2-3 minutes for the system LED  to turn solid on.
 4. Verify that the hardware connection is correct by checking the following LEDs.
-<img src="../../../images/wr3600/wr3600 (14).png" alt="" width="600px">
-5. Connect your device (computer or smart phone) to the router.
-    
-    **Method 1 - With Ethernet Cable:** Turn off the Wi-Fi on your computer and connect it to the LAN port of the router with an Ethernet cable.
+<img src="../../../images/wr3600/led.png" alt="" width="600px">
 
-    **Method 2 - Through Wi-Fi:** Click the network icon on your computer or go to Wi-Fi Settings on your smart device, and then select the SSID and input the password to join the network. (The default SSID and Password are on the bottom label of the router).
+5. Connect your device (computer or smart phone) to the router.
+    - Method 1 - With Ethernet Cable: Turn off the Wi-Fi on your computer and connect it to the LAN port of the router with an Ethernet cable.
+    - Method 2 - Through Wi-Fi: Click the network icon on your computer or go to Wi-Fi Settings on your smart device, and then select the SSID and input the password to join the network. (The default SSID and Password are on the bottom label of the router).

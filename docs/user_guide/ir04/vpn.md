@@ -184,7 +184,7 @@ is used to create a PPTP VPN connection for remote devices to access your home n
     <img src="../../../images/ir04/wireguard-server-client2.png" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 7. Click to export the configuration file, and then upload it on the client for VPN connection.
-<img src="../../../images/wr3600/wr3600 (93..png" alt="" width="600px" style="border: 1px solid #eee;" />
+<img src="../../../images/ir04/wireguard-export.png" alt="" width="600px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 *STEP 2. Configure WireGuard Client on router B:*
 <img src="../../../images/ir04/wireguard-client.png" alt="" width="800px" style="border: 1px solid #eee;" />

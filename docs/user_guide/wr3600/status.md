@@ -2,11 +2,11 @@
 
 - System Status in Wireless Router Mode
 
-<img src="../../../images/wr3600/wr3600 (36).png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/wr3600/status-router.png" alt="" width="800px" style="border: 1px solid #eee;" />
 
 - System Status in Wireless Access Point Mode
 
-<img src="../../../images/wr3600/wr3600 (37).png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/wr3600/status-ap.png" alt="" width="800px" style="border: 1px solid #eee;" />
 
 ## Status
 shows the Router’s Internet connection status and current work mode, as well as the Interface type. Click *Quick Setup* to redirect to the [Quick Setup](quick_setup.md) page for a change.

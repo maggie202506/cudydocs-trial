@@ -1,5 +1,5 @@
 ## Package Content
-<img src="../../../images/gp1200/package content.png"  width="500" alt="">
+<img src="../../../images/gp1200/package_content.png"  width="500" alt="">
 
 ---
 ## Front Panel & LEDs
