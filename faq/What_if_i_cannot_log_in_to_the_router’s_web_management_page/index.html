@@ -12,7 +12,7 @@
         <meta name="author" content="Cudy Docs">
       
       
-        <link rel="canonical" href="https://docs.cudy.com/faq/cannot_access_Internet/">
+        <link rel="canonical" href="https://docs.cudy.com/faq/What_if_i_cannot_log_in_to_the_router%E2%80%99s_web_management_page/">
       
       
       
@@ -22,7 +22,7 @@
     
     
       
-        <title>Can’t access the Internet even though the configuration is finished? - Docs</title>
+        <title>Cannot log in to the Router’s web management page? - Docs</title>
       
     
     
@@ -94,7 +94,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#cant-access-the-internet-even-though-the-configuration-is-finished" class="md-skip">
+        <a href="#cannot-log-in-to-the-routers-web-management-page" class="md-skip">
           Skip to content
         </a>
       
@@ -127,7 +127,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Can’t access the Internet even though the configuration is finished?
+              Cannot log in to the Router’s web management page?
             
           </span>
         </div>
@@ -2852,82 +2852,31 @@
   
 
   <!-- Markdown content -->
-  <h1 id="cant-access-the-internet-even-though-the-configuration-is-finished">Can’t access the Internet even though the configuration is finished?<a class="headerlink" href="#cant-access-the-internet-even-though-the-configuration-is-finished" title="Permanent link">&para;</a></h1>
-<p><strong>If  IP Address is a valid one, please try the methods below and try again:</strong></p>
+  <h1 id="cannot-log-in-to-the-routers-web-management-page">Cannot log in to the Router’s web management page?<a class="headerlink" href="#cannot-log-in-to-the-routers-web-management-page" title="Permanent link">&para;</a></h1>
+<p>This can happen for various reasons. Please try the methods below to log in again.</p>
 <ol>
+<li>Make sure your computer is connected to the Router correctly and the corresponding LEDs light up.</li>
+<li>Make sure the IP address of your computer is configured as Obtain an IP address automatically and Obtain DNS server address automatically.</li>
+<li>Make sure <a href="http://cudy.net">http://cudy.net</a> or <a href="http://192.168.10.1">http://192.168.10.1</a> is correctly entered.</li>
 <li>
-<p>Log in to <a href="http://cudy.net">http://cudy.net</a> with the password you set for the Router management.</p>
-</li>
-<li>
-<p>Go to <em>Diagnostic Tools -&gt; Diagnosis -&gt; Go</em> to diagnose Internet status:</p>
-</li>
-<li>
-<p>Manually configure the DNS server, for your computer might not recognize any DNS server addresses.  </p>
+<p>Check your computer’s settings:</p>
 <ul>
-<li>Go to Advanced Settings - &gt; Network -&gt; DHCP Server.  </li>
-<li>Enter 8.8.8.8 as Primary DNS, click SAVE.</li>
-</ul>
-<p><a class="glightbox" href="../../images/noteicon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../images/noteicon.png"></a> 8.8.8.8 is a safe and public DNS server operated by Google.</p>
-</li>
-<li>
-<p>Restart the modem and the Router .</p>
-<ul>
-<li>Power off your modem and Router, and leave them off for 1 minute.</li>
-<li>Power on your modem first, and wait for about 2 minutes until it gets a solid cable or Internet LED.</li>
-<li>Power on the Router.</li>
-<li>Wait for another 1 or 2 minutes and check the Internet access.</li>
+<li>Go to Start -&gt; Control Panel -&gt; Network and Internet, and click View network status and tasks.</li>
+<li>Click Internet Options on the bottom left.</li>
+<li>Click Connections and select Never dial a connection.</li>
+<li>Click LAN settings and deselect the displayed three options and click OK.</li>
+<li>Go to Advanced -&gt; Restore advanced settings, click OK to save the settings.</li>
 </ul>
 </li>
 <li>
-<p>Reset the Router to factory default settings and reconfigure the Router.</p>
+<p>Use another web browser or computer to log in again.</p>
 </li>
-<li>
-<p>Upgrade the firmware of the Router.</p>
-</li>
-<li>
-<p>Check the TCP/IP settings on the particular device if all other devices can get Internet from the Router.</p>
-</li>
+<li>Reset the Router to factory default settings and try again. If login still fails, please contact our <a href="mailto:support@cudy.com">Technical Support</a>.</li>
 </ol>
-<p><strong>If the IP Address is 0.0.0.0, please try the methods below and try again:</strong></p>
-<ol>
-<li>
-<p>Log in to <a href="http://cudy.net">http://cudy.net</a> with the password you set for the Router management.</p>
-</li>
-<li>
-<p>Go to <em>Diagnostic Tools -&gt; Diagnosis -&gt; Go</em> to diagnose Internet status:</p>
-</li>
-<li>
-<p>Make sure the physical connection between the Router and the modem is proper.</p>
-</li>
-<li>
-<p>Restart the modem and the Router.</p>
-<ul>
-<li>Power off your modem and Router, and leave them off for at least 1 minute.</li>
-<li>Power on your modem first, and wait about 2 minutes until it get a solid cable or Internet LED.</li>
-<li>Power on the Router.</li>
-<li>Wait another 1 or 2 minutes and check the Internet access.</li>
-</ul>
-</li>
-<li>
-<p>Double-check the Internet connection type.</p>
-<ul>
-<li>Confirm your Internet connection type, which can be learned from the ISP.</li>
-<li>Log in to http://cudy.net with the password you set for the Router management.</li>
-<li>Go to General Settings -&gt; WAN Mode.</li>
-<li>Select your Internet Connection Type (Protocol) and fill in the required parameters provided by ISP.</li>
-<li>Click Save &amp; Apply.</li>
-<li>Restart the modem and the Router again.</li>
-</ul>
-</li>
-<li>
-<p>Upgrade the firmware of the Router.</p>
-</li>
-</ol>
-<p><a class="glightbox" href="../../images/noteicon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="../../images/noteicon.png"></a>  </p>
-<ul>
-<li>If your existing ADSL modem/Router  happens to be in the range of 192.168.10.x, Cudy Router  will change its default LAN IP address from 192.168.10.1 to be 10.1.1.1 to avoid IP conflicts.</li>
-<li>If you’ve tried all the above methods but still cannot access the Internet, please contact the technical support via support@cudy.com.</li>
-</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You’ll need to reconfigure the Router to surf the Internet once the Router is reset, and please note down your new password for future use.</p>
+</div>
 
   <!-- Last update of source file -->
   
