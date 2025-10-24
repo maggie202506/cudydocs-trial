@@ -1,5 +1,5 @@
 # Wireless 2.4G
-<img src="../../../images/ir04/wireless2.4g.png" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+<img src="../../../images/ir04/wireless2.4g.webp" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
 - **SSID**: Customize a visible name for your 2.4GHz Wi-Fi network, or keep it as default.
 - **Encryption**: Select a security protocol to prevent unauthorized access.

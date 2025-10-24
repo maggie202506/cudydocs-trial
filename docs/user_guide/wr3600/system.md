@@ -13,13 +13,13 @@ is the time displayed while the router is running. The system time you configure
 2) Select the Set Time method: Get from Internet, Get from Managing Device, or Manual.
 
  - Get from the Internet: Router will synchronize the time with the Internet of the NTP server, for 	which you’ve entered its IP address or domain name.
-<img src="../../../images/wr3600/system-time1.png" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/system-time1.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
  - Get from Managing Device: Router will synchronize the time with your device connected.
-<img src="../../../images/wr3600/system-time2.png" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/system-time2.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
  - Manual: Router will display the time you have manually set (YY/MM/DD HH:MM:SS).
-<img src="../../../images/wr3600/system-time3.png" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/system-time3.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 3) Click **Save & Apply**.
 
@@ -27,7 +27,7 @@ is the time displayed while the router is running. The system time you configure
 ## Firmware
 The current firmware version and hardware version will be displayed. Click Browse... to locate and upload the latest firmware file you have already downloaded from www.cudy.com. Wait a few minutes for the update and reboot to complete.
 
-<img src="../../../images/wr3600/firmware.png" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/firmware.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 For more about firmware upgrading, please refer to [Advanced Settings-> Firmware](firmware.md)
 
@@ -38,7 +38,7 @@ For more about firmware upgrading, please refer to [Advanced Settings-> Firmware
 ## Backup/Restore
 The settings are stored as a configuration file in the router. You can back up the configuration file in your computer for future use, or restore the router to a previous settings from the backup file when needed. Moreover, if necessary you can erase the current settings and reset the router to the default factory settings.
 
-<img src="../../../images/wr3600/backup.png" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/backup.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 **To configure the system backup and restore, please follow the steps below.**
 
@@ -48,13 +48,13 @@ The settings are stored as a configuration file in the router. You can back up t
 
 3) Click Restore to restore and reboot. It may take a few minutes. Please do not turn off or reset the router in this process.
 
-<img src="../../../images/wr3600/backup2.png" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/backup2.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 ---
 ## Administration
 allows you to access and manage the router from the local network devices via Local Management, and access and manage the router over the Internet via Remote Management.
 
-<img src="../../../images/wr3600/administration.png" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/administration.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 **Local Management**
 
@@ -77,7 +77,7 @@ allows you to access and manage the router from the local network devices via Lo
 ## Admin Account
 is to change your login password for the router’s web management page.
 
-<img src="../../../images/wr3600/admin-account.png" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/admin-account.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1) Enter the old password.
 
@@ -92,14 +92,14 @@ is to change your login password for the router’s web management page.
 ## Language
 is to customize the router's web management language. Otherwise, the router will auto-detect your system language and synchronize it. 
 
-<img src="../../../images/wr3600/language.png" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/language.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 If any change, please click **Save & Apply** for the settings to take effect.
 
 ---
 ## Timed Reboot
 will clean the cache to enhance the running performance of the router as scheduled. 
-<img src="../../../images/wr3600/timed-reboot.png" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/timed-reboot.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 To set the reboot schedule, please follow the steps below.
 
@@ -115,8 +115,8 @@ To set the reboot schedule, please follow the steps below.
 ## Reboot 
 Rebooting the router after working for a long periods of time can release some storage space in the Random Access Memory (RAM) and improve system performance, making the operation of the router smoother. Rebooting does not affect any settings of the router.
 
-<img src="../../../images/wr3600/reboot.png" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
-<img src="../../../images/wr3600/rebooting.png" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/reboot.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/rebooting.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 Click **OK** to reboot the system immediately. Wait a few minutes for the system to reboot. After rebooting, the changes and settings will take effect.
 
@@ -127,7 +127,7 @@ Click **OK** to reboot the system immediately. Wait a few minutes for the system
 ## Reset
 will help you erase all the current settings and restore the router to its factory defaults. Alternatively, you may reset the router via the **RESET** button on the router panel, or on this web management page.
 
-<img src="../../../images/wr3600/reset.png" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/reset.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 On this page, it will display the router’s default information, including its IP address, 2.4G/5G SSID, and the password. Before you click OK to reset it, you may note them down for your renewal connection to the router. Also these defaults are on the product label for your reference.
 
@@ -141,13 +141,13 @@ Please wait a moment for it to reboot and reset. When completed, it will pop up 
 ## LED Control
 The LEDs indicate the router’s activities and status. **LED Control** allows you to turn them on or off when necessary. If turned off, the LEDs will not light up unless manually turned on or triggered by a special event.
 
-<img src="../../../images/wr3600/led-control.png" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/led-control.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 ---
 ## TR069
 TR-069, also known as CWMP (CPE WAN Management), allows Auto-Configuration Server (ACS) to perform auto-configuration, provision, connection, and diagnostics to this device. You may configure this function under your ISP’s instructions.
 
-<img src="../../../images/wr3600/tr069.png" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/tr069.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 Configure the parameters according to your ISP instructions, and click **Save & Apply**.
 

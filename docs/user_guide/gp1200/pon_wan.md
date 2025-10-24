@@ -1,6 +1,6 @@
 # WAN
 
-<img src="../../../images/gp1200/image-26.png" alt="" width=1000px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-26.webp" alt="" width=1000px style="border: 1px solid #eee;" />
 
 - **Enable VLAN**: Tick to enable the virtual LAN segmentation for traffic isolation.
 - **VLAN ID**: Unique tag (1-4094) to identify a VLAN group.
@@ -75,7 +75,7 @@ Requires username/password authentication to establish a connection, commonly us
 - **Port Mapping**: 
 Select the port based on your service type (e.g., 80 for HTTP, 443 for HTTPS, or custom ports for apps like 25565 for Minecraft), and ensure the target device’s local IP is static. Verify with tools like canyouseeme.org post-setup.
 
-<img src="../../../images/noteicon.png"> To prioritize security, please avoid exposing sensitive ports like RDP/SSH without safeguards.
+<img src="../../../images/noteicon.webp"> To prioritize security, please avoid exposing sensitive ports like RDP/SSH without safeguards.
 
 • Apply Changes: Click to save and activate the settings or changes.
 

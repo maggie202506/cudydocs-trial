@@ -2,7 +2,7 @@
 
 Go to *System Status-> System -> More Details* to know more information on the *Status*, *Statistics*, *ARP*, *Active IP Routes* and *System Log*.
 
-<img src="../../../images/c200p/status-system1.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/c200p/status-system1.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 ## Status
 Displays real-time operational states to provide a snapshot of system health and configuration baseline for troubleshooting.
@@ -16,7 +16,7 @@ Displays real-time operational states to provide a snapshot of system health and
 ## Statistics
 Tracks network performance metrics per interface (WLAN or LAN) to identify bandwidth bottlenecks, packet loss, or hardware faults.
 
-<img src="../../../images/c200p/status-system2.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/c200p/status-system2.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 - Interface: The network port or connection type being monitored.
 - Tx Bytes: Total data transmitted.
@@ -31,7 +31,7 @@ Tracks network performance metrics per interface (WLAN or LAN) to identify bandw
 ## ARP 
 Maps IP addresses to MAC addresses for local network communication to detect IP conflicts and monitors connected devices in the LAN.
 
-<img src="../../../images/c200p/status-system3.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/c200p/status-system3.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 - IP Address: Network-layer address assigned to a device in the local network.
 - MAC-Address: Physical hardware address uniquely identifying a device at the data-link layer.
@@ -41,7 +41,7 @@ Maps IP addresses to MAC addresses for local network communication to detect IP 
 ## Active IP Routes
 Shows path selection rules for data forwarding to optimize traffic routing and diagnoses connectivity issues between networks.
 
-<img src="../../../images/c200p/status-system4.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/c200p/status-system4.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 - Network/Target: Destination network address that the route applies to.
 - Gateway: Next-hop IP address used to reach the target network.
@@ -51,7 +51,7 @@ Shows path selection rules for data forwarding to optimize traffic routing and d
 ## System Log
 Tracks all the router behaviors. When the router does not work normally, download the system log and send it to our  [Technical Support](mailto:support@cudy.com) for troubleshooting. 
 
-<img src="../../../images/c200p/status-system5.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/c200p/status-system5.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 - Update: Click to refresh the system log.
 - Clear: Click to erase all the system log up till now.

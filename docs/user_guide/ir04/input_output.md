@@ -1,7 +1,7 @@
 # Input/Output 
 
 ## Status 
-<img src="../../../images/ir04/in-out-status.png" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+<img src="../../../images/ir04/in-out-status.webp" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
 ### I/O
 - **Digital Input** (Associated Pin 1/6): Detects high-level signals (e.g., 24V) for equipment status monitoring (limit switches/sensors).
@@ -14,7 +14,7 @@
 
 - **Relay** (Associated Pin 5/10): Electrically isolates control circuits from power circuits (e.g., 5V PLC → 240V motor). Select *Closed* (NO) when energized (current flows to load) or *Open* (NC) when de-energized (failsafe/default state).
 
-<img src="../../../images/noteicon.png" alt="" /> Use ferrite beads on analog wires to suppress EMI in noisy environments.
+<img src="../../../images/noteicon.webp" alt="" /> Use ferrite beads on analog wires to suppress EMI in noisy environments.
 
 ### PWR
 - **Input** (Associated Pin 3): Receives external power to activate the device. 
@@ -33,11 +33,11 @@
 
 ----
 ## Input 
-<img src="../../../images/ir04/input.png" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+<img src="../../../images/ir04/input.webp" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
 - **Add**: Click to configure input rules to perform specified actions after the input meets the trigger conditions. 
 
-<img src="../../../images/ir04/digital-input-1.png" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+<img src="../../../images/ir04/digital-input-1.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
 - **Enable**: Enable this entry of input rule.
 - **Input Type**: Select to define the signal category (e.g., digital/analog/pulse).
@@ -76,9 +76,9 @@
 
 - **Execution Delay**:(Optional) Enter the time when will the action be executed after the rule being triggered.
 
-<img src="../../../images/ir04/input-output2.png" alt="" width="600px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+<img src="../../../images/ir04/input-output2.webp" alt="" width="600px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
-- **Modify**: Click on <img src="../../../images/ir04/edit.png" alt=""/> to edit the entry, or <img src="../../../images/ir04/delete.png" alt=""/> to delete the entry.
+- **Modify**: Click on <img src="../../../images/ir04/edit.webp" alt=""/> to edit the entry, or <img src="../../../images/ir04/delete.webp" alt=""/> to delete the entry.
 
 - **Check Interval**: Enter an interval in seconds to check analog input value. 
 
@@ -86,11 +86,11 @@
 
 ----
 ## Output 
-<img src="../../../images/ir04/output.png" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+<img src="../../../images/ir04/output.webp" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
 - **Add**: Click to configure output scheduler to perform specified actions after the input meets the trigger conditions. 
 
-<img src="../../../images/ir04/output-scheduler.png" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+<img src="../../../images/ir04/output-scheduler.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
 - **Enable**: Enable this entry of output scheduler.
 - **Output Type** & **Change State to**: Select to define the target output and state.
@@ -111,8 +111,8 @@
 
     ◦  7-Day Cycle: For 24/7 critical systems (e.g., server room cooling).
 
-<img src="../../../images/ir04/output-scheduler2.png" alt="" width="600px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+<img src="../../../images/ir04/output-scheduler2.webp" alt="" width="600px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
-- **Modify**: Click on <img src="../../../images/ir04/edit.png" alt=""/> to edit the entry, or <img src="../../../images/ir04/delete.png" alt=""/> to delete the entry.
+- **Modify**: Click on <img src="../../../images/ir04/edit.webp" alt=""/> to edit the entry, or <img src="../../../images/ir04/delete.webp" alt=""/> to delete the entry.
 
 - Save & Apply: Click to save and activate the new settings or changes.

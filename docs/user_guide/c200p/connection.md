@@ -2,7 +2,7 @@
 
 ## Main Router and AP Controller Mode
 
-<img src="../../../images/c200p/connection1.png"  alt="" style="width:600px">
+<img src="../../../images/c200p/connection1.webp"  alt="" style="width:600px">
 
 1. Connect the provided power adapter to the power jack of C200P.
 2. Connect the WAN port of C200P to the Internet.
@@ -16,7 +16,7 @@
 
 ## AP Controller Mode
 
-<img src="../../../images/c200p/connection2.png"  alt="" style="width:600px">
+<img src="../../../images/c200p/connection2.webp"  alt="" style="width:600px">
 
 1. Connect the provided power adapter to the power jack of C200P.
 2. Connect the WAN port of C200P directly or through a switch to a router with the Internet.

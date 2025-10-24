@@ -5,7 +5,7 @@
 ## Firewall
 is a security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It serves as a barrier between a trusted internal network and untrusted external networks, such as the Internet. This function is enabled by default. It is highly recommended to keep the default settings.
 
-<img src="../../../images/wr3600/firewall.png" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/firewall.webp" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
 
 - SPI Firewall: SPI (Stateful Packet Inspection) Firewall is a sophisticated network firewall that goes beyond basic packet filtering to provide deeper inspection and control over network traffic, offering better security and more intelligent traffic management.
 - DoS Protection: DoS (Denial of Service) Protection is a security feature that defends your network or online services against DoS attacks. It works by identifying and mitigating traffic that is intended to overwhelm your network or online services, rendering them unavailable to legitimate users. 
@@ -17,7 +17,7 @@ is a technology used in wireless Routers to prevent unauthorized access to netwo
 
 **To configure the MAC filter, please follow the steps below.**
 
-<img src="../../../images/wr3600/mac-filter.png" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/mac-filter.webp" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
 
 1. Select a MAC Filter rules: Disable, or Allow all except listed, or Allow listed only.
     - Disable: To disable the MAC Filter function. No MAC Address will be filtered.
@@ -33,7 +33,7 @@ is a technique utilized in cyber security to control and protect a network or sy
 
 **To configure the IP filter, please follow the steps below.**
 
-<img src="../../../images/wr3600/ip-filter.png" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/ip-filter.webp" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
 
 1. Select your IP Filter rules: Disable, or Allow all except listed, or Allow listed only.
     - Disable: To disable the IP Filter function. All devices are allowed to access the entire Internet.
@@ -52,7 +52,7 @@ is a technique to control or limit access to specific websites or Internet se
 
 **To configure the IP filter, please follow the steps below.**
 
-<img src="../../../images/wr3600/domain-filter.png" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/domain-filter.webp" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
 
 1. Select your Domain Filter rules: Disable, or Allow all except listed, or Allow listed only.
     - Disable: To disable the Domain Filter function. No devices will be filtered.
@@ -69,7 +69,7 @@ namely, ARP (Address Resolution Protocol) Binding, is used to bind network devic
 
 **To configure the IP & MAC Binding, please follow the steps below.**
 
-<img src="../../../images/wr3600/ipmac-binding.png" alt="" width="800px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/ipmac-binding.webp" alt="" width="800px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
 
 1. Click Add to add entries.
 2. Enter the IP Address and bind it with a MAC-Address (select from the list or enter manually), and make a comment. Delete as needed.
@@ -85,7 +85,7 @@ Done! Now you don’t need to worry about ARP spoofing and ARP attacks.
 Wi-Fi Protected Setup (WPS) provides an easier approach to set up a security-protected Wi-Fi connection without selecting network name (SSID) and entering password on each device. 
 You might want to use WPS to let someone else connect to your WiFi network without sharing your credentials, or if you want to connect a WiFi device like a printer or TV that is frustrating to enter credentials into. Not all WiFi devices support WPS connection. We recommend that you check your devices’ WiFi connection capabilities before proceeding.
 
-<img src="../../../images/wr3600/wps.png" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/wps.webp" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
 
 You may click **Start WPS** on the web management page or directly press the **WPS** button on the Router panel. Within 2 minutes, enable WPS on your personal device. Success will appear on the screen, indicating successful WPS connection.
 
@@ -95,7 +95,7 @@ allows the Router’s wireless network to turn on or off automatically at a spec
 
 **To configure the WiFi Schedule, please follow the steps below.**
 
-<img src="../../../images/wr3600/wifi-schedule.png" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/wifi-schedule.webp" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
 
 1. Toggle *Enable WiFi Schedule* to activate this feature.
 2. You may Modify/Delete/Add the entries. To specify the schedule, you need to set the *Week Days*, *Start WiFi* and *Stop WiFi* time. Enable *Disabled wifi forced* to force WiFi to shut off even if stations are associated. 
@@ -114,4 +114,4 @@ ALG (Application Layer Gateway) allows customized NAT traversal filters to be pl
 
 You may need to disable SIP ALG when you are using voice and video applications to create and accept a call through the Router, since some voice and video communication applications do not work well with SIP ALG.
 
-<img src="../../../images/wr3600/alg.png" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/alg.webp" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />

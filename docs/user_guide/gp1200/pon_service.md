@@ -3,7 +3,7 @@
 ## Service
 
 ### DHCP
-<img src="../../../images/gp1200/image-83.png" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-83.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 **• DHCP Mode:**
 
@@ -11,11 +11,11 @@
     
 **2. DHCP Relay:** The router forwards DHCP requests across subnets/VLANs (enterprise use, e.g., centralizing DHCP in a data center). Enter the DHCP Server IP address, or keep it default.
 
-<img src="../../../images/gp1200/image-82.png" alt="" width="600" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-82.webp" alt="" width="600" style="border: 1px solid #eee;" />
     
 **3. DHCP Server:** The router assigns IP addresses to clients (default for home networks, manages IP pools/leases).
 
-<img src="../../../images/gp1200/image-27.png" alt="" width="600" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-27.webp" alt="" width="600" style="border: 1px solid #eee;" />
 
 **• LAN IP Address:** Displays the router's IP address.
 
@@ -39,20 +39,20 @@
 
 **• Port-Based Filter:** Blocks/allows DHCP requests based on the Ethernet port numbers (L2 physical interface), ideal for securing specific network jacks in offices or labs.
 
-<img src="../../../images/gp1200/image-84.png" alt="" width="600" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-84.webp" alt="" width="600" style="border: 1px solid #eee;" />
 
 **• MAC-Based Filter:** Whitelists/blacklists devices by their unique MAC addresses (L2 hardware ID), commonly used for IoT device management or guest network control.
 
-<img src="../../../images/gp1200/image-85.png" alt="" width="600" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-85.webp" alt="" width="600" style="border: 1px solid #eee;" />
 
 **4. DHCP Client:** An upstream DHCP server (common in ISP modem-router setups) assigns an IP address to the router(client).
 
-<img src="../../../images/gp1200/image-86.png" alt="" width="600" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-86.webp" alt="" width="600" style="border: 1px solid #eee;" />
 
 ---
 ### Dynamic DNS
 
-<img src="../../../images/gp1200/image-28.png" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-28.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 **Dynamic DNS (DDNS)** supports automatically updating a domain name with your router's changing public IP address, allowing stable remote access (e.g., for home servers or cameras).
 
@@ -93,7 +93,7 @@
 ---
 
 ### IGMP Proxy
-<img src="../../../images/gp1200/image-29.png" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-29.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 **• IGMP Robust Count:** Defines how many consecutive missed queries trigger a group timeout (typically 2-5). Higher values improve stability in lossy networks.
 
@@ -110,7 +110,7 @@
 ---
 
 ### UPnP
-<img src="../../../images/gp1200/image-30.png" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-30.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 **UPnP (Universal Plug and Play)** supports automatically opening and managing router ports for devices/apps that request external access (e.g., gaming consoles or VoIP), eliminating manual port forwarding.
 
@@ -138,7 +138,7 @@
 
 ### RIP
 
-<img src="../../../images/gp1200/image-87.png" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-87.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 **• Routing Protocol:** Select to enable RIP for path selection.
 
@@ -161,7 +161,7 @@
 ## Firewall
 
 ### IP/Port Filtering
-<img src="../../../images/gp1200/image-32.png" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-32.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 **• Outgoing Default Action:** Firewall allows or denies the traffic from LAN to WAN (typically Allow for user convenience).
 
@@ -195,7 +195,7 @@
 ---
 
 ### MAC Filtering
-<img src="../../../images/gp1200/image-33.png" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-33.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 **MAC Filtering for bridge mode** allows or blocks specific devices (identified by their MAC addresses) from accessing the network when the router operates in bridge mode, acting as a transparent pass-through while maintaining MAC-based access control.
 
@@ -221,7 +221,7 @@
 
 ### Port Forwarding
 
-<img src="../../../images/gp1200/image-34.png" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-34.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 **Port Forwarding** redirects external traffic from specific ports to an internal device (e.g., for gaming servers or remote access). It requires static IP/DHCP reservation for stable operation.
 
@@ -255,7 +255,7 @@
 
 ### URL Blocking
 
-<img src="../../../images/gp1200/image-35.png" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-35.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 **URL Blocking** blocks access to specific web addresses (e.g., socialmedia.com), often used for parental controls. It works at the application layer but may struggle with HTTPS traffic.
 
@@ -275,7 +275,7 @@
 
 ### Domain Blocking
 
-<img src="../../../images/gp1200/image-36.png" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-36.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 **Domain Blocking** prevents access to entire domains and subdomains via DNS filtering. More comprehensive than URL blocking and covers HTTPS sites.
 
@@ -293,7 +293,7 @@
 
 ### DMZ
 
-<img src="../../../images/gp1200/image-37.png" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-37.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 **DMZ (Demilitarized Zone)** exposes one internal device directly to the internet, bypassing firewall protections.
 

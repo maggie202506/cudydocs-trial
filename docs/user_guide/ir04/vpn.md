@@ -2,16 +2,16 @@
 
 VPN (Virtual Private Network) helps you access Internet resources remotely, securely, and privately through tunneling technology. When you access the Internet, VPN encrypts your personal information and hides your IP address from the public. For VPN users, it looks like the devices are directly connected. Cudy router supports 6 types of VPN connections: PPTP, L2TP, OpenVPN, WireGuard, ZeroTier, IPSec (site-to-site). Please choose an appropriate VPN according to your needs and circumstances.
 
-<img src="../../../images/noteicon.png"> Before you Enable *VPN* Server, it is recommended to configure Dynamic DNS Service or assign a Static IP Address for router’s WAN port and synchronize your System Time with Internet. 
+<img src="../../../images/noteicon.webp"> Before you Enable *VPN* Server, it is recommended to configure Dynamic DNS Service or assign a Static IP Address for router’s WAN port and synchronize your System Time with Internet. 
 
-<img src="../../../images/ir04/vpn-connection.png" alt="" width="600px" style="display:block; margin:0 auto;" />
+<img src="../../../images/ir04/vpn-connection.webp" alt="" width="600px" style="display:block; margin:0 auto;" />
 
 ---
 ## PPTP VPN
 is used to create a PPTP VPN connection for remote devices to access your home network. Fast connection/disconnection and simple configuration satisfy the needs for users who is apt to frequently switch VPN environments. Please follow the steps below to set up a PPTP VPN connection.
 
 *STEP 1. Configure the PPTP Server on router A:*
-<img src="../../../images/ir04/pptp-server.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/ir04/pptp-server.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 1. Log into the router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1). 
 
@@ -30,7 +30,7 @@ is used to create a PPTP VPN connection for remote devices to access your home n
 5. Click *Save & Apply*.	
 
 *STEP 2. Configure PPTP Client on router B:*
-<img src="../../../images/ir04/pptp-client.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/ir04/pptp-client.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 1. Log into the router A’s management web page  [https://cudy.net](https://cudy.net) (or 192.168.10.1). 
 
@@ -57,7 +57,7 @@ is used to create a PPTP VPN connection for remote devices to access your home n
 *L2TP VPN Server* is used to create a L2TP VPN connection for remote devices to access your home network. Compared with PPTP, L2TP supports multi-tunnel with authentication between two endpoints, thus users can set up different tunnels with various service quality. Please follow the steps below to set up a L2TP VPN connection.
 
 *STEP 1. Configure the L2TP Server on router A:*
-<img src="../../../images/ir04/l2tp-server.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/ir04/l2tp-server.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 1. Log into the router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1). 
 
@@ -78,7 +78,7 @@ is used to create a PPTP VPN connection for remote devices to access your home n
 5. Click *Save & Apply*.
 
 *STEP 2. Configure L2TP Client on router B:*
-<img src="../../../images/ir04/l2tp-client.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/ir04/l2tp-client.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 1. Log into the router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1). 
 
@@ -108,7 +108,7 @@ is used to create a PPTP VPN connection for remote devices to access your home n
 *OpenVPN Server* is used to create an OpenVPN connection for remote devices to access your home network. OpenVPN server requires a public IP. You can confirm whether the router has a public IP on the router management page System Status -> WAN -> More details -> Status. If the public IP displayed is consistent with the IP address of the router's WAN port, it means that the router has a public IP. Please follow the steps below to set up an OpenVPN connection.
 
 *STEP 1. Configure the OpenVPN Server on router A:*
-<img src="../../../images/ir04/openvpn-server.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/ir04/openvpn-server.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 1. Log into the router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1). 
 
@@ -135,7 +135,7 @@ is used to create a PPTP VPN connection for remote devices to access your home n
 6. Click *EXPORT* to export the configuration file which is to upload on the OpenVPN Client.
 
 *STEP 2. Configure OpenVPN Client on router B:*
-<img src="../../../images/ir04/openvpn-client.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/ir04/openvpn-client.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 1. Log into the router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1). 
 
@@ -160,7 +160,7 @@ is used to create a PPTP VPN connection for remote devices to access your home n
 *WireGuard VPN Server* is used to create a Wire Guard VPN connection for remote devices to access your home network. WireGuard VPN server requires a public IP. You can confirm whether the router has a public IP on the router management page System Status -> WAN -> More details -> Status. If the public IP displayed is consistent with the IP address of the router's WAN port, it means that the router has a public IP. Please follow the steps below to set up a WireGuard VPN connection.
 
 *STEP 1. Configure the WireGuard Server on router A:*
-<img src="../../../images/ir04/wireguard-server.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/ir04/wireguard-server.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 1. Log into the router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1).
 
@@ -179,15 +179,15 @@ is used to create a PPTP VPN connection for remote devices to access your home n
 
 5. Click *Save & Apply*. 
 6. Click *Edit Item* for Clients. Configure the Client parameters.
-    <img src="../../../images/ir04/wireguard-server-client.png" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+    <img src="../../../images/ir04/wireguard-server-client.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
-    <img src="../../../images/ir04/wireguard-server-client2.png" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+    <img src="../../../images/ir04/wireguard-server-client2.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 7. Click to export the configuration file, and then upload it on the client for VPN connection.
-<img src="../../../images/ir04/wireguard-export.png" alt="" width="600px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/wireguard-export.webp" alt="" width="600px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 *STEP 2. Configure WireGuard Client on router B:*
-<img src="../../../images/ir04/wireguard-client.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/ir04/wireguard-client.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 1. Log into the router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1).
 
@@ -205,7 +205,7 @@ is used to create a PPTP VPN connection for remote devices to access your home n
 
 6. Click *Browse...* to locate the configuration file (wg-client-.conf) you exported previously from the WireGuard Server. Then the Interface and Peer parameters will be automatically uploaded and displayed.
 
-    <img src="../../../images/ir04/wireguard-client-confile.png" alt="" width="600px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+    <img src="../../../images/ir04/wireguard-client-confile.webp" alt="" width="600px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 7. Confirm the parameters and then click *Save & Apply*.
 
@@ -216,21 +216,21 @@ is used to create a PPTP VPN connection for remote devices to access your home n
 *STEP 1. Register for a ZeroTier Account and Obtain a Network ID.*
 
 1. Visit Zerotier website [http://my.zerotier.com/](http://my.zerotier.com/), sign up for an account and log in.
-    <img src="../../../images/ir04/zerotier-login.png" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+    <img src="../../../images/ir04/zerotier-login.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 2. Click *Networks - > Create A Network*. 
-    <img src="../../../images/ir04/zerotier-create.png" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+    <img src="../../../images/ir04/zerotier-create.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 3. Zerotier will create a new network and assign a NETWORK ID for you. Then click on the assigned NETWORK ID, and its setting page will display.
-    <img src="../../../images/ir04/zerotier-id.png" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+    <img src="../../../images/ir04/zerotier-id.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 4. Select the *Access Control* accordingly. Note down the Network ID.
-    <img src="../../../images/ir04/zerotier-ac.png" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+    <img src="../../../images/ir04/zerotier-ac.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
     - *Public* Access Control allows for a direct the network access with authentication rather than authorization. 
     - *Private* Access Control requires authorization for the terminal or router to access the network, which is more secure but inconvenient. 
 
 *STEP 2. Configure ZeroTier Master on router A.*
-    <img src="../../../images/ir04/zerotier-master.png" alt="" width="800px" style="border: 1px solid #eee;" />
+    <img src="../../../images/ir04/zerotier-master.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 1. Log into the router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1). 
 
@@ -246,24 +246,24 @@ is used to create a PPTP VPN connection for remote devices to access your home n
 5. Click *Save & Apply*. Then it will display the Device ID.
 
 6. Back to the ZeroTier web page, you will see One device has joined this network.
-<img src="../../../images/ir04/zerotier-join.png" alt="" width="600px" style="border: 1px solid #eee;" />
+<img src="../../../images/ir04/zerotier-join.webp" alt="" width="600px" style="border: 1px solid #eee;" />
 
 *STEP 3. Join ZeroTier Network on your device.*
 
 1. Download and Install ZeroTier Software from [https://www.zerotier.com/download/](https://www.zerotier.com/download/).
-<img src="../../../images/ir04/zerotier-install.png" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/zerotier-install.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 2. Click the ZeroTier icon at taskbar and then *Join New Network...*, enter the *Network ID* and click *Join*.
-<img src="../../../images/ir04/zerotier-joinid.png" alt="" width="300px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/zerotier-joinid.webp" alt="" width="300px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 3. Back to the ZeroTier web page, you will see this new device and its *Managed IP*.
-<img src="../../../images/ir04/zerotier-managedip.png" alt="" width="600px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/zerotier-managedip.webp" alt="" width="600px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 *STEP 4. Configure the Static Route.*
 
 Go to *Settings -> Advanced -> Managed Routes* on the ZeroTier web page. Under *Add Routes*, enter router’s LAN IP segment 192.168.10.0/24 in *Destination* field and its Managed IP in *Via* field, and then click *Submit*.
 
-<img src="../../../images/ir04/zerotier-managedip2.png" alt="" width="600px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/zerotier-managedip2.webp" alt="" width="600px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 Now your client devices can directly access the router's management web page via 192.168.10.1, and access the server via its IP address.
 
@@ -279,7 +279,7 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
 
 2. Check and note down the WAN and LAN IP addresses of the Headquarter router and Branch Office router on their Status page. WAN IP of the headquarters router is the remote gateway of the branch offices, and its LAN IP is the remote subnet of the branch offices; and vice versa.
 
-<img src="../../../images/ir04/ipsec.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/ir04/ipsec.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 *STEP 2: Configure the IPSec VPN on the router in the Headquarter.*
 1. Log into the router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1). 
@@ -287,7 +287,7 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
 2. Go to *General Settings -> VPN*. Enable *VPN*, and select *IPSec (site-to-site)* as Protocol. 
 
 3. Click *Add* to add IPSec Policies.
-    <img src="../../../images/ir04/ipsec-settings.png" alt="" width="400px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+    <img src="../../../images/ir04/ipsec-settings.webp" alt="" width="400px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
     **IPSec-Policy Settings**
 
@@ -312,7 +312,7 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
 2. Go to *General Settings -> VPN*. Enable *VPN*, and select *IPSec (site-to-site)* as Protocol. 
 
 3. Click *Add* to add IPSec Policies.
-    <img src="../../../images/ir04/ipsec-settings.png" alt="" width="400px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+    <img src="../../../images/ir04/ipsec-settings.webp" alt="" width="400px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
     **IPSec-Policy Settings**
 
@@ -330,7 +330,7 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
 
 Then, you can go confirm the connection between Headquarter router and Branch router.
 
-<img src="../../../images/noteicon.png"> If one of the routers (for instance, the Branch router) does not have a public IP address, but the Headquarter router has a public IP address, you can: 
+<img src="../../../images/noteicon.webp"> If one of the routers (for instance, the Branch router) does not have a public IP address, but the Headquarter router has a public IP address, you can: 
 
 - Set Branch router in the Initiator Mode and change the Headquarter router from Initiator Mode to Responder Mode.
 - Change the remote gateway on the Headquarter router to be 0.0.0.0.

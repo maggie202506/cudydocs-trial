@@ -2,7 +2,7 @@
 
 ## Ping
 
-<img src="../../../images/gp1200/image-56.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-56.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 <p><strong>Ping</strong> is a network tool that sends ICMP echo requests to test if a device (e.g., server, router) is reachable and measure response time. It’s used to verify connectivity, detect latency, or troubleshoot network failures.</p>
 <p><strong>• Host Address:</strong> Enter the target IP/domain you want to test (e.g., 8.8.8.8 or google.com).</p>
@@ -13,7 +13,7 @@
 
 ## Ping6
 
-<img src="../../../images/gp1200/image-57.png" alt="" width="800px" style="border: 1px solid #eee;"/>  
+<img src="../../../images/gp1200/image-57.webp" alt="" width="800px" style="border: 1px solid #eee;"/>  
 
 <p><strong>Ping6</strong> is an IPv6 version of the ping tool that sends ICMPv6 Echo Requests to test connectivity and measure latency between devices in an IPv6 network. It's primarily used to verify IPv6 reachability, troubleshoot network issues, and assess path performance.</p>
 <p><strong>• Host Address:</strong> Enter the target IPv6 address (e.g., 2001:db8::1) or domain name to test connectivity.</p>
@@ -25,7 +25,7 @@
 
 ## Tracert
 
-<img src="../../../images/gp1200/image-58.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-58.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 <p><strong>Tracert (Traceroute)</strong> is a network diagnostic tool that maps the path (hops) between your router and a target IP/domain, measuring latency at each node. It's used to identify routing failures, congestion points, or connectivity issues across networks.</p>
 <p><strong>• Protocol:</strong> Select a proper protocol for the traceroute test.</p>
@@ -45,7 +45,7 @@
 
 ## Tracert6
 
-<img src="../../../images/gp1200/image-59.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-59.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 <p><strong>Tracert6</strong> is the IPv6 version of traceroute, mapping the network path (hops) to a target IPv6 address using ICMPv6 probes. It's used to diagnose routing issues, latency problems, or connectivity failures in IPv6 networks.</p>
 <p><strong>• Host Address:</strong> Enter the target IPv6 address (e.g., 2001:db8::1) or domain name to trace the network path to.</p>

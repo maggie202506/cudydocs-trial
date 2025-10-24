@@ -1,5 +1,5 @@
 # System Status
-<img src="../../../images/ir04/status.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/ir04/status.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 ## Status
 shows whether the router has connected to the Internet or not, and its work mode and interface. Click *Quick Setup* to redirect to the [Quick Setup](quick_setup.md).
@@ -7,23 +7,23 @@ shows whether the router has connected to the Internet or not, and its work mode
 ## Mesh
 shows the router’s Mesh network status (SOLE or MESH), the mesh device name and the amount of mesh units. Click *More Details* to know more or configure some *settings* (refer to [Mesh](mesh.md)).
 
-<img src="../../../images/ir04/status-mesh1.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/ir04/status-mesh1.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 ## Devices
 shows the amount of devices connected to this router, and the connection method being 2.4G WiFi or Wired; while the Mesh device will be not be displayed here but on the *More Details -> Status* page.
 
-<img src="../../../images/ir04/status-device-settings.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/ir04/status-device-settings.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 - View the Device information about hostname, IP/MAC address, real-time rate, Signal and connection duration.
 - Enable or disable the Internet connection.
 - Edit the device name by clicking on the Operation.
 
-<img src="../../../images/ir04/status-device-setting-operation.png" alt="" width="400px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/ir04/status-device-setting-operation.webp" alt="" width="400px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 ## Cellular
 shows whether the router has connected to the cellular network, its network type and upload/download rate. Click *More Details* to know more information on the *Status* and *Statistics* sub-pages, or configure some *settings* (refer to [Cellular](cellular.md)).
 
-<img src="../../../images/ir04/status-cellular1.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/ir04/status-cellular1.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 **Status**
 
@@ -55,12 +55,12 @@ shows whether the router has connected to the cellular network, its network type
 ## LAN
 shows whether the router's LAN network connection is enabled or not, its IP address and MAC address. Click *More Details* to know more information on the *Status* sub-page, or configure some *settings* (refer to [LAN](network.md#lan)).
 
-<img src="../../../images/ir04/status-lan1.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/ir04/status-lan1.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 ## Wireless 2.4G
 shows whether ther router's Wireless 2.4G network is enabled or not, its SSID and channel. Click *More Details* to know more information on the *Status* sub-page, or configure some *settings* (refer to [Wireless 2.4G](wireless_2.4g.md)).
 
-<img src="../../../images/ir04/status-2.4g.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/ir04/status-2.4g.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 - Status: Indicates whether the 2.4GHz wireless radio is active or inactive.
 - SSID: Service Set Identifier, the visible name of the wireless network.
@@ -72,7 +72,7 @@ shows whether ther router's Wireless 2.4G network is enabled or not, its SSID an
 ## DHCP Server
 shows whether the DHCP Server is enabled or not, and its starting/ending IP. Click *More Details* to know more information on the *Status* and *DHCP Leases* sub-pages, or configure some *settings* (refer to [DHCP Server](network.md#dhcp-server)).
 
-<img src="../../../images/ir04/status-dhcp.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/ir04/status-dhcp.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 - Status: Indicates whether the DHCP server is active or inactive for automatic IP assignment.
 - IP Start/IP End: Defines the range of IP addresses the DHCP server can assign to connected devices.
@@ -83,7 +83,7 @@ shows whether the DHCP Server is enabled or not, and its starting/ending IP. Cli
 ## System
 shows the router's firmware version, current local time and uptime. Click *More Details* to know more information on the *Status*, *Statistics*, *ARP*, *Active IP Routes* and *[System Log](diagnostic_tools.md#system-log)* sub-pages.
 
-<img src="../../../images/ir04/status-system1.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/ir04/status-system1.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 **Status** displays real-time operational states to provide a snapshot of system health and configuration baseline for troubleshooting.
 

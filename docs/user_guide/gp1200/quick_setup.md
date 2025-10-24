@@ -1,6 +1,6 @@
 # Quick Setup
 
-<img src="../../../images/gp1200/quicksetup.png"  alt="security" style="width:1200px">
+<img src="../../../images/gp1200/quicksetup.webp"  alt="security" style="width:1200px">
 
 1. Launch a web browser on the device connected.
 2. Enter *cudy.net* or *192.168.1.1* in the address bar.

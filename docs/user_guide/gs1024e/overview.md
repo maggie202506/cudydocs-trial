@@ -6,7 +6,7 @@
 
 ## Appearance
 
-<img src="../../../images/gs1024e/frontpanel.png" width="500" alt="">
+<img src="../../../images/gs1024e/frontpanel.webp" width="500" alt="">
 
 ## LED & DIP
 <table>

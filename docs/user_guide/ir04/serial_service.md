@@ -1,7 +1,7 @@
 # Serial Service
 
 ## DB9(RS-232/422/485)
-<img src="../../../images/ir04/db9-rs232-tcp-server.png" alt="" width="800px" style="border:   2px solid #eee;" />
+<img src="../../../images/ir04/db9-rs232-tcp-server.webp" alt="" width="800px" style="border:   2px solid #eee;" />
 
 - **Enable**: Activate the serial interface for communication.
 - **Standard**: Select a specific protocol type for electrical signaling.
@@ -15,21 +15,21 @@
 
     ① *TCP Server* is a passive endpoint that listens for incoming TCP connections.
 
-    <img src="../../../images/ir04/tcp-server.png" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+    <img src="../../../images/ir04/tcp-server.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
     - **Local Port**: Enter the listening port (e.g., 5020) for accepting incoming TCP connections. Configurable, but avoid well-known ports like 80.
     - **Timeout**: Specify a duration in seconds (0-1000) before a connection is closed due to inactivity. 0 means no timeout.
 
     ② *TCP Client* initiates active TCP connections to servers.
 
-    <img src="../../../images/ir04/tcp-client.png" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+    <img src="../../../images/ir04/tcp-client.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
     - **Destination address**: Enter a fixed target IP/domain (e.g., 192.168.1.100) for reliable endpoint connection. 
     - **Destination port**: Enter a predefined service port requiring handshake.
 
     ③ *UDP* is a connectionless protocol for low-latency broadcast/multicast.
 
-    <img src="../../../images/ir04/udp.png" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+    <img src="../../../images/ir04/udp.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
     - **Local Port**: Enter a dynamic/static port bound for sending/receiving datagrams (e.g., 1234 for sensor broadcasts).
     - **Destination address** (Optional): Enter a dynamic/broadcast IP (e.g., 255.255.255.255). 
@@ -37,7 +37,7 @@
 
     ④ *ModBus TCP* is an industrial protocol (Layer 7) using TCP/IP for device control.
 
-    <img src="../../../images/ir04/modbus-tcp.png" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+    <img src="../../../images/ir04/modbus-tcp.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
     - **Local Port**: Fixed to 502 by default for protocol compliance. Non-standard ports may break interoperability.
     - **Max connections**: Enter a number (1-128) to limit clients  that can connect at the same time.
@@ -57,7 +57,7 @@
 ----
 ## 6PIN(RS-422/485)
 
-<img src="../../../images/ir04/6PIN.png" alt="" width="800px" style="border:   2px solid #eee;" />
+<img src="../../../images/ir04/6PIN.webp" alt="" width="800px" style="border:   2px solid #eee;" />
 
 - **Enable**: Activate the serial interface for communication.
 - **Standard**: Select a specific protocol type for electrical signaling.
@@ -70,21 +70,21 @@
 
     ① *TCP Server* is a passive endpoint that listens for incoming TCP connections.
 
-    <img src="../../../images/ir04/tcp-server.png" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+    <img src="../../../images/ir04/tcp-server.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
     - **Local Port**: Enter the listening port (e.g., 5020) for accepting incoming TCP connections. Configurable, but avoid well-known ports like 80.
     - **Timeout**: Specify a duration in seconds (0-1000) before a connection is closed due to inactivity. 0 means no timeout.
 
     ② *TCP Client* initiates active TCP connections to servers.
 
-    <img src="../../../images/ir04/tcp-client.png" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+    <img src="../../../images/ir04/tcp-client.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
     - **Destination address**: Enter a fixed target IP/domain (e.g., 192.168.1.100) for reliable endpoint connection. 
     - **Destination port**: Enter a remote service port.
 
     ③ *UDP* is a connectionless protocol for low-latency broadcast/multicast.
 
-    <img src="../../../images/ir04/udp.png" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+    <img src="../../../images/ir04/udp.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
     - **Local Port**: Enter a dynamic/static port bound for sending/receiving datagrams (e.g., 1234 for sensor broadcasts).
     - **Destination address** (Optional): Enter a dynamic/broadcast IP (e.g., 255.255.255.255). 
@@ -92,7 +92,7 @@
 
     ④ *ModBus TCP* is an industrial protocol (Layer 7) using TCP/IP for device control.
 
-    <img src="../../../images/ir04/modbus-tcp.png" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+    <img src="../../../images/ir04/modbus-tcp.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
     - **Local Port**: Enter a port fixed to 502 by default for protocol compliance. 
     - **Max connections**: Enter a number (1-128) to limit clients  that can connect at the same time.

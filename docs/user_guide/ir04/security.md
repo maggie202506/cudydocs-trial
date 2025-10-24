@@ -5,7 +5,7 @@
 ## Firewall
 is a security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It serves as a barrier between a trusted internal network and untrusted external networks, such as the Internet. This function is enabled by default. It is highly recommended to keep the default settings.
 
-<img src="../../../images/ir04/firewall.png" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/firewall.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 - SPI Firewall: SPI (Stateful Packet Inspection) Firewall is a sophisticated network firewall that goes beyond basic packet filtering to provide deeper inspection and control over network traffic, offering better security and more intelligent traffic management.
 - DoS Protection: DoS (Denial of Service) Protection is a security feature that defends your network or online services against DoS attacks. It works by identifying and mitigating traffic that is intended to overwhelm your network or online services, rendering them unavailable to legitimate users. 
@@ -17,7 +17,7 @@ is a technology used in wireless routers to prevent unauthorized access to netwo
 
 To configure the MAC filter, please follow the steps below.
 
-<img src="../../../images/ir04/mac-filter2.png" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/mac-filter2.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 1. Select a MAC Filter rules: Disable, or Allow all except listed, or Allow listed only.
     - Disable: To disable the MAC Filter function. No MAC Address will be filtered.
@@ -36,7 +36,7 @@ is a technique utilized in cyber security to control and protect a network or sy
 
 To configure the IP filter, please follow the steps below.
 
-<img src="../../../images/ir04/ip-filter2.png" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/ip-filter2.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 1. Select your IP Filter rules: Disable, or Allow all except listed, or Allow listed only.
     - Disable: To disable the IP Filter function. All devices are allowed to access the entire Internet.
@@ -57,7 +57,7 @@ is a technique to control or limit access to specific websites or Internet se
 
 To configure the domain filter, please follow the steps below.
 
-<img src="../../../images/ir04/domain-filter2.png" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/domain-filter2.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 1. Select your Domain Filter rules: Disable, or Allow all except listed, or Allow listed only.
     - Disable: To disable the Domain Filter function. No devices will be filtered.
@@ -76,7 +76,7 @@ namely, ARP (Address Resolution Protocol) Binding, is used to bind network devic
 
 To configure the IP & MAC Binding, please follow the steps below.
 
-<img src="../../../images/ir04/ip-mac-binding2.png" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/ip-mac-binding2.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 1. Click *Add* to add entries.
 
@@ -86,7 +86,7 @@ To configure the IP & MAC Binding, please follow the steps below.
 
 Done! Now you don’t need to worry about ARP spoofing and ARP attacks.
 
-<img src="../../../images/noteicon.png"> The IP/MAC Binding also can work as an IP reservation. The device will get the IP address via DHCP.
+<img src="../../../images/noteicon.webp"> The IP/MAC Binding also can work as an IP reservation. The device will get the IP address via DHCP.
 
 ---
 ## WPS
@@ -94,7 +94,7 @@ Wi-Fi Protected Setup (WPS) provides an easier approach to set up a security-pro
 
 You might want to use WPS to let someone else connect to your WiFi network without sharing your credentials, or if you want to connect a WiFi device like a printer or TV that is frustrating to enter credentials into. Not all WiFi devices support WPS connection. We recommend that you check your devices’ WiFi connection capabilities before proceeding.
 
-<img src="../../../images/ir04/wps.png" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/wps.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 You may click *Start WPS* on the web management page or directly press the *WPS* button on the router panel.
 
@@ -106,7 +106,7 @@ allows the router’s wireless network to turn on or off automatically at a spec
 
 To configure the WiFi Schedule, please follow the steps below.
 
-<img src="../../../images/ir04/wifi-schedule2.png" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/wifi-schedule2.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 1. Click *Add* to add entries.
 
@@ -116,7 +116,7 @@ To configure the WiFi Schedule, please follow the steps below.
 
 3. Click *Save & Apply*.
 
-<img src="../../../images/noteicon.png"> The effective time schedule is based on the time of the router. You can go to Advanced Settings -> System -> System Time to modify the time.
+<img src="../../../images/noteicon.webp"> The effective time schedule is based on the time of the router. You can go to Advanced Settings -> System -> System Time to modify the time.
 
 ----
 ## ALG
@@ -124,6 +124,6 @@ ALG (Application Layer Gateway) allows customized NAT traversal filters to be pl
 
 You may need to disable SIP ALG when you are using voice and video applications to create and accept a call through the router, since some voice and video communication applications do not work well with SIP ALG.
 
-<img src="../../../images/ir04/alg.png" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/alg.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 ---

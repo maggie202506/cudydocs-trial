@@ -4,9 +4,9 @@ This is only available in *Main Router and AP Controller* mode.
 
 VPN (Virtual Private Network) helps you access Internet resources remotely, securely, and privately through tunneling technology. When you access the Internet, VPN encrypts your personal information and hides your IP address from the public. For VPN users, it looks like the devices are directly connected. Cudy Router supports 6 types of VPN connections: PPTP, L2TP, OpenVPN, WireGuard, ZeroTier, IPSec (site-to-site). Please choose an appropriate VPN according to your needs and circumstances.
 
-<img src="../../../images/c200p/general-vpn2.png" alt="" width="800px" style="display: block; margin: 0 auto;"/> 
+<img src="../../../images/c200p/general-vpn2.webp" alt="" width="800px" style="display: block; margin: 0 auto;"/> 
 
-<img src="../../../images/noteicon.png" alt="" /> 
+<img src="../../../images/noteicon.webp" alt="" /> 
 Here demonstrates with AP controller working in *Main Router and AP Controller* mode as Router A (VPN server) and the other router as Router B (VPN Client). 
 
 Before you enable VPN server, it is recommended to configure Dynamic DNS service or assign a static IP address for router's WAN port and synchronize your system time with Internet. 
@@ -16,7 +16,7 @@ Before you enable VPN server, it is recommended to configure Dynamic DNS service
 PPTP VPN is used to create a PPTP VPN connection for remote devices to access your home network. Fast connection/disconnection and simple configuration satisfy the needs for users who is apt to frequently switch VPN environments. Please follow the steps below to set up a PPTP VPN connection.
 
 **STEP 1. Configure the PPTP Server on Router A:**
-<img src="../../../images/c200p/vpn-pptp-server.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/c200p/vpn-pptp-server.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Log into the AP controller's management web page [cudyac.net](http://cudyac.net) or [192.168.10.1](http://192.168.10.1).
 
@@ -35,7 +35,7 @@ PPTP VPN is used to create a PPTP VPN connection for remote devices to access yo
 5. Click *Save & Apply*.	
 
 **STEP 2. Configure PPTP Client on Router B:**
-<img src="../../../images/wr3600/wr3600 (86).png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/wr3600 (86).webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Log into the Router B's management web page *http://cudy.net* or *192.168.10.1*. 
 
@@ -64,7 +64,7 @@ PPTP VPN is used to create a PPTP VPN connection for remote devices to access yo
 L2TP VPN Server is used to create a L2TP VPN connection for remote devices to access your home network. Compared with PPTP, L2TP supports multi-tunnel with authentication between two endpoints, thus users can set up different tunnels with various service quality. Please follow the steps below to set up a L2TP VPN connection.
 
 **STEP 1. Configure the L2TP Server on Router A:**
-<img src="../../../images/c200p/vpn-l2tp-server.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/c200p/vpn-l2tp-server.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Log into the AP controller's management web page [cudyac.net](http://cudyac.net) or [192.168.10.1](http://192.168.10.1). 
 
@@ -85,7 +85,7 @@ L2TP VPN Server is used to create a L2TP VPN connection for remote devices to ac
 5. Click *Save & Apply*.
 
 **STEP 2. Configure L2TP Client on Router B:**
-<img src="../../../images/wr3600/wr3600 (87).png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/wr3600 (87).webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Log into the Router B's management web page https://cudy.net (or 192.168.10.1). 
 
@@ -119,7 +119,7 @@ OpenVPN Server is used to create an OpenVPN connection for remote devices to acc
 OpenVPN server requires a public IP. You can confirm whether the router has a public IP on the router management page *System Status -> WAN -> More details -> Status*. If the public IP displayed is consistent with the IP address of the router's WAN port, it means that the router has a public IP. Please follow the steps below to set up an OpenVPN connection.
 
 **STEP 1. Configure the OpenVPN Server on Router A:**
-<img src="../../../images/c200p/vpn-openvpn-server.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/c200p/vpn-openvpn-server.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Log into the AP controller's management web page [cudyac.net](http://cudyac.net) or [192.168.10.1](http://192.168.10.1). 
 
@@ -141,7 +141,7 @@ OpenVPN server requires a public IP. You can confirm whether the router has a pu
 6. Click *EXPORT* to export the configuration file, for the OpenVPN Client to upload.
 
 **STEP 2. Configure OpenVPN Client on Router B:**
-<img src="../../../images/wr3600/wr3600 (89).png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/wr3600 (89).webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Log into the Router B's management web page https://cudy.net (or 192.168.10.1). 
 
@@ -170,7 +170,7 @@ WireGuard VPN Server is used to create a Wire Guard VPN connection for remote de
 WireGuard VPN server requires a public IP. You can confirm whether the router has a public IP on the router management page *System Status -> WAN -> More details -> Status*. If the public IP displayed is consistent with the IP address of the router's WAN port, it means that the router has a public IP. Please follow the steps below to set up a WireGuard VPN connection.
 
 **STEP 1. Configure the WireGuard Server on Router A:**
-<img src="../../../images/c200p/vpn-wiredguard-server.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/c200p/vpn-wiredguard-server.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Log into the AP controller's management web page [cudyac.net](http://cudyac.net) or [192.168.10.1](http://192.168.10.1). 
 
@@ -190,19 +190,19 @@ WireGuard VPN server requires a public IP. You can confirm whether the router ha
 5. Click *Save & Apply*. 
 
 6. Then you will be required to configure the Client parameters. Click *Edit Item*.
-    <img src="../../../images/c200p/vpn-wiredguard-server-client.png" alt="" width="700px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+    <img src="../../../images/c200p/vpn-wiredguard-server-client.webp" alt="" width="700px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 7. Click *Add* to add entries. Enter the required parameters and then click *Save*.
-    <img src="../../../images/c200p/vpn-wiredguard-server-client2.png" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+    <img src="../../../images/c200p/vpn-wiredguard-server-client2.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
     - IP Address: Assign a static LAN IP to the client (e.g., 192.168.1.101) for stable access. Do ensure it's outside DHCP range.
     - Remote Subnet: Specify the client's local subnet (e.g., 10.8.0.0/24) to enable cross-network access. Used for site-to-site VPNs.
     - Hostname: Optional identifier (e.g., Branch-Office-1) for easier management.
 
 8. Click to export the configuration file, which is to be uploaded on the client for connection.
-    <img src="../../../images/c200p/vpn-wiredguard-server-confile.png" alt="" width="700px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+    <img src="../../../images/c200p/vpn-wiredguard-server-confile.webp" alt="" width="700px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 **STEP 2. Configure WireGuard Client on Router B:**
-<img src="../../../images/wr3600/wr3600 (95).png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/wr3600 (95).webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Log into the Router B's management web page https://cudy.net (or 192.168.10.1).
 
@@ -229,21 +229,21 @@ Zerotier is a third-party cloud platform for VPN connections. It can establish a
 **STEP 1. Register for a ZeroTier Account and Obtain a Network ID.**
 
 1. Visit Zerotier website [http://my.zerotier.com/](http://my.zerotier.com/), sign up for an account and log in.
-    <img src="../../../images/wr3600/wr3600 (96).png" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+    <img src="../../../images/wr3600/wr3600 (96).webp" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 2. Click *Network - > Create A Network*. 
-    <img src="../../../images/wr3600/wr3600 (97).png" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+    <img src="../../../images/wr3600/wr3600 (97).webp" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 3. Zerotier will create a new network and assign a NETWORK ID for you. Then click on the assigned NETWORK ID, and its setting page will display.
-    <img src="../../../images/wr3600/wr3600 (99).png" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+    <img src="../../../images/wr3600/wr3600 (99).webp" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 4. Set *Access Control* to be Public for later convenient settings, and note down the Network ID.
-    <img src="../../../images/wr3600/wr3600 (100).png" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+    <img src="../../../images/wr3600/wr3600 (100).webp" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
-    <img src="../../../images/noteicon.png"> Private Access Control requires authorization for the terminal or router to access the network, which is more secure but inconvenient. While Public Access Control allows for a direct the network access with authentication rather than authorization. You may choose either one accordingly.
+    <img src="../../../images/noteicon.webp"> Private Access Control requires authorization for the terminal or router to access the network, which is more secure but inconvenient. While Public Access Control allows for a direct the network access with authentication rather than authorization. You may choose either one accordingly.
 
 **STEP 2. Configure ZeroTier Master on Router A.**
-<img src="../../../images/c200p/vpn-zerotier-master.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/c200p/vpn-zerotier-master.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Log into the AP controller's management web page [cudyac.net](http://cudyac.net) or [192.168.10.1](http://192.168.10.1). 
 
@@ -259,24 +259,24 @@ Zerotier is a third-party cloud platform for VPN connections. It can establish a
 5. Click *Save & Apply*. Then it will display the Device ID.
 
 6. Back to the ZeroTier web page, you will see One device has joined this network.
-<img src="../../../images/wr3600/wr3600 (103).png" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/wr3600 (103).webp" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 **STEP 3. Join ZeroTier Network on your device.**
 
 1. Download and Install ZeroTier Software from [https://www.zerotier.com/download/](https://www.zerotier.com/download/).
-<img src="../../../images/wr3600/wr3600 (104).png" alt="" width="400px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/wr3600 (104).webp" alt="" width="400px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 2. Click the ZeroTier icon and then *Join New Network...*, enter the Network ID and click *Join*.
-<img src="../../../images/wr3600/wr3600 (108).png" alt="" width="400px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/wr3600 (108).webp" alt="" width="400px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 3. Back to the ZeroTier web page, you will see this new device and its Managed IP.
-<img src="../../../images/wr3600/wr3600 (111).png" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/wr3600 (111).webp" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 **STEP 4. Configure the Static Route.**
 
 Go to *Settings -> Advanced* on the ZeroTier web page. Under *Add Routes*, enter Router A's LAN IP segment 192.168.10.0/24 in Destination field and its Managed IP in *Via* field, and then click *Submit*.
 
-<img src="../../../images/wr3600/wr3600 (106).png" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/wr3600 (106).webp" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 Now your client devices can directly access the AP controller's management web page via 192.168.10.1 as well as the server via its IP address.
 
@@ -292,14 +292,14 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
 2. Check and note down the WAN and LAN IP addresses of the Headquarter Router and Branch Office Router on their management Status page. WAN IP of the headquarters router is the remote gateway of the branch offices, and its LAN IP is the remote subnet of the branch offices; and vice versa.
 
 **STEP 2: Configure the IPSec VPN on the Router in the Headquarter.**
-<img src="../../../images/c200p/vpn-ipsec.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/c200p/vpn-ipsec.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Log into the AP controller's management web page [cudyac.net](http://cudyac.net) or [192.168.10.1](http://192.168.10.1). 
 
 2. Go to *General Settings -> VPN*. Enable VPN, and select *IPSec (site-to-site)* as Protocol. 
 
 3. Click *Add* to add IPSec Policies.
-    <img src="../../../images/c200p/vpn-ipsec-settings.png" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+    <img src="../../../images/c200p/vpn-ipsec-settings.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
     - Policy Name: Name the policy as desired. 
     - Remote Gateway: Enter the WAN IP of the Router in branch office.
@@ -332,7 +332,7 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
 
 Then, you can go confirm the connection between Headquarter Router and Branch Router.
 
-<img src="../../../images/noteicon.png"> 
+<img src="../../../images/noteicon.webp"> 
 
 - If one of the routers does not have a public IP address, for instance the Branch Router, but the Headquarter Router has a public IP address, you can: 
 - Set Branch Router in the Initiator Mode and change the Headquarter Router from Initiator Mode to Responder Mode.

@@ -1,14 +1,14 @@
 # PoE
 Allows remote control of power delivery to connected access points via Ethernet cables.
 
-<img src="../../../images/c200p/general-poe2.png" alt="" width="800px" style="border:  2px solid #eee;display: block; margin: 0 auto;" />
+<img src="../../../images/c200p/general-poe2.webp" alt="" width="800px" style="border:  2px solid #eee;display: block; margin: 0 auto;" />
  
 ## PoE Utilization
 
 - LAN 1/2/3/4: Displays PoE-capable Ethernet ports and their real-time power consumption and allocation status.
 - Power Capacity: Displays real-time usage (e.g., 2W/55W, 4%), showing current draw vs. max capacity to monitor load balance and prevent overloads.
 
-<img src="../../../images/noteicon.png" alt=""/> When the device is powered via PoE, PoE output is not available.  The maximum power is 50W if the USB port is used.
+<img src="../../../images/noteicon.webp" alt=""/> When the device is powered via PoE, PoE output is not available.  The maximum power is 50W if the USB port is used.
 
 ## PoE Setting
 

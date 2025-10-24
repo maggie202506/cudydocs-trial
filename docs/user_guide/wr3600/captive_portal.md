@@ -6,7 +6,7 @@ Cudy Router comes embedded with six captive portal providers (HotspotSystem, Iro
 
 **To set up Captive Portal, please follow the steps below.**
 
-<img src="../../../images/wr3600/captive-portal.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/wr3600/captive-portal.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 1. Enable *Captive Portal*. 
 

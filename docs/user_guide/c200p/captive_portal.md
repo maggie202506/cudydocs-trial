@@ -2,7 +2,7 @@
 
 Allows you to design a portal page for network access verification. Customers are directed to view an advertisement or accept set terms before being granted Internet access. In this way, it offers unique marketing opportunities for small businesses to improve brand awareness and deliver marketing messages. 
 
-<img src="../../../images/c200p/general-captive.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/c200p/general-captive.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 - Enable: Toggle to activate the Captive Portal feature for the APs.
 - Authentication Type: Select to define the login method.
@@ -28,7 +28,7 @@ Allows you to design a portal page for network access verification. Customers ar
     - Copyright: Enable it and set the copyright info at the page footer.
 
 *Continue to configure the below parameters if External Portal Server is selected as the Authentication Type:*
-<img src="../../../images/c200p/general-captive2.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/c200p/general-captive2.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 - Authentication Type: Select External Portal Server to delegate authentication to an external system.
 - Local Network: Define the VLAN/IP range for unauthenticated clients. Set the field to an unused /24 private subnet that matches the guest VLAN on your switch or firewall; if none exists, keep the default 10.1.30.0/24 and ensure the upstream port carries the corresponding VLAN tag.

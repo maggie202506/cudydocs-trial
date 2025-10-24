@@ -1,9 +1,9 @@
 ## Package Content
-<img src="../../../images/gp1200/package_content.png"  width="500" alt="">
+<img src="../../../images/gp1200/package_content.webp"  width="500" alt="">
 
 ---
 ## Front Panel & LEDs
-<img src="../../../images/gp1200/front-panel.png"  width="500" alt="">
+<img src="../../../images/gp1200/front-panel.webp"  width="500" alt="">
 <table>
   <thead>
     <tr>
@@ -17,7 +17,7 @@
     <!-- Power -->
     <tr>
       <td rowspan="2" style="text-align:left; vertical-align:middle;">
-        <img src="../../../images/gp1200/power.png" alt="" width="20" height="20"><br>(Power)
+        <img src="../../../images/gp1200/power.webp" alt="" width="20" height="20"><br>(Power)
       </td>
       <td><strong>On</strong></td>
       <td>Power is on.</td>
@@ -29,7 +29,7 @@
     <!-- PON -->
     <tr>
       <td rowspan="3" style="text-align:left; vertical-align:middle;">
-        <img src="../../../images/gp1200/PON.png" alt="" width="20" height="20"><br>(PON)
+        <img src="../../../images/gp1200/PON.webp" alt="" width="20" height="20"><br>(PON)
       </td>
       <td><strong>On</strong></td>
       <td>PON is registered successfully.</td>
@@ -45,7 +45,7 @@
     <!-- LOS -->
     <tr>
       <td rowspan="2" style="text-align:left; vertical-align:middle;">
-        <img src="../../../images/gp1200/LOS.png" alt="WAN Icon" width="20" height="20"><br>(LOS)
+        <img src="../../../images/gp1200/LOS.webp" alt="WAN Icon" width="20" height="20"><br>(LOS)
       </td>
       <td><strong>Flash</strong></td>
       <td>Optical signal is weak or lost.</td>
@@ -57,7 +57,7 @@
     <!-- Internet -->
     <tr>
       <td rowspan="2" style="text-align:left; vertical-align:middle;">
-        <img src="../../../images/gp1200/internet.png" alt="Internet Icon" width="20" height="20"><br>(Internet)
+        <img src="../../../images/gp1200/internet.webp" alt="Internet Icon" width="20" height="20"><br>(Internet)
       </td>
       <td><strong>On</strong></td>
       <td>Internet is connected.</td>
@@ -69,7 +69,7 @@
     <!-- 2.4 GHz Wireless -->
     <tr>
       <td rowspan="2" style="text-align:left; vertical-align:middle;">
-        <img src="../../../images/gp1200/2.4G.png" alt="WAN Icon" width="20" height="20"><br>(2.4GHz Wireless)
+        <img src="../../../images/gp1200/2.4G.webp" alt="WAN Icon" width="20" height="20"><br>(2.4GHz Wireless)
       </td>
       <td><strong>On</strong></td>
       <td>2.4GHz Wireless is enabled.</td>
@@ -81,7 +81,7 @@
     <!-- 5 GHz Wireless -->
     <tr>
       <td rowspan="2" style="text-align:left; vertical-align:middle;">
-        <img src="../../../images/gp1200/5G.png" alt="WAN Icon" width="20" height="20"><br>(5GHz Wireless)
+        <img src="../../../images/gp1200/5G.webp" alt="WAN Icon" width="20" height="20"><br>(5GHz Wireless)
       </td>
       <td><strong>On</strong></td>
       <td>5GHz Wireless is enabled.</td>
@@ -93,7 +93,7 @@
     <!-- WPS -->
     <tr>
       <td rowspan="3" style="text-align:left; vertical-align:middle;">
-        <img src="../../../images/gp1200/WPS.png" alt="LAN Icon" width="20" height="20"><br>(WPS)
+        <img src="../../../images/gp1200/WPS.webp" alt="LAN Icon" width="20" height="20"><br>(WPS)
       </td>
       <td><strong>Flash</strong></td>
       <td>In WPS process.</td>
@@ -109,7 +109,7 @@
     <!-- LAN -->
     <tr>
       <td rowspan="2" style="text-align:left; vertical-align:middle;">
-        <img src="../../../images/gp1200/LAN1.png" alt="LAN Icon" width="100" height="20"><br>(LAN1~4)
+        <img src="../../../images/gp1200/LAN1.webp" alt="LAN Icon" width="100" height="20"><br>(LAN1~4)
       </td>
       <td><strong>On</strong></td>
       <td>LAN port is connected.</td>
@@ -125,14 +125,14 @@
 ## Interfaces
 | Interface | Description |
 |-----------|-------------|
-| <img src="../../../images/gp1200/back.png" width="400" alt=""> |  |
+| <img src="../../../images/gp1200/back.webp" width="400" alt=""> |  |
 | **ON/OFF Button**| Press to turn on/off the PON router. |
 | **Power Jack**| Plug the provided power adapter to supply power. |
 | **LAN4/WAN Port**| Connect to an Ethernet device or Internet. |
 | **LAN1/2/3 Port**| Connect to an Ethernet device. |
-| <img src="../../../images/gp1200/side.png" width="400" alt=""> |  |
+| <img src="../../../images/gp1200/side.webp" width="400" alt=""> |  |
 | **WPS Button**| Press for 1 seconds to authorize WPS connection. |
 | **WLAN Button**| Press for 2 seconds to turn on/off Wi-Fi. |
 | **RESET Button**| Press for 5 seconds to restore factory defaults. |
-| <img src="../../../images/gp1200/pon-port.png" width="400" alt=""> |  |
+| <img src="../../../images/gp1200/pon-port.webp" width="400" alt=""> |  |
 | **PON Port**| Connect to the Internet with an optical fiber. |

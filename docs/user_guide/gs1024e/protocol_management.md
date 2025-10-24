@@ -3,7 +3,7 @@
 ## SNMP
 SNMP is a widely used protocol for managing and monitoring network devices. It allows network administrators to collect information from and configure devices such as routers, switches, and servers.
 
-<img src="../../../images/gs1024e/snmp.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/snmp.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 **Version**
 
@@ -30,7 +30,7 @@ SNMP is a widely used protocol for managing and monitoring network devices. It a
 ## IGMP Snooping
 IGMP Snooping is a technique used by switches to monitor IGMP messages between hosts and routers. It helps optimize multicast traffic by ensuring that multicast packets are only forwarded to ports where interested receivers are present.
 
-<img src="../../../images/gs1024e/igmp.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/igmp.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 **IGMP Snooping**
 
@@ -70,7 +70,7 @@ IGMP Snooping is a technique used by switches to monitor IGMP messages between h
 ## DHCP Snooping
 A security feature used on switches to prevent unauthorized DHCP servers from assigning IP addresses to devices on the network. It helps protect against IP address spoofing and ensures that only legitimate DHCP servers can operate.
 
-<img src="../../../images/gs1024e/dhcp.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/dhcp.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 DHCP Snooping: Select to Enable or Disable DHCP Snooping.
 
@@ -92,7 +92,7 @@ DHCP Snooping: Select to Enable or Disable DHCP Snooping.
 ## Loop Prevention
 Loop prevention mechanisms are used in networks to avoid the creation of loops that can cause broadcast storms and network instability. Techniques such as Spanning Tree Protocol (STP) are commonly used to detect and prevent loops in Layer 2 networks.
 
-<img src="../../../images/gs1024e/loop.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/loop.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - Loop prevention state: Select to Enable or Disable Loop Prevention. Enable it to avoid network loops and potential broadcast storms; Disable it when necessary in specific controlled environments where loops are managed differently.
 
@@ -104,7 +104,7 @@ Loop prevention mechanisms are used in networks to avoid the creation of loops t
 ## Spanning Tree
 Spanning Tree Protocol (STP) is a network protocol that prevents loops in a network by ensuring that there is only one active path between any two network devices. It achieves this by creating a loop-free topology using a tree structure.
 
-<img src="../../../images/gs1024e/spantree.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/spantree.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 **Spanning Tree Configuration**
 
@@ -130,7 +130,7 @@ Spanning Tree Protocol (STP) is a network protocol that prevents loops in a netw
 ## LLDP Config
 LLDP is a protocol used to exchange information between adjacent network devices. It helps in discovering device information, such as device type, port details, and VLAN information, which can be useful for network management and troubleshooting.
 
-<img src="../../../images/gs1024e/lldp-config.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/lldp-config.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - LLDP Global: Select to Enable or Disable LLDP (Link Layer Discovery Protocol) globally.
 - Tx Interval: Enter the time interval (between 5-32768 seconds) between LLDP transmissions.
@@ -154,7 +154,7 @@ LLDP is a protocol used to exchange information between adjacent network devices
 
 ## LLDP Neighbor
 
-<img src="../../../images/gs1024e/lldp-neighbor.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/lldp-neighbor.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 The LLDP Neighbor list displays information about adjacent devices discovered via LLDP.
 

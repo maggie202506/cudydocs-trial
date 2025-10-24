@@ -2,7 +2,7 @@
 
 **Wireless** is to customize the Router’s wireless settings, including SSID and password, mode, channel, channel width and transmit power, and so on.
 
-<img src="../../../images/wr3600/wireless1.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/wr3600/wireless1.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 - Smart Connect: When it is enabled, 2.4GHz and 5GHz networks will share the same network name and password (only one SSlD will be displayed). Your wireless devices will automatically switch to connect to the Wi-Fi band providing the fastest speed. No manual configuration is needed.
 
@@ -17,7 +17,7 @@
 7. Enable *Separate Clients* to isolate the wireless clients from each other.
 8. Click *Save & Apply* to apply your new settings.
 
-<img src="../../../images/wr3600/wireless-mlo.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/wr3600/wireless-mlo.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 **MLO** (Multi-Link Operation) enables Wi-Fi 7 devices to simultaneously send and receive data across different frequency bands and channels. This ensures fast and reliable connections even in dense network environments. 
 

@@ -6,7 +6,7 @@ It defines how the AP controller (working in *Main Router and AP Controller* mod
 
 ## DHCP
 Automatically obtains IP address, subnet, and DNS from ISP's DHCP server (plug-and-play).
-<img src="../../../images/c200p/general-wan1.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/c200p/general-wan1.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 - Hostname: Customize the device's network identifier, used for management and DNS resolution. 
 - MAC Clone: Spoof a custom MAC address on the WAN interface.
@@ -17,7 +17,7 @@ Click *Save & Apply* to save and activate the settings or changes.
 ## PPPoE
 Requires username/password to authenticate with ISP (common for DSL/cable), encapsulating data in PPP frames.
 
-<img src="../../../images/c200p/general-wan2.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/c200p/general-wan2.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 - Username: Enter the ISP-provided login ID for PPPoE authentication.
 - Password: Enter the ISP-provided secret key paired with the username to establish a PPPoE connection.
@@ -32,7 +32,7 @@ Click *Save & Apply* to save and activate the settings or changes.
 ## Static (Fixed IP)
 Manually configure IP, gateway, and DNS (for servers/VoIP needing consistent addressing).
 
-<img src="../../../images/c200p/general-wan3.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/c200p/general-wan3.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 - IP Address: Enter the unique public or private IPv4 address assigned to your AP's WAN interface.
 - Subnet Mask: Defines the network segment, e.g., 255.255.255.0 for a /24 range.
@@ -47,7 +47,7 @@ Click *Save & Apply* to save and activate the settings or changes.
 
 ## L2TP / PPTP
 VPN tunneling protocol (often paired with IPsec) for secure remote site connections over public networks.
-<img src="../../../images/c200p/general-wan4.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/c200p/general-wan4.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 - Server Address: Enter the IP/hostname of your L2TP VPN server.
 - Username/Password: Enter the credentials for L2TP authentication (often paired with IPsec pre-shared keys).

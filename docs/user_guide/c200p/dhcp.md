@@ -6,7 +6,7 @@ Go to *Advanced Settings -> Network -> DHCP Server* or *System Status-> DHCP Ser
 
 ## DHCP Status
 
-<img src="../../../images/c200p/status-dhcp.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/c200p/status-dhcp.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 - Status: Indicates whether the DHCP service is active (enabled) or inactive (disabled) on the network.
 - IP Start: Display the first IP address in the range that the DHCP server can assign to devices.
@@ -17,13 +17,13 @@ Go to *Advanced Settings -> Network -> DHCP Server* or *System Status-> DHCP Ser
 
 ## DHCP Leases
 
-<img src="../../../images/c200p/status-dhcp2.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/c200p/status-dhcp2.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 The DHCP Leases will show a list of clients which the Router being a DHCP server has allocated an IP address to, including such information as IP address, MAC address and Host name.
 
 ## DHCP Settings
 
-<img src="../../../images/c200p/status-dhcp3.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/c200p/status-dhcp3.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 **To specify the IP address that the Router assigns, please follow the steps below.**
 
@@ -37,4 +37,4 @@ The DHCP Leases will show a list of clients which the Router being a DHCP server
 
 5.Click *Save & Apply*.
 
-<img src="../../../images/noteicon.png"> If you want to reserve for a specified client device an IP address, which is assigned by the router as a DHCP server, you may use the [IP/MAC binding](security.md#ipmac-binding) function.
+<img src="../../../images/noteicon.webp"> If you want to reserve for a specified client device an IP address, which is assigned by the router as a DHCP server, you may use the [IP/MAC binding](security.md#ipmac-binding) function.

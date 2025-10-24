@@ -2,18 +2,18 @@
 
 ## Diagnosis
 
-<img src="../../../images/wr3600/diagnosis.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/wr3600/diagnosis.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 Click *GO* to make a diagnosis. It may take some while to process. Please wait patiently. 
 
 The diagnosis result will indicate the status of Internet, Wireless, Devices, Services and System. You can click *Download* to reserve the diagnosis bin file.
 
-<img src="../../../images/wr3600/diagnosis2.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/wr3600/diagnosis2.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 ## PING
 is used to test the connectivity between the Router and the tested host, and measure the round-trip time. 
 
-<img src="../../../images/wr3600/ping.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/wr3600/ping.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 **To use PING for diagnosis, please follow the steps below.**
 
@@ -23,12 +23,12 @@ is used to test the connectivity between the Router and the tested host, and mea
 
 The figure below indicates the proper connection between the Router and the Cudy server (www.cudy.com) tested through Ping.
 
-<img src="../../../images/wr3600/ping2.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/wr3600/ping2.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 ## TRACEROUTE
 is used to test the route (path) your Router has passed to reach the tested host, and measure transit delays of packets across an Internet Protocol network.
 
-<img src="../../../images/wr3600/traceroute.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/wr3600/traceroute.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 **To use TRACEROUTE for diagnosis, please follow the steps below.**
 
@@ -38,25 +38,25 @@ is used to test the route (path) your Router has passed to reach the tested host
 
 The figure below indicates the proper connection between the Router and the Cudy server (www.cudy.com) tested through Traceroute.
 
-<img src="../../../images/wr3600/traceroute2.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/wr3600/traceroute2.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 
 ## NSLOOKUP
 is to check if the DNS IP address of the WAN can work normally.
 
-<img src="../../../images/wr3600/nslookup.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/wr3600/nslookup.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 **To use NSLOOKUP for diagnosis, please follow the steps below.**
 
 1. Enter the Lookup Host name of tested host. 
 2. Click *NSLOOKUP* to start the diagnosis. The result will show as below.
 
-<img src="../../../images/wr3600/nslookup2.png" alt="" width="800px" style="border: 1px solid #eee;" />    
+<img src="../../../images/wr3600/nslookup2.webp" alt="" width="800px" style="border: 1px solid #eee;" />    
 
 ## System Log
 Tracks all the Router behaviors. When the Router does not work normally, download the system log and send it to our [Technical Support](mailto:support@cudy.com) for troubleshooting. 
 
-<img src="../../../images/wr3600/systemlog.png" alt="" width="800px" style="border: 1px solid #eee;" />    
+<img src="../../../images/wr3600/systemlog.webp" alt="" width="800px" style="border: 1px solid #eee;" />    
 
 - Update: Click to refresh the system log.
 - Clear: Click to erase all the system log up till now.

@@ -3,10 +3,10 @@
 ## Diagnosis
 Automatically checks AP health and generates troubleshooting reports, thus to help optimize network by analyzing real-time metrics.
 
-<img src="../../../images/c200p/diagnosis.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/c200p/diagnosis.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 Click *GO* to make a diagnosis. It may take some while to process. Please wait patiently. 
 
-<img src="../../../images/c200p/diagnosis2.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/c200p/diagnosis2.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 The diagnosis result will indicate the status of Internet, Devices, Services and System. 
 
@@ -16,7 +16,7 @@ You can click *Download* to reserve the diagnosis *.bin* file, which may be deco
 ## PING
 To test the connectivity between the AP controller and the tested host, and measure the round-trip time. 
 
-<img src="../../../images/c200p/PING.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/c200p/PING.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 *To use PING for diagnosis, please follow the steps below.*
 
@@ -28,12 +28,12 @@ To test the connectivity between the AP controller and the tested host, and meas
 3. Click *PING* to start the diagnosis.
 
 The PING result as below indicates the proper connection between the AP controller and the Bing server (www.bing.com) being tested.
-<img src="../../../images/c200p/PING3.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/c200p/PING3.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 -----
 ## TRACEROUTE
 To test the route (path) your AP controller has passed to reach the tested host, and measure transit delays of packets across an Internet Protocol network.
-<img src="../../../images/c200p/TRACEROUTE.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/c200p/TRACEROUTE.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 *To use TRACEROUTE for diagnosis, please follow the steps below.*
 
@@ -56,19 +56,19 @@ There will be several typs of TRACEROUTE result for your reference.
 ## NSLOOKUP
 To query DNS servers to resolve domain names into IP addresses, helping troubleshoot network connectivity or configuration issues.
 
-<img src="../../../images/c200p/NSLOOKUP.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/c200p/NSLOOKUP.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 *To use NSLOOKUP for diagnosis, please follow the steps below.*
 
 1. Enter the Lookup Hostname of tested host. 
 2. Click *NSLOOKUP* to start the diagnosis. Then a result will show the resolved IP address(es) of a domain or confirms if DNS resolution is successful or fails.
 
-<img src="../../../images/c200p/NSLOOKUP2.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/c200p/NSLOOKUP2.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 -----
 ## System Log
 Tracks all the AP controller behaviors. When the AP controller does not work normally, download the system log and send it to our [Technical Support](mailto:support@cudy.com) for troubleshooting. 
-<img src="../../../images/c200p/system-log.png" alt="" width="800px" style="border: 1px solid #eee;" />    
+<img src="../../../images/c200p/system-log.webp" alt="" width="800px" style="border: 1px solid #eee;" />    
 
 - *Update*: Click to refresh the system log.
 - *Clear*: Click to erase all the system log up till now.

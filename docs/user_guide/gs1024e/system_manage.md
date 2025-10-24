@@ -1,7 +1,7 @@
 # System Manage
 
 ## System Info
-<img src="../../../images/gs1024e/system-info.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/system-info.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - System name: The name assigned to the switch for identification purposes. You may customize it.
 - MAC address: A unique identifier assigned to network interfaces for communications on the physical network segment.
@@ -20,7 +20,7 @@
 
 ## IP Settings
 
-<img src="../../../images/gs1024e/ip-settings-enable.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/ip-settings-enable.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - DHCP settings: Select to **Enable** or **Disable** the settings of DHCP (Dynamic Host Configuration Protocol), which automatically assigns IP addresses to devices on the network.
 - IP address: The IP address assigned to the device. It is 192.168.2.1 by default.You may customize this field when **DHCP settings** is **Disabled**.
@@ -34,7 +34,7 @@
 ---
 
 ## Account Settings
-<img src="../../../images/gs1024e/account-settings.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/account-settings.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - Username: The name used to log in to the switch management interface.
 - Old password: Enter the current password for the user account.

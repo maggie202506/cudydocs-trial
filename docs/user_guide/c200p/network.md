@@ -2,23 +2,23 @@
 Network section allows you to manage and configure a series of network features for the AP controller. 
 
 - For *Main Router and AP Controller* mode
-    <img src="../../../images/c200p/advanced-mc.png" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+    <img src="../../../images/c200p/advanced-mc.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 - For *AP Controller* mode
-    <img src="../../../images/c200p/advanced-ac.png" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+    <img src="../../../images/c200p/advanced-ac.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 ----
 ## LAN
 The AP controller is preset with a default LAN IP 192.168.10.1, which you can use to log in to its web management page. The LAN IP address together with the Subnet Mask also defines the subnet that the connected devices are on. If the IP address conflicts with another device on your local network or your network requires a specific IP subnet, you can change it.
 
-<img src="../../../images/ir04/lan2.png" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/lan2.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 1. Enter a new IP Address appropriate to your need. 
 2. Set the Subnet Mask or keep it as default. 
 3. Enable IP Routed Subnet as needed. If it is enabled, you need to enter the IP Address and Subnet Mask as well.
 4. Click *Save & Apply*.
   
-<img src="../../../images/noteicon.png"> 
+<img src="../../../images/noteicon.webp"> 
 
 - If you have set the Port Forwarding, DMZ or DHCP address reservation, and the new LAN IP address is not in the same subnet with the old one, then you should reconfigure these features.
 - If in conflict with the WAN IP address, the LAN IP will automatically change into 10.1.1.1.
@@ -27,7 +27,7 @@ The AP controller is preset with a default LAN IP 192.168.10.1, which you can us
 ## DHCP Server
 DHCP Server is enabled by default and dynamically assigns TCP/lP parameters to client devices from the IP Address Pool. DO NOT disable DHCP server unless you have another DHCP server, or you want to manually assign the TCP/P parameters to every clients on the network. 
 
-<img src="../../../images/ir04/dhcp.png" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/dhcp.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 *To specify the IP address that the AP controller assigns, please take the steps below.*
 
@@ -37,7 +37,7 @@ DHCP Server is enabled by default and dynamically assigns TCP/lP parameters to c
 4. Set the *Leasetime*.
 5. Click *Save & Apply*.
 
-<img src="../../../images/noteicon.png"> If you want to reserve for a specified client device an IP address, which is assigned by the AP controller as a DHCP server, you may use the [IP/MAC binding](security.md#ipmac-binding) function.
+<img src="../../../images/noteicon.webp"> If you want to reserve for a specified client device an IP address, which is assigned by the AP controller as a DHCP server, you may use the [IP/MAC binding](security.md#ipmac-binding) function.
 
 ---
 ## IPv6
@@ -57,7 +57,7 @@ QoS (Quality of Service) allows you to prioritize connection of specific devices
 
 *To set up QoS, please follow the steps below.*
 
-<img src="../../../images/ir04/qos.png" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/qos.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 1. Click *Add* to add entries.
 2. Select the *MAC-Address* and make a comment to specify the devices, and set its *Download/Upload Speed*.
@@ -70,7 +70,7 @@ QoS (Quality of Service) allows you to prioritize connection of specific devices
 
 If you set custom DNS servers, any DNS name will be resolved through the DNS Servers set here instead of the one obtained from WAN.
 
-<img src="../../../images/ir04/custom-dns.png" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/custom-dns.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 - **Rebind protection**: This function may cause private DNS lookup failure. Do not enable it if your network has a captive portal.
 
@@ -92,9 +92,9 @@ If you set custom DNS servers, any DNS name will be resolved through the DNS Ser
 
 Dynamic Domain Name Service (Dynamic DNS or DDNS) is a service used to map a domain name to the dynamic IP address of a network device. Most ISPs assign a dynamic IP address to the AP controller and you can use this IP address to access your AP controller remotely. However, the IP address can change from time to time and you don't know when it changes. In this case, you might apply the DDNS feature on the AP controller to allow you to access your AP controller and local servers (FTP, HTTP, etc.) using a domain name without checking and remembering the IP address.
 
-<img src="../../../images/noteicon.png"> DDNS would not work if the ISP assigns a private WAN IP address (e.g. 192.168.1.x) to the AP controller.  
+<img src="../../../images/noteicon.webp"> DDNS would not work if the ISP assigns a private WAN IP address (e.g. 192.168.1.x) to the AP controller.  
 
-<img src="../../../images/ir04/ddns.png" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/ddns.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 *To set up DDNS, please follow the steps below.*
 
@@ -120,12 +120,12 @@ For example, I want my PC to surf the Internet through AP controller and visit m
 
 To configure the static routing so that you can surf the Internet and visit my company's network at the same time, please follow the steps below.
 
-<img src="../../../images/c200p/static-routing.png" alt="" width="700px" style="display:block; margin:0 auto;" />
+<img src="../../../images/c200p/static-routing.webp" alt="" width="700px" style="display:block; margin:0 auto;" />
 
 1. Disable Router B's DHCP function. Change the AP controllers' LAN IP addresses to two different IP addresses on the same subnet. 
 2. Log in to AP controller's management web page [http://cudyac.net](http://cudyac.net), and go to *Advanced Settings -> Network -> Static Routing*.
 3. Click *Add* and then enter the parameters as required.
-    <img src="../../../images/ir04/static-routing2.png" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+    <img src="../../../images/ir04/static-routing2.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
     - Interface: Select the type of interface that sends out data packets to the gateway.
         - WAN: Connect to external networks (ISP/MPLS) with NAT/firewall.
         - LAN: Local device switching (VLAN-aware for OT segmentation).
@@ -150,7 +150,7 @@ Different services use different service ports. Port 80 is used in HTTP service,
 
 For example, I want to share my personal website I've built on the local network to my friends on the Internet. Say, my personal PC IP address is 192.168.10.100, connecting to the AP controller with WAN IP address 218.18.232.154. Please follow the step-by-step instructions to configure it.
 
-<img src="../../../images/ir04/port-forwards.png" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/port-forwards.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 1. Assign a static IP address to your PC, for example 192.168.10.100.
 2. Log in to [http://cudyac.net](http://cudyac.net), and go to *Advanced Settings -> Network -> Port Forwards*.
@@ -171,7 +171,7 @@ Now users on the Internet can enter *http://WAN IP* (in this example: *http://21
 
 If you want to provide several services in a AP controller, please add multiple port forwarding rules.
 
-<img src="../../../images/noteicon.png"> 
+<img src="../../../images/noteicon.webp"> 
 
 - The WAN IP should be a public IP address. For the WAN IP is assigned dynamically by the ISP, it is recommended to apply and register a domain name for the WAN ([How to set up a Dynamic DNS service account](#ddns)). Then users on the Internet can use *http://domain name* to visit the website.
 - If you have changed the default External Port, you should use *http://WAN IP:external port* or *http://domain name:external port* to visit the website.
@@ -187,7 +187,7 @@ The AP controller can record the IP address of the host. When the data from the 
 
 Port Triggering is mainly applied to online games, VoIPs, video players and common applications including MSN Gaming Zone, Dialpad and QuickTime 4 players, etc.
 
-<img src="../../../images/ir04/port-trigger.png" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/port-trigger.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 *To configure the Port Trigger rules, please follow the steps below.*
 
@@ -212,9 +212,9 @@ A DMZ (Demilitarized Zone) host on the local network will become a virtual serve
 
 The DMZ host becomes a virtual server with all ports opened. When you are not clear about which ports to open in some special applications, such as IP camera and database software, you can set the PC to be a DMZ host.
 
-<img src="../../../images/noteicon.png"> Due to the total exposure of DMZ host to the Internet, it will bring about certain potential safety hazards. So remember to dis-enable DMZ when not in use.
+<img src="../../../images/noteicon.webp"> Due to the total exposure of DMZ host to the Internet, it will bring about certain potential safety hazards. So remember to dis-enable DMZ when not in use.
 
-<img src="../../../images/ir04/dmz.png" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/dmz.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 For example, you want to get the home PC to join an online game without port restriction. You can set your PC as a DMZ host with all ports open. Please follow the steps below to configure it.
 
@@ -232,7 +232,7 @@ Now you've set your PC to a DMZ host and now you can make a team to game with ot
 
 It is essential for ensuring that your network remains online and operational even if there are issues with the primary WAN connection. It allows for automatic failover to a backup connection, which can be critical for businesses and homes that require continuous Internet access.
 
-<img src="../../../images/ir04/online-detection.png" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/online-detection.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 *To configure the online detection, please follow the steps below.*
 
@@ -253,7 +253,7 @@ It is essential for ensuring that your network remains online and operational ev
 
 TTL (Time To Live) sets the maximum time for packets to survive in the network, and is filled in according to the requirements of the operator. By default, the AP controller forwards the TTL of the incoming client device minus one. 
 
-<img src="../../../images/ir04/ttl.png" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/ttl.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 - Disabled: No TTL values for any specific reason.
 - Extend the TTL Value: To increase the TTL of incoming packets.
@@ -276,7 +276,7 @@ To use this function requires the main board and wired network adapter must supp
 
 1. Login in to [http://cudyac.net](http://cudyac.net) and go to *Advanced Settings -> Network -> Wake on LAN*.
 2. Click *Add*.
-    <img src="../../../images/ir04/wake-on-lan.png" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+    <img src="../../../images/ir04/wake-on-lan.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 3. Enter the MAC-Address you have checked previously in STEP 1.3, give a description for the device, and determine the time duration (Mins and Hour) and day frequency (Week Day).
 4. Click *Save & Apply*.
@@ -292,9 +292,9 @@ Enable UPnP if you want to use applications for multi-player gaming, peer-to-pee
 
 For example, when you connect your Xbox to the AP controller which has connected to the Internet to play online games, UPnP will send request to the AP controller to open the corresponding  ports allowing the following data penetrating the NAT to transmit. Therefore, you can play Xbox online games without a hitch.
 
-<img src="../../../images/ir04/upnp.png" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/upnp.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
-<img src="../../../images/noteicon.png"> 
+<img src="../../../images/noteicon.webp"> 
 
 - UPnP is enabled by default in this AP controller.
 - Only the application supporting UPnP protocol can use this feature.
@@ -304,7 +304,7 @@ For example, when you connect your Xbox to the AP controller which has connected
 ## USB Sharing
 It allows network-connected devices to access USB peripherals (e.g., modems, drives, security dongles) plugged into the AP controller's USB port via SMB/NFS/FTP protocols. For example, share diagnostic logs from USB drives with remote engineers; connect serial-to-USB converters for aging PLCs; host software license dongles for centralized access, and so on.
 
-<img src="../../../images/ir04/usb.png" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="../../../images/ir04/usb.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 1. Insert a USB device (FAT32/exFAT formatted) into the USB port on the AP controller.
 2. Login in to [http://cudyac.net](http://cudyac.net) and go to *Advanced Settings -> Network -> USB Sharing*.

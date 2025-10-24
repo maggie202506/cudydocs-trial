@@ -4,13 +4,13 @@
 
 ### ARP Table
 
-<img src="../../../images/gp1200/image-93.png" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-93.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 ARP (Address Resolution Protocol) is a fundamental networking protocol used to map an IP address to a MAC address (physical hardware address) on a local network.
 
 ---
 ### Bridging
-<img src="../../../images/gp1200/image-39.png" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-39.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 • Aging Time: The duration a bridge retains unused MAC address entries in its forwarding table before discarding them to free up resources. Default value is 300 seconds.
 
@@ -21,12 +21,12 @@ For most networks—especially those with redundancy or unknown future changes�
 
 *- Show MACs:* Click to view the *Bridge Forwarding Database* with information about Port, MAC Address, Local, Ageing Timer.
 
-<img src="../../../images/gp1200/image-95.png" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-95.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 ---
 ### Routing
 
-<img src="../../../images/gp1200/image-40.png" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-40.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 • Enable: Tick to enable the Routing configuration.
 
@@ -51,7 +51,7 @@ For most networks—especially those with redundancy or unknown future changes�
 --- 
 ### Link Mode
 
-<img src="../../../images/gp1200/image-41.png" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-41.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 Set the Ethernet Link Speed/Duplex Mode to ensure stable and efficient communication by matching the data rate (e.g.,10/100/1000 Mbps) and transmission direction, both way simultaneously (Full Duplex) or alternately (Half Duplex), between connected devices. Proper settings prevent performance issues like packet loss or speed degradation caused by mismatched parameters. 
 
@@ -74,7 +74,7 @@ Set the Ethernet Link Speed/Duplex Mode to ensure stable and efficient communica
 ---
 ### Print Server
 
-<img src="../../../images/gp1200/image-42.png" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-42.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 Printer Server on the router enables network-wide printing by sharing a locally connected USB printer, accessible via a web interface (e.g., http://192.168.1.1:631) for setup and management. 
 
@@ -90,7 +90,7 @@ Printer Server on the router enables network-wide printing by sharing a locally 
 
 ### Qos Policy
 
-<img src="../../../images/gp1200/image-43.png" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-43.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 IP QoS (Quality of Service) is a network technology that prioritizes and manages data traffic to ensure optimal performance for critical applications (e.g., VoIP, video streaming) by controlling bandwidth, latency, and packet loss.
 
@@ -112,13 +112,13 @@ IP QoS (Quality of Service) is a network technology that prioritizes and manages
 ---  
 ### QoS Classification
 
-<img src="../../../images/gp1200/image-44.png" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-44.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 *- Add:* Click to configure the QoS Classification rules.
 
 *- Apply Changes:* Click to activate all the settings or changes.
 
-<img src="../../../images/gp1200/image-45.png" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-45.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 • RuleName: Identifies the rule’s purpose (e.g., VoIP_Priority).
 
@@ -128,7 +128,7 @@ IP QoS (Quality of Service) is a network technology that prioritizes and manages
 
 • DSCP Remarking: Select a proper DSCP value. Here is a *DSCP Value Chart* for your referrence.
 
-<img src="../../../images/gp1200/image-94.png" alt="" width=600px/>
+<img src="../../../images/gp1200/image-94.webp" alt="" width=600px/>
 
 • 802.1p: Prioritizes VLAN traffic (0-7, e.g., 5 for real-time data).
 
@@ -165,13 +165,13 @@ IP QoS (Quality of Service) is a network technology that prioritizes and manages
 ---
 ### Traffic Shaping
 
-<img src="../../../images/gp1200/image-46.png" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-46.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 *- Add:* Click to configure the IP QoS Traffic Shaping Rule.
 
 *- Apply Changes:* Click to activate all the settings or changes.
 
-<img src="../../../images/gp1200/image-47.png" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-47.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 • IP Version: Select the IP protocol version used, IPv4 or IPv6.
 
@@ -214,7 +214,7 @@ use :: to shorten long strings of zeros (e.g., 2001:0db8::1 → 2001:db8::1).
 
 ### IPv6 Enable/Disable
 
-<img src="../../../images/gp1200/image-48.png" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-48.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 *- IPv6:* Select to *Enable* or *Disable* IPv6 configuration. 
 
@@ -223,7 +223,7 @@ use :: to shorten long strings of zeros (e.g., 2001:0db8::1 → 2001:db8::1).
 ---
 ### RADVD
 
-<img src="../../../images/gp1200/image-49.png" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-49.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 RADVD (Router Advertisement Daemon) is an IPv6 service that broadcasts network prefixes and routing information to hosts, enabling SLAAC  (StateLess Address Auto-Configuration) without DHCPv6. It allows devices to automatically generate IPv6 addresses and discover default gateways via RA (Router Advertisement) messages.
 
@@ -241,13 +241,13 @@ RADVD (Router Advertisement Daemon) is an IPv6 service that broadcasts network p
 
 ① Auto(SLAAC): The router automatically advertises prefixes, allowing devices to generate their own IPv6 addresses (using Stateless Address Autoconfiguration).For example, devices combine the prefix (2001:db8::/64) with their MAC to create a unique IP.
 
-<img src="../../../images/gp1200/image-99.png" alt="" width=600px/>
+<img src="../../../images/gp1200/image-99.webp" alt="" width=600px/>
 
 - RDNSS Mode: Select *HGW Proxy* to manually configure DNS (e.g., custom servers like Cloudflare) and force devices to route DNS queries through the gateway; select *WAN Connection Mode* to automatically advertise the ISP's default DNS servers obtained from the WAN interface (e.g., via PPPoE/DHCPv6).
 
 ② Manual: Prefixes are statically configured and advertised without SLAAC. Address assignment relies on DHCPv6 or manual input. For example, in controlled environments where specific prefixes must be enforced.
 
-<img src="../../../images/gp1200/image-97.png" alt="" width=600px/>
+<img src="../../../images/gp1200/image-97.webp" alt="" width=600px/>
 
   - Prefix: Enter the IPv6 network prefix.
 
@@ -266,7 +266,7 @@ RADVD (Router Advertisement Daemon) is an IPv6 service that broadcasts network p
 ---
 ### DHCPv6
 
-<img src="../../../images/gp1200/image-50.png" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-50.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 • DHCP Mode:
 
@@ -274,25 +274,25 @@ RADVD (Router Advertisement Daemon) is an IPv6 service that broadcasts network p
 
 ② DHCP Relay: The router forwards DHCP requests across subnets/VLANs (enterprise use, e.g., centralizing DHCP in a data center).
 
-<img src="../../../images/gp1200/image-98.png" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-98.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 *- Apply Changes:* Click to activate all the settings or changes.
 
 
 ③ DHCP Server: The router assigns IP addresses to clients (default for home networks, manages IP pools/leases).
 
-<img src="../../../images/gp1200/image-100.png" alt="" width=400px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-100.webp" alt="" width=400px style="border: 1px solid #eee;" />
 
 • DHCPv6 Server Type:
 
 ① Auto: The router automatically assigns IPv6 addresses and settings (like DNS) using SLAAC or DHCPv6, typically based on ISP or upstream network configurations.
 
-<img src="../../../images/gp1200/image-101.png" alt="" width=400px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-101.webp" alt="" width=400px style="border: 1px solid #eee;" />
 
 
 ② Manual: You manually define the IPv6 address range, lease time, DNS servers, and other parameters for full control over DHCPv6 assignments.
 
-<img src="../../../images/gp1200/image-102.png" alt="" width=400px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-102.webp" alt="" width=400px style="border: 1px solid #eee;" />
 
 • IP Pool Range: Set the range of IPv6 addresses available for DHCPv6 assignment (e.g., 2001:db8::1000 to 2001:db8::2000).
 
@@ -331,7 +331,7 @@ RADVD (Router Advertisement Daemon) is an IPv6 service that broadcasts network p
 ----
 ### MLD Proxy
 
-<img src="../../../images/gp1200/image-51.png" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-51.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 It is a protocol that forwards Multicast Listener Discovery (MLD) messages between IPv6 networks, enabling multicast routing without full PIM-SM support. It acts as a simple relay for multicast group memberships across subnet boundaries.
 
@@ -348,7 +348,7 @@ It is a protocol that forwards Multicast Listener Discovery (MLD) messages betwe
 ---
 ### MLD Snooping
 
-<img src="../../../images/gp1200/image-52.png" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-52.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 It is a Layer 2 optimization technique where switches listen to MLD (Multicast Listener Discovery) messages to intelligently forward IPv6 multicast traffic only to ports with interested receivers, reducing unnecessary network flooding.
 
@@ -362,7 +362,7 @@ It is a Layer 2 optimization technique where switches listen to MLD (Multicast L
 
 ### IPv6 Routing
 
-<img src="../../../images/gp1200/image-53.png" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-53.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 It manually configures fixed paths for network traffic by specifying destination prefixes and next-hop addresses, ideal for small or stable networks. Use it when routes rarely change, but avoid in large/dynamic networks due to lack of automatic updates.
 
@@ -389,7 +389,7 @@ It manually configures fixed paths for network traffic by specifying destination
 ----
 
 ### IP/Port Filtering
-<img src="../../../images/gp1200/image-54.png" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-54.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
   It controls network access by blocking/allowing specific IPv6 addresses and port numbers, enhancing security (e.g., deny 2001:db8::1 port 22). It operates at firewall or router levels to restrict unauthorized traffic.
 
@@ -426,7 +426,7 @@ It manually configures fixed paths for network traffic by specifying destination
 ---
 ### IPv6 ACL
 
-<img src="../../../images/gp1200/image-55.png" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-55.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 IPv6 ACL (Access Control List) filters network traffic by defining permit/deny rules based on IPv6 addresses, ports, or protocols to enforce security policies.
 

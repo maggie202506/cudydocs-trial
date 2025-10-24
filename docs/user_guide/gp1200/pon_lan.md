@@ -1,6 +1,6 @@
 # LAN
 
-<img src="../../../images/gp1200/image-6.png" alt="" width=1000px style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-6.webp" alt="" width=1000px style="border: 1px solid #eee;" />
 
 **• IP Address:** Unique identifier for a device on the network (e.g.,192.168.1.1 or 2001:db8::1).
 
@@ -31,4 +31,4 @@
 
 • Apply Changes: Click to save and activate configuration. It may briefly disconnect services.
 
-<p><img src="../../../images/noteicon.png"> For enterprise networks, IPv6 settings often require ISP compatibility checks.</p>
+<p><img src="../../../images/noteicon.webp"> For enterprise networks, IPv6 settings often require ISP compatibility checks.</p>

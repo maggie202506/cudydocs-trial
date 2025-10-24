@@ -4,14 +4,14 @@
 !!! Note
     Before you enable VPN Server, it is recommended to configure Dynamic DNS Service or assign a Static IP Address for router’s WAN port and synchronize your System Time with Internet. 
 
-<img src="../../../images/wr3600/vpn.png" alt="" width="800px" style="display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/vpn.webp" alt="" width="800px" style="display: block; margin: 0 auto;" />
 
 ---
 ## PPTP VPN
 **PPTP VPN** is used to create a PPTP VPN connection for remote devices to access your home network. Fast connection/disconnection and simple configuration satisfy the needs for users who is apt to frequently switch VPN environments. Please follow the steps below to set up a PPTP VPN connection.
 
 **STEP 1. Configure the PPTP Server on Router A:**
-<img src="../../../images/wr3600/pptp-server.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/pptp-server.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Log into the Router A’s management web page [https://cudy.net](https://cudy.net) (or 192.168.10.1). 
 2. Go to General Settings ->VPN. Enable VPN, and select PPTP Server as Protocol. 
@@ -24,7 +24,7 @@
 5. Click Save & Apply.	
 
 **STEP 2. Configure PPTP Client on Router B:**
-<img src="../../../images/wr3600/pptp-client.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/pptp-client.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Log into the Router A’s management web page https://cudy.net (or 192.168.10.1). 
 2. Go to General Settings ->VPN. Enable VPN, and select PPTP Client as Protocol. 
@@ -47,7 +47,7 @@
 **L2TP VPN Server** is used to create a L2TP VPN connection for remote devices to access your home network. Compared with PPTP, L2TP supports multi-tunnel with authentication between two endpoints, thus users can set up different tunnels with various service quality. Please follow the steps below to set up a L2TP VPN connection.
 
 **STEP 1. Configure the L2TP Server on Router A:**
-<img src="../../../images/wr3600/l2tp-server.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/l2tp-server.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Log into the Router A’s management web page https://cudy.net (or 192.168.10.1). 
 2. Go to General Settings ->VPN. Enable VPN, and select L2TP Server as Protocol. 
@@ -62,7 +62,7 @@
 5. Click Save & Apply.
 
 **STEP 2. Configure L2TP Client on Router B:**
-<img src="../../../images/wr3600/l2tp-client.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/l2tp-client.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Log into the Router A’s management web page https://cudy.net (or 192.168.10.1). 
 2. Go to General Settings ->VPN. Enable VPN, and select L2TP Client as Protocol. 
@@ -88,7 +88,7 @@
 **OpenVPN Server** is used to create an OpenVPN connection for remote devices to access your home network. OpenVPN server requires a public IP. You can confirm whether the router has a public IP on the router management page System Status -> WAN -> More details -> Status. If the public IP displayed is consistent with the IP address of the router's WAN port, it means that the router has a public IP. Please follow the steps below to set up an OpenVPN connection.
 
 **STEP 1. Configure the OpenVPN Server on Router A:**
-<img src="../../../images/wr3600/openvpn-server.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/openvpn-server.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Log into the Router A’s management web page https://cudy.net (or 192.168.10.1). 
 2. Go to General Settings ->VPN. Enable VPN, and select OpenVPN Server as Protocol. 
@@ -103,7 +103,7 @@
 6. Click EXPORT to export the configuration file, for the OpenVPN Client to upload.
 
 **STEP 2. Configure OpenVPN Client on Router B:**
-<img src="../../../images/wr3600/openvpn-client.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/openvpn-client.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Log into the Router A’s management web page https://cudy.net (or 192.168.10.1). 
 2. Go to General Settings ->VPN. Enable VPN, and select OpenVPN Client as Protocol. 
@@ -122,7 +122,7 @@
 ## WireGuard VPN
 **WireGuard VPN Server** is used to create a Wire Guard VPN connection for remote devices to access your home network. WireGuard VPN server requires a public IP. You can confirm whether the router has a public IP on the router management page System Status -> WAN -> More details -> Status. If the public IP displayed is consistent with the IP address of the router's WAN port, it means that the router has a public IP. Please follow the steps below to set up a WireGuard VPN connection.
 
-<img src="../../../images/wr3600/wireguard-server.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/wireguard-server.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 **STEP 1. Configure the WireGuard Server on Router A:**
 
@@ -135,10 +135,10 @@
     - MTU: Maximum Transmission Unit is 1400 by default. You may change it if necessary.
 
 5. Click Save & Apply. Then you will be required to configure the Client parameters.
-<img src="../../../images/wr3600/client-edit.png" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/client-edit.webp" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 6. Click Edit Items to add entries. Enter the required parameters and then click Save.
-<img src="../../../images/wr3600/client-edit2.png" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/client-edit2.webp" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
     - IP Address: Enter the Client IP address.
     - Remote Subnet: Enter the Client Subnet.
@@ -146,10 +146,10 @@
     - Delete: Click to delete as needed.
 
 7. Click to export the configuration file, and then upload it on the client for VPN connection.
-<img src="../../../images/wr3600/client-export.png" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/client-export.webp" alt="" width="600px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 **STEP 2. Configure WireGuard Client on Router B:**
-<img src="../../../images/wr3600/wireguard-client.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/wireguard-client.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Log into the Router A’s management web page https://cudy.net (or 192.168.10.1).
 2. Go to General Settings ->VPN. Enable VPN, and select WireGuard Client as Protocol. 
@@ -171,22 +171,22 @@
 **STEP 1. Register for a ZeroTier Account and Obtain a Network ID.**
 
 1. Visit Zerotier website http://my.zerotier.com/, sign up for an account and log in.
-<img src="../../../images/wr3600/zerotier.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/zerotier.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 2. Click Network - > Create A Network. 
-<img src="../../../images/wr3600/zerotier2.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/zerotier2.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 3. Zerotier will create a new network and assign a NETWORK ID for you. Then click on the assigned NETWORK ID, and its setting page will display.
-<img src="../../../images/wr3600/zerotier3.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/zerotier3.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 4. Set Access Control to be Public for later convenient settings, and note down the Network ID.
-<img src="../../../images/wr3600/zerotier4.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/zerotier4.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 !!! Note
     Private Access Control requires authorization for the terminal or router to access the network, which is more secure but inconvenient. While Public Access Control allows for a direct the network access with authentication rather than authorization. You may choose either one accordingly.
 
 **STEP 2. Configure ZeroTier Master on Router A.**
-<img src="../../../images/wr3600/zerotier-master.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/zerotier-master.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Log into the Router A’s management web page https://cudy.net (or 192.168.10.1). 
 2. Go to General Settings ->VPN. Enable VPN, and select ZeroTier Master as Protocol. 
@@ -194,27 +194,27 @@
 4. Enter the ZeroTier Network ID noted down previously.
 5. Click Save & Apply. Then it will display the Device ID.
 6. Back to the ZeroTier web page, you will see One device has joined this network.
-<img src="../../../images/wr3600/zerotier5.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/zerotier5.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 
 **STEP 3. Join ZeroTier Network on your device.**
 
 1. Download and Install ZeroTier Software from https://www.zerotier.com/download/.
-<img src="../../../images/wr3600/zerotier6.png" alt="" width="400px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/zerotier6.webp" alt="" width="400px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 2. Click the ZeroTier icon and then Join New Network..., enter the Network ID and click Join.
-<img src="../../../images/wr3600/zerotier7.png" alt="" width="400px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/zerotier7.webp" alt="" width="400px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 3. Back to the ZeroTier web page, you will see this new device and its Managed IP.
-<img src="../../../images/wr3600/zerotier8.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/zerotier8.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 **STEP 4. Configure the Static Route.**
 
 Go to Settings -> Advanced on the ZeroTier web page. Under Add Routes, enter Router’s LAN IP segment 192.168.10.0/24 in Destination field and its Managed IP in Via field, and then click Submit.
-<img src="../../../images/wr3600/zerotier9.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/zerotier9.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 Now your client devices can directly access the router's management web page via 192.168.10.1 as well as the server via its IP address.
-<img src="../../../images/wr3600/zerotier10.png" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="../../../images/wr3600/zerotier10.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 ---
 ## IPSec (site-to-site) VPN

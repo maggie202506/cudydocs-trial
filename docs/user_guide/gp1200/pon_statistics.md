@@ -2,7 +2,7 @@
 
 ## Interface
 
-<img src="../../../images/gp1200/image-73.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-73.webp" alt="" width="800px" style="border: 1px solid #eee;" />
     
 <p><strong>Interface Statistics</strong> monitors real-time traffic data (e.g., speed, packets, errors) on router interfaces (WAN/LAN) and thus help to troubleshoot network performance or congestion.</p>
     
@@ -19,7 +19,7 @@
 
 ## PON_Statistics
 
-<img src="../../../images/gp1200/image-74.png" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-74.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 <p><strong>PON Statistics</strong> tracks optical signal metrics (e.g., power levels, uptime) for fiber connections (GPON/EPON), and thus to ensure stable ISP link quality. Only visible on fiber-optic routers with PON ports.</p>
 

@@ -21,7 +21,7 @@ Check the [status](status.md) of the AP controller's system, including AP manage
 
 ### II. General Settings
 
-<img src="../../../images/noteicon.png" alt="" /> In AP Controller mode, *WAN Mode* and *VPN* are NOT available for configuration.
+<img src="../../../images/noteicon.webp" alt="" /> In AP Controller mode, *WAN Mode* and *VPN* are NOT available for configuration.
 
 - [AP Management](ap_management.md): Centralized control, configuration, and monitoring of wireless APs (Access Points), including auto-discovery, group policies, and real-time status tracking.    
 - [Wireless](wireless.md): Configure and manage wireless network settings for the controlled APs.
@@ -35,7 +35,7 @@ Check the [status](status.md) of the AP controller's system, including AP manage
 
 **[Network](network.md)**
 
-<img src="../../../images/noteicon.png" alt="" /> In AP Controller mode, only *LAN*, *DHCP Server*, *Wake on LAN* and *USB Sharing* are available for configuration.
+<img src="../../../images/noteicon.webp" alt="" /> In AP Controller mode, only *LAN*, *DHCP Server*, *Wake on LAN* and *USB Sharing* are available for configuration.
 
 - [LAN](network.md#lan): Modify the AP controller's LAN IP address, when necessary.
 - [DHCP Server](network.md#dhcp-server): Specify the IP address for client devices by the AP controller as a DHCP Server.
@@ -55,7 +55,7 @@ Check the [status](status.md) of the AP controller's system, including AP manage
 
 **[Security](security.md)**
 
-<img src="../../../images/noteicon.png" alt="" /> In AP Controller mode, ONLY *Wi-Fi Schedule* is available for configuration.
+<img src="../../../images/noteicon.webp" alt="" /> In AP Controller mode, ONLY *Wi-Fi Schedule* is available for configuration.
 
 - [Firewall](security.md#firewall): Monitor and control incoming and outgoing network traffic based on predetermined security rules.
 - [MAC Filter](security.md#mac-filter): Prevent unauthorized devices with certain MAC address from accessing the network.
@@ -67,7 +67,7 @@ Check the [status](status.md) of the AP controller's system, including AP manage
 
 **[System](system.md)**  
 
-<img src="../../../images/noteicon.png" alt="" /> In AP Controller mode, TR069 is NOT available.
+<img src="../../../images/noteicon.webp" alt="" /> In AP Controller mode, TR069 is NOT available.
 
 - [System Time](system.md#system-time): Configure the AP controller's system time, necessary for some time-based functions.
 - [Auto Upgrade](system.md#auto-upgrade): Schedule to automatically upgrade the firmware to the latest version.

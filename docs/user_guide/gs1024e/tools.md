@@ -3,7 +3,7 @@
 ## Cable Diagnostics
 Supports to test and assess the condition of the cables connected to specific ports. 
 
-<img src="../../../images/gs1024e/cable-diag.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/cable-diag.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - Port Index: Select the specific port on the switch to be tested.
 - Test: Click to initiate the cable diagnostic test.
@@ -19,7 +19,7 @@ Supports to test and assess the condition of the cables connected to specific po
 ## Firmware Upgrade
 Updates the switch to its latest firmware, enhancing functionality, fixing bugs, or improving security.
 
-<img src="../../../images/gs1024e/firmware-upgrade.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/firmware-upgrade.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 *- Select file*: Click to locate and upload the firmware file to be upgraded.
 
@@ -34,7 +34,7 @@ Updates the switch to its latest firmware, enhancing functionality, fixing bugs,
 ## Ping Tool
 Tests connectivity to another device by sending ICMP echo requests and measuring the response time.
 
-<img src="../../../images/gs1024e/ping.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/ping.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - Host Name/IP Address: Enter the destination address or hostname to which the ping packets will be sent.
 - Number of Pings: Enter the number (between 1 to 65535) of ICMP echo requests to be sent to the specified host. Default number is 4.
@@ -59,7 +59,7 @@ Tests connectivity to another device by sending ICMP echo requests and measuring
 ## Backup Restore
 Saves or retrieves switch configuration settings, allowing you to back up current settings or restore previous ones.
 
-<img src="../../../images/gs1024e/backup-restore.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/backup-restore.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 **System Configuration Backup**
 
@@ -76,7 +76,7 @@ Saves or retrieves switch configuration settings, allowing you to back up curren
 ## System Reset
 Resets the switch to its factory default settings, erasing all custom configurations.
 
-<img src="../../../images/gs1024e/reset.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/reset.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 *- Reset*: Click to restore the factory settings and restart the system.
 
@@ -85,7 +85,7 @@ Resets the switch to its factory default settings, erasing all custom configurat
 ## System Reboot
 Restarts the switch, reloading the current firmware and configuration without erasing settings.
 
-<img src="../../../images/gs1024e/reboot.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/reboot.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 *- Reboot*: Click to restart the switch.
 

@@ -2,7 +2,7 @@
 
 ## Device
 
-<img src="../../../images/gp1200/image.png" alt="" width="1000px" style="border: 1px solid #eee;">
+<img src="../../../images/gp1200/image.webp" alt="" width="1000px" style="border: 1px solid #eee;">
 
 **System**
 
@@ -49,7 +49,7 @@
 ----
 ## IPv6
 
-<img src="../../../images/gp1200/image-1.png" alt="" width="1000px" style="border: 1px solid #eee;">
+<img src="../../../images/gp1200/image-1.webp" alt="" width="1000px" style="border: 1px solid #eee;">
 
 **LAN Configuration**
 
@@ -102,7 +102,7 @@
 ----
 ## PON
 
-<img src="../../../images/gp1200/image-2.png" alt="" width="1000px" style="border: 1px solid #eee;">
+<img src="../../../images/gp1200/image-2.webp" alt="" width="1000px" style="border: 1px solid #eee;">
 
 **PON Status**
 
@@ -129,7 +129,7 @@
 ---
 ## LAN Port
 
-<img src="../../../images/gp1200/image-3.png" alt="" width="1000px" style="border: 1px solid #eee;">
+<img src="../../../images/gp1200/image-3.webp" alt="" width="1000px" style="border: 1px solid #eee;">
 
 **LAN Port Status**
 
@@ -140,7 +140,7 @@
 ---
 ## TR069
 
-<img src="../../../images/gp1200/image-5.png" alt="" width="1000px" style="border: 1px solid #eee;">
+<img src="../../../images/gp1200/image-5.webp" alt="" width="1000px" style="border: 1px solid #eee;">
 
 **TR069 Status**
 

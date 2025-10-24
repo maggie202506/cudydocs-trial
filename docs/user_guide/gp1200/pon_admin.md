@@ -2,7 +2,7 @@
 
 ## GPON Settings
 
-<img src="../../../images/gp1200/image-60.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-60.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 <p><strong>GPON</strong> (Gigabit Passive Optical Network) is to be established and managed the router connection to, including authentication (e.g., LOID/PPPoE), VLAN tagging, and bandwidth allocation for fiber-optic broadband services.</p>
 <p><strong>• LOID:</strong> Enter the unique identifier (Logical ONU ID) assigned by your ISP for GPON authentication.</p>
@@ -22,7 +22,7 @@
 
 ## OMCI Information
     
-<img src="../../../images/gp1200/image-61.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-61.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 <p><strong>• OMCI Vendor ID:</strong> Identifies the manufacturer of the ONU device. Typically follows IEEE standards but can be modified for proprietary network integrations.</p>
 <p><strong>• OMCI Software Version 1/2:</strong> Displays the primary/secondary firmware versions running on the ONU.</p>
@@ -36,7 +36,7 @@
 
 ## Remote Management
 
-<img src="../../../images/gp1200/image-62.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-62.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 <p><strong>• Enable:</strong> Tick to turn on/off remote management, to allow external access to router settings.</p>
 <p><strong>• HTTPS Port:</strong> Specifies the secure port (e.g., 443) for encrypted remote access.</p>
@@ -48,18 +48,18 @@
 
 ## Reboot
 
-<img src="../../../images/gp1200/image-63.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-63.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 <p><strong>Reboot</strong> the router to refresh its system, resolve temporary glitches, or apply critical updates, in cases like firmware updates, network instability, or scheduled maintenance. It may cause a brief network disconnection for about 1~3 minutes.</p>
 <p>• Reboot: Click to start rebooting. When it is finished, you will be popped up to log in again.</p>
 
-<img src="../../../images/gp1200/image-103.png" alt="" width="600px" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-103.webp" alt="" width="600px" style="border: 1px solid #eee;" />
 
 ---
 
 ## Multi-lingual Settings
 
-<img src="../../../images/gp1200/image-64.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-64.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 <p><strong>Multi-lingual Settings</strong> supports the web interface or app to display in multiple languages (e.g., English/中文) to improve accessibility for global users.</p>
 
@@ -70,20 +70,20 @@
 
 ## Backup/Restore
 
-<img src="../../../images/gp1200/image-65.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-65.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 <p><strong>Backup/Restore</strong> supports saving the router's current configuration (e.g., Wi-Fi passwords, port rules) to a file for backup, and later restoring it to recover settings after a reset.</p>
 <p><strong>• Backup Settings to File:</strong> Click <i>Backup...</i> to download the current settings in a <i>config.xml</i> file.</p>
 <p><strong>• Restore Settings from File:</strong> Click <i>Choose File</i> to upload the <i>config.xml</i> file and then click <i>Restore</i> to update the settings.</p>
-<img src="../../../images/gp1200/image-104.png" alt="" width="600px" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-104.webp" alt="" width="600px" style="border: 1px solid #eee;" />
 <p><strong>• Reset Settings to Default:</strong> Click <i>Reset</i> to restore the factory default settings.</p>
-<img src="../../../images/gp1200/image-105.png" alt="" width="600px" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-105.webp" alt="" width="600px" style="border: 1px solid #eee;" />
 
 ---
 
 ## System Log
 
-<img src="../../../images/gp1200/image-106.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-106.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 <p><strong>System Log</strong> records all critical router events (e.g., connections, errors, attacks) for troubleshooting and security monitoring.</p>
 <p><strong>• System Log:</strong> Select <i>Enable</i> to turn on the system log configuration.</p>
 <p><strong>• Log Level:</strong> Define severity filtering to control which events are recorded.</p>
@@ -100,7 +100,7 @@
 
 ## Password
 
-<img src="../../../images/gp1200/image-67.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-67.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 <p><strong>Password</strong> is the authentication credential (letters/numbers/symbols) required to access the router's admin interface, thus to prevent unauthorized changes.</p>
 <p><strong>• Old Password:</strong> Enter the current active password required for verification before changing to a new one.</p>
@@ -112,7 +112,7 @@
 
 ## Firmware Upgrade
 
-<img src="../../../images/gp1200/image-69.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-69.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 <p><strong>Firmware Upgrade</strong> updates the router's operating system to patch vulnerabilities or add features (requires stable power/internet).</p>
 <p>• Choose File: Click to locate and upload the firmware file (e.g., GP1200-xxxxxx.bin) to be upgraded.</p>
@@ -122,7 +122,7 @@
 
 ## Time Zone
 
-<img src="../../../images/gp1200/image-70.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-70.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 <p><strong>Time Zone</strong> configuration sets local time for accurate logs/schedules (e.g., parental controls).</p>
 <p><strong>• Current Time:</strong> Displays the router's current local time based on configured time zone and daylight saving settings.</p>
@@ -138,7 +138,7 @@
 
 ## TR-069
 
-<img src="../../../images/gp1200/image-71.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-71.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 <p><strong>TR-069</strong> configuration enables remote ISP management (auto-configuration/troubleshooting).</p>
 <p><strong>• TR069 Daemon:</strong> Select to enable TR069 Daemon which is the background service that manages TR-069 (CWMP) protocol for remote router configuration and monitoring by the ISP.</p>
@@ -174,7 +174,7 @@
 
 ## Logout
 
-<img src="../../../images/gp1200/image-72.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gp1200/image-72.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 <p><strong>Logout</strong> is to securely exit the admin interface to prevent unauthorized access.</p>
 <p>• Logout: Click to log out the administration webpage.</p>

@@ -4,7 +4,7 @@ A VLAN (Virtual Local Area Network) logically segments a physical switch network
 ## MTU VLAN
 Adjusts the Maximum Transmission Unit (MTU) size (typically to 1496 bytes) on interfaces carrying VLAN-tagged traffic to accommodate the extra 4-byte 802.1Q tag and prevent fragmentation or packet loss. Configured by setting the specific MTU value on relevant switch ports/routers. 
 
-<img src="../../../images/gs1024e/mtu-vlan-enable.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/mtu-vlan-enable.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - Current Uplink Port: Displays the port that currently connects to the uplink (e.g., to another switch or router).
 - Select Uplink Port: Select to alter the port that connects to the uplink (e.g., to another switch or router).
@@ -18,7 +18,7 @@ Adjusts the Maximum Transmission Unit (MTU) size (typically to 1496 bytes) on in
 ## Port-based VLAN
 Also called Static VLAN, assigns switch ports directly to a specific VLAN; any device plugged into that port belongs to that VLAN. Ideal for simplicity and static device locations. Configured by setting the port mode (Access) and assigning the VLAN ID.
 
-<img src="../../../images/gs1024e/pb-vlan.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/pb-vlan.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - VLAN: Assign VLAN IDs to specific ports.
 - Port: Lists the Port Number.
@@ -35,7 +35,7 @@ Also called Static VLAN, assigns switch ports directly to a specific VLAN; any d
 ## 802.1Q VLAN
 Also called Tagged VLAN/Trunking, uses standard 802.1Q tags within Ethernet frames to identify VLAN membership, allowing a single physical link (trunk) to carry traffic for multiple VLANs between switches or to routers. Configured by setting the port mode (Trunk) and allowing specific VLANs.
 
-<img src="../../../images/gs1024e/802.1q-vlan-enable.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/802.1q-vlan-enable.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 **802.1Q VLAN Settings**
 
@@ -69,7 +69,7 @@ The table below will display the port information, including Port Number, PVID a
 ## Voice VLAN
 A dedicated VLAN configured specifically for IP phone traffic, often prioritizing it (via QoS) and separating it from data traffic for better quality and security. Typically uses 802.1Q tagging 3. Configured by enabling Voice VLAN on an access port, setting the Voice VLAN ID, and often using LLDP for auto-provisioning phones.
 
-<img src="../../../images/gs1024e/voice-vlan.png" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="../../../images/gs1024e/voice-vlan.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - VLAN ID: Enter a VLAN ID.
 - Priority: Select a priority number for the VLAN.
