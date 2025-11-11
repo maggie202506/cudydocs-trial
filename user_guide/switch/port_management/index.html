@@ -388,6 +388,8 @@
       
         
       
+        
+      
     
     
     
@@ -502,6 +504,26 @@
   
   <span class="md-ellipsis">
     GS1024E
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gs1016e/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GS1016E
   </span>
   
 
@@ -766,99 +788,111 @@
 
   <!-- Markdown content -->
   <h1 id="port-management">Port Management<a class="headerlink" href="#port-management" title="Permanent link">&para;</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Images of GS1024E are for reference only; details may vary by model.</p>
+</div>
 <h2 id="port-settings">Port Settings<a class="headerlink" href="#port-settings" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/port-settings.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/port-settings.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
 <ul>
 <li>Port: Specifies the physical port on the switch.</li>
-<li>State: Select the port state to be Enabled or Disabled.</li>
-<li>Automatic: Turn On or Off the auto-negotiation for the port.</li>
+<li>State: Select the port state to be <strong>Enabled</strong> or <strong>Disabled</strong>.</li>
+<li>Automatic: Turn <strong>On</strong> or <strong>Off</strong> the auto-negotiation for the port.</li>
 <li>Rate: Select the data transfer rate and mode (half or full duplex) for the port.</li>
-<li>Flow Control: Turn On or Off the flow control to manage data transmission.</li>
+<li>Flow Control: Turn On or Off the flow control to manage data transmission. </li>
+<li>Apply: Click to save and apply your changes or settings.</li>
+<li>The table displays the current state for each port and will change with the new settings.</li>
 </ul>
-<p><em>- Apply:</em> Click to save and apply your changes or settings.</p>
 <hr />
 <h2 id="port-trunk">Port Trunk<a class="headerlink" href="#port-trunk" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/port-trunk.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/port-trunk.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
 <ul>
-<li>Trunk Group: Select a group of ports that can be managed as a single logical link.</li>
-<li>Member Port: Specify the ports that are part of the trunk group.</li>
+<li>Trunk Group: Select a group of ports that can be managed as a single logical link. 4 trunk groups are available.</li>
+<li>Member Port: Specify the port(s) that is one or several member(s) of the selected trunk group. You may press <strong>Ctrl</strong> key to select multiple ports at once.</li>
+<li>Apply: Click to save and apply your changes or settings.</li>
+<li>Select All: Click to select all the entries.</li>
+<li>Delete: Click to delete the selected entries.</li>
 </ul>
-<p><em>- Apply:</em> Click to save and apply your changes or settings.</p>
-<p><em>- Select All:</em> Click to select all the entries.</p>
-<p><em>- Delete:</em> Click to delete the selected entries.</p>
 <hr />
 <h2 id="port-mirror">Port Mirror<a class="headerlink" href="#port-mirror" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/port-mirror.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/port-mirror.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
 <ul>
 <li>Session: Identify a specific mirroring session.</li>
-<li>Port Mirror: Select to Disable or Enable the Port Mirror.</li>
+<li>Port Mirror: Select to <strong>Disable</strong> or <strong>Enable</strong> the Port Mirror.</li>
 <li>Mirroring Port: Specify the port that will receive mirrored traffic.</li>
 <li>Mirrored Port: Specify the port whose traffic will be mirrored.</li>
-<li>Ingress: Select to Disable or Enable the mirrors incoming traffic.</li>
-<li>Egress: Select to Disable or Enable the mirrors outgoing traffic.</li>
+<li>Ingress: Select to <strong>Disable</strong> or <strong>Enable</strong> the mirrored incoming traffic.</li>
+<li>Egress: Select to <strong>Disable</strong> or <strong>Enable</strong> the mirrored outgoing traffic.</li>
 </ul>
 <hr />
 <h2 id="speed-limit">Speed Limit<a class="headerlink" href="#speed-limit" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/speed-limit.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/speed-limit.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
 <ul>
 <li>Port: Specify the port to apply speed limits to.</li>
-<li>Ingress Speed: Sets the maximum incoming data rate for the port.</li>
-<li>Egress Speed: Sets the maximum outgoing data rate for the port.</li>
+<li>Ingress Speed: Set the maximum incoming data rate for the port.</li>
+<li>Egress Speed: Set the maximum outgoing data rate for the port.</li>
+<li>Apply: Click to save and apply your changes or settings.</li>
 </ul>
-<p><em>- Apply:</em> Click to save and apply your changes or settings.</p>
 <hr />
 <h2 id="jumbo-frame">Jumbo Frame<a class="headerlink" href="#jumbo-frame" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/jumbo-frame.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/jumbo-frame.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
 <ul>
 <li>Jumbo Frame Enable: Select to Enable or Disable jumbo frame support.</li>
 <li>MTU Size: Set the maximum transmission unit size for jumbo frames. Bigger MTUs enhance throughput but need compatible devices and careful management to avoid issues.</li>
+<li>Apply: Click to save and apply your changes or settings.</li>
 </ul>
-<p><em>- Apply:</em> Click to save and apply your changes or settings.</p>
 <hr />
 <h2 id="eee-config">EEE Config<a class="headerlink" href="#eee-config" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/EEE-config.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/EEE-config.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
-<ul>
-<li>EEE State: Select to Enable or Disable the Energy-Efficient Ethernet (EEE) state to manage power consumption.</li>
-</ul>
-<p><em>- Apply:</em> Click to save and apply your changes or settings.</p>
+<p>How to enable the Energy-Efficient Ethernet (EEE) state to manage power consumption?</p>
+<ol>
+<li>Check to select the port(s) to be configured.</li>
+<li>Select to <strong>Enable</strong> or <strong>Disable</strong> the EEE State.</li>
+<li>Click <strong>Apply</strong> to save and apply your changes or settings.</li>
+</ol>
 <hr />
 <h2 id="storm-control">Storm Control<a class="headerlink" href="#storm-control" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/storm-control.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/storm-control.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
-<p>Storm Suppression manages traffic storms by limiting the rate of unknown unicast, multicast, and broadcast packets.</p>
+<p><strong>Storm Suppression</strong> manages traffic storms by limiting the rate of unknown unicast, multicast, and broadcast packets.</p>
 <ul>
 <li>Port: Specify the port to apply storm control to.</li>
 <li>State: Enable or Disable storm control.</li>
-<li>Speed: Set the speed at which packets are suppressed.</li>
-<li>Unknown Unicast Packets: Limit the rate of unknown unicast packets.</li>
-<li>Multicast Packets: Limit the rate of multicast packets.</li>
-<li>Broadcast Packets: Limit the rate of broadcast packets.</li>
+<li>Unknown Unicast Packets: Enable or Disable the the traffic storm control of unknown unicast packets.</li>
+<li>Multicast Packets: Enable or Disable the the traffic storm control of multicast packets.</li>
+<li>Broadcast Packets: Enable or Disable the the traffic storm control of broadcast packets.</li>
+<li>Speed: Set the speed at which unicast/multicast/broadcast packets are suppressed.</li>
+<li>Apply: Click to save and apply your changes or settings.</li>
 </ul>
-<p><em>- Apply:</em> Click to save and apply your changes or settings.</p>
 <hr />
 <h2 id="traffic-monitor">Traffic Monitor<a class="headerlink" href="#traffic-monitor" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/traffic-monitor.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/traffic-monitor.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
+<p><strong>Traffic Monitor</strong> tracks real-time data flow metrics including Tx/Rx bytes (transmitted/received data volume) and Tx/Rx pkts (packet counts) per port, in order to monitor bandwidth usage and detect anomalies.</p>
 <ul>
 <li>Port: Displays the port being monitored.</li>
 <li>Tx bytes: Displays the number of transmitted bytes.</li>
 <li>Rx bytes: Displays the number of received bytes.</li>
 <li>Tx pkts: Displays the number of transmitted packets.</li>
 <li>Rx pkts: Displays the number of received packets.</li>
+<li>Clear: Click to empty the traffic data in the table.</li>
 </ul>
-<p><em>- Clear:</em> Click to empty the traffic data in the table.</p>
 <hr />
 <h2 id="mac-manage">MAC Manage<a class="headerlink" href="#mac-manage" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/mac-manage.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/mac-manage.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
 <ul>
 <li>Port Index: Identify the port for MAC address management.</li>
-<li>Maximum MAC number: Set the maximum number of MAC addresses allowed on the port. 0 means disabled.</li>
-<li>VID: Specifies the VLAN ID.</li>
+<li>Maximum MAC number: Set the maximum number of MAC addresses allowed on the specified port(s). 0 means disabled.</li>
+<li>VID: Specify the VLAN ID.</li>
 <li>MAC address: Enter the MAC addresses associated with the port.</li>
-<li>Dynamic MAC Address Table: Displays the dynamic MAC address table with index, VLAN ID, MAC address, and port information.</li>
+<li>Apply: Click to save and apply your changes or settings.</li>
+<li>Add: Click to add a new MAC address entry into the Static MAC Address Table.</li>
+<li>
+<p>Delete: Click to delete the selected MAC address entry.</p>
+</li>
+<li>
+<p>Dynamic MAC Address Table: Displays the dynamic MAC address table with index, VLAN ID, MAC address, port and aging time.</p>
+</li>
 <li>Aging time: Indicates the aging time for dynamic MAC addresses.</li>
 </ul>
-<p><em>- Apply:</em> Click to save and apply your changes or settings.</p>
-<p><em>- Add:</em> Click to add a new MAC address entry.</p>
-<p><em>- Delete:</em> Click to delete an existing MAC address entry.</p>
 
   <!-- Last update of source file -->
   

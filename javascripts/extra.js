@@ -203,3 +203,18 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
 // execute above function
 initPhotoSwipeFromDOM('.gl-lightbox');
+
+
+.md-breadcrumb {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.md-breadcrumb a {
+  text-decoration: none;
+  color: #3f51b5;
+}
+
+.md-breadcrumb a:hover {
+  text-decoration: underline;
+}

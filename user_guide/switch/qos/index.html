@@ -388,6 +388,8 @@
       
         
       
+        
+      
     
     
     
@@ -502,6 +504,26 @@
   
   <span class="md-ellipsis">
     GS1024E
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gs1016e/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GS1016E
   </span>
   
 
@@ -771,13 +793,17 @@
 
   <!-- Markdown content -->
   <h1 id="qos">QoS<a class="headerlink" href="#qos" title="Permanent link">&para;</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Images of GS1024E are for reference only; details may vary by model.</p>
+</div>
 <h2 id="qos-basic">QoS Basic<a class="headerlink" href="#qos-basic" title="Permanent link">&para;</a></h2>
 <h3 id="sp">SP<a class="headerlink" href="#sp" title="Permanent link">&para;</a></h3>
 <p>SP (Strict Priority) is a queuing method where packets in higher-priority queues are always processed before those in lower-priority queues. It is useful in scenarios where certain types of traffic, like real-time voice or video, need to be prioritized to reduce delay.</p>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/qos-basic-sp.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/qos-basic-sp.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
 <p>No further configuration is required. The switch will process packets strictly based on their priority levels. It will always handle the highest-priority packets first, regardless of the amount of traffic in each queue.</p>
 <ul>
-<li><em>Apply</em>: Click to save and apply your changes or settings.</li>
+<li>Apply: Click to save and apply your changes or settings.</li>
 </ul>
 <h3 id="wrr">WRR<a class="headerlink" href="#wrr" title="Permanent link">&para;</a></h3>
 <p>WRR (Weighted Round Robin) is a scheduling algorithm that assigns a weight to each queue and processes packets in a round-robin fashion based on these weights.It is suitable for scenarios where you want to allocate different amounts of bandwidth to different types of traffic in a fair manner.</p>
@@ -789,7 +815,7 @@
 <p>Weight: Determines the proportion of bandwidth allocated to each queue based on its importance.</p>
 </li>
 <li>
-<p><em>Apply</em>: Click to save and apply your changes or settings.</p>
+<p>Apply: Click to save and apply your changes or settings.</p>
 </li>
 </ul>
 <h3 id="wfq">WFQ<a class="headerlink" href="#wfq" title="Permanent link">&para;</a></h3>
@@ -801,7 +827,7 @@
 <p>Weight: Allocates bandwidth fairly among these flows based on their importance.</p>
 </li>
 <li>
-<p><em>Apply</em>: Click to save and apply your changes or settings.</p>
+<p>Apply: Click to save and apply your changes or settings.</p>
 </li>
 </ul>
 <p>It is configured by defining traffic classes and assigning weights to them. For example, you can define a class for voice traffic and assign it a higher weight, and a class for data traffic and assign it a lower weight.</p>
@@ -821,7 +847,7 @@
 <p>Queue: Choose the transmit queue (e.g., Q0-Q7) where the traffic from the selected port will be placed.</p>
 </li>
 <li>
-<p><em>Apply</em>: Click to save and apply your changes or settings.</p>
+<p>Apply: Click to save and apply your changes or settings.</p>
 </li>
 </ul>
 <h3 id="based-on-8021p">Based on 802.1p<a class="headerlink" href="#based-on-8021p" title="Permanent link">&para;</a></h3>
@@ -834,7 +860,7 @@
 <p>Queue: Map each 802.1p priority value (0-7) to a specific transmit queue (e.g., Q0-Q7). This determines which queue will handle traffic with that 802.1p priority.</p>
 </li>
 <li>
-<p><em>Apply</em>: Click to save and apply your changes or settings.</p>
+<p>Apply: Click to save and apply your changes or settings.</p>
 </li>
 </ul>
 <h3 id="based-on-dscp">Based on DSCP<a class="headerlink" href="#based-on-dscp" title="Permanent link">&para;</a></h3>
@@ -851,7 +877,7 @@
 <p>Queue: Map each DSCP value (0-63) to a specific transmit queue (e.g., Q0-Q7). This determines which queue will handle traffic with that DSCP value.</p>
 </li>
 <li>
-<p><em>Apply</em>: Click to save and apply your changes or settings.</p>
+<p>Apply: Click to save and apply your changes or settings.</p>
 </li>
 </ul>
 

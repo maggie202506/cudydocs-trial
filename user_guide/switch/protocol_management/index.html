@@ -388,6 +388,8 @@
       
         
       
+        
+      
     
     
     
@@ -502,6 +504,26 @@
   
   <span class="md-ellipsis">
     GS1024E
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gs1016e/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GS1016E
   </span>
   
 
@@ -752,6 +774,10 @@
 
   <!-- Markdown content -->
   <h1 id="protocol-management">Protocol Management<a class="headerlink" href="#protocol-management" title="Permanent link">&para;</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Images of GS1024E are for reference only; details may vary by model.</p>
+</div>
 <h2 id="snmp">SNMP<a class="headerlink" href="#snmp" title="Permanent link">&para;</a></h2>
 <p>SNMP is a widely used protocol for managing and monitoring network devices. It allows network administrators to collect information from and configure devices such as routers, switches, and servers.</p>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/snmp.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/snmp.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
@@ -762,18 +788,22 @@
 </ul>
 <p><strong>Communities</strong></p>
 <ul>
-<li>read community: A community string used by SNMP agents to allow read-only access to managed devices, enabling monitoring but not configuration changes. Select it to be Public or Private.</li>
-<li>write community: A community string that grants read-write access, allowing both monitoring and configuration changes to managed devices. Select it to be Public or Private.</li>
-<li>trap community: A community string used for sending SNMP trap messages, which are asynchronous notifications from agents to managers about significant events. Select it to be Public or Private.</li>
+<li>Read community: A community string used by SNMP agents to allow read-only access to managed devices, enabling monitoring but not configuration changes. Select it to be Public or Private.</li>
+<li>Write community: A community string that grants read-write access, allowing both monitoring and configuration changes to managed devices. Select it to be Public or Private.</li>
+<li>Trap community: A community string used for sending SNMP trap messages, which are asynchronous notifications from agents to managers about significant events. Select it to be Public or Private.</li>
 </ul>
 <p><strong>Trap</strong></p>
 <ul>
 <li>SNMP v1 trap: Select to Enable or Disable it. It is an SNMP v1 message sent by an agent to a manager to report significant events, such as errors or status changes.</li>
 <li>SNMP v2c trap: Select to Enable or Disable it. It is an SNMP v2c message that provides enhanced trap functionality, including better error handling and bulk data transfer capabilities compared to SNMP v1 traps.</li>
 <li>Trap Server: Select to specify the destination for trap messages, either By name (hostname) or By IP (address), where the SNMP manager listens for traps.</li>
-<li>Trap type: Select a type of traps that indicate specific events, such as a device reboot (cold/warm start), a network link becoming active or inactive (link up/down), or a failure in authentication.</li>
+<li>
+<p>Trap type: Select a type of traps that indicate specific events, such as a device reboot (cold/warm start), a network link becoming active or inactive (link up/down), or a failure in authentication.</p>
+</li>
+<li>
+<p>Apply: Click to save and apply the settings or changes.</p>
+</li>
 </ul>
-<p><em>- Apply:</em> Click to save and apply the settings or changes.</p>
 <hr />
 <h2 id="igmp-snooping">IGMP Snooping<a class="headerlink" href="#igmp-snooping" title="Permanent link">&para;</a></h2>
 <p>IGMP Snooping is a technique used by switches to monitor IGMP messages between hosts and routers. It helps optimize multicast traffic by ensuring that multicast packets are only forwarded to ports where interested receivers are present.</p>
@@ -807,14 +837,20 @@
 <ul>
 <li>Port: Lists the port number on the switch.</li>
 <li>Static: Indicates that the port configuration is manually set and does not change automatically.</li>
-<li>Dynamic: Indicates that the port configuration can change automatically based on network conditions or protocols.</li>
+<li>
+<p>Dynamic: Indicates that the port configuration can change automatically based on network conditions or protocols.</p>
+</li>
+<li>
+<p>Apply:Click to save and apply the settings or changes.</p>
+</li>
 </ul>
-<p><em>- Apply:</em> Click to save and apply the settings or changes.</p>
 <hr />
 <h2 id="dhcp-snooping">DHCP Snooping<a class="headerlink" href="#dhcp-snooping" title="Permanent link">&para;</a></h2>
 <p>A security feature used on switches to prevent unauthorized DHCP servers from assigning IP addresses to devices on the network. It helps protect against IP address spoofing and ensures that only legitimate DHCP servers can operate.</p>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/dhcp.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/dhcp.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
-<p>DHCP Snooping: Select to Enable or Disable DHCP Snooping.</p>
+<ul>
+<li>DHCP Snooping: Select to Enable or Disable DHCP Snooping.</li>
+</ul>
 <p><strong>Port Configuration</strong></p>
 <ul>
 <li>Port: Select the specific port to configure DHCP Snooping.</li>
@@ -824,17 +860,25 @@
 <li>Circuit ID Custom (Default or User Config): Select to allow customization of the Circuit ID in DHCP Option 82 or not.</li>
 <li>Circuit ID Sub-option: Only when <em>User Config</em> is selected in <em>Circuit ID Custom</em> field can you customize a specific part of the Circuit ID.</li>
 <li>Remote ID Custom (MAC Address, IP Address or User Config): Select how to define the source of the Remote ID in DHCP, whether the MAC address, IP address, or a user-defined value.</li>
-<li>Remote ID Sub-option: Only when <em>User Config</em> is selected in <em>Remote ID Custom</em> field can you customize a specific part of the Remote ID.</li>
+<li>
+<p>Remote ID Sub-option: Only when <em>User Config</em> is selected in <em>Remote ID Custom</em> field can you customize a specific part of the Remote ID.</p>
+</li>
+<li>
+<p>Apply:Click to save and apply the settings or changes.</p>
+</li>
 </ul>
-<p><em>- Apply:</em> Click to save and apply the settings or changes.</p>
 <hr />
 <h2 id="loop-prevention">Loop Prevention<a class="headerlink" href="#loop-prevention" title="Permanent link">&para;</a></h2>
 <p>Loop prevention mechanisms are used in networks to avoid the creation of loops that can cause broadcast storms and network instability. Techniques such as Spanning Tree Protocol (STP) are commonly used to detect and prevent loops in Layer 2 networks.</p>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/loop.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/loop.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
 <ul>
-<li>Loop prevention state: Select to Enable or Disable Loop Prevention. Enable it to avoid network loops and potential broadcast storms; Disable it when necessary in specific controlled environments where loops are managed differently.</li>
+<li>
+<p>Loop prevention state: Select to Enable or Disable Loop Prevention. Enable it to avoid network loops and potential broadcast storms; Disable it when necessary in specific controlled environments where loops are managed differently.</p>
+</li>
+<li>
+<p>Apply:Click to save and apply the settings or changes.</p>
+</li>
 </ul>
-<p><em>- Apply:</em> Click to save and apply the settings or changes.</p>
 <p><em>Normal</em> State indicates the port is functioning correctly without any detected loop conditions or issues. The loop prevention mechanisms are in place and are not currently triggered, allowing normal traffic flow through the port.</p>
 <hr />
 <h2 id="spanning-tree">Spanning Tree<a class="headerlink" href="#spanning-tree" title="Permanent link">&para;</a></h2>
@@ -855,9 +899,13 @@
 <li>Priority: Enter a value (a multiple of 16, between 0 to 240) assigned to the port that influences its role in the STP election process; lower values have higher priority. The value will then display in the table below it.</li>
 <li>Cost: Enter a metric assigned to the port that affects path selection; lower costs are preferred. The value will then display in the table below it.</li>
 <li>State: Displays the current operational state of the port.</li>
-<li>Role: Displays the role of the port in the STP topology.</li>
+<li>
+<p>Role: Displays the role of the port in the STP topology.</p>
+</li>
+<li>
+<p>Apply:Click to save and apply the settings or changes.</p>
+</li>
 </ul>
-<p><em>- Apply:</em> Click to save and apply the settings or changes.</p>
 <hr />
 <h2 id="lldp-config">LLDP Config<a class="headerlink" href="#lldp-config" title="Permanent link">&para;</a></h2>
 <p>LLDP is a protocol used to exchange information between adjacent network devices. It helps in discovering device information, such as device type, port details, and VLAN information, which can be useful for network management and troubleshooting.</p>
@@ -881,8 +929,10 @@
 <li>Tx &amp; Rx: The port both transmits and receives LLDP packets, enabling full bidirectional communication for comprehensive network discovery.</li>
 </ul>
 </li>
+<li>
+<p>Apply:Click to save and apply the settings or changes.</p>
+</li>
 </ul>
-<p><em>- Apply:</em> Click to save and apply the settings or changes.</p>
 <hr />
 <h2 id="lldp-neighbor">LLDP Neighbor<a class="headerlink" href="#lldp-neighbor" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/lldp-neighbor.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/lldp-neighbor.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
