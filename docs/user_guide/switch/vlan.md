@@ -1,4 +1,8 @@
 # VLAN
+
+!!! Note
+    Images of GS1024E are for reference only; details may vary by model.
+    
 A VLAN (Virtual Local Area Network) logically segments a physical switch network into separate broadcast domains, isolating traffic and enhancing security without requiring physical rewiring. The switch offers 4 types of VLAN: MTU VLAN, Port-based VLAN, 802.1Q VLAN and Voice VLAN. By default, Port-based VLAN is enabled and the others are disabled.
 
 ## MTU VLAN

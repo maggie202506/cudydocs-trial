@@ -1,7 +1,7 @@
 # Install
 
 !!! Note
-    GS1018PS2 is for illustration below. Your actual product may differ.
+    Images of GS1024E are for reference only; details may vary by model.
 
 ## Rack Installation
 
