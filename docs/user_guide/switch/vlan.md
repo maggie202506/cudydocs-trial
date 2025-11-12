@@ -69,7 +69,7 @@ The table below will display the port information, including Port Number, PVID a
 ## Voice VLAN
 A dedicated VLAN configured specifically for IP phone traffic, often prioritizing it (via QoS) and separating it from data traffic for better quality and security. Typically uses 802.1Q tagging 3. Configured by enabling Voice VLAN on an access port, setting the Voice VLAN ID, and often using LLDP for auto-provisioning phones.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/voice-vlan.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/voice-vlan2.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - VLAN ID: Enter a VLAN ID.
 - Priority: Select a priority number for the VLAN.

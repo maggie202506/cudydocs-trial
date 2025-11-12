@@ -83,7 +83,7 @@ How to enable the Energy-Efficient Ethernet (EEE) state to manage power consumpt
 ---
 
 ## Traffic Monitor
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/traffic-monitor.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/traffic-monitor2.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 **Traffic Monitor** tracks real-time data flow metrics including Tx/Rx bytes (transmitted/received data volume) and Tx/Rx pkts (packet counts) per port, in order to monitor bandwidth usage and detect anomalies.
 
