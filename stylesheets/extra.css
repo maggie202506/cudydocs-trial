@@ -1,83 +1,63 @@
-/* ===== 主色调配置 (2025.08.15更新) ===== */
+/* ===== 主色调配置 ===== */
 :root {
-  /* 核心蓝色系 */
   --md-primary-fg-color: #008CFF;        /* 导航栏/主按钮 */
   --md-primary-fg-color--light: #4DA8FF; /* 悬浮状态 */
   --md-primary-fg-color--dark: #006BB3;  /* 深色模式 */
-  
-  /* 保留默认文本色 */
-  --md-default-fg-color: #000000;        /* 强制锁定黑色文本 */
+  --md-default-fg-color: #000000;        /* 默认黑色文本 */
 }
- 
+
 /* ===== 产品卡片系统 ===== */
 .cudy-product-row {
   font-family: 'Lato', sans-serif;
   font-size: 15px !important;
   display: block;
   margin: 0px;
-  color: inherit; /* 继承默认黑色 */
+  color: inherit; /* 继承黑色文本 */
 }
- 
+
 .cudy-product-row-box {
-  float: left;
-  width: 100%;
-  margin-bottom: 25px;
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1%;
+  margin-bottom: 25px;
 }
- 
+
 .cudy-product-card {
-  float: left;
-  width: 95%;
-  margin-right: 2%;
-  margin-bottom: 5%;
   background-color: #FFFFFF;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
   border-radius: 3px;
-  border-style: solid;
-  border-color: #ffffff;
+  border: 1px solid #FFFFFF;
   text-align: center;
-  transition: border-color 0.3s ease;
+  transition: border-color 0.3s ease, transform 0.2s ease;
+  padding: 10px;
 }
- 
+
 .cudy-product-card:hover {
-  border-color: #008CFF !important;  /* 悬停交互色 */
+  border-color: #008CFF;
+  transform: translateY(-3px);
 }
- 
+
 .cudy-product-card img {
   width: 70%;
 }
- 
-/* 产品型号文字（特殊蓝色标识） */ 
-div.cudy-product-model  {
+
+div.cudy-product-model {
   font-weight: bold;
-  color: #008CFF;  /* 仅型号文字用蓝色 */
+  color: #008CFF;
 }
- 
+
 .cudy-product-model-ap1300 {
   font-size: 12px;
   font-weight: bold;
 }
- 
-/* ===== 响应式布局 ===== */
-@media only screen and (max-width: 30em) {
+
+/* 响应式布局 */
+@media only screen and (max-width: 480px) {
   .cudy-product-row-box {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
- 
-/* ===== 其他组件 ===== */
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  color: inherit; /* 继承黑色 */
-}
- 
-img.cudyboxshadow  {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
- 
+
 /* 桌面端布局 */
 @media only screen and (min-width: 992px) {
   .cudy-50-desktop { width: 50%; }
@@ -87,35 +67,97 @@ img.cudyboxshadow  {
   .cudy-90-desktop { width: 90%; }
 }
 
-.md-typeset .md-footer {
-  background-color: #008CFF;
+/* ===== 其他组件 ===== */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: inherit;
 }
 
-.md-footer {
-    background-color: #008CFF !important;
-    display: block !important;
-    height: auto !important;
-    opacity: 1 !important;
+img.cudyboxshadow {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
 }
 
-.md-footer-meta__inner {
-    color: white !important;
-}
-
-.md-footer-social {
-  display: flex !important;
-  opacity: 1 !important;
-}
-
-/* 一级列表：实心圆（默认） */ 
+/* ===== 列表样式 ===== */
 .md-typeset ul li { 
   list-style-type: disc; 
 } 
-/* 二级列表：空心圆 */ 
 .md-typeset ul ul li { 
   list-style-type: circle; 
 } 
-/* 三级列表：方形（可选） */ 
 .md-typeset ul ul ul li { 
   list-style-type: square; 
 } 
+
+/* ===== 固定 Footer ===== */
+.md-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color:  #008cffe3; /* 整体统一底色 */
+  border-top: 1px solid rgba(255,255,255,0.2);
+  padding: 0.5rem 1rem;
+  text-align: center;
+  z-index: 9999;
+  box-sizing: border-box;
+}
+
+/* 内部内容框继承父层背景色 */
+.md-footer__inner {
+  color: #ffffff; /* 文字颜色 */
+  background-color: inherit; /* 与父层统一 */
+  padding: 0.5rem 1rem;
+  border-radius: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+/* 社交图标 */
+.md-footer-social {
+  display: flex !important;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  opacity: 1 !important;
+}
+
+/* 内容区底部留出空间，避免被 footer 遮挡 */
+.md-content {
+  padding-bottom: 4rem;
+}
+
+/* 统一 footer 背景色 */
+.md-footer,
+.md-footer-nav,
+.md-footer-meta,
+.md-footer-meta__inner {
+    background-color: #008cff !important;
+    padding-top: 0.03rem;   /* 原默认是 0.4rem 左右 */
+    padding-bottom: 0.05rem;
+}
+
+/* 统一文字颜色 */
+.md-footer,
+.md-footer-meta__inner,
+.md-footer-nav {
+    color: #ffffff !important;
+}
+
+/* 如果有链接文字，强制白色 */
+.md-footer a {
+    color: #ffffff !important;
+}
+
+/* 响应式 Footer：手机端 */
+@media (max-width: 768px) {
+  .md-footer__inner {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+  .md-footer-social {
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+}
