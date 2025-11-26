@@ -10,7 +10,8 @@ Insert four screws (not provided) through themounting holes and fasten them into
 2. Hook the unit over the DlN-rail.
 3. Push the unit bottom towards the DlN-rail until the bracket snaps into place.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" alt=""> The router must be grounded properly for optimal performance and safety.
+!!!Note
+    The router must be grounded properly for optimal performance and safety.
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/dinrail.webp"  width="700" alt="">
 
 ---
@@ -29,7 +30,8 @@ Insert four screws (not provided) through themounting holes and fasten them into
 
 3. Insert the SlM tray back into the SlM1/2 slot. And store the pin back into the SlM Pin slot.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" alt=""> Power off the router before installing antennas or SlM card.
+!!!Note
+    Power off the router before installing antennas or SlM card.
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/install-sim.webp"  width="500" alt="">
 
@@ -43,4 +45,5 @@ Insert four screws (not provided) through themounting holes and fasten them into
 
 **Method C.** Connect a PSE or PoE adapter to the WAN/LAN or LAN 1/2/3 port.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" alt=""> WAN/LAN port supports standard 802.3at/af PoE, and LAN 1~3 ports support passive PoE.
+!!!Note
+    WAN/LAN port supports standard 802.3at/af PoE, and LAN 1~3 ports support passive PoE.

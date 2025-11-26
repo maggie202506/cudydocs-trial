@@ -2,8 +2,10 @@
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/package_content.webp"  width="500" alt="">
 
 ---
-## Front Panel & LEDs
+## Front Panel
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/front-panel.webp"  width="500" alt="">
+
+## LED
 <table>
   <thead>
     <tr>

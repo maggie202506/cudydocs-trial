@@ -24,6 +24,8 @@ theme:
     - navigation.top
     - navigation.tracking
     - navigation.sections
+    - navigation.expand
+    - toc.integrate
     - footer.social
   palette:
     # Light Mode
@@ -41,6 +43,7 @@ theme:
         icon: material/toggle-switch 
         name: Switch to light mode 
   favicon: images/favicon.ico 
+
 
 # Plugins
 plugins:
@@ -80,6 +83,7 @@ extra_css:
   # - stylesheets/photoswipe.min.css
   # - stylesheets/default-skin.min.css
   - stylesheets/extra.css
+  - stylesheets/preview-panel.css  
   
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js
@@ -92,7 +96,7 @@ extra_javascript:
   - javascripts/extra.js
   - javascripts/cookieconsent.js
   - javascripts/lazyload.js
-
+  - javascripts/preview-panel.js
 
 markdown_extensions:
   - attr_list
@@ -103,6 +107,7 @@ markdown_extensions:
   - pymdownx.details
   - admonition
   - toc:
+        permalink: true
         toc_depth: 4
 
 nav:
