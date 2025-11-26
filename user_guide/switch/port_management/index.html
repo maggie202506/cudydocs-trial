@@ -56,6 +56,8 @@
     
       <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
+      <link rel="stylesheet" href="../../../stylesheets/preview-panel.css">
+    
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -325,7 +327,9 @@
   
 
 
-<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="Docs" class="md-nav__button md-logo" aria-label="Docs" data-md-component="logo">
       
@@ -400,7 +404,9 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
         
           
           
@@ -455,7 +461,9 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
@@ -546,7 +554,9 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
         
           
           <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
@@ -619,7 +629,9 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_4" >
         
           
           <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="">
@@ -710,7 +722,9 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_5" >
         
           
           <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="">
@@ -790,7 +804,9 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
         
           
           
@@ -847,7 +863,9 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
         
           
           
@@ -887,95 +905,6 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#port-settings" class="md-nav__link">
-    Port Settings
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#port-trunk" class="md-nav__link">
-    Port Trunk
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#port-mirror" class="md-nav__link">
-    Port Mirror
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#speed-limit" class="md-nav__link">
-    Speed Limit
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#jumbo-frame" class="md-nav__link">
-    Jumbo Frame
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#eee-config" class="md-nav__link">
-    EEE Config
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#storm-control" class="md-nav__link">
-    Storm Control
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#traffic-monitor" class="md-nav__link">
-    Traffic Monitor
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mac-manage" class="md-nav__link">
-    MAC Manage
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           
             <div class="md-content" data-md-component="content">
@@ -993,112 +922,169 @@
   
 
   <!-- Markdown content -->
-  <h1 id="port-management">Port Management</h1>
+  <h1 id="port-management">Port Management<a class="headerlink" href="#port-management" title="Permanent link">&para;</a></h1>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Images of GS1024E are for reference only; details may vary by model.</p>
 </div>
-<h2 id="port-settings">Port Settings</h2>
+<h2 id="port-settings">Port Settings<a class="headerlink" href="#port-settings" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/port-settings.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/port-settings.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
+<p>On the <strong>Port Management &gt;&gt; Port Settings</strong> page, you can configure the port parameters:</p>
+<p>1) Specify the physical port(s) on the switch. Press <em>Ctrl</em> key to select multiple ports at once.</p>
+<p>2) Configure the basic parameters for the selected port(s). </p>
 <ul>
-<li>Port: Specifies the physical port on the switch.</li>
-<li>State: Select the port state to be <strong>Enabled</strong> or <strong>Disabled</strong>.</li>
-<li>Automatic: Turn <strong>On</strong> or <strong>Off</strong> the auto-negotiation for the port.</li>
-<li>Rate: Select the data transfer rate and mode (half or full duplex) for the port.</li>
-<li>Flow Control: Turn On or Off the flow control to manage data transmission. </li>
-<li>Apply: Click to save and apply your changes or settings.</li>
-<li>The table displays the current state for each port and will change with the new settings.</li>
+<li>State: Select <em>Enabled</em> or <em>Disabled</em>. When <em>Enabled</em> is selected, the port can forward the packets normally.</li>
+<li>Automatic: Turn <em>On</em> or <em>Off</em> the auto-negotiation for the port.</li>
+<li>Rate: Select the data transfer rate and mode (half or full duplex) for the port. </li>
+<li>Flow Control: Turn <em>On</em> or <em>Off</em> the flow control to manage data transmission. When <em>On</em> is selected, the switch can synchronize the speed with its peer to avoid the packet loss caused by congestion.</li>
 </ul>
+<p>3) Click <em>Apply</em> to save and apply your changes or settings. The table below displays the current state for each port and will change with the new settings.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>
+<p>When rate/duplex of a port is set to auto/1000M, full duplex and its actual mode is 1000M full duplex, 100M full duplex or 10M full duplex, the flow control function can be enabled and take effect.</p>
+</li>
+<li>
+<p>It is recommended to set the ports on both ends of a link with the same speed and duplex mode. </p>
+</li>
+<li>
+<p>Keep the port that is connected to the management device enabled, or you cannot access the switch.</p>
+</li>
+<li>
+<p>The parameters of the port members in a LAG should be set as the same.</p>
+</li>
+</ul>
+</div>
 <hr />
-<h2 id="port-trunk">Port Trunk</h2>
+<h2 id="port-trunk">Port Trunk<a class="headerlink" href="#port-trunk" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/port-trunk.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/port-trunk.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
+<p>On the <strong>Port Management &gt;&gt; Port Trunk</strong> page, you can configure the port trunk:</p>
+<p>1) Select a Trunk Group of ports that can be managed as a single logical link. 4 trunk groups are available.</p>
+<p>2) Specify the member port(s) for the selected trunk group. Press <em>Ctrl</em> key to select multiple ports at once.</p>
+<p>3) Click <em>Apply</em> to save and apply your changes or settings. </p>
+<p>4) The table below displays the current state of the trunk group(s) and will change with the new settings. You may click <em>Select All</em> to select all the entries, or click <em>Delete</em> to delete the selected entries.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <ul>
-<li>Trunk Group: Select a group of ports that can be managed as a single logical link. 4 trunk groups are available.</li>
-<li>Member Port: Specify the port(s) that is one or several member(s) of the selected trunk group. You may press <strong>Ctrl</strong> key to select multiple ports at once.</li>
-<li>Apply: Click to save and apply your changes or settings.</li>
-<li>Select All: Click to select all the entries.</li>
-<li>Delete: Click to delete the selected entries.</li>
+<li>4 is the most trunk group can we created.</li>
+<li>Each aggregation group has at most 8 member ports.</li>
 </ul>
+</div>
 <hr />
-<h2 id="port-mirror">Port Mirror</h2>
+<h2 id="port-mirror">Port Mirror<a class="headerlink" href="#port-mirror" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/port-mirror.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/port-mirror.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
+<p>On the <strong>Port Management &gt;&gt; Port Mirror</strong> page, you can configure the port mirroring:</p>
+<p>1) Enable the port mirror feature globally. Specify a mirroring port. Click <em>Apply</em>. </p>
 <ul>
-<li>Session: Identify a specific mirroring session.</li>
-<li>Port Mirror: Select to <strong>Disable</strong> or <strong>Enable</strong> the Port Mirror.</li>
-<li>Mirroring Port: Specify the port that will receive mirrored traffic.</li>
-<li>Mirrored Port: Specify the port whose traffic will be mirrored.</li>
-<li>Ingress: Select to <strong>Disable</strong> or <strong>Enable</strong> the mirrored incoming traffic.</li>
-<li>Egress: Select to <strong>Disable</strong> or <strong>Enable</strong> the mirrored outgoing traffic.</li>
+<li>Session: Displays the session number.</li>
+<li>Status: Select to enable/disable the port mirror feature.</li>
+<li>Mirroring Port: Select a port from the drop-down list as the mirroring port.</li>
 </ul>
+<p>2) Select one or more mirrored ports, enable or disable the ingress packets and egress packets to be mirrored for the ports. Click <em>Apply</em>.</p>
+<ul>
+<li>Mirroring Port: Select one or multiple desired port(s) as the mirrored port(s). </li>
+<li>Ingress: Select to enable/disable the Ingress feature. When the Ingress is enabled, the incoming packets received by the mirrored port will be copied to the </li>
+<li>Egress: Select to enable/disable the Egress feature. When the Egress is enabled, the outgoing packets sent by the mirrored port will be copied to the mirroring port.</li>
+</ul>
+<p>3) In the table below, you can verify the configuration result for port mirroring.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The LAG member ports cannot be set as a mirroring port but a mirrored port.</p>
+</div>
 <hr />
-<h2 id="speed-limit">Speed Limit</h2>
+<h2 id="speed-limit">Speed Limit<a class="headerlink" href="#speed-limit" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/speed-limit.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/speed-limit.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
+<p>On the <strong>Port Management &gt;&gt; Speed Limit</strong> page, you can configure the speed limit for the ports:</p>
+<p>1) Select the desired ports and configure the ingress/egress speed for the ports. </p>
 <ul>
-<li>Port: Specify the port to apply speed limits to.</li>
-<li>Ingress Speed: Set the maximum incoming data rate for the port.</li>
-<li>Egress Speed: Set the maximum outgoing data rate for the port.</li>
-<li>Apply: Click to save and apply your changes or settings.</li>
+<li>Ingress Speed: Configure the bandwidth for receiving packets on the port. If the speed for receiving packets on the port exceeds the ingress speed, the packets will be discarded.</li>
+<li>Egress Speed: Configure the bandwidth for sending packets on the port. If the speed for sending packets on the port exceeds the egress speed, the packets will be discarded.</li>
 </ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If the Ingress and Egress speed are set as 0, the speed limit feature is disabled.</p>
+</div>
+<p>2) Click <em>Apply</em> to save and apply your changes or settings. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>For a port, the ingress speed control feature and the storm control feature cannot be enabled at the same time. If you enable ingress speed control for a port, storm control will be disabled for that port automatically.</li>
+<li>When egress speed is set for one or more ports, it is recommended to disable the flow control on each port to ensure the switch works normally.</li>
+<li>For ports in the same LAG, speed limit should be configured the same to ensure a successful port aggregation.</li>
+</ul>
+</div>
 <hr />
-<h2 id="jumbo-frame">Jumbo Frame</h2>
+<h2 id="jumbo-frame">Jumbo Frame<a class="headerlink" href="#jumbo-frame" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/jumbo-frame.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/jumbo-frame.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
-<ul>
-<li>Jumbo Frame Enable: Select to Enable or Disable jumbo frame support.</li>
-<li>MTU Size: Set the maximum transmission unit size for jumbo frames. Bigger MTUs enhance throughput but need compatible devices and careful management to avoid issues.</li>
-<li>Apply: Click to save and apply your changes or settings.</li>
-</ul>
+<p>On the <strong>Port Management &gt;&gt; Jumbo Frame</strong> page, you can configure the Jumbo Frame for the ports:</p>
+<p>1) Select to Enable or Disable jumbo frame feature.</p>
+<p>2) Set the MTU (Maximum Transmission Unit) Size for jumbo frames. Bigger MTUs enhance throughput but need compatible devices and careful management to avoid issues.</p>
+<p>3) Click <em>Apply</em> to save and apply your changes or settings. </p>
 <hr />
-<h2 id="eee-config">EEE Config</h2>
+<h2 id="eee-config">EEE Config<a class="headerlink" href="#eee-config" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/EEE-config.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/EEE-config.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
-<p>How to enable the Energy-Efficient Ethernet (EEE) state to manage power consumption?</p>
-<ol>
-<li>Check to select the port(s) to be configured.</li>
-<li>Select to <strong>Enable</strong> or <strong>Disable</strong> the EEE State.</li>
-<li>Click <strong>Apply</strong> to save and apply your changes or settings.</li>
-</ol>
+<p>On the <strong>Port Management &gt;&gt; EEE Config</strong> page, you can enable EEE(Energy Efficient Ethernet) on ports to allow power reduction:</p>
+<p>1) Select one or more port(s) to enable/disable EEE.</p>
+<p>2) Select to <em>Enable</em> or <em>Disable</em> the EEE State for the selected port(s).</p>
+<p>3) Click <em>Apply</em> to save and apply your changes or settings.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If the port is a member port of an LAG, it will follow the EEE configuration of the LAG and not its own.</p>
+</div>
 <hr />
-<h2 id="storm-control">Storm Control</h2>
+<h2 id="storm-control">Storm Control<a class="headerlink" href="#storm-control" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/storm-control.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/storm-control.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
-<p><strong>Storm Suppression</strong> manages traffic storms by limiting the rate of unknown unicast, multicast, and broadcast packets.</p>
+<p>On the <strong>Port Management &gt;&gt; Storm Control</strong> page, you can control traffic storms by limiting the speed of unknown unicast, multicast, and broadcast packets.</p>
+<p>1) Specify the port(s) to apply storm control to.  Press <em>Ctrl</em> key to select multiple ports.</p>
+<p>2) Configure the following parameters:</p>
 <ul>
-<li>Port: Specify the port to apply storm control to.</li>
-<li>State: Enable or Disable storm control.</li>
-<li>Unknown Unicast Packets: Enable or Disable the the traffic storm control of unknown unicast packets.</li>
-<li>Multicast Packets: Enable or Disable the the traffic storm control of multicast packets.</li>
-<li>Broadcast Packets: Enable or Disable the the traffic storm control of broadcast packets.</li>
-<li>Speed: Set the speed at which unicast/multicast/broadcast packets are suppressed.</li>
-<li>Apply: Click to save and apply your changes or settings.</li>
+<li>Unknown Unicast Packets: Specify the upper rate limit for receiving unknown unicast frames. The traffic exceeding the limit will be processed according to the Action configurations.</li>
+<li>Multicast Packets: Specify the upper rate limit for receiving multicast packets. The multicast traffic exceeding the limit will be processed according to the Action configurations.</li>
+<li>Broadcast Packets: Specify the upper rate limit for receiving broadcast packets. The broadcast traffic exceeding the limit will be processed according to the Action configurations.</li>
+<li>Speed: Specify the speed for the broadcast threshold, multicast threshold and unknown unicast frames threshold on the desired port. The speed limit setting value must be a multiple of 64.<ul>
+<li>kbps: The switch will limit the maximum speed of the specific kinds of traffic in kilo-bits per second.</li>
+<li>pps: The switch will limit the maximum speed of the specific kinds of traffic in packets per second.</li>
 </ul>
+</li>
+</ul>
+<p>3) Click <em>Apply</em> to save and apply your changes or settings.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>For a port, the storm control feature and the ingress speed control feature cannot be enabled at the same time. If you enable storm control for a port, ingress speed control will be disabled for that port automatically.</li>
+<li>For ports in the same LAG, storm control should be configured the same to ensure a successful port aggregation.</li>
+</ul>
+</div>
 <hr />
-<h2 id="traffic-monitor">Traffic Monitor</h2>
+<h2 id="traffic-monitor">Traffic Monitor<a class="headerlink" href="#traffic-monitor" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/traffic-monitor2.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/traffic-monitor2.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
-<p><strong>Traffic Monitor</strong> tracks real-time data flow metrics including Tx/Rx bytes (transmitted/received data volume) and Tx/Rx pkts (packet counts) per port, in order to monitor bandwidth usage and detect anomalies.</p>
+<p>On the <strong>Port Management &gt;&gt; Traffic Monitor</strong> page, you can track real-time data flow metrics including Tx/Rx bytes (transmitted/received data volume) and Tx/Rx pkts (packet counts) per port, in order to monitor bandwidth usage and detect anomalies. You may click <em>Clear</em> to empty the traffic data in the table.</p>
 <ul>
 <li>Port: Displays the port being monitored.</li>
-<li>Tx bytes: Displays the number of transmitted bytes.</li>
-<li>Rx bytes: Displays the number of received bytes.</li>
+<li>Tx bytes: Displays the number of transmitted bytes. Error packets are counted.</li>
+<li>Rx bytes: Displays the number of received bytes. Error packets are counted.</li>
 <li>Tx pkts: Displays the number of transmitted packets.</li>
 <li>Rx pkts: Displays the number of received packets.</li>
-<li>Clear: Click to empty the traffic data in the table.</li>
 </ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Because of the supporting feature of jumbo frame, the frames with more than 15360 bytes can not be forwarded.</p>
+</div>
 <hr />
-<h2 id="mac-manage">MAC Manage</h2>
+<h2 id="mac-manage">MAC Manage<a class="headerlink" href="#mac-manage" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/mac-manage.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/mac-manage.webp" alt="" width="1000px" style="border: 1px solid #eee;" /></a></p>
+<p>On the <strong>Port Management &gt;&gt; MAC Manage</strong> page, you can manage MAC addresses to enhance network security:</p>
+<p>1) From the drop-down list of Port Index select the port for MAC address management.</p>
+<p>2) Configure the following parameters.</p>
 <ul>
-<li>Port Index: Identify the port for MAC address management.</li>
 <li>Maximum MAC number: Set the maximum number of MAC addresses allowed on the specified port(s). 0 means disabled.</li>
 <li>VID: Specify the VLAN ID.</li>
 <li>MAC address: Enter the MAC addresses associated with the port.</li>
-<li>Apply: Click to save and apply your changes or settings.</li>
-<li>Add: Click to add a new MAC address entry into the Static MAC Address Table.</li>
-<li>
-<p>Delete: Click to delete the selected MAC address entry.</p>
-</li>
-<li>
-<p>Dynamic MAC Address Table: Displays the dynamic MAC address table with index, VLAN ID, MAC address, port and aging time.</p>
-</li>
-<li>Aging time: Indicates the aging time for dynamic MAC addresses.</li>
 </ul>
+<p>3) Click <em>Apply</em> to save and apply your changes or settings.</p>
+<p>4) On the Static MAC Address Table, you can <em>Add</em> a new MAC address entry or <em>Delete</em> any selected MAC address entries.</p>
+<p>5) On the Dynamic MAC Address Table, it displays the VLAN ID, MAC address, port and aging time.</p>
 
   <!-- Last update of source file -->
   
@@ -1279,7 +1265,7 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["search.highlight", "navigation.indexes", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "footer.social"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["search.highlight", "navigation.indexes", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "toc.integrate", "footer.social"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../../assets/javascripts/bundle.aecac24b.min.js"></script>
@@ -1297,6 +1283,8 @@
         <script src="../../../javascripts/cookieconsent.js"></script>
       
         <script src="../../../javascripts/lazyload.js"></script>
+      
+        <script src="../../../javascripts/preview-panel.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});

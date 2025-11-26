@@ -56,6 +56,8 @@
     
       <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
+      <link rel="stylesheet" href="../../../stylesheets/preview-panel.css">
+    
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -325,7 +327,9 @@
   
 
 
-<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="Docs" class="md-nav__button md-logo" aria-label="Docs" data-md-component="logo">
       
@@ -400,7 +404,9 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
         
           
           
@@ -455,7 +461,9 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
@@ -546,7 +554,9 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
         
           
           <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
@@ -619,7 +629,9 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_4" >
         
           
           <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="">
@@ -710,7 +722,9 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_5" >
         
           
           <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="">
@@ -790,7 +804,9 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
         
           
           
@@ -847,7 +863,9 @@
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
         
           
           
@@ -887,74 +905,6 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#pptp-vpn" class="md-nav__link">
-    PPTP VPN
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#l2tp-vpn" class="md-nav__link">
-    L2TP VPN
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#openvpn" class="md-nav__link">
-    OpenVPN
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#wireguard-vpn" class="md-nav__link">
-    WireGuard VPN
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#zerotier-vpn" class="md-nav__link">
-    ZeroTier VPN
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ipsec-site-to-site-vpn" class="md-nav__link">
-    IPSec (site-to-site) VPN
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           
             <div class="md-content" data-md-component="content">
@@ -972,7 +922,7 @@
   
 
   <!-- Markdown content -->
-  <h1 id="vpn">VPN</h1>
+  <h1 id="vpn">VPN<a class="headerlink" href="#vpn" title="Permanent link">&para;</a></h1>
 <p><strong>VPN (Virtual Private Network)</strong> helps you access Internet resources remotely, securely, and privately through tunneling technology. When you access the Internet, VPN encrypts your personal information and hides your IP address from the public. For VPN users, it looks like the devices are directly connected. Cudy Router supports 6 types of VPN connections: PPTP, L2TP, OpenVPN, WireGuard, ZeroTier, IPSec (site-to-site). Please choose an appropriate VPN according to your needs and circumstances.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -980,7 +930,7 @@
 </div>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/vpn.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/vpn.webp" alt="" width="800px" style="display: block; margin: 0 auto;" /></a></p>
 <hr />
-<h2 id="pptp-vpn">PPTP VPN</h2>
+<h2 id="pptp-vpn">PPTP VPN<a class="headerlink" href="#pptp-vpn" title="Permanent link">&para;</a></h2>
 <p><strong>PPTP VPN</strong> is used to create a PPTP VPN connection for remote devices to access your home network. Fast connection/disconnection and simple configuration satisfy the needs for users who is apt to frequently switch VPN environments. Please follow the steps below to set up a PPTP VPN connection.</p>
 <p><strong>STEP 1. Configure the PPTP Server on Router A:</strong>
 <a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/pptp-server.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/pptp-server.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
@@ -1028,7 +978,7 @@
 </li>
 </ol>
 <hr />
-<h2 id="l2tp-vpn">L2TP VPN</h2>
+<h2 id="l2tp-vpn">L2TP VPN<a class="headerlink" href="#l2tp-vpn" title="Permanent link">&para;</a></h2>
 <p><strong>L2TP VPN Server</strong> is used to create a L2TP VPN connection for remote devices to access your home network. Compared with PPTP, L2TP supports multi-tunnel with authentication between two endpoints, thus users can set up different tunnels with various service quality. Please follow the steps below to set up a L2TP VPN connection.</p>
 <p><strong>STEP 1. Configure the L2TP Server on Router A:</strong>
 <a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/l2tp-server.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/l2tp-server.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
@@ -1081,7 +1031,7 @@
 </li>
 </ol>
 <hr />
-<h2 id="openvpn">OpenVPN</h2>
+<h2 id="openvpn">OpenVPN<a class="headerlink" href="#openvpn" title="Permanent link">&para;</a></h2>
 <p><strong>OpenVPN Server</strong> is used to create an OpenVPN connection for remote devices to access your home network. OpenVPN server requires a public IP. You can confirm whether the router has a public IP on the router management page System Status -&gt; WAN -&gt; More details -&gt; Status. If the public IP displayed is consistent with the IP address of the router's WAN port, it means that the router has a public IP. Please follow the steps below to set up an OpenVPN connection.</p>
 <p><strong>STEP 1. Configure the OpenVPN Server on Router A:</strong>
 <a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/openvpn-server.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/openvpn-server.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
@@ -1125,7 +1075,7 @@
 <li>Click Save &amp; Apply.</li>
 </ol>
 <hr />
-<h2 id="wireguard-vpn">WireGuard VPN</h2>
+<h2 id="wireguard-vpn">WireGuard VPN<a class="headerlink" href="#wireguard-vpn" title="Permanent link">&para;</a></h2>
 <p><strong>WireGuard VPN Server</strong> is used to create a Wire Guard VPN connection for remote devices to access your home network. WireGuard VPN server requires a public IP. You can confirm whether the router has a public IP on the router management page System Status -&gt; WAN -&gt; More details -&gt; Status. If the public IP displayed is consistent with the IP address of the router's WAN port, it means that the router has a public IP. Please follow the steps below to set up a WireGuard VPN connection.</p>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/wireguard-server.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/wireguard-server.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
 <p><strong>STEP 1. Configure the WireGuard Server on Router A:</strong></p>
@@ -1182,7 +1132,7 @@
 <li>Confirm the parameters and then click Save &amp; Apply.</li>
 </ol>
 <hr />
-<h2 id="zerotier-vpn">ZeroTier VPN</h2>
+<h2 id="zerotier-vpn">ZeroTier VPN<a class="headerlink" href="#zerotier-vpn" title="Permanent link">&para;</a></h2>
 <p><strong>Zerotier</strong> is a third-party cloud platform for VPN connections. It can establish a VPN connection without any public IP address node to achieve secure and remote access. It is free for use with less than 50 nodes. It is simple and convenient to set up. Please follow the steps below to set up a ZeroTier VPN connection.</p>
 <p><strong>STEP 1. Register for a ZeroTier Account and Obtain a Network ID.</strong></p>
 <ol>
@@ -1239,7 +1189,7 @@
 <p>Now your client devices can directly access the router's management web page via 192.168.10.1 as well as the server via its IP address.
 <a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/zerotier10.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/zerotier10.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
 <hr />
-<h2 id="ipsec-site-to-site-vpn">IPSec (site-to-site) VPN</h2>
+<h2 id="ipsec-site-to-site-vpn">IPSec (site-to-site) VPN<a class="headerlink" href="#ipsec-site-to-site-vpn" title="Permanent link">&para;</a></h2>
 <p><strong>IPSec (site-to-site) VPN</strong> is a secure tunneling protocol used to connect two different networks, typically a corporate network and a remote branch office network, over the Internet. It allows multiple users at the remote site to access resources on the main office network as if they were directly connected to it. Please follow the steps below to set up an IPSec (site-to-site) VPN connection.</p>
 <p><strong>STEP 1. Get both Routers in the Headquarter and Branch Office ready.</strong></p>
 <ol>
@@ -1474,7 +1424,7 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["search.highlight", "navigation.indexes", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "footer.social"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["search.highlight", "navigation.indexes", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "toc.integrate", "footer.social"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../../assets/javascripts/bundle.aecac24b.min.js"></script>
@@ -1492,6 +1442,8 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
         <script src="../../../javascripts/cookieconsent.js"></script>
       
         <script src="../../../javascripts/lazyload.js"></script>
+      
+        <script src="../../../javascripts/preview-panel.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
