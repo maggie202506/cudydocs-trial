@@ -1086,10 +1086,10 @@
 </ul>
 <h3 id="iv-vlan">IV. <a data-preview="data-preview" href="../vlan/#vlan">VLAN</a><a class="headerlink" href="#iv-vlan" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a data-preview="data-preview" href="../vlan/#mtu-vlan">MTU VLAN</a> adjusts the Maximum Transmission Unit (MTU) size (typically to 1496 bytes) on interfaces carrying VLAN-tagged traffic to accommodate the extra 4-byte 802.1Q tag and prevent fragmentation or packet loss. </li>
-<li><a data-preview="data-preview" href="../vlan/#port-based-vlan">Port-based VLAN</a> also called Static VLAN, assigns switch ports directly to a specific VLAN; any device plugged into that port belongs to that VLAN. Ideal for simplicity and static device locations.</li>
-<li><a data-preview="data-preview" href="../vlan/#8021q-vlan">802.1Q VLAN</a> also called Tagged VLAN/Trunking, uses standard 802.1Q tags within Ethernet frames to identify VLAN membership, allowing a single physical link (trunk) to carry traffic for multiple VLANs between switches or to routers. </li>
-<li><a data-preview="data-preview" href="../vlan/#voice-vlan">Voice VLAN</a> is a dedicated VLAN specifically for IP phone traffic, often prioritizing it (via QoS) and separating it from data traffic for better quality and security. Typically uses 802.1Q tagging 3.</li>
+<li><a data-preview="data-preview" href="../vlan/#mtu-vlan">MTU VLAN</a> defines an uplink port which will build up several VLANs with each of the other ports. Each VLAN contains two ports, the uplink port and one of the other ports in the switch, so the device connected to the uplink port can communicate with the device connected to any other port, but devices connected to other ports cannot communicate with each other.</li>
+<li><a data-preview="data-preview" href="../vlan/#port-based-vlan">Port-based VLAN</a>s are divided based on ports. In port based VLAN mode, each port can only be added to one VLAN.</li>
+<li><a data-preview="data-preview" href="../vlan/#8021q-vlan">802.1Q VLAN</a> protocol defines a new format of VLAN data frame (Tagged Frame). As the following figure shows, compared to the traditional Ethernet data frame (Untagged Frame), the VLAN data frame (Tagged Frame) adds a VLAN tag.</li>
+<li><a data-preview="data-preview" href="../vlan/#voice-vlan">Voice VLAN</a> is dedicated specifically for IP phone traffic, often prioritizing it (via QoS) and separating it from data traffic for better quality and security.</li>
 </ul>
 <h3 id="v-qos">V. QoS<a class="headerlink" href="#v-qos" title="Permanent link">&para;</a></h3>
 <ul>

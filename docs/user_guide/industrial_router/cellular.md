@@ -3,30 +3,31 @@
 ## APN
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/general-settings-cellular-apn.webp" alt="" width="800px" style="border:  2px solid #eee;" />
  
-- **Enable**: Enable the APN feature. 
- 
-- **Data Roaming**: Enable the data roaming, which allows your mobile device to connect to the internet or use cellular data when outside your carrier’s network coverage area, often involving additional charges.  
- 
-- **SIM Slot**: Select the SIM slot (physical compartment) where the SIM card is inserted, enabling network connectivity. *Auto* is recommended for automatic detection.
- 
-- **Network Mode**: Select the network mode (type of cellular network) the router connects to. *Auto* is recommended for automatic detection.
- 
-- **Network Search**: Select the means of network search. *Auto* for automatic scanning and connection; or *Manual* requires a click on *Network Search* and selection of your SIM card carrier and network operator.
+On the **Cellular >> APN** page，you can configure the cellular APN. Please follow the steps:
 
-- **PDP Type**: Select the Packet Data Protocol Type that defines the protocol used for data transmission in mobile networks (e.g., IPv4 or IPv4/IPv6).  
+1) Enable the APN feature. 
  
-- **Band Select**: Enable to allow manual selection of specific frequency bands for network connectivity, useful for optimizing signal strength or compatibility.  
+2) Enable the *Data Roaming* to allow your mobile device to connect to the internet or use cellular data when outside your carrier’s network coverage area, often involving additional charges.  
+ 
+3) Select a *SIM Slot* (physical compartment) to insert your SIM card and enable network connectivity. *Auto* is recommended for automatic detection.
 
-- **LTE Bands**: Select a specific frequency ranges allocated for LTE (4G) networks, varying by region and carrier.  
+4) Select a *Network Mode* of the router's cellular network. *Auto* is recommended for automatic detection.
+
+5) Select a means of *Network Search*. *Auto* is for automatic scanning and connection; or *Manual* requires a click on *Network Search* and selection of your SIM card carrier and network operator.
+
+6) Select the *PDP* (Packet Data Protocol) *Type* that defines the protocol used for data transmission in mobile networks (e.g., IPv4 or IPv4/IPv6).  
+
+7) Enable *Band Select* to allow manual selection of specific frequency bands for network connectivity, useful for optimizing signal strength or compatibility.  
+
+8) Select a specific frequency range allocated for LTE (4G) networks which vary by region and carrier for *LTE Bands*.
+
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/lte-band.webp" alt="" width="500px" style="display: block; margin: 0 auto;" />
- 
-- **APN Profile**: Select *Auto* or manually configure the APN settings to connect the router to the carrier’s data network. For manual configuration, please consult your carrier for the APN parameters.
 
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/cellular-APN-settings.webp" alt="" width="500px" style="border:  2px solid #eee;display: block; margin: 0 auto;" />
- 
-- **Status**: Displays the current state of cellular network connectivity, Connected or Disconnected. 
+9) Configure *APN Profile* to connect the router to the carrier’s data network, either selecting *Auto* or consulting your carrier for the APN parameters and manually enter it.
 
-- Save & Apply: Click to save and activate the new settings or changes.
+<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/cellular-APN-settings.webp" alt="" width="500px" style="border:  2px solid #eee;display: block; margin: 0 auto;" />
+ 
+10) Click *Save & Apply* to save and activate the new settings or changes.  Displays the current state of cellular network connectivity, Connected or Disconnected.
 
 ----
 ## SMS
