@@ -1,5 +1,5 @@
 :root {
-  --preview-width: 30%; /* 初始宽度 */
+  --preview-width: 50%; /* 初始宽度 */
 }
 
 /* 面板基础样式 */
@@ -42,7 +42,7 @@
 
 /* header title */
 .preview-header .title {
-  color: #000000;      /* 黑色 */
+  color: #008cff;      /* 黑色 */
   font-family: var(--md-font-sans);
   font-weight: 500;
   letter-spacing: 0.5px;
@@ -120,4 +120,26 @@ body.resizing {
 [data-md-color-scheme="slate"] #preview-panel .content {
   background: #222529;
   color: #00000030;
+}
+
+/* ------------------------------------------ */
+/* 移动端禁用预览面板 (小于 960px)            */
+/* ------------------------------------------ */
+
+@media screen and (max-width: 960px) {
+    /* 强制隐藏面板，以防 JS 逻辑出错 */
+    #preview-panel {
+        display: none !important;
+    }
+
+    /* 强制主内容区宽度恢复 100%，即使 body 上有 preview-open 类 */
+    body.preview-open .md-content {
+        width: 100% !important;
+        transition: none; /* 移除过渡效果 */
+    }
+
+    /* 禁用拖拽时的鼠标样式 */
+    body.resizing {
+        cursor: default !important;
+    }
 }
