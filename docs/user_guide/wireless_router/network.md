@@ -47,13 +47,11 @@ DHCP Server is enabled by default and dynamically assigns TCP/lP parameters to c
 5. Click *Save & Apply*.
 
 !!! Note 
-    If you want to reserve for a specified client device an IP address, which is assigned by the router as a DHCP server, you may use the [IP/MAC binding](security.md#ipmac-binding) function.
+    If you want to reserve for a specified client device an IP address, which is assigned by the router as a DHCP server, you may use the *IP/MAC binding* function.
 
 ---
 ## IPv6
 IPv6 may not be supported in the current version of the firewall, VPN, block list, etc.Therefore, the IPv6 function can only be used for configuration on this interface. There are 7 types of  IPv6 Internet connection, including Relay, Dynamic IP(SLAAC/DHCPv6), Static (Fixed lP), Passthrough, 464XLAT, MAP-E, and DS-Lite. Please choose the appropriate one and configure the parameters according to your ISP.
-
-[>>>> How to set up IPv6 connection](IPv6.md)
 
 ---
 ## IGMP
