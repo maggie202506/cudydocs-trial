@@ -36,8 +36,6 @@ Now your guests can access your guest network using the SSID and password you se
 ## DHCP Server
 DHCP Server is enabled by default and dynamically assigns TCP/lP parameters to client devices from the IP Address Pool. DO NOT disable DHCP server unless you have another DHCP server, or you want to manually assign the TCP/P parameters to every clients on the network. 
 
-[For more about the DHCP Server Setting >>> >>>](dhcp.md).
-
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/network-dhcp.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 **To specify the IP address that the router assigns, please take the steps below.**
@@ -82,8 +80,9 @@ If you want to enjoy IPTV or VoIP service, or your ISP requires VLAN tags, pleas
 2. Select the Mode according to your ISP from the drop-down list.
     - Select Bridge if your ISP is not listed and no other parameters are required.
     - Select Custom if your ISP is not listed but provides necessary parameters.
-    
-    **Note**: Once Mode is selected, the necessary parameters are predetermined, including Internet 	VLAN ID, IPTV VLAN ID and LAN port for IPTV connection. Otherwise, please select the LAN type to determine which port is used to support IPTV service. 
+
+    !!! Note
+        Once Mode is selected, the necessary parameters are predetermined, including Internet VLAN ID, IPTV VLAN ID and LAN port for IPTV connection. Otherwise, please select the LAN type to determine which port is used to support IPTV service. 
 
 3. Click *Save & Apply*.
 4. Connect the set-top box to the corresponding LAN port predetermined by the ISP or specified by you in STEP 2. You may need to configure your set-top box before enjoying your TV.
@@ -169,7 +168,6 @@ For example, I want to share my personal website I’ve built on the local netwo
 2. Log in to *http://cudy.net*, and go to Advanced Settings -> Network -> Port Forwards.
 
 3. Click Add, and enter the required parameters.
-
     - Name: Give a name for the entry.
     - Protocol: Select TCP or UDP, or TCP+UDP if you are unsure of which protocol you are using. TCP is usually used for web browsing, file transfers, and most client-server applications, while UDP for streaming services, online gaming, and other applications that require fast transmission of data.
     - Interface: Select WAN or VPN according to the source of traffic you want to forward.
@@ -177,15 +175,15 @@ For example, I want to share my personal website I’ve built on the local netwo
     - Internal IP Address: Enter the IP address of the device on your local network that should receive the forwarded traffic.
     - Internal Port: Specify the port number on the internal device that will receive the forwarded traffic.
     - Delete: Delete the entry as needed.
-
-If you want to provide several services in a router, please add multiple port forwarding rules.
+    
+    If you want to provide several services in a router, please add multiple port forwarding rules.
 
 4. Click *Save & Apply*. 
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/done.webp"> Done! Users on the Internet can enter *http://WAN IP* (in this example: *http://218.18.232.154*) to visit your personal website.
 
 !!! Note
-    - The WAN IP should be a public IP address. For the WAN IP is assigned dynamically by the ISP, it is recommended to apply and register a domain name for the WAN ([How to set up a Dynamic DNS service account](#ddns)). Then users on the Internet can use *http://domain name* to visit the website.
+    - The WAN IP should be a public IP address. For the WAN IP is assigned dynamically by the ISP, it is recommended to apply and register a domain name for the WAN. Then users on the Internet can use *http://domain name* to visit the website.
     - If you have changed the default External Port, you should use *http://WAN IP:external port* or *http://domain name:external port* to visit the website.
 
 ----

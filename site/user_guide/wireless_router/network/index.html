@@ -957,7 +957,6 @@
 <hr />
 <h2 id="dhcp-server">DHCP Server<a class="headerlink" href="#dhcp-server" title="Permanent link">&para;</a></h2>
 <p>DHCP Server is enabled by default and dynamically assigns TCP/lP parameters to client devices from the IP Address Pool. DO NOT disable DHCP server unless you have another DHCP server, or you want to manually assign the TCP/P parameters to every clients on the network. </p>
-<p><a href="../dhcp/">For more about the DHCP Server Setting &gt;&gt;&gt; &gt;&gt;&gt;</a>.</p>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/network-dhcp.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/network-dhcp.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" /></a></p>
 <p><strong>To specify the IP address that the router assigns, please take the steps below.</strong></p>
 <ol>
@@ -999,7 +998,10 @@
 <li>Select Bridge if your ISP is not listed and no other parameters are required.</li>
 <li>Select Custom if your ISP is not listed but provides necessary parameters.</li>
 </ul>
-<p><strong>Note</strong>: Once Mode is selected, the necessary parameters are predetermined, including Internet     VLAN ID, IPTV VLAN ID and LAN port for IPTV connection. Otherwise, please select the LAN type to determine which port is used to support IPTV service. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Once Mode is selected, the necessary parameters are predetermined, including Internet VLAN ID, IPTV VLAN ID and LAN port for IPTV connection. Otherwise, please select the LAN type to determine which port is used to support IPTV service. </p>
+</div>
 </li>
 <li>
 <p>Click <em>Save &amp; Apply</em>.</p>
@@ -1090,17 +1092,17 @@
 <li>Internal Port: Specify the port number on the internal device that will receive the forwarded traffic.</li>
 <li>Delete: Delete the entry as needed.</li>
 </ul>
-</li>
-</ol>
 <p>If you want to provide several services in a router, please add multiple port forwarding rules.</p>
-<ol>
-<li>Click <em>Save &amp; Apply</em>. </li>
+</li>
+<li>
+<p>Click <em>Save &amp; Apply</em>. </p>
+</li>
 </ol>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/done.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/done.webp"></a> Done! Users on the Internet can enter <em>http://WAN IP</em> (in this example: <em>http://218.18.232.154</em>) to visit your personal website.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ul>
-<li>The WAN IP should be a public IP address. For the WAN IP is assigned dynamically by the ISP, it is recommended to apply and register a domain name for the WAN (<a href="#ddns">How to set up a Dynamic DNS service account</a>). Then users on the Internet can use <em>http://domain name</em> to visit the website.</li>
+<li>The WAN IP should be a public IP address. For the WAN IP is assigned dynamically by the ISP, it is recommended to apply and register a domain name for the WAN. Then users on the Internet can use <em>http://domain name</em> to visit the website.</li>
 <li>If you have changed the default External Port, you should use <em>http://WAN IP:external port</em> or <em>http://domain name:external port</em> to visit the website.</li>
 </ul>
 </div>
