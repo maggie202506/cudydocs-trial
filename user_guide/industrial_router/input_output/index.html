@@ -925,122 +925,121 @@
   <h1 id="inputoutput">Input/Output<a class="headerlink" href="#inputoutput" title="Permanent link">&para;</a></h1>
 <h2 id="status">Status<a class="headerlink" href="#status" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/in-out-status.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/in-out-status.webp" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
-<h3 id="io">I/O<a class="headerlink" href="#io" title="Permanent link">&para;</a></h3>
+<p><em>About I/O</em></p>
 <ul>
-<li>
-<p><strong>Digital Input</strong> (Associated Pin 1/6): Detects high-level signals (e.g., 24V) for equipment status monitoring (limit switches/sensors).</p>
-</li>
-<li>
-<p><strong>Isolated Input</strong> (Associated Pin 2/7): Reads low-level signals (0V) with galvanic isolation (≥1500V) for safety interlock/emergency stops.</p>
-</li>
-<li>
-<p><strong>Analog Input</strong> (Associated Pin 9): Supports 0-10V/4-20mA signals for precision measurement (temperature/pressure transmitters).</p>
-</li>
-<li>
-<p><strong>Isolated Output</strong> (Associated Pin 3/4/8): Transistor outputs (On=0V, Off=high-Z) for driving relays/solenoids (≤0.5A load).</p>
-</li>
-<li>
-<p><strong>Relay</strong> (Associated Pin 5/10): Electrically isolates control circuits from power circuits (e.g., 5V PLC → 240V motor). Select <em>Closed</em> (NO) when energized (current flows to load) or <em>Open</em> (NC) when de-energized (failsafe/default state).</p>
-</li>
+<li><em>Digital Input</em> (Associated Pin 1/6): Detects high-level signals (e.g., 24V) for equipment status monitoring (limit switches/sensors).</li>
+<li><em>Isolated Input</em> (Associated Pin 2/7): Reads low-level signals (0V) with galvanic isolation (≥1500V) for safety interlock/emergency stops.</li>
+<li><em>Analog Input</em> (Associated Pin 9): Supports 0-10V/4-20mA signals for precision measurement (temperature/pressure transmitters).</li>
+<li><em>Isolated Output</em> (Associated Pin 3/4/8): Transistor outputs (On=0V, Off=high-Z) for driving relays/solenoids (≤0.5A load).</li>
+<li><em>Relay</em> (Associated Pin 5/10): Electrically isolates control circuits from power circuits (e.g., 5V PLC → 240V motor). Select <em>Closed</em> (NO) when energized (current flows to load) or <em>Open</em> (NC) when de-energized (failsafe/default state).</li>
 </ul>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" alt="" /></a> Use ferrite beads on analog wires to suppress EMI in noisy environments.</p>
-<h3 id="pwr">PWR<a class="headerlink" href="#pwr" title="Permanent link">&para;</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Use ferrite beads on analog wires to suppress EMI in noisy environments.</p>
+</div>
+<p><em>About PWR</em></p>
 <ul>
-<li>
-<p><strong>Input</strong> (Associated Pin 3): Receives external power to activate the device. </p>
-<p>◦  High Level (Typ. 24V±10%): Normal power reception, device operational</p>
-<p>◦  Low Level (&lt;1V): Power loss/undervoltage (check wiring/supply voltage)</p>
-<p>◦  Floating: Open circuit (verify terminal connection integrity)</p>
+<li><em>Input</em> (Associated Pin 3): Receives external power to activate the device. <ul>
+<li>High Level (Typ. 24V±10%): Normal power reception, device operational</li>
+<li>Low Level (&lt;1V): Power loss/undervoltage (check wiring/supply voltage)</li>
+<li>Floating: Open circuit (verify terminal connection integrity)</li>
+</ul>
 </li>
-<li>
-<p><strong>Output</strong> (Associated Pin 4): Supplies regulated power to connected peripherals.</p>
-<p>◦  On: Actively supplying power to peripherals (e.g., 24V/5V output enabled)</p>
-<p>◦  Off: Output disabled (manual shutdown or protection triggered)</p>
+<li><em>Output</em> (Associated Pin 4): Supplies regulated power to connected peripherals.<ul>
+<li>On: Actively supplying power to peripherals (e.g., 24V/5V output enabled)</li>
+<li>Off: Output disabled (manual shutdown or protection triggered)</li>
+</ul>
 </li>
 </ul>
 <hr />
 <h2 id="input">Input<a class="headerlink" href="#input" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/input.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/input.webp" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
-<ul>
-<li><strong>Add</strong>: Click to configure input rules to perform specified actions after the input meets the trigger conditions. </li>
-</ul>
+<p>Click <em>Add</em> to configure input rules to perform specified actions after the input meets the trigger conditions. </p>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/digital-input-1.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/digital-input-1.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
+<ol>
+<li>Click to Enable this entry of input rule.</li>
+<li>
+<p>Select an <em>Input Type</em> to define the signal category (e.g., digital/analog/pulse).</p>
 <ul>
-<li><strong>Enable</strong>: Enable this entry of input rule.</li>
-<li>
-<p><strong>Input Type</strong>: Select to define the signal category (e.g., digital/analog/pulse).</p>
-<p>◦  Digital Input(1): Standard binary input for detecting 24V signals.</p>
-<p>◦  Isolated Input(2,7): Galvanically separated input for safety-critical signal.</p>
-<p>◦  Digital Input(Power Socket 3): Power-monitoring input, detecting mains voltage presence via socket status.</p>
-<p>◦  Analog Input(6,9): Reads 0-10V/4-20mA signals for precision measurement.</p>
+<li>Digital Input(1): Standard binary input for detecting 24V signals.</li>
+<li>Isolated Input(2,7): Galvanically separated input for safety-critical signal.</li>
+<li>Digital Input(Power Socket 3): Power-monitoring input, detecting mains voltage presence via socket status.</li>
+<li>Analog Input(6,9): Reads 0-10V/4-20mA signals for precision measurement.</li>
+</ul>
 </li>
 <li>
-<p><strong>Trigger</strong>: Select a condition to activate the rule.</p>
-<p>◦  For Digital/Isolated Input: <em>Rising</em> triggers when signal transitions from low to high, ideal for power-on events; <em>Falling</em> triggers when signal transitions from high to low, used for emergency stop detection; <em>Both</em> responds to any voltage change, perfect for pulse counting or state monitoring.</p>
-<p>◦  For Analog Input: <em>Inside Range</em> triggers when the signal stays between Min/Max values; <em>Outside Range</em> triggers when the signal exceeds Min/Max thresholds.</p>
+<p>Select a <em>Trigger</em> condition to activate the rule.</p>
+<ul>
+<li>
+<p>For Digital/Isolated Input, <em>Rising</em> triggers when signal transitions from low to high, ideal for power-on events; <em>Falling</em> triggers when signal transitions from high to low, used for emergency stop detection; <em>Both</em> responds to any voltage change, perfect for pulse counting or state monitoring.</p>
 </li>
 <li>
-<p><strong>Analog Type</strong> (for Analog Input): Select to match your sensor's output signal type. <em>Current (mA)</em> is used for 4-20mA/0-20mA industrial sensors (like pressure transmitters) as it’s resistant to signal degradation over long distances; <em>Voltage (V)</em> is used for 0-10V/±10V signals (like position sensors) with simpler wiring but shorter effective range due to voltage drop.</p>
-</li>
-<li><strong>Minimum (V) / Maximum (V)</strong> (for Analog Input): Set voltage thresholds to define the valid range for voltage-based triggers.</li>
-<li>
-<p><strong>Minimum (mA) / Maximum (mA)</strong> (for Analog Input): Configure current limits for current-loop device monitoring.</p>
-</li>
-<li>
-<p><strong>Action</strong>: Operation to execute when the rule is triggered.</p>
-<p>◦  Activate Output: Triggers a designated output port. Then select a target <strong>Output Type</strong> and current input <strong>State</strong>, enter a <strong>Revert</strong> interval to determine auto-reset after trigger ends; enable or disable <strong>Maintain</strong> to decide lock state until manual reset.</p>
-<p>◦  Send SMS: Send alert messages via cellular module, which requires configured GSM/GPRS parameters. Edit the <strong>SMS Text</strong> as needed, add the <strong>Phone number</strong> to send your SMS.</p>
-<p>◦  SIM Switch: Automatically fails over to the selected backup SIM card when primary cellular signal is lost. Recommended to keep it <em>Auto</em>.</p>
-<p>◦  Turn on WiFi: Enables the router's WiFi for wireless client connections.</p>
-<p>◦  Turn off WiFi: Disables WiFi to conserve power or enhance security.</p>
-<p>◦  Reboot: Restart the system to apply configurations or recover from faults.</p>
-</li>
-<li>
-<p><strong>Execution Delay</strong>:(Optional) Enter the time when will the action be executed after the rule being triggered.</p>
+<p>For Analog Input, <em>Inside Range</em> triggers when the signal stays between Min/Max values; <em>Outside Range</em> triggers when the signal exceeds Min/Max thresholds.</p>
 </li>
 </ul>
+</li>
+<li>
+<p>Select <em>Analog Type</em> (for Analog Input) to match your sensor's output signal type. </p>
+<ul>
+<li><em>Current (mA)</em> is used for 4-20mA/0-20mA industrial sensors (like pressure transmitters) as it’s resistant to signal degradation over long distances; </li>
+<li><em>Voltage (V)</em> is used for 0-10V/±10V signals (like position sensors) with simpler wiring but shorter effective range due to voltage drop.</li>
+<li><em>Minimum (V) / Maximum (V)</em> (for Analog Input): Set voltage thresholds to define the valid range for voltage-based triggers.</li>
+<li><em>Minimum (mA) / Maximum (mA)</em> (for Analog Input): Configure current limits for current-loop device monitoring.</li>
+</ul>
+</li>
+<li>
+<p>Select an <em>Action</em> to execute when the rule is triggered.</p>
+<ul>
+<li>Activate Output: Triggers a designated output port. Then select a target <em>Output Type</em> and current input <em>State</em>, enter a <em>Revert</em> interval to determine auto-reset after trigger ends; enable or disable <em>Maintain</em> to decide lock state until manual reset.</li>
+<li>Send SMS: Send alert messages via cellular module, which requires configured GSM/GPRS parameters. Edit the <em>SMS Text</em> as needed, add the <em>Phone number</em> to send your SMS.</li>
+<li>SIM Switch: Automatically fails over to the selected backup SIM card when primary cellular signal is lost. Recommended to keep it <em>Auto</em>.</li>
+<li>Turn on WiFi: Enables the router's WiFi for wireless client connections.</li>
+<li>Turn off WiFi: Disables WiFi to conserve power or enhance security.</li>
+<li>Reboot: Restart the system to apply configurations or recover from faults.</li>
+</ul>
+</li>
+<li>
+<p>(Optional) Enter the <em>Execution Delay</em> time when will the action be executed after the rule being triggered.</p>
+</li>
+</ol>
+<p>Done! You have successfully configured an Input rule.</p>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/input-output2.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/input-output2.webp" alt="" width="600px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
 <ul>
-<li>
-<p><strong>Modify</strong>: Click on <a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/edit.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/edit.webp" alt=""/></a> to edit the entry, or <a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/delete.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/delete.webp" alt=""/></a> to delete the entry.</p>
-</li>
-<li>
-<p><strong>Check Interval</strong>: Enter an interval in seconds to check analog input value. </p>
-</li>
-<li>
-<p>Save &amp; Apply: Click to save and activate the new settings or changes.</p>
-</li>
+<li>Modify: Click on <a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/edit.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/edit.webp" alt=""/></a> to edit the entry, or <a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/delete.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/delete.webp" alt=""/></a> to delete the entry.</li>
+<li>Check Interval: Enter an interval in seconds to check analog input value. </li>
+<li>Save &amp; Apply: Click to save and activate the new settings or changes.</li>
 </ul>
 <hr />
 <h2 id="output">Output<a class="headerlink" href="#output" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/output.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/output.webp" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
-<ul>
-<li><strong>Add</strong>: Click to configure output scheduler to perform specified actions after the input meets the trigger conditions. </li>
-</ul>
+<p>Click Add* to configure output scheduler to perform specified actions after the input meets the trigger conditions. </p>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/output-scheduler.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/output-scheduler.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
+<ol>
+<li>
+<p>Click to <em>Enable</em> this entry of output scheduler.</p>
+</li>
+<li>
+<p>Select an <em>Output Type</em> and <em>Change State to</em> to define the target output and state.</p>
 <ul>
-<li><strong>Enable</strong>: Enable this entry of output scheduler.</li>
-<li>
-<p><strong>Output Type</strong> &amp; <strong>Change State to</strong>: Select to define the target output and state.</p>
-<p>◦  Isolated Output (3,4,8): Galvanically separated outputs for sensitive equipment, preventing ground loops in PLC/SCADA systems. Then select <strong>Change State to</strong> <em>High</em> for activating the optocoupler/solid-state relay to send the preset voltage to the connected device, or <em>Low</em> for cutting off output voltage to create an open circuit.</p>
-<p>◦  Relay (5,10): Electromechanical contacts for switching high-power loads. Then select <strong>Change State to</strong> <em>Closed</em> for physically connecting the relay’s internal contacts to allow current flow, or <em>Open</em> for breaking the contact to stop current flow.</p>
-<p>◦  Output (Power Socket 4): Direct mains power control for appliances, with built-in overload protection. Then select <strong>Change State to</strong> <em>High</em> for enabling mains power output, or <em>Low</em> for disconnecting mains power (safety cutoff).</p>
-</li>
-<li>
-<p><strong>Start Time</strong>: Set an exact activation time for a-new-day shift start.</p>
-</li>
-<li><strong>Stop Time</strong>: Set a deactivation time for end-of-day shutdown.</li>
-<li>
-<p><strong>Repeat</strong>: Select specific weekdays for cyclical automation of the output schedule.</p>
-<p>◦  Weekdays (Mon-Fri): Ideal for factory equipment schedules (e.g., conveyor activation at 08:00-17:00).</p>
-<p>◦  Weekends (Sat-Sun): Used for non-routine operations (e.g., backup system tests).</p>
-<p>◦  7-Day Cycle: For 24/7 critical systems (e.g., server room cooling).</p>
-</li>
+<li>Isolated Output (3,4,8): Galvanically separated outputs for sensitive equipment, preventing ground loops in PLC/SCADA systems. Then select <em>Change State to</em> <em>High</em> for activating the optocoupler/solid-state relay to send the preset voltage to the connected device, or <em>Low</em> for cutting off output voltage to create an open circuit.</li>
+<li>Relay (5,10): Electromechanical contacts for switching high-power loads. Then select <em>Change State to</em> <em>Closed</em> for physically connecting the relay’s internal contacts to allow current flow, or <em>Open</em> for breaking the contact to stop current flow.</li>
+<li>Output (Power Socket 4): Direct mains power control for appliances, with built-in overload protection. Then select <em>Change State to</em> <em>High</em> for enabling mains power output, or <em>Low</em> for disconnecting mains power (safety cutoff).</li>
 </ul>
+</li>
+<li>
+<p>Set <em>Start Time</em> for a-new-day shift start, and <em>Stop Time</em> for end-of-day shutdown. And specify <em>Repeat</em>weekdays for cyclical automation of the output schedule.</p>
+<ul>
+<li>Weekdays (Mon-Fri): Ideal for factory equipment schedules (e.g., conveyor activation at 08:00-17:00).</li>
+<li>Weekends (Sat-Sun): Used for non-routine operations (e.g., backup system tests).</li>
+<li>7-Day Cycle: For 24/7 critical systems (e.g., server room cooling).</li>
+</ul>
+</li>
+</ol>
+<p>Done! You have successfully configured an Output Scheduler.</p>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/output-scheduler2.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/output-scheduler2.webp" alt="" width="600px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
 <ul>
 <li>
-<p><strong>Modify</strong>: Click on <a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/edit.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/edit.webp" alt=""/></a> to edit the entry, or <a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/delete.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/delete.webp" alt=""/></a> to delete the entry.</p>
+<p>Modify: Click on <a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/edit.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/edit.webp" alt=""/></a> to edit the entry, or <a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/delete.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/delete.webp" alt=""/></a> to delete the entry.</p>
 </li>
 <li>
 <p>Save &amp; Apply: Click to save and activate the new settings or changes.</p>

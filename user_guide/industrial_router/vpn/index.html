@@ -924,7 +924,10 @@
   <!-- Markdown content -->
   <h1 id="vpn">VPN<a class="headerlink" href="#vpn" title="Permanent link">&para;</a></h1>
 <p>VPN (Virtual Private Network) helps you access Internet resources remotely, securely, and privately through tunneling technology. When you access the Internet, VPN encrypts your personal information and hides your IP address from the public. For VPN users, it looks like the devices are directly connected. Cudy router supports 6 types of VPN connections: PPTP, L2TP, OpenVPN, WireGuard, ZeroTier, IPSec (site-to-site). Please choose an appropriate VPN according to your needs and circumstances.</p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"></a> Before you Enable <em>VPN</em> Server, it is recommended to configure Dynamic DNS Service or assign a Static IP Address for router’s WAN port and synchronize your System Time with Internet. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Before you Enable <em>VPN</em> Server, it is recommended to configure Dynamic DNS Service or assign a Static IP Address for router’s WAN port and synchronize your System Time with Internet. </p>
+</div>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/vpn-connection.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/vpn-connection.webp" alt="" width="600px" style="display:block; margin:0 auto;" /></a></p>
 <hr />
 <h2 id="pptp-vpn">PPTP VPN<a class="headerlink" href="#pptp-vpn" title="Permanent link">&para;</a></h2>
@@ -1090,8 +1093,10 @@
 <ul>
 <li>
 <p>Protocol: Select UDP or TCP as desired.</p>
-<p>◦ UDP: Faster but unreliable, ideal for real-time industrial protocols like PROFINET IO.</p>
-<p>◦ TCP: Slower but error-corrected, used for critical data transfers where packet loss is unacceptable.</p>
+<ul>
+<li>UDP: Faster but unreliable, ideal for real-time industrial protocols like PROFINET IO.</li>
+<li>TCP: Slower but error-corrected, used for critical data transfers where packet loss is unacceptable.</li>
+</ul>
 </li>
 <li>
 <p>Service Port: 1194 by defalut, keep it or change it as needed.</p>
@@ -1292,7 +1297,7 @@
 <ol>
 <li>
 <p>Make sure both routers are connected to the Internet, but two network can not be in the same LAN segment. 
-For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the branches    should be in a different LAN segment, say, 192.168.20.0/24.</p>
+For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the branches should be in a different LAN segment, say, 192.168.20.0/24.</p>
 </li>
 <li>
 <p>Check and note down the WAN and LAN IP addresses of the Headquarter router and Branch Office router on their Status page. WAN IP of the headquarters router is the remote gateway of the branch offices, and its LAN IP is the remote subnet of the branch offices; and vice versa.</p>
@@ -1355,7 +1360,10 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
 </li>
 </ol>
 <p>Then, you can go confirm the connection between Headquarter router and Branch router.</p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"></a> If one of the routers (for instance, the Branch router) does not have a public IP address, but the Headquarter router has a public IP address, you can: </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If one of the routers (for instance, the Branch router) does not have a public IP address, but the Headquarter router has a public IP address, you can: </p>
+</div>
 <ul>
 <li>Set Branch router in the Initiator Mode and change the Headquarter router from Initiator Mode to Responder Mode.</li>
 <li>Change the remote gateway on the Headquarter router to be 0.0.0.0.</li>

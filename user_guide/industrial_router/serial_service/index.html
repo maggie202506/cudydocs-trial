@@ -925,10 +925,12 @@
   <h1 id="serial-service">Serial Service<a class="headerlink" href="#serial-service" title="Permanent link">&para;</a></h1>
 <h2 id="db9rs-232422485">DB9(RS-232/422/485)<a class="headerlink" href="#db9rs-232422485" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/db9-rs232-tcp-server.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/db9-rs232-tcp-server.webp" alt="" width="800px" style="border:   2px solid #eee;" /></a></p>
-<ul>
-<li><strong>Enable</strong>: Activate the serial interface for communication.</li>
+<ol>
 <li>
-<p><strong>Standard</strong>: Select a specific protocol type for electrical signaling.</p>
+<p>Turn on <em>Enable</em> to activate the serial interface for communication.</p>
+</li>
+<li>
+<p>Select a <em>Standard</em> as the specific protocol type for electrical signaling.</p>
 <ul>
 <li>RS232 uses single-ended signaling (point-to-point, &lt;15m). </li>
 <li>RS422 employs differential signaling (1 driver → 10 receivers, 1200m). </li>
@@ -937,58 +939,59 @@
 </ul>
 </li>
 <li>
-<p><strong>Mode</strong>: Select the mode accordingly.</p>
-<p>① <em>TCP Server</em> is a passive endpoint that listens for incoming TCP connections.</p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/tcp-server.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/tcp-server.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
+<p>Select a <em>Mode</em> accordingly, and configure the parameters required.</p>
+<p>1) <em>TCP Server</em> is a passive endpoint that listens for incoming TCP connections.
+<a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/tcp-server.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/tcp-server.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
 <ul>
-<li><strong>Local Port</strong>: Enter the listening port (e.g., 5020) for accepting incoming TCP connections. Configurable, but avoid well-known ports like 80.</li>
-<li><strong>Timeout</strong>: Specify a duration in seconds (0-1000) before a connection is closed due to inactivity. 0 means no timeout.</li>
+<li>Local Port: Enter the listening port (e.g., 5020) for accepting incoming TCP connections. Configurable, but avoid well-known ports like 80.</li>
+<li>Timeout: Specify a duration in seconds (0-1000) before a connection is closed due to inactivity. 0 means no timeout.</li>
 </ul>
-<p>② <em>TCP Client</em> initiates active TCP connections to servers.</p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/tcp-client.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/tcp-client.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
+<p>2) <em>TCP Client</em> initiates active TCP connections to servers.
+<a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/tcp-client.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/tcp-client.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
 <ul>
-<li><strong>Destination address</strong>: Enter a fixed target IP/domain (e.g., 192.168.1.100) for reliable endpoint connection. </li>
-<li><strong>Destination port</strong>: Enter a predefined service port requiring handshake.</li>
+<li>Destination address: Enter a fixed target IP/domain (e.g., 192.168.1.100) for reliable endpoint connection. </li>
+<li>Destination port: Enter a predefined service port requiring handshake.</li>
 </ul>
-<p>③ <em>UDP</em> is a connectionless protocol for low-latency broadcast/multicast.</p>
+<p>3) <em>UDP</em> is a connectionless protocol for low-latency broadcast/multicast.</p>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/udp.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/udp.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
 <ul>
-<li><strong>Local Port</strong>: Enter a dynamic/static port bound for sending/receiving datagrams (e.g., 1234 for sensor broadcasts).</li>
-<li><strong>Destination address</strong> (Optional): Enter a dynamic/broadcast IP (e.g., 255.255.255.255). </li>
-<li><strong>Destination port</strong> (Optional): Enter a flexible port binding without verification (e.g., 1234 for sensor broadcasts).</li>
+<li>Local Port: Enter a dynamic/static port bound for sending/receiving datagrams (e.g., 1234 for sensor broadcasts).</li>
+<li>Destination address (Optional): Enter a dynamic/broadcast IP (e.g., 255.255.255.255). </li>
+<li>Destination port (Optional): Enter a flexible port binding without verification (e.g., 1234 for sensor broadcasts).</li>
 </ul>
-<p>④ <em>ModBus TCP</em> is an industrial protocol (Layer 7) using TCP/IP for device control.</p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/modbus-tcp.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/modbus-tcp.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
+<p>4) <em>ModBus TCP</em> is an industrial protocol (Layer 7) using TCP/IP for device control.
+<a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/modbus-tcp.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/modbus-tcp.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
 <ul>
-<li><strong>Local Port</strong>: Fixed to 502 by default for protocol compliance. Non-standard ports may break interoperability.</li>
-<li><strong>Max connections</strong>: Enter a number (1-128) to limit clients  that can connect at the same time.</li>
-<li><strong>Timeout</strong>: Enter the maximum wait time for slave device responses. </li>
+<li>Local Port: Fixed to 502 by default for protocol compliance. Non-standard ports may break interoperability.</li>
+<li>Max connections: Enter a number (1-128) to limit clients  that can connect at the same time.</li>
+<li>Timeouts: Enter the maximum wait time for slave device responses. </li>
 </ul>
 </li>
 <li>
-<p><strong>Baud rate</strong>: Select to define the speed of data transmission for serial communication, measured in bits per second (bps).</p>
-</li>
-<li><strong>Data bits</strong>: Select to define the number of bits (typically 5-8) used to represent each character in serial communication.</li>
-<li><strong>Stop bits</strong>: Specify how many stop bits are used to mark the end of each byte in serial communication.</li>
-<li>
-<p><strong>Parity</strong>: Set how the system checks for errors in data transmission by adding an extra bit to each data frame.</p>
+<p>Configure the following <em>Serial</em> parameters. Then click <em>Save &amp; Apply</em>.</p>
 <ul>
+<li><em>Baud rate</em>: Select to define the speed of data transmission for serial communication, measured in bits per second (bps).</li>
+<li><em>Data bits</em>: Select to define the number of bits (typically 5-8) used to represent each character in serial communication.</li>
+<li><em>Stop bits</em>: Specify how many stop bits are used to mark the end of each byte in serial communication.</li>
+<li><em>Parity</em>: Set how the system checks for errors in data transmission by adding an extra bit to each data frame.<ul>
 <li><em>None</em> disables parity checking.</li>
 <li><em>Even</em> makes the total 1s count even (including parity bit).</li>
 <li><em>Odd</em> enables single-bit-error detection just like Even parity, but it demands an extra signal transition. Industrial systems often prefer <em>Odd</em> for better noise immunity.</li>
 </ul>
 </li>
-<li>
-<p><strong>Termination Resistor</strong>: Enable to activate the 120Ω termination resistor. Recommended for use at the bus end of RS422/RS485 to reduce signal reflections.</p>
-</li>
+<li><em>Termination Resistor</em>: Enable to activate the 120Ω termination resistor. Recommended for use at the bus end of RS422/RS485 to reduce signal reflections.</li>
 </ul>
+</li>
+</ol>
 <hr />
 <h2 id="6pinrs-422485">6PIN(RS-422/485)<a class="headerlink" href="#6pinrs-422485" title="Permanent link">&para;</a></h2>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/6PIN.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/6PIN.webp" alt="" width="800px" style="border:   2px solid #eee;" /></a></p>
-<ul>
-<li><strong>Enable</strong>: Activate the serial interface for communication.</li>
+<ol>
 <li>
-<p><strong>Standard</strong>: Select a specific protocol type for electrical signaling.</p>
+<p>Turn on <em>Enable</em> to activate the serial interface for communication.</p>
+</li>
+<li>
+<p>Select a <em>Standard</em> as the specific protocol type for electrical signaling.</p>
 <ul>
 <li>RS422: Differential signaling (1 driver → 10 receivers, up to 1200m).</li>
 <li>RS485-4: 4-wire full-duplex with dedicated TX/RX pairs.</li>
@@ -996,51 +999,50 @@
 </ul>
 </li>
 <li>
-<p><strong>Mode</strong>: Select the mode accordingly.</p>
-<p>① <em>TCP Server</em> is a passive endpoint that listens for incoming TCP connections.</p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/tcp-server.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/tcp-server.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
+<p>Select a <em>Mode</em> accordingly, and configure the parameters required.</p>
+<p>1) <em>TCP Server</em> is a passive endpoint that listens for incoming TCP connections.
+<a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/tcp-server.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/tcp-server.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
 <ul>
-<li><strong>Local Port</strong>: Enter the listening port (e.g., 5020) for accepting incoming TCP connections. Configurable, but avoid well-known ports like 80.</li>
-<li><strong>Timeout</strong>: Specify a duration in seconds (0-1000) before a connection is closed due to inactivity. 0 means no timeout.</li>
+<li>Local Port: Enter the listening port (e.g., 5020) for accepting incoming TCP connections. Configurable, but avoid well-known ports like 80.</li>
+<li>Timeout: Specify a duration in seconds (0-1000) before a connection is closed due to inactivity. 0 means no timeout.</li>
 </ul>
-<p>② <em>TCP Client</em> initiates active TCP connections to servers.</p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/tcp-client.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/tcp-client.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
+<p>2) <em>TCP Client</em> initiates active TCP connections to servers.
+<a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/tcp-client.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/tcp-client.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
 <ul>
-<li><strong>Destination address</strong>: Enter a fixed target IP/domain (e.g., 192.168.1.100) for reliable endpoint connection. </li>
-<li><strong>Destination port</strong>: Enter a remote service port.</li>
+<li>Destination address: Enter a fixed target IP/domain (e.g., 192.168.1.100) for reliable endpoint connection. </li>
+<li><em>Destination port</em>: Enter a remote service port.</li>
 </ul>
-<p>③ <em>UDP</em> is a connectionless protocol for low-latency broadcast/multicast.</p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/udp.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/udp.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
+<p>3) <em>UDP</em> is a connectionless protocol for low-latency broadcast/multicast.
+<a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/udp.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/udp.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
 <ul>
-<li><strong>Local Port</strong>: Enter a dynamic/static port bound for sending/receiving datagrams (e.g., 1234 for sensor broadcasts).</li>
-<li><strong>Destination address</strong> (Optional): Enter a dynamic/broadcast IP (e.g., 255.255.255.255). </li>
-<li><strong>Destination port</strong> (Optional): Enter a flexible port binding without verification (e.g., 1234 for sensor broadcasts).</li>
+<li>Local Port: Enter a dynamic/static port bound for sending/receiving datagrams (e.g., 1234 for sensor broadcasts).</li>
+<li>Destination address (Optional): Enter a dynamic/broadcast IP (e.g., 255.255.255.255). </li>
+<li>Destination port (Optional): Enter a flexible port binding without verification (e.g., 1234 for sensor broadcasts).</li>
 </ul>
-<p>④ <em>ModBus TCP</em> is an industrial protocol (Layer 7) using TCP/IP for device control.</p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/modbus-tcp.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/modbus-tcp.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
+<p>4) <em>ModBus TCP</em> is an industrial protocol (Layer 7) using TCP/IP for device control.
+<a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/modbus-tcp.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/modbus-tcp.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" /></a></p>
 <ul>
-<li><strong>Local Port</strong>: Enter a port fixed to 502 by default for protocol compliance. </li>
-<li><strong>Max connections</strong>: Enter a number (1-128) to limit clients  that can connect at the same time.</li>
-<li><strong>Timeout</strong>: Enter the maximum wait time for slave device responses. </li>
+<li>Local Port: Enter a port fixed to 502 by default for protocol compliance. </li>
+<li>Max connections: Enter a number (1-128) to limit clients  that can connect at the same time.</li>
+<li>Timeout: Enter the maximum wait time for slave device responses. </li>
 </ul>
 </li>
 <li>
-<p><strong>Baud rate</strong>: Select to define the speed of data transmission for serial communication, measured in bits per second (bps).</p>
-</li>
-<li><strong>Data bits</strong>: Select to define the number of bits (typically 5-8) used to represent each character in serial communication.</li>
-<li><strong>Stop bits</strong>: Specify how many stop bits are used to mark the end of each byte in serial communication.</li>
-<li>
-<p><strong>Parity</strong>: Set how the system checks for errors in data transmission by adding an extra bit to each data frame.</p>
+<p>Configure the following <em>Serial</em> parameters. Then click <em>Save &amp; Apply</em>.</p>
 <ul>
+<li><em>Baud rate</em>: Select to define the speed of data transmission for serial communication, measured in bits per second (bps).</li>
+<li><em>Data bits</em>: Select to define the number of bits (typically 5-8) used to represent each character in serial communication.</li>
+<li><em>Stop bits</em>: Specify how many stop bits are used to mark the end of each byte in serial communication.</li>
+<li><em>Parity</em>: Set how the system checks for errors in data transmission by adding an extra bit to each data frame.<ul>
 <li><em>None</em> disables parity checking.</li>
 <li><em>Even</em> makes the total 1s count even (including parity bit).</li>
 <li><em>Odd</em> enables single-bit-error detection just like Even parity, but it demands an extra signal transition. Industrial systems often prefer <em>Odd</em> for better noise immunity.</li>
 </ul>
 </li>
-<li>
-<p><strong>Termination Resistor</strong>: Enable to activate the 120Ω termination resistor. Recommended for use at the bus end of RS422/RS485 to reduce signal reflections.</p>
-</li>
+<li><em>Termination Resistor</em>: Enable to activate the 120Ω termination resistor. Recommended for use at the bus end of RS422/RS485 to reduce signal reflections.</li>
 </ul>
+</li>
+</ol>
 
   <!-- Last update of source file -->
   
