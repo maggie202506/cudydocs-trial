@@ -15,12 +15,26 @@
 ??? glossary-item "802.1p"
     A Quality of Service (QoS) mechanism that prioritizes traffic based on the 3-bit priority field in the 802.1Q VLAN tag.
 
+??? glossary-item "802.1X"
+    An IEEE standard for port-based network access control that authenticates devices before granting access to the switched network.
 ---
 
 <a name="a"></a>
 **[ A ]**
 ??? glossary-item "Aging Time"
     The timeout period after which a switch removes a dynamic MAC address entry from its address table if no traffic is received from that source.
+
+??? glossary-item "Access Port"
+    A switch port configured to carry traffic for a single VLAN, typically used to connect end devices such as PCs or IP phones.
+
+??? glossary-item "ACL (Access Control List)"
+    A set of rules applied on a switch to permit or deny traffic based on criteria such as source/destination IP address, MAC address, or protocol type.
+
+??? glossary-item "ARP (Address Resolution Protocol)"
+    A protocol used to map an IP address to a corresponding MAC address within a local broadcast domain.
+
+??? glossary-item "Auto-Negotiation"
+    A mechanism that allows Ethernet devices to automatically determine and configure the optimal speed and duplex mode for a link.
 
 ---
 
@@ -29,11 +43,17 @@
 ??? glossary-item "Backup Restore"
     The utility used to save the switch's current configuration to a file (Backup) and write a previously saved configuration back to the device (Restore).
 
-??? glossary-item "DSCP"
-    (Differentiated Services Code Point) A Layer 3 QoS mechanism that uses the 6-bit DiffServ field in the IP header to classify and prioritize traffic.
+??? glossary-item "Backplane Bandwidth"
+    The maximum aggregate data throughput that the internal switching fabric of a switch can support.
+
+??? glossary-item "Bandwidth Control"
+    A traffic management feature that limits the maximum bandwidth available to a port or traffic class.
+
+??? glossary-item "BPDU (Bridge Protocol Data Unit)"
+    Control packets exchanged between switches to build and maintain a Spanning Tree topology.
 
 ??? glossary-item "Broadcast"
-    A network transmission method where data is sent from one sender to all devices on the same local network segment.
+    A communication method in which a frame is delivered to all devices within the same Layer 2 broadcast domain.
 
 ---
 
@@ -58,8 +78,17 @@
 ??? glossary-item "DHCP Snooping"
     A Layer 2 security feature that validates DHCP messages and filters out unauthorized (rogue) DHCP server responses.
 
+??? glossary-item "DSCP"
+    (Differentiated Services Code Point) A Layer 3 QoS mechanism that uses the 6-bit DiffServ field in the IP header to classify and prioritize traffic.
+
+??? glossary-item "DoS Protection"
+    Mechanisms designed to detect and mitigate denial-of-service attacks that could disrupt switch operation.
+
 ??? glossary-item "Duplex"
-    Refers to the data transmission mode. **Half-duplex** allows one-way communication at a time; **Full-duplex** allows simultaneous two-way communication.
+    The transmission mode of a network link, defined as half-duplex or full-duplex communication.
+
+??? glossary-item "Dynamic Routing"
+    Routing in which a switch automatically learns network paths using routing protocols such as OSPF or RIP.
 
 ---
 
@@ -70,6 +99,9 @@
 
 ??? glossary-item "Egress"
     Refers to the traffic that is leaving or exiting a switch port.
+
+??? glossary-item "Ethernet Port"
+    A physical network interface, typically using an RJ45 connector, for Ethernet-based communication.
 
 ??? glossary-item "Extended Power"
     A PoE feature that allows power delivery over distances exceeding the standard 100-meter limit, often at a reduced data rate.
@@ -91,7 +123,22 @@
     The time a port spends in the Listening and Learning states before it starts forwarding data in Spanning Tree Protocol.
 
 ??? glossary-item "Fullplex"
-    A technical shorthand for **Full Duplex**, where a port can transmit and receive data simultaneously.
+    A technical shorthand for *Full Duplex*, where a port can transmit and receive data simultaneously.
+
+??? glossary-item "Failover"
+    The automatic switching of traffic to a backup link or port when the primary link fails.
+
+??? glossary-item "Flooding"
+    The process of forwarding frames out of all ports except the incoming port when the destination MAC address is unknown.
+
+??? glossary-item "Forwarding"
+    The action of transmitting frames from an ingress port to the appropriate egress port based on switching logic.
+
+??? glossary-item "Forwarding Rate"
+    The number of packets per second (Mpps) that a switch can process and forward.
+
+??? glossary-item "Frame"
+    The fundamental unit of data transmission at the Data Link Layer (Layer 2).
 
 ---
 
@@ -109,6 +156,15 @@
 ??? glossary-item "Ingress Filter"
     A security feature that drops incoming frames if the VLAN ID in the frame does not match the port's VLAN membership.
 
+??? glossary-item "ICMP (Internet Control Message Protocol)"
+    A protocol used for network diagnostics and error reporting, commonly utilized by ping and traceroute.
+
+??? glossary-item "IEEE 802.1Q"
+    The IEEE standard defining VLAN tagging in Ethernet frames.
+
+??? glossary-item "Inter-VLAN Routing"
+    The capability of a Layer 3 switch to route traffic between different VLANs.
+
 ---
 
 <a name="j"></a>
@@ -120,8 +176,20 @@
 
 <a name="l"></a>
 **[ L ]**
-??? glossary-item "LAG Member"
-    (Link Aggregation Group Member) A physical port that is part of a logical bundled group (Trunk) to increase bandwidth and provide redundancy.
+??? glossary-item "LAG"
+    (Link Aggregation Group) A logical interface formed by bundling multiple physical ports to increase bandwidth and provide redundancy.
+
+??? glossary-item "Latency"
+    The time delay experienced by a packet as it is processed and forwarded by the switch.
+
+??? glossary-item "Layer 2 Switch"
+    A switch that forwards traffic based on MAC addresses and operates primarily at the Data Link Layer.
+
+??? glossary-item "Layer 3 Switch"
+    A switch capable of performing both Layer 2 switching and Layer 3 routing functions.    
+
+??? glossary-item "LLDP (Link Layer Discovery Protocol)"
+    An IEEE 802.1AB protocol that allows network devices to advertise identity and capabilities to directly connected neighbors.
 
 ??? glossary-item "LLDP Config"
     (Link Layer Discovery Protocol Configuration) Settings for the vendor-neutral protocol used by devices to advertise their identity and capabilities.
@@ -129,8 +197,17 @@
 ??? glossary-item "LLDP Neighbor"
     Information about directly connected devices that are also running the Link Layer Discovery Protocol.
 
+??? glossary-item "Loop"
+    A network condition where frames circulate endlessly, potentially causing broadcast storms and network instability.
+
+??? glossary-item "Loop Guard"
+    A protection mechanism that prevents alternate ports from incorrectly transitioning to the forwarding state in STP topologies.
+
 ??? glossary-item "Loop Prevention"
     A general term for techniques (like STP) used to detect and block physical loops in a network that could cause broadcast storms.
+
+??? glossary-item "Load Balancing"
+    The distribution of traffic across multiple physical links within a link aggregation group.
 
 ---
 
@@ -139,11 +216,23 @@
 ??? glossary-item "MAC"
     (Media Access Control) The unique 48-bit hardware address assigned to a network interface controller.
 
+??? glossary-item "MAC Address"
+    A unique hardware identifier assigned to a network interface for Layer 2 communication.
+
+??? glossary-item "MAC Address Table"
+    A table maintained by a switch that maps MAC addresses to the ports on which they are learned.
+
+??? glossary-item "MAC Binding"
+    A security feature that statically associates a MAC address with a specific switch port.
+
 ??? glossary-item "MAC Manage"
     The administrative interface for viewing the MAC address table, configuring static MAC entries, and setting security bindings.
 
 ??? glossary-item "Max Age"
     The maximum amount of time an STP bridge waits without receiving a BPDU before concluding that the topology has changed.
+
+??? glossary-item "Managed Switch"
+    A switch that supports configuration, monitoring, and management through interfaces such as Web UI, CLI, or SNMP.
 
 ??? glossary-item "Med Capabilities"
     (LLDP-MED) Extensions to LLDP for Media Endpoint Discovery, used to automatically configure devices like VoIP phones.
@@ -162,6 +251,9 @@
 
 ??? glossary-item "Multicast"
     A transmission method where a single sender sends data to a specific group of interested receivers.
+
+??? glossary-item "MSTP (Multiple Spanning Tree Protocol)"
+    An IEEE 802.1s protocol that maps multiple VLANs to a reduced number of spanning tree instances.
 
 ---
 
@@ -184,8 +276,29 @@
 ??? glossary-item "Pair"
     Refers to the two-wire twisted pairs inside an Ethernet cable (e.g., Cat6 has 4 pairs).
 
+??? glossary-item "Packet"
+    A formatted unit of data transmitted at the Network Layer (Layer 3).
+
+??? glossary-item "Packet Buffer"
+    Memory within a switch used to temporarily store packets during congestion or processing delays.
+
 ??? glossary-item "Ping Tool"
     A diagnostic utility that sends ICMP Echo Request packets to a target IP to check connectivity and measure latency.
+
+??? glossary-item "PD (Powered Device)"
+    A network device, such as an access point or IP camera, that receives power via PoE.
+
+??? glossary-item "PoE (Power over Ethernet)"
+    A technology that delivers electrical power and data over standard Ethernet cabling.
+
+??? glossary-item "PoE Budget"
+    The total amount of power available on a PoE-capable switch for supplying connected devices.
+
+??? glossary-item "PoE Priority"
+    A mechanism that defines which ports receive power first when PoE power is limited.
+
+??? glossary-item "Port Isolation"
+    A feature that restricts communication between specific ports while allowing access to uplink ports.
 
 ??? glossary-item "Port Management"
     The general administrative category for configuring physical port properties and statuses.
@@ -211,13 +324,25 @@
 ??? glossary-item "Protocol Management"
     The configuration section for global network protocols like SNMP, LLDP, and IGMP.
 
+??? glossary-item "PSE (Power Sourcing Equipment)"
+    A device, typically a switch, that supplies power to PoE-enabled devices.
+
 ??? glossary-item "PVID"
     (Port VLAN ID) The default VLAN ID assigned to any untagged frames entering a switch port.
+
+---
+<a name="q"></a>
+**[ Q ]**
+??? glossary-item "QoS (Quality of Service)"
+    A set of techniques used to prioritize critical traffic and manage network congestion.
 
 ---
 
 <a name="r"></a>
 **[ R ]**
+??? glossary-item "Rate Limiting"
+    A method of restricting the maximum rate of traffic transmitted or received on a port.
+
 ??? glossary-item "Report Suppression"
     An IGMP Snooping feature that limits the number of IGMP Join reports forwarded to the router to reduce control plane traffic.
 
@@ -255,8 +380,20 @@
 ??? glossary-item "Speed Limit"
     Also known as Rate Limiting; the process of limiting the maximum transmission rate on a port (Ingress or Egress).
 
+??? glossary-item "Static Routing"
+    Routing paths that are manually configured and do not change dynamically.
+
+??? glossary-item "Store-and-Forward Switching"
+    A switching method that receives and verifies an entire frame before forwarding it.
+
 ??? glossary-item "Storm Control"
     A security feature that limits the level of Broadcast, Multicast, or Unknown Unicast traffic to prevent network degradation.
+
+??? glossary-item "STP (Spanning Tree Protocol)"
+    An IEEE 802.1D protocol that prevents Layer 2 loops by creating a loop-free topology.
+
+??? glossary-item "Switching Capacity"
+    The total amount of traffic a switch can handle across all ports simultaneously.
 
 ??? glossary-item "System Reboot"
     A command to restart the switch software and hardware without changing the configuration.
@@ -289,6 +426,9 @@
 ??? glossary-item "Trunk Group"
     A logical collection of physical ports configured to work together as a single Link Aggregation Group (LAG).
 
+??? glossary-item "Trunk Port"
+    A switch port configured to carry traffic for multiple VLANs using VLAN tagging.
+
 ??? glossary-item "TTL"
     (Time to Live) A field in an IP packet that limits the packet's lifetime. Each router it passes through decreases the TTL by one.
 
@@ -320,12 +460,21 @@
 ??? glossary-item "Uplink"
     A port, often with higher speed, used to connect a local switch to a core switch, router, or the wider network.
 
+??? glossary-item "Unmanaged Switch"
+    A plug-and-play switch without configuration or management capabilities.
+
 ---
 
 <a name="v"></a>
 **[ V ]**
 ??? glossary-item "VID"
     (VLAN ID) The numerical ID (1–4094) used to identify a specific Virtual LAN within an Ethernet frame tag.
+
+??? glossary-item "VLAN"
+    (Virtual LAN) A logical grouping of devices within a switch that creates separate broadcast domains.
+
+??? glossary-item "VLAN ID"
+    A numerical identifier assigned to a VLAN, ranging from 1 to 4094.
 
 ??? glossary-item "Voice VLAN"
     A specialized VLAN that prioritizes voice traffic (VoIP) over data traffic to ensure call quality even during network congestion.
@@ -334,6 +483,9 @@
 
 <a name="w"></a>
 **[ W ]**
+??? glossary-item "Web UI"
+    A browser-based graphical interface for switch configuration and monitoring.
+
 ??? glossary-item "WFQ"
     (Weighted Fair Queuing) A QoS scheduling algorithm that gives different traffic flows a "fair" share of bandwidth based on their assigned weights.
 
