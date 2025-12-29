@@ -934,6 +934,8 @@
       
         
       
+        
+      
     
     
     
@@ -1019,6 +1021,26 @@
 
               
             
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../glossary/pon/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PON
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1052,30 +1074,42 @@
   <!-- Markdown content -->
   <h1 id="lan">LAN<a class="headerlink" href="#lan" title="Permanent link">&para;</a></h1>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-6.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-6.webp" alt="" width=1000px style="border: 1px solid #eee;" /></a></p>
-<p><strong>• IP Address:</strong> Unique identifier for a device on the network (e.g.,192.168.1.1 or 2001:db8::1).</p>
-<p><strong>• Subnet Mask:</strong> Defines the network segment (e.g., 255.255.255.0 splits IP into network/host parts).</p>
-<p><strong>• IPv6 Link-Local Address Mode:</strong> Select the method to obtain an addresses for local communication without DHCP.</p>
-<blockquote>
-<p>- Auto: Automatically generate an IPv6 Link - Local Address for local communication.</p>
-<p>- Static: Manually enter an IPv6 Link - Local Address for local communication.</p>
-</blockquote>
-<p><strong>• IPv6 DNS Mode:</strong> Select the method to assign the DNS servers.</p>
-<blockquote>   
-<p>- HGW Proxy: Select it if your ISP requires centralized DNS management or when you need IPv4 compatibility in an IPv6-only network. Avoid it if you prioritize direct DNS queries for privacy or per-device customization.</p>
-<p>- WAN Connection: Select it if you want devices to bypass the router's proxy and directly use ISP-assigned or custom DNS servers (e.g.,for privacy or granular control). IPv6 DNS address(es) will be automatically assigned.</p>  
-<p>- Static: Select it if you need to manually specify custom DNS servers for enhanced privacy or performance. Then manually enter the provided IPv6 DNS1 (preferred) and IPv6 DNS2 (alternate) addresses.</p>
-</blockquote>
-
-<p><strong>• Prefix Mode :</strong> Select the method how the Router gets its IPv6 network address range. </p>
-<blockquote>   
-<p>- WAN Connection: Automatic ISP assignment, common for home use.</p>
-<p>- Static: Manually set a fixed prefix, usually for business/lab networks.</p>
-</blockquote>
-
-<p><strong>• IGMP Snooping:</strong> Optimizes multicast traffic for LAN ports (reduces unnecessary flooding).</p>
-<p><strong>• LAN1~ LAN4:</strong> Toggle per-port multicast filtering.</p>
-<p>• Apply Changes: Click to save and activate configuration. It may briefly disconnect services.</p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"></a> For enterprise networks, IPv6 settings often require ISP compatibility checks.</p>
+<p>On the <strong>LAN</strong> page, you can follow the steps to configure the LAN interfaces.</p>
+<ol>
+<li>Enter a Unique identifier for a device on the network (e.g.,192.168.1.1 or 2001:db8::1) in the <em>IP Address</em> field.</li>
+<li>Enter the network segment (e.g., 255.255.255.0 splits IP into network/host parts) in the <em>Subnet Mask</em> field .</li>
+<li>
+<p>Select an <em>IPv6 Link-Local Address Mode</em> to obtain an addresses for local communication without DHCP.</p>
+<ul>
+<li>Auto: Automatically generate an IPv6 Link - Local Address for local communication.</li>
+<li>Static: Manually enter an IPv6 Link - Local Address for local communication.</li>
+</ul>
+</li>
+<li>
+<p>Select an <em>IPv6 DNS Mode</em> to assign the DNS servers.</p>
+<ul>
+<li>HGW Proxy: Select it if your ISP requires centralized DNS management or when you need IPv4 compatibility in an IPv6-only network. Avoid it if you prioritize direct DNS queries for privacy or per-device customization.</li>
+<li>WAN Connection: Select it if you want devices to bypass the router's proxy and directly use ISP-assigned or custom DNS servers (e.g.,for privacy or granular control). IPv6 DNS address(es) will be automatically assigned.  </li>
+<li>Static: Select it if you need to manually specify custom DNS servers for enhanced privacy or performance. Then manually enter the provided IPv6 DNS1 (preferred) and IPv6 DNS2 (alternate) addresses.</li>
+</ul>
+</li>
+<li>
+<p>Select the <em>Prefix Mode</em> for the Router to obtain an IPv6 network address range. </p>
+<ul>
+<li>WAN Connection: Automatic ISP assignment, common for home use.</li>
+<li>Static: Manually set a fixed prefix, usually for business/lab networks.</li>
+</ul>
+</li>
+<li>
+<p>Enable <em>IGMP Snooping</em> to optimize multicast traffic for LAN ports (reduces unnecessary flooding).</p>
+</li>
+<li>Enable <em>LAN1~ LAN4</em> for multicast filtering.</li>
+<li>Click <em>Apply Changes</em> to save and activate the settings. It may briefly disconnect services.</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For enterprise networks, IPv6 settings often require ISP compatibility checks.</p>
+</div>
 
   <!-- Last update of source file -->
   

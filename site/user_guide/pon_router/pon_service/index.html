@@ -934,6 +934,8 @@
       
         
       
+        
+      
     
     
     
@@ -1019,6 +1021,26 @@
 
               
             
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../glossary/pon/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PON
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1054,179 +1076,357 @@
 <h2 id="service">Service<a class="headerlink" href="#service" title="Permanent link">&para;</a></h2>
 <h3 id="dhcp">DHCP<a class="headerlink" href="#dhcp" title="Permanent link">&para;</a></h3>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-83.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-83.webp" alt="" width="1000" style="border: 1px solid #eee;" /></a></p>
-<p><strong>• DHCP Mode:</strong></p>
-<p><strong>1. None:</strong> DHCP is disabled completely and manual IP configuration is required.</p>
-<p><strong>2. DHCP Relay:</strong> The router forwards DHCP requests across subnets/VLANs (enterprise use, e.g., centralizing DHCP in a data center). Enter the DHCP Server IP address, or keep it default.</p>
+<p>On the <strong>Service -&gt; DHCP</strong> page, configure the settings according to different DHCP modes.</p>
+<ul>
+<li>
+<p><strong>None</strong>: DHCP is disabled completely and manual IP configuration is required.</p>
+</li>
+<li>
+<p><strong>DHCP Relay</strong>: The router forwards DHCP requests across subnets/VLANs (enterprise use, e.g., centralizing DHCP in a data center). Enter the DHCP Server IP address, or keep it default.</p>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-82.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-82.webp" alt="" width="600" style="border: 1px solid #eee;" /></a></p>
-<p><strong>3. DHCP Server:</strong> The router assigns IP addresses to clients (default for home networks, manages IP pools/leases).</p>
+</li>
+<li>
+<p><strong>DHCP Server</strong>: The router assigns IP addresses to clients (default for home networks, manages IP pools/leases).</p>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-27.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-27.webp" alt="" width="600" style="border: 1px solid #eee;" /></a></p>
-<p><strong>• LAN IP Address:</strong> Displays the router's IP address.</p>
-<p><strong>• Subnet Mask:</strong> Displays the router's subnet mask.</p>
-<p><strong>• IP Pool Range:</strong> Defines assignable IP addresses (e.g., 192.168.1.100-200).</p>
-<p><strong>• Subnet Mask:</strong> Determines network segmentation (e.g., 255.255.255.0 for /24).</p>
-<p><strong>• Max Lease Time:</strong> Sets duration (seconds) before IP renewal (e.g., 86400 = 1 day).</p>
-<p><strong>• Domain Name:</strong> Specifies local domain suffix (e.g., home.lan).</p>
-<p><strong>• Gateway Address:</strong> Default route for client traffic (e.g., router IP 192.168.1.1).</p>
-<p><strong>• DNS Option:</strong></p>
-<pre><code>- Use DNS Proxy: The router acts as a middleman, caching and forwarding DNS requests (e.g., for parental controls or ad-blocking).
-- Set Manually: Directly specifies custom DNS servers (e.g., 1.1.1.1 or 8.8.8.8), bypassing ISP defaults.
-- From Default Route WAN: Automatically uses the DNS servers provided by your ISP via the WAN connection.
-</code></pre>
-<p><strong>• Port-Based Filter:</strong> Blocks/allows DHCP requests based on the Ethernet port numbers (L2 physical interface), ideal for securing specific network jacks in offices or labs.</p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-84.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-84.webp" alt="" width="600" style="border: 1px solid #eee;" /></a></p>
-<p><strong>• MAC-Based Filter:</strong> Whitelists/blacklists devices by their unique MAC addresses (L2 hardware ID), commonly used for IoT device management or guest network control.</p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-85.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-85.webp" alt="" width="600" style="border: 1px solid #eee;" /></a></p>
-<p><strong>4. DHCP Client:</strong> An upstream DHCP server (common in ISP modem-router setups) assigns an IP address to the router(client).</p>
+<ul>
+<li>LAN IP Address: Displays the router's IP address.</li>
+<li>Subnet Mask: Displays the router's subnet mask.</li>
+<li>IP Pool Range: Defines assignable IP addresses (e.g., 192.168.1.100-200).</li>
+<li>Subnet Mask: Determines network segmentation (e.g., 255.255.255.0 for /24).</li>
+<li>Max Lease Time: Sets duration (seconds) before IP renewal (e.g., 86400 = 1 day).</li>
+<li>Domain Name: Specifies local domain suffix (e.g., home.lan).</li>
+<li>Gateway Address: Default route for client traffic (e.g., router IP 192.168.1.1).</li>
+<li>
+<p>DNS Option:</p>
+<ul>
+<li>Use DNS Proxy: The router acts as a middleman, caching and forwarding DNS requests (e.g., for parental controls or ad-blocking).</li>
+<li>Set Manually: Directly specifies custom DNS servers (e.g., 1.1.1.1 or 8.8.8.8), bypassing ISP defaults.</li>
+<li>From Default Route WAN: Automatically uses the DNS servers provided by your ISP via the WAN connection.</li>
+</ul>
+</li>
+<li>
+<p>Port-Based Filter: Blocks/allows DHCP requests based on the Ethernet port numbers (L2 physical interface), ideal for securing specific network jacks in offices or labs.
+<a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-84.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-84.webp" alt="" width="600" style="border: 1px solid #eee;" /></a></p>
+</li>
+<li>
+<p>MAC-Based Filter: Whitelists/blacklists devices by their unique MAC addresses (L2 hardware ID), commonly used for IoT device management or guest network control.
+<a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-85.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-85.webp" alt="" width="600" style="border: 1px solid #eee;" /></a></p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>DHCP Client</strong>: An upstream DHCP server (common in ISP modem-router setups) assigns an IP address to the router(client).</p>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-86.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-86.webp" alt="" width="600" style="border: 1px solid #eee;" /></a></p>
+</li>
+</ul>
 <hr />
 <h3 id="dynamic-dns">Dynamic DNS<a class="headerlink" href="#dynamic-dns" title="Permanent link">&para;</a></h3>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-28.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-28.webp" alt="" width="1000" style="border: 1px solid #eee;" /></a></p>
-<p><strong>Dynamic DNS (DDNS)</strong> supports automatically updating a domain name with your router's changing public IP address, allowing stable remote access (e.g., for home servers or cameras).</p>
-<p><strong>• Enable:</strong> Tick to activate automatic IP updates for your dynamic domain (essential for remote access with changing ISP IPs).</p>
-<p><strong>• DDNS Provider:</strong> Selects the DNS service.</p>
-<p><strong>① DynDNS.org:</strong> Pioneer DDNS service offering both free (legacy) and enterprise solutions with enhanced security.</p>
+<p>Dynamic DNS (DDNS) supports automatically updating a domain name with your router's changing public IP address, allowing stable remote access (e.g., for home servers or cameras).</p>
+<ol>
+<li>Tick <em>Enable</em> to activate automatic IP updates for your dynamic domain (essential for remote access with changing ISP IPs).</li>
+<li>
+<p>Select a <em>DDNS Provider</em> and configure the following corresponding settings.</p>
 <ul>
 <li>
-<p>Username: Enter your registered DynDNS account email.</p>
-</li>
-<li>
-<p>Password: Enter a DynDNS API Token (generate via dyn.com) — legacy passwords no longer work.</p>
-</li>
-</ul>
-<p><strong>② TZO:</strong> Business-oriented provider featuring real-time IP updates and integrated email/SMS alerts.     </p>
+<p>DynDNS.org: Pioneer DDNS service offering both free (legacy) and enterprise solutions with enhanced security.</p>
 <ul>
-<li>
-<p>Email: Enter your TZO-registered email address.</p>
-</li>
-<li>
-<p>Key: Input your unique TZO Authentication Key (found in your TZO account dashboard).</p>
-</li>
+<li>Username: Enter your registered DynDNS account email.</li>
+<li>Password: Enter a DynDNS API Token (generate via dyn.com) — legacy passwords no longer work.</li>
 </ul>
-<p><strong>③ No-IP:</strong> User-friendly free tier (21-day renewal) with port forwarding tools, ideal for home labs.    </p>
+</li>
+<li>
+<p>TZO: Business-oriented provider featuring real-time IP updates and integrated email/SMS alerts.     </p>
 <ul>
-<li>
-<p>Username: Enter your registered No-IP account email.</p>
+<li>Email: Enter your TZO-registered email address.</li>
+<li>Key: Input your unique TZO Authentication Key (found in your TZO account dashboard).</li>
+</ul>
 </li>
 <li>
-<p>Password: Use your No-IP account password (same as website login).</p>
+<p>No-IP: User-friendly free tier (21-day renewal) with port forwarding tools, ideal for home labs.    </p>
+<ul>
+<li>Username: Enter your registered No-IP account email.</li>
+<li>Password: Use your No-IP account password (same as website login).</li>
+<li>Hostname: Enter your custom domain (e.g., yourname.ddns.net) that will point to the router's current public IP.</li>
+<li>Interface: Specifies which WAN connection (e.g., PPPoE, 4G/5G) to monitor for IP changes.</li>
+</ul>
+</li>
+<li>Other operations:<ul>
+<li>Add: Click to add the new entry into the Dynamic DNS Table.</li>
+<li>Modify: Click to modify the selected entry in the Dynamic DNS Table.</li>
+<li>Remove: Click to delete the selected entry in the Dynamic DNS Table.</li>
+<li>Update: Click to update the Dynamic DNS Table.</li>
+</ul>
 </li>
 </ul>
-<p><strong>• Hostname:</strong> Enter your custom domain (e.g., yourname.ddns.net) that will point to the router's current public IP.</p>
-<p><strong>• Interface:</strong> Specifies which WAN connection (e.g., PPPoE, 4G/5G) to monitor for IP changes.</p>
-<p>• Add: Click to add the new entry into the Dynamic DNS Table.</p>
-<p>• Modify: Click to modify the selected entry in the Dynamic DNS Table.</p>
-<p>• Remove: Click to delete the selected entry in the Dynamic DNS Table.</p>
-<p>• Update: Click to update the Dynamic DNS Table.</p>
+</li>
+<li>
+<p>Enter a Hostname.</p>
+</li>
+</ol>
 <hr />
 <h3 id="igmp-proxy">IGMP Proxy<a class="headerlink" href="#igmp-proxy" title="Permanent link">&para;</a></h3>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-29.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-29.webp" alt="" width="1000" style="border: 1px solid #eee;" /></a></p>
-<p><strong>• IGMP Robust Count:</strong> Defines how many consecutive missed queries trigger a group timeout (typically 2-5). Higher values improve stability in lossy networks.</p>
-<p><strong>• Last Member Query Count:</strong> Number of last-member queries sent before concluding no members remain (default=2). Reduces premature group deletion.</p>
-<p><strong>• Query Interval:</strong> Time (seconds) between general membership queries (default=125). Shorter intervals detect leaves faster but increase traffic.</p>
-<p><strong>• Query Response Interval:</strong> Max time members have to reply to a query (default=10s). Must be less than Query Interval to avoid collisions.</p>
-<p><strong>• Group Leave Delay:</strong> Grace period before pruning a group after last leave message. Prevents video glitches during channel switches.</p>
-<p>• Apply Changes: Click to save and activate the settings or changes.</p>
+<ul>
+<li>IGMP Robust Count: Defines how many consecutive missed queries trigger a group timeout (typically 2-5). Higher values improve stability in lossy networks.</li>
+<li>Last Member Query Count: Number of last-member queries sent before concluding no members remain (default=2). Reduces premature group deletion.</li>
+<li>Query Interval: Time (seconds) between general membership queries (default=125). Shorter intervals detect leaves faster but increase traffic.</li>
+<li>Query Response Interval: Max time members have to reply to a query (default=10s). Must be less than Query Interval to avoid collisions.</li>
+<li>Group Leave Delay: Grace period before pruning a group after last leave message. Prevents video glitches during channel switches.</li>
+<li>Apply Changes: Click to save and activate the settings or changes.</li>
+</ul>
 <hr />
 <h3 id="upnp">UPnP<a class="headerlink" href="#upnp" title="Permanent link">&para;</a></h3>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-30.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-30.webp" alt="" width="1000" style="border: 1px solid #eee;" /></a></p>
-<p><strong>UPnP (Universal Plug and Play)</strong> supports automatically opening and managing router ports for devices/apps that request external access (e.g., gaming consoles or VoIP), eliminating manual port forwarding.</p>
-<p><strong>• UPnP:</strong> Select Disable to block automatic port requests (recommended for security), or Enable to allow devices to dynamically open ports (convenient for gaming/P2P).</p>
-<p><strong>• WAN Interface:</strong> Selects which internet connection (e.g., PPPoE, 5G) UPnP applies to.</p>
-<p><strong>• Comment:</strong> Make some notes to label rules (e.g., "Xbox NAT Open") for the entry.</p>
-<p><strong>• Local IP:</strong> Enter the internal device's IP (e.g., 192.168.1.100) receiving forwarded traffic.</p>
-<p><strong>• Protocol:</strong> Select TCP, UDP, or both for traffic type (e.g., TCP for web browsing, UDP for VoIP).</p>
-<p><strong>• Local Port:</strong> Enter the Device's service port (e.g., 3074 for Xbox Live).</p>
-<p><strong>• Remote Port:</strong> Enter External port triggering forwarding (often same as Local Port).</p>
-<p><strong>• Security Tip:</strong> Enable UPnP only for trusted devices with static IPs.</p>
-<p>• Apply Changes: Click to save and activate the settings or changes.</p>
-<p>• Refresh: Click to update the UPnP Current Port Forwarding Table.</p>
+<p>UPnP (Universal Plug and Play) supports automatically opening and managing router ports for devices/apps that request external access (e.g., gaming consoles or VoIP), eliminating manual port forwarding.</p>
+<ul>
+<li>
+<p>UPnP: Select Disable to block automatic port requests (recommended for security), or Enable to allow devices to dynamically open ports (convenient for gaming/P2P).</p>
+</li>
+<li>
+<p>WAN Interface: Selects which internet connection (e.g., PPPoE, 5G) UPnP applies to.</p>
+</li>
+<li>
+<p>Comment: Make some notes to label rules (e.g., "Xbox NAT Open") for the entry.</p>
+</li>
+<li>
+<p>Local IP: Enter the internal device's IP (e.g., 192.168.1.100) receiving forwarded traffic.</p>
+</li>
+<li>
+<p>Protocol: Select TCP, UDP, or both for traffic type (e.g., TCP for web browsing, UDP for VoIP).</p>
+</li>
+<li>
+<p>Local Port: Enter the Device's service port (e.g., 3074 for Xbox Live).</p>
+</li>
+<li>
+<p>Remote Port: Enter External port triggering forwarding (often same as Local Port).</p>
+</li>
+<li>
+<p>Security Tip: Enable UPnP only for trusted devices with static IPs.</p>
+</li>
+<li>
+<p>Apply Changes: Click to save and activate the settings or changes.</p>
+</li>
+<li>
+<p>Refresh: Click to update the UPnP Current Port Forwarding Table.</p>
+</li>
+</ul>
 <hr />
 <h3 id="rip">RIP<a class="headerlink" href="#rip" title="Permanent link">&para;</a></h3>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-87.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-87.webp" alt="" width="1000" style="border: 1px solid #eee;" /></a></p>
-<p><strong>• Routing Protocol:</strong> Select to enable RIP for path selection.</p>
-<p><strong>• Interface:</strong> Specifies which network ports participate in RIP updates (e.g., eth0/WAN).</p>
-<p><strong>• Receive Mode:</strong> Select to decide how RIP updates are processed (None/RIP1/RIP2/Both).</p>
-<p><strong>• Send Mode:</strong> Select to define RIP version for outgoing updates (None/RIP1/RIP2/RIP1COMPAT).</p>
-<p>• Add: Click to add entries into the RIP Config Table.</p>
-<p>• Select: Tick to select entries to delete.</p>
-<p>• Delete Selected: Delete the selected entries in the table.</p>
-<p>• Delete All: Delete all the entries in the table.</p>
+<ul>
+<li>
+<p>Routing Protocol: Select to enable RIP for path selection.</p>
+</li>
+<li>
+<p>Interface: Specifies which network ports participate in RIP updates (e.g., eth0/WAN).</p>
+</li>
+<li>
+<p>Receive Mode: Select to decide how RIP updates are processed (None/RIP1/RIP2/Both).</p>
+</li>
+<li>
+<p>Send Mode: Select to define RIP version for outgoing updates (None/RIP1/RIP2/RIP1COMPAT).</p>
+</li>
+<li>
+<p>Add: Click to add entries into the RIP Config Table.</p>
+</li>
+<li>
+<p>Select: Tick to select entries to delete.</p>
+</li>
+<li>
+<p>Delete Selected: Delete the selected entries in the table.</p>
+</li>
+<li>
+<p>Delete All: Delete all the entries in the table.</p>
+</li>
+</ul>
 <hr />
 <h2 id="firewall">Firewall<a class="headerlink" href="#firewall" title="Permanent link">&para;</a></h2>
 <h3 id="ipport-filtering">IP/Port Filtering<a class="headerlink" href="#ipport-filtering" title="Permanent link">&para;</a></h3>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-32.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-32.webp" alt="" width="1000" style="border: 1px solid #eee;" /></a></p>
-<p><strong>• Outgoing Default Action:</strong> Firewall allows or denies the traffic from LAN to WAN (typically Allow for user convenience).</p>
-<p><strong>• Incoming Default Action:</strong> Firewall allows or denies the unsolicited traffic from WAN to LAN (usually Deny for security, blocking hackers/scanning).</p>
-<p>• Apply Changes: Click to save and activate the settings or changes.</p>
-<p><strong>• Direction:</strong></p>
-<pre><code>- Outgoing: Controls traffic from LAN to WAN (e.g., blocking social media).
-- Incoming: Manages WAN-to-LAN traffic (e.g., allowing SSH access).
-</code></pre>
-<p><strong>• Protocol:</strong> Select TCP (web/email), UDP (video/VoIP), ICMP (ping), or All for any protocol.</p>
-<p><strong>• Rule Action:</strong> Select Allow to permit traffic or Deny to block or send error.</p>
-<p><strong>• Source/Destination IP address:</strong> The target device’s IP (e.g., 192.168.1.100 for a local server).</p>
-<p><strong>• Subnet Mask:</strong> Defines the network scope (e.g., /24 = 255.255.255.0 for a local subnet).</p>
-<p><strong>• Port:</strong> The service’s port number (e.g., 80 for HTTP, 443 for HTTPS).</p>
-<p>• Add: Click to add the entry into the Current Filter Table.</p>
-<p>• Select: Tick to select entries to delete.</p>
-<p>• Delete Selected: Delete the selected entries in the table.</p>
-<p>• Delete All: Delete all the entries in the table.</p>
+<ul>
+<li>
+<p>Outgoing Default Action: Firewall allows or denies the traffic from LAN to WAN (typically Allow for user convenience).</p>
+</li>
+<li>
+<p>Incoming Default Action: Firewall allows or denies the unsolicited traffic from WAN to LAN (usually Deny for security, blocking hackers/scanning).</p>
+</li>
+<li>
+<p>Apply Changes: Click to save and activate the settings or changes.</p>
+</li>
+<li>
+<p>Direction:</p>
+<ul>
+<li>Outgoing: Controls traffic from LAN to WAN (e.g., blocking social media).</li>
+<li>Incoming: Manages WAN-to-LAN traffic (e.g., allowing SSH access).</li>
+</ul>
+</li>
+<li>
+<p>Protocol: Select TCP (web/email), UDP (video/VoIP), ICMP (ping), or All for any protocol.</p>
+</li>
+<li>
+<p>Rule Action: Select Allow to permit traffic or Deny to block or send error.</p>
+</li>
+<li>
+<p>Source/Destination IP address: The target device’s IP (e.g., 192.168.1.100 for a local server).</p>
+</li>
+<li>
+<p>Subnet Mask: Defines the network scope (e.g., /24 = 255.255.255.0 for a local subnet).</p>
+</li>
+<li>
+<p>Port: The service’s port number (e.g., 80 for HTTP, 443 for HTTPS).</p>
+</li>
+<li>
+<p>Add: Click to add the entry into the Current Filter Table.</p>
+</li>
+<li>
+<p>Select: Tick to select entries to delete.</p>
+</li>
+<li>
+<p>Delete Selected: Delete the selected entries in the table.</p>
+</li>
+<li>
+<p>Delete All: Delete all the entries in the table.</p>
+</li>
+</ul>
 <hr />
 <h3 id="mac-filtering">MAC Filtering<a class="headerlink" href="#mac-filtering" title="Permanent link">&para;</a></h3>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-33.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-33.webp" alt="" width="1000" style="border: 1px solid #eee;" /></a></p>
-<p><strong>MAC Filtering for bridge mode</strong> allows or blocks specific devices (identified by their MAC addresses) from accessing the network when the router operates in bridge mode, acting as a transparent pass-through while maintaining MAC-based access control.</p>
-<p><strong>• Outgoing Default Action:</strong> Select to Allow or Deny the default behavior for outgoing traffic when no MAC filter rules match.</p>
-<p><strong>• Incoming Default Action:</strong> Select to Allow or Deny the default behavior for incoming traffic if no rules apply (e.g., Allow for trusted networks).</p>
-<p>• Apply Changes: Click to save and activate the settings or changes.</p>
-<p><strong>• Direction:</strong> Select to the direction for traffic flow, either Incoming for LAN→devices or Outgoing for devices→WAN.</p>
-<p><strong>• Source/Destination MAC Address:</strong> Enter the sender’s (Source) or receiver’s (Destination) hardware address for the filtered traffic.</p>
-<p><strong>• Rule Action:</strong> Select to Deny or Allow the traffic matching the rule.</p>
-<p>• Add: Click to add the MAC filtering rule configured above into the Current Filter Table.</p>
-<p>• Delete Selected: Delete the selected entries in the table.</p>
-<p>• Delete All: Delete all the entries in the table.</p>
+<p>MAC Filtering for bridge mode allows or blocks specific devices (identified by their MAC addresses) from accessing the network when the router operates in bridge mode, acting as a transparent pass-through while maintaining MAC-based access control.</p>
+<ul>
+<li>
+<p>Outgoing Default Action: Select to Allow or Deny the default behavior for outgoing traffic when no MAC filter rules match.</p>
+</li>
+<li>
+<p>Incoming Default Action: Select to Allow or Deny the default behavior for incoming traffic if no rules apply (e.g., Allow for trusted networks).</p>
+</li>
+<li>
+<p>Apply Changes: Click to save and activate the settings or changes.</p>
+</li>
+<li>
+<p>Direction: Select to the direction for traffic flow, either Incoming for LAN→devices or Outgoing for devices→WAN.</p>
+</li>
+<li>
+<p>Source/Destination MAC Address: Enter the sender’s (Source) or receiver’s (Destination) hardware address for the filtered traffic.</p>
+</li>
+<li>
+<p>Rule Action: Select to Deny or Allow the traffic matching the rule.</p>
+</li>
+<li>
+<p>Add: Click to add the MAC filtering rule configured above into the Current Filter Table.</p>
+</li>
+<li>
+<p>Delete Selected: Delete the selected entries in the table.</p>
+</li>
+<li>
+<p>Delete All: Delete all the entries in the table.</p>
+</li>
+</ul>
 <hr />
 <h3 id="port-forwarding">Port Forwarding<a class="headerlink" href="#port-forwarding" title="Permanent link">&para;</a></h3>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-34.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-34.webp" alt="" width="1000" style="border: 1px solid #eee;" /></a></p>
-<p><strong>Port Forwarding</strong> redirects external traffic from specific ports to an internal device (e.g., for gaming servers or remote access). It requires static IP/DHCP reservation for stable operation.</p>
-<p><strong>• Port Forwarding:</strong> Select to Enable the Port Forwarding configuration.</p>
-<p><strong>• Application:</strong> Select the predefined profiles (e.g., "Web Server" or "Xbox Live") that auto-fill common port ranges.</p>
-<p><strong>• Comment:</strong> Make some notes to label rules (e.g., "Security Cam Feed").</p>
-<p><strong>• Local IP:</strong> Enter the internal device’s IP address receiving forwarded traffic (e.g., 192.168.1.100).</p>
-<p><strong>• Local Port from/to:</strong> Enter the port range on the internal device (e.g., 80-80 for HTTP).</p>
-<p><strong>• Protocol:</strong> Select TCP, UDP, or both for traffic type (e.g., TCP for web browsing).</p>
-<p><strong>• Remote IP:</strong> Enter the external source IP address(es) allowed to trigger port forwarding (e.g., only traffic from 203.0.113.5 can access). Leave blank to allow all public IPs.</p>
-<p><strong>• Remote Port from/to:</strong> The external port range triggering forwarding (e.g., 8080-8080 for alternate HTTP access).</p>
-<p><strong>• Interface:</strong> Selects which network connection the port forwarding rule should apply to, ensuring traffic is routed through the correct external link.</p>
-<p>• Apply Changes: Click to save and activate the settings or changes.</p>
-<p>• Add: Click to add the Port Forwarding rule configured above into the Current Port Forwarding Table.</p>
-<p>• Delete Selected: Delete the selected entries in the table.</p>
-<p>• Delete All: Delete all the entries in the table.</p>
+<p>Port Forwarding redirects external traffic from specific ports to an internal device (e.g., for gaming servers or remote access). It requires static IP/DHCP reservation for stable operation.</p>
+<ul>
+<li>
+<p>Port Forwarding: Select to Enable the Port Forwarding configuration.</p>
+</li>
+<li>
+<p>Application: Select the predefined profiles (e.g., "Web Server" or "Xbox Live") that auto-fill common port ranges.</p>
+</li>
+<li>
+<p>Comment: Make some notes to label rules (e.g., "Security Cam Feed").</p>
+</li>
+<li>
+<p>Local IP: Enter the internal device’s IP address receiving forwarded traffic (e.g., 192.168.1.100).</p>
+</li>
+<li>
+<p>Local Port from/to: Enter the port range on the internal device (e.g., 80-80 for HTTP).</p>
+</li>
+<li>
+<p>Protocol: Select TCP, UDP, or both for traffic type (e.g., TCP for web browsing).</p>
+</li>
+<li>
+<p>Remote IP: Enter the external source IP address(es) allowed to trigger port forwarding (e.g., only traffic from 203.0.113.5 can access). Leave blank to allow all public IPs.</p>
+</li>
+<li>
+<p>Remote Port from/to: The external port range triggering forwarding (e.g., 8080-8080 for alternate HTTP access).</p>
+</li>
+<li>
+<p>Interface: Selects which network connection the port forwarding rule should apply to, ensuring traffic is routed through the correct external link.</p>
+</li>
+<li>
+<p>Apply Changes: Click to save and activate the settings or changes.</p>
+</li>
+<li>
+<p>Add: Click to add the Port Forwarding rule configured above into the Current Port Forwarding Table.</p>
+</li>
+<li>
+<p>Delete Selected: Delete the selected entries in the table.</p>
+</li>
+<li>
+<p>Delete All: Delete all the entries in the table.</p>
+</li>
+</ul>
 <hr />
 <h3 id="url-blocking">URL Blocking<a class="headerlink" href="#url-blocking" title="Permanent link">&para;</a></h3>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-35.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-35.webp" alt="" width="1000" style="border: 1px solid #eee;" /></a></p>
-<p><strong>URL Blocking</strong> blocks access to specific web addresses (e.g., socialmedia.com), often used for parental controls. It works at the application layer but may struggle with HTTPS traffic.</p>
-<p><strong>• FQDN (Fully Qualified Domain Name):</strong> Enter the domain to be blocked access to complete web addresses (e.g., www.example.com), including all subdomains and paths under the domain. (Effective for both HTTP/HTTPS when DNS-based filtering is enabled.)</p>
-<p><strong>• Keyword:</strong> Enter the specific text patterns (e.g., "social" or "gamble") in URLs or page content to be blocked (Limited to plain HTTP traffic unless SSL inspection is configured.)</p>
-<p>• Apply Changes: Click to save and activate the settings or changes.</p>
-<p>• Add: Click to add the URL blocking rule configured above into the URL Blocking Table or Keyword Filtering Table.</p>
-<p>• Delete Selected: Delete the selected entries in the table.</p>
-<p>• Delete All: Delete all the entries in the table.</p>
+<p>URL Blocking blocks access to specific web addresses (e.g., socialmedia.com), often used for parental controls. It works at the application layer but may struggle with HTTPS traffic.</p>
+<ul>
+<li>
+<p>FQDN (Fully Qualified Domain Name): Enter the domain to be blocked access to complete web addresses (e.g., www.example.com), including all subdomains and paths under the domain. (Effective for both HTTP/HTTPS when DNS-based filtering is enabled.)</p>
+</li>
+<li>
+<p>Keyword: Enter the specific text patterns (e.g., "social" or "gamble") in URLs or page content to be blocked (Limited to plain HTTP traffic unless SSL inspection is configured.)</p>
+</li>
+<li>
+<p>Apply Changes: Click to save and activate the settings or changes.</p>
+</li>
+<li>
+<p>Add: Click to add the URL blocking rule configured above into the URL Blocking Table or Keyword Filtering Table.</p>
+</li>
+<li>
+<p>Delete Selected: Delete the selected entries in the table.</p>
+</li>
+<li>
+<p>Delete All: Delete all the entries in the table.</p>
+</li>
+</ul>
 <hr />
 <h3 id="domain-blocking">Domain Blocking<a class="headerlink" href="#domain-blocking" title="Permanent link">&para;</a></h3>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-36.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-36.webp" alt="" width="1000" style="border: 1px solid #eee;" /></a></p>
-<p><strong>Domain Blocking</strong> prevents access to entire domains and subdomains via DNS filtering. More comprehensive than URL blocking and covers HTTPS sites.</p>
-<p><strong>• Domain:</strong> Enter the exact website domain name (e.g., example.com) to be blocked, preventing access to all its subpages and services under that domain.</p>
-<p>• Apply Changes: Click to save and activate the settings or changes.</p>
-<p>• Add: Click to add the newly-configured Domain blocking rule into the Domain blocking Table.</p>
-<p>• Delete Selected: Delete the selected entries in the table.</p>
-<p>• Delete All: Delete all the entries in the table.</p>
+<p>Domain Blocking prevents access to entire domains and subdomains via DNS filtering. More comprehensive than URL blocking and covers HTTPS sites.</p>
+<ul>
+<li>
+<p>Domain: Enter the exact website domain name (e.g., example.com) to be blocked, preventing access to all its subpages and services under that domain.</p>
+</li>
+<li>
+<p>Apply Changes: Click to save and activate the settings or changes.</p>
+</li>
+<li>
+<p>Add: Click to add the newly-configured Domain blocking rule into the Domain blocking Table.</p>
+</li>
+<li>
+<p>Delete Selected: Delete the selected entries in the table.</p>
+</li>
+<li>
+<p>Delete All: Delete all the entries in the table.</p>
+</li>
+</ul>
 <hr />
 <h3 id="dmz">DMZ<a class="headerlink" href="#dmz" title="Permanent link">&para;</a></h3>
 <p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-37.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-37.webp" alt="" width="1000" style="border: 1px solid #eee;" /></a></p>
-<p><strong>DMZ (Demilitarized Zone)</strong> exposes one internal device directly to the internet, bypassing firewall protections.</p>
-<p><strong>• DMZ Host:</strong> Select Disable to apply normal firewall protection to all devices (recommended for security); or Enable to bypass firewall completely for one specified device, and it is in high risk, used only for testing/isolated devices.</p>
-<p><strong>• DMZ Host IP Address:</strong> Enter the internal device's IP (e.g., 192.168.1.100) that will be fully exposed to the internet when DMZ is enabled.</p>
-<p>• Apply Changes: Click to save and activate the settings or changes.</p>
+<p>DMZ (Demilitarized Zone) exposes one internal device directly to the internet, bypassing firewall protections.</p>
+<ul>
+<li>
+<p>DMZ Host: Select Disable to apply normal firewall protection to all devices (recommended for security); or Enable to bypass firewall completely for one specified device, and it is in high risk, used only for testing/isolated devices.</p>
+</li>
+<li>
+<p>DMZ Host IP Address: Enter the internal device's IP (e.g., 192.168.1.100) that will be fully exposed to the internet when DMZ is enabled.</p>
+</li>
+<li>
+<p>Apply Changes: Click to save and activate the settings or changes.</p>
+</li>
+</ul>
 <hr />
 
   <!-- Last update of source file -->
