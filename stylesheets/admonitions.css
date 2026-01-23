@@ -1,0 +1,89 @@
+/* =====================================================
+   Cudy Admonitions Skin Layer - Final Stable Version
+   Hard Reset ensures pure colors, no alpha/overlay
+   ===================================================== */
+
+/* -------- HARD RESET: kill any material overlay -------- */
+.md-typeset .admonition,
+.md-typeset details.admonition {
+  box-shadow: none !important;
+  filter: none !important;
+  mix-blend-mode: normal !important;
+  opacity: 1 !important;
+}
+
+/* Kill material rgba backgrounds */
+.md-typeset .admonition {
+  --md-admonition-bg-rgb: 0, 0, 0 !important;
+  --md-admonition-bg-alpha: 1 !important;
+}
+
+/* =====================================================
+   TIP — 蓝色
+   ===================================================== */
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  background-color: #ffffff !important; /* 浅蓝背景 */
+  color: #000000 !important;
+  border: 0.03rem dashed #008cff !important;
+}
+
+.md-typeset .admonition.tip > .admonition-title,
+.md-typeset details.tip > summary {
+  background-color: #d9ecff !important;
+  color: #005fcc !important;
+}
+
+/* =====================================================
+   INFO — 浅蓝
+   ===================================================== */
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  background-color: #f0f7ff !important;
+  color: #000000 !important;
+  border-left: 0.25rem solid #5aa9ff !important;
+}
+
+.md-typeset .admonition.info > .admonition-title,
+.md-typeset details.info > summary {
+  background-color: #e4f1ff !important;
+  color: #1e6fbf !important;
+}
+
+/* =====================================================
+   WARNING — 橙色
+   ===================================================== */
+.md-typeset .admonition.warning,
+.md-typeset details.warning {
+  background-color: #fff6e5 !important;
+  color: #000000 !important;
+  border-left: 0.25rem solid #ff9800 !important;
+}
+
+.md-typeset .admonition.warning > .admonition-title,
+.md-typeset details.warning > summary {
+  background-color: #ffeacc !important;
+  color: #b36b00 !important;
+}
+
+/* =====================================================
+   DANGER / ERROR — 红色
+   ===================================================== */
+.md-typeset .admonition.danger,
+.md-typeset .admonition.error,
+.md-typeset details.danger,
+.md-typeset details.error {
+  background-color: #fdecea !important;
+  color: #000000 !important;
+  border-left: 0.25rem solid #e53935 !important;
+}
+
+.md-typeset .admonition.danger > .admonition-title,
+.md-typeset .admonition.error > .admonition-title,
+.md-typeset details.danger > summary,
+.md-typeset details.error > summary {
+  background-color: #f9d6d3 !important;
+  color: #b71c1c !important;
+}
+
+

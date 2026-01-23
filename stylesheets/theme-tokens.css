@@ -1,0 +1,14 @@
+/* ==========================
+   Cudy Design Tokens
+   ========================== */
+
+:root {
+  /* 蓝色体系（纯色，不透明） */
+  --cudy-blue-50:  #e6f2ff;
+  --cudy-blue-100: #d9ecff;
+  --cudy-blue-500: #008cff;
+  --cudy-blue-700: #005fcc;
+
+  /* 文本 */
+  --cudy-text-default: #000000;
+}

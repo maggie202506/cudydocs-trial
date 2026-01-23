@@ -12,7 +12,7 @@
         <meta name="author" content="Cudy Docs">
       
       
-        <link rel="canonical" href="https://docs.cudy.com/tutorials/10005_How_to_configure_IP_Reservation_on_the_Cudy_router/">
+        <link rel="canonical" href="https://docs.cudy.com/tutorial/10006_How_to_change_the_NAT_type_on_the_Cudy_router_for_game_console/">
       
       
       
@@ -22,7 +22,7 @@
     
     
       
-        <title>How to configure IP Reservation on the Cudy router? - Docs</title>
+        <title>How to change the NAT type on the Cudy router for game console? - Docs</title>
       
     
     
@@ -53,6 +53,10 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css">
     
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/theme-tokens.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/admonitions.css">
     
       <link rel="stylesheet" href="../../stylesheets/extra.css">
     
@@ -96,7 +100,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#how-to-configure-ip-reservation-on-the-cudy-router" class="md-skip">
+        <a href="#how-to-change-the-nat-type-on-the-cudy-router-for-game-console" class="md-skip">
           Skip to content
         </a>
       
@@ -131,7 +135,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              How to configure IP Reservation on the Cudy router?
+              How to change the NAT type on the Cudy router for game console?
             
           </span>
         </div>
@@ -273,7 +277,7 @@
   
     
   
-  Tutorials
+  Tutorial
 
         </a>
       </li>
@@ -835,7 +839,7 @@
               
   
   <span class="md-ellipsis">
-    Tutorials
+    Tutorial
   </span>
   
 
@@ -846,7 +850,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            Tutorials
+            Tutorial
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1072,27 +1076,33 @@
   
 
   <!-- Markdown content -->
-  <h1 id="how-to-configure-ip-reservation-on-the-cudy-router">How to configure IP Reservation on the Cudy router?<a class="headerlink" href="#how-to-configure-ip-reservation-on-the-cudy-router" title="Permanent link">&para;</a></h1>
-<p>IP Reservation, is used to allocate a static IPv4 address to a MAC address.</p>
+  <h1 id="how-to-change-the-nat-type-on-the-cudy-router-for-game-console">How to change the NAT type on the Cudy router for game console?<a class="headerlink" href="#how-to-change-the-nat-type-on-the-cudy-router-for-game-console" title="Permanent link">&para;</a></h1>
+<p>Some customers get a warning when play games with Cudy router. The router's NAT type is NAT3. You need to change the NAT type of router. Please follow the methods below.</p>
 <ol>
 <li>
-<p>Please login to the web page of your Cudy router by <a href="http://cudy.net/">http://cudy.net/</a> or <a href="http://192.168.10.1/">http://192.168.10.1/</a>. Input the password to login.</p>
+<p>Check the IP address of your game console. You can check it on settings on your game console. You can also check it on the device list of your Cudy router. Please login to the web page of your Cudy router by <a href="http://cudy.net/">http://cudy.net/</a> or <a href="http://192.168.10.1/">http://192.168.10.1/</a>. Input the password to login. As shown below. For example: the IP address is <strong>192.168.200.76</strong>.</p>
+<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/FAQ/10006/Devices.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/FAQ/10006/Devices.webp" alt="Devices" width="800px" style="display: block; margin: 0 auto;"></a></p>
+<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/FAQ/10006/Devices_list.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/FAQ/10006/Devices_list.webp" alt="Devices_list" width="800px" style="display: block; margin: 0 auto;"></a></p>
 </li>
 <li>
-<p>Click <strong>Advanced Settings</strong> -&gt; <strong>IP/MAC Binding</strong> in the <strong>Security</strong> section.</p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/FAQ/10005/ip_mac_binding.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/FAQ/10005/ip_mac_binding.webp" alt="ipmac" width="800px" style="display: block; margin: 0 auto;"></a></p>
+<p>The first Method: Set the IP address of the game console to be the DMZ IP address. Please go to the <strong>Advanced Settings</strong> --- <strong>DMZ</strong> function page. Enable the DMZ function and input the IP address of the game console.</p>
+<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/FAQ/10006/DMZ.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/FAQ/10006/DMZ.webp" alt="DMZ" width="400px" style="display: block; margin: 0 auto;"></a></p>
 </li>
 <li>
-<p>Click <strong>Add</strong> to append one entry to the list. Select the device from the MAC-Address list and enter the IP address that you want to allocate. Enter a <strong>Comment</strong> for this entry optional.</p>
-<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/FAQ/10005/add_item.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/FAQ/10005/add_item.webp" alt="add" width="800px" style="display: block; margin: 0 auto;"></a></p>
-<p>Click <strong>Save &amp; Apply</strong>.</p>
+<p>The second Method: Set the port forward function to open ports to the IP address of the game console. Please go to the <strong>Advanced Settings</strong> --- <strong>Port Forwards</strong> function page. Add the necessary ports to the IP address of the game console. Take <strong>Xbox</strong> for example. </p>
+<ul>
+<li>
+<p>UDP: 88, 3074</p>
+</li>
+<li>
+<p>TCP: 3074</p>
+</li>
+</ul>
+<p>Please add three port forward rules, as shown below.</p>
+<p><a class="glightbox" href="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/FAQ/10006/xbox_example.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/FAQ/10006/xbox_example.webp" alt="add" width="800px" style="display: block; margin: 0 auto;"></a></p>
+<p>Other game consoles may need other ports to be forwarded. You can refer to this website <a href="https://portforward.com/games/">Port forward on different Games</a>.</p>
 </li>
 </ol>
-<p>Disconnect the device and connect again. Then you can check the IP address of the device if the IP Address you set.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The IP Address and MAC Address of these entries also ARP bind.</p>
-</div>
 
   <!-- Last update of source file -->
   
@@ -1273,7 +1283,7 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["search.highlight", "navigation.indexes", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "toc.integrate", "footer.social"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["search.highlight", "navigation.indexes", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "toc.integrate", "footer.social", "content.admonition"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.aecac24b.min.js"></script>

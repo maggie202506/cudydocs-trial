@@ -54,6 +54,10 @@
     
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css">
     
+      <link rel="stylesheet" href="../../../stylesheets/theme-tokens.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/admonitions.css">
+    
       <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
       <link rel="stylesheet" href="../../../stylesheets/preview-panel.css">
@@ -268,12 +272,12 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../tutorials/" class="md-tabs__link">
+        <a href="../../../tutorial/" class="md-tabs__link">
           
   
     
   
-  Tutorials
+  Tutorial
 
         </a>
       </li>
@@ -831,11 +835,11 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../tutorials/" class="md-nav__link ">
+            <a href="../../../tutorial/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
-    Tutorials
+    Tutorial
   </span>
   
 
@@ -846,7 +850,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            Tutorials
+            Tutorial
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1271,9 +1275,9 @@
 <p>Select VPN Policy. </p>
 <ul>
 <li>Disable: VPN Policy is disabled. No restriction.</li>
-<li>VPN kill switch: Internet access will be disconnected upon VPN disconnection. It is highly    recommended for users who transmit data all through VPN. Preferred (and optionally  Alternate DNS) is required. </li>
-<li>Domain: Select and configure to allow specified domain(s) to transmit data through VPN    or not. DNS and Domain are required.</li>
-<li>Remote Subnet: Select and configure to allow devices with the specified subnet to transmit    data through VPN. IP address and Subnet mask are required.</li>
+<li>VPN kill switch: Internet access will be disconnected upon VPN disconnection. It is highly recommended for users who transmit data all through VPN. Preferred (and optionally Alternate DNS) is required. </li>
+<li>Domain: Select and configure to allow specified domain(s) to transmit data through VPN or not. DNS and Domain are required.</li>
+<li>Remote Subnet: Select and configure to allow devices with the specified subnet to transmit data through VPN. IP address and Subnet mask are required.</li>
 </ul>
 </li>
 <li>
@@ -1351,9 +1355,8 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
 <ol>
 <li>Log into the Router A’s management web page https://cudy.net (or 192.168.10.1). </li>
 <li>Go to General Settings -&gt;VPN. Enable VPN, and select IPSec (site-to-site) as Protocol. </li>
-<li>Click Add to add IPSec Policies.</li>
-</ol>
-<p><strong>IPSec-Policy Settings</strong></p>
+<li>
+<p>Click Add to add IPSec Policies and configure the required parameters.</p>
 <ul>
 <li>Policy Name: Name the policy as desired. </li>
 <li>Remote Gateway: Enter the WAN IP of the Router in branch office.</li>
@@ -1361,23 +1364,26 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
 <li>Remote Subnet: Enter the LAN segment of the Router in branch office.</li>
 <li>Preshared key: Set an encryption key as desired.</li>
 </ul>
-<p><strong>Dead Peer Detection</strong></p>
+</li>
+<li>
+<p>Set the Dead Peer Detection parameters.</p>
 <ul>
 <li>Dead Peer Detection: Enable to detect whether the peer end is alive or not;</li>
 <li>Check Interval: Keep 30 seconds as default or change as needed;</li>
 <li>DPD Timeout: Set when to perform PDP checking again. Keep 2 Minutes as default or change it as needed.</li>
-<li>
-<p>DPD Action: Decide what to do after DPD detection failure, Restart, Hold or Clear. It is recommended to keep Restart as default.</p>
+<li>DPD Action: Decide what to do after DPD detection failure, Restart, Hold or Clear. It is recommended to keep Restart as default.</li>
+</ul>
 </li>
 <li>
 <p>Click <em>Save &amp; Apply</em>. </p>
 </li>
-</ul>
+</ol>
 <p><strong>STEP 3: Configure the IPSec VPN on the Router in the Branch Office.</strong></p>
-<p>1.Log into the Router A’s management web page https://cudy.net (or 192.168.10.1). </p>
-<p>2.Go to General Settings -&gt;VPN. Enable VPN, and select IPSec (site-to-site) as Protocol. </p>
-<p>3.Click <em>Add</em> to add IPSec Policies.</p>
-<p><strong>IPSec-Policy Settings</strong></p>
+<ol>
+<li>Log into the Router A’s management web page https://cudy.net (or 192.168.10.1). </li>
+<li>Go to General Settings -&gt;VPN. Enable VPN, and select IPSec (site-to-site) as Protocol. </li>
+<li>
+<p>Click <em>Add</em> to add IPSec Policies and configure the required parameters.</p>
 <ul>
 <li>Policy Name: Name the policy as desired. </li>
 <li>Remote Gateway: Enter the WAN IP of the Router in the Headquarter.</li>
@@ -1385,14 +1391,20 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
 <li>Remote Subnet: Enter the LAN segment of the Router in the Headquarter.</li>
 <li>Preshared key: Enter the encryption key set on the headquarter Router.</li>
 </ul>
-<p>Dead Peer Detection: Set all the settings, including Dead Peer Detection, Check Interval, DPD Timeout, DPD Action, the same as the headquarter Router.</p>
-<p>4.Click <em>Save &amp; Apply</em>. </p>
+</li>
+<li>
+<p>Set the Dead Peer Detection parameters as the same as the headquarter Router.</p>
+</li>
+<li>Click <em>Save &amp; Apply</em>. </li>
+</ol>
 <p>Then, you can go confirm the connection between Headquarter Router and Branch Router.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>If one of the routers does not have a public IP address, for instance the Branch Router, but the Headquarter Router has a public IP address, you can: 
-- Set Branch Router in the Initiator Mode and change the Headquarter Router from Initiator Mode to Responder Mode.
-- Change the remote gateway on the Headquarter Router to be 0.0.0.0.</p>
+<p>If one of the routers does not have a public IP address, for instance the Branch Router, but the Headquarter Router has a public IP address, you can: </p>
+<ul>
+<li>Set Branch Router in the Initiator Mode and change the Headquarter Router from Initiator Mode to Responder Mode.</li>
+<li>Change the remote gateway on the Headquarter Router to be 0.0.0.0.</li>
+</ul>
 </div>
 
   <!-- Last update of source file -->
@@ -1574,7 +1586,7 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["search.highlight", "navigation.indexes", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "toc.integrate", "footer.social"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["search.highlight", "navigation.indexes", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "toc.integrate", "footer.social", "content.admonition"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../../assets/javascripts/bundle.aecac24b.min.js"></script>
