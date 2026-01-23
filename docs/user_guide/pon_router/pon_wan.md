@@ -80,4 +80,4 @@ Select the port based on your service type (e.g., 80 for HTTP, 443 for HTTPS, or
 
 • Apply Changes: Click to save and activate the settings or changes.
 
-• Delete: Click to delect the selected entries.
+• Delete: Click to delete the selected entries.

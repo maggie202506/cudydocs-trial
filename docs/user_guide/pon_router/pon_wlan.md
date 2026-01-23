@@ -276,24 +276,24 @@ This page will display the current 2.4G WLAN Status, including Mode, Band, SSID,
 
 ---
 
-## Easy Mesh
+## EasyMesh
 
 ### EasyMesh Interface Setup
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-80.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
-Easy Mesh enables cross-brand router connections, and configured via unified settings like auto-channel selection and WPA3 encryption.
+EasyMesh enables cross-brand router connections, and configured via unified settings like auto-channel selection and WPA3 encryption.
 
 - Device Name: Customize a name for this device.
 - Role: Select the working role for this device.
 
-    - Controller: Be the central router to manage the entire Easy Mesh network (e.g., traffic routing, settings sync).
+    - Controller: Be the central router to manage the entire EasyMesh network (e.g., traffic routing, settings sync).
     - Agent: Be a satellite node to extend coverage by relaying signals under the Controller's command.
-    - Disabled: Disable the Easy Mesh function.
+    - Disabled: Disable the EasyMesh function.
 
 - WPS Trigger: Click <i>Start PBC</i> to easily and quickly start the WPS process and connect with the agent(s)/client(s).
 - Apply Changes: Click to implement the settings or changes.
-- Reset: Click to reset this device to disable the Easy Mesh function.
+- Reset: Click to reset this device to disable the EasyMesh function.
 
 ### Topology
 
