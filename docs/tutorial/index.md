@@ -3,7 +3,7 @@ hide:
   - navigation
   - toc
 ---
-# Tutorials
+# Tutorial
 Follow step-by-step tutorials to set up, configure, and use Cudy products with ease.
 
 - [How to set up your Cudy Router via Cudy APP?](10007_How_to_setup_your_Cudy_Router_via_Cudy_APP.md)
@@ -18,5 +18,5 @@ Follow step-by-step tutorials to set up, configure, and use Cudy products with e
 
 
 !!! Tip
-    Still need help? Contact us at [support@cudy.com](mailto:support@cudy.com).
+    Still need help? Feel free to contact our support team at [support@cudy.com](mailto:support@cudy.com).
 

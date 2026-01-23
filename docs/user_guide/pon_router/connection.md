@@ -9,6 +9,8 @@
     - Power LED and PON LED: Solid on
     - LOS LED: Off
 5. Connect your device via Wi-Fi or Ethernet cable.
-<p><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/noteicon.webp"> Wi-Fi name (SSID) and password are on the router's bottom label.</p>
+
+!!! Tip
+    Wi-Fi name (SSID) and password are on the router's bottom label.
 
 ---

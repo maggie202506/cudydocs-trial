@@ -27,6 +27,7 @@ theme:
     - navigation.expand
     - toc.integrate
     - footer.social
+    - content.admonition
   palette:
     # Light Mode
     - scheme: default 
@@ -82,8 +83,11 @@ extra_css:
   # we can use the cdn or files
   # - stylesheets/photoswipe.min.css
   # - stylesheets/default-skin.min.css
+  - stylesheets/theme-tokens.css
+  - stylesheets/admonitions.css
   - stylesheets/extra.css
   - stylesheets/preview-panel.css  
+
   
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js
@@ -127,8 +131,8 @@ nav:
       - GS1016E: user_guide/switch/gs1016e.md
     - AP Controller:
       - C200P: user_guide/ap_controller/c200p.md       
-  - Tutorials:
-    - Turtorials: tutorials/index.md    
+  - Tutorial:
+    - Turtorial: tutorial/index.md    
   - FAQ:
     - FAQ: faq/index.md
   - Glossary:

@@ -28,7 +28,7 @@ With a web-based utility, it is easy to configure and manage the router. The web
 
 !!! Note
     - If the login window does not appear, please refer to the FAQ or contact [support@cudy.com](mailto:support@cudy.com).
-    - For more details about different WAN mode settings, refer to [General Settings -> WAN Mode](wan.md).
+    - For more details about different WAN mode settings, refer to [General Settings -> WAN Mode].
     - It may take a few minutes for the router to successfully connect to the Internet.
 
 ## Cudy App Setup

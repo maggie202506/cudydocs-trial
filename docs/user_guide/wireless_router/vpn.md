@@ -157,9 +157,9 @@
 4. Enable Site-to-Site to allow communication between VPN server and Clients.
 5. Select VPN Policy. 
     - Disable: VPN Policy is disabled. No restriction.
-    - VPN kill switch: Internet access will be disconnected upon VPN disconnection. It is highly 	recommended for users who transmit data all through VPN. Preferred (and optionally 	Alternate DNS) is required. 
-    - Domain: Select and configure to allow specified domain(s) to transmit data through VPN 	or not. DNS and Domain are required.
-    - Remote Subnet: Select and configure to allow devices with the specified subnet to transmit 	data through VPN. IP address and Subnet mask are required.
+    - VPN kill switch: Internet access will be disconnected upon VPN disconnection. It is highly recommended for users who transmit data all through VPN. Preferred (and optionally Alternate DNS) is required. 
+    - Domain: Select and configure to allow specified domain(s) to transmit data through VPN or not. DNS and Domain are required.
+    - Remote Subnet: Select and configure to allow devices with the specified subnet to transmit data through VPN. IP address and Subnet mask are required.
 
 6. Click *Browse...* to locate the Configuration file (wg-client-x.conf) you exported previously from the WireGuard Server. The uploaded configuration file will be automatically read and such parameters as below will be displayed.  
 7. Confirm the parameters and then click Save & Apply.
@@ -230,48 +230,39 @@ For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the 
 
 1. Log into the Router A’s management web page https://cudy.net (or 192.168.10.1). 
 2. Go to General Settings ->VPN. Enable VPN, and select IPSec (site-to-site) as Protocol. 
-3. Click Add to add IPSec Policies.
+3. Click Add to add IPSec Policies and configure the required parameters.
+    - Policy Name: Name the policy as desired. 
+    - Remote Gateway: Enter the WAN IP of the Router in branch office.
+    - Local Subnet: Auto-filled the LAN segment of the local router.
+    - Remote Subnet: Enter the LAN segment of the Router in branch office.
+    - Preshared key: Set an encryption key as desired.
 
-**IPSec-Policy Settings**
+4. Set the Dead Peer Detection parameters.
+    - Dead Peer Detection: Enable to detect whether the peer end is alive or not;
+    - Check Interval: Keep 30 seconds as default or change as needed;
+    - DPD Timeout: Set when to perform PDP checking again. Keep 2 Minutes as default or change it as needed.
+    - DPD Action: Decide what to do after DPD detection failure, Restart, Hold or Clear. It is recommended to keep Restart as default.
 
-- Policy Name: Name the policy as desired. 
-- Remote Gateway: Enter the WAN IP of the Router in branch office.
-- Local Subnet: Auto-filled the LAN segment of the local router.
-- Remote Subnet: Enter the LAN segment of the Router in branch office.
-- Preshared key: Set an encryption key as desired.
-
-**Dead Peer Detection**
-
-- Dead Peer Detection: Enable to detect whether the peer end is alive or not;
-- Check Interval: Keep 30 seconds as default or change as needed;
-- DPD Timeout: Set when to perform PDP checking again. Keep 2 Minutes as default or change it as needed.
-- DPD Action: Decide what to do after DPD detection failure, Restart, Hold or Clear. It is recommended to keep Restart as default.
-
-4. Click *Save & Apply*. 
+5. Click *Save & Apply*. 
 
 **STEP 3: Configure the IPSec VPN on the Router in the Branch Office.**
 
-1.Log into the Router A’s management web page https://cudy.net (or 192.168.10.1). 
+1. Log into the Router A’s management web page https://cudy.net (or 192.168.10.1). 
+2. Go to General Settings ->VPN. Enable VPN, and select IPSec (site-to-site) as Protocol. 
+3. Click *Add* to add IPSec Policies and configure the required parameters.
+    - Policy Name: Name the policy as desired. 
+    - Remote Gateway: Enter the WAN IP of the Router in the Headquarter.
+    - Local Subnet: Auto-filled the LAN segment of the local router.
+    - Remote Subnet: Enter the LAN segment of the Router in the Headquarter.
+    - Preshared key: Enter the encryption key set on the headquarter Router.
 
-2.Go to General Settings ->VPN. Enable VPN, and select IPSec (site-to-site) as Protocol. 
-
-3.Click *Add* to add IPSec Policies.
-
-**IPSec-Policy Settings**
-
-- Policy Name: Name the policy as desired. 
-- Remote Gateway: Enter the WAN IP of the Router in the Headquarter.
-- Local Subnet: Auto-filled the LAN segment of the local router.
-- Remote Subnet: Enter the LAN segment of the Router in the Headquarter.
-- Preshared key: Enter the encryption key set on the headquarter Router.
-
-Dead Peer Detection: Set all the settings, including Dead Peer Detection, Check Interval, DPD Timeout, DPD Action, the same as the headquarter Router.
-
-4.Click *Save & Apply*. 
+4. Set the Dead Peer Detection parameters as the same as the headquarter Router.
+5. Click *Save & Apply*. 
 
 Then, you can go confirm the connection between Headquarter Router and Branch Router.
 
 !!! Note
     If one of the routers does not have a public IP address, for instance the Branch Router, but the Headquarter Router has a public IP address, you can: 
+       
     - Set Branch Router in the Initiator Mode and change the Headquarter Router from Initiator Mode to Responder Mode.
     - Change the remote gateway on the Headquarter Router to be 0.0.0.0.

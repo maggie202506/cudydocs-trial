@@ -75,9 +75,10 @@ namely, ARP (Address Resolution Protocol) Binding, is used to bind network devic
 2. Enter the IP Address and bind it with a MAC-Address (select from the list or enter manually), and make a comment. Delete as needed.
 3. Click Save & Apply.
 
-Done! Now you don’t need to worry about ARP spoofing and ARP attacks.
+!!! Success
+    Now you don't need to worry about ARP spoofing and ARP attacks.
 
-!!! Note
+!!! Tip
     The IP/MAC Binding also can work as an IP reservation. The device will get the IP address via DHCP.
 
 ---

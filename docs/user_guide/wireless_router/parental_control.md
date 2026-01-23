@@ -1,7 +1,8 @@
 # Parental Control
 It helps to set up unique restrictions on Internet access for each member of your family via Parental Control feature. You can block inappropriate content, set daily limits for the total time spent online and restrict Internet access to certain time of the day, etc. 
 
-**Note:** This feature only works in Wireless Router mode.
+!!!Note
+    This feature only works in Wireless Router mode.
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/parent-control.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
@@ -32,8 +33,9 @@ In a specified profile, you may add several devices to follow the same parental 
 For Quick Control, No Limits and Pause Internet are disabled by default. When either is enabled, other limits will be disabled. These two settings take top priority among Parental Control, but they will reset to be disabled at midnight.
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/pc-quick-control.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
-- No Limits: Click to quickly disable all the other limits for this profile. 
-- Pause Internet: Select the time when you want to disconnect the Internet for this profile.
+1. Click *No Limits* to quickly disable all the other limits for this profile. 
+2. Select a *Pause Internet* time when you want to disconnect the Internet for this profile.
+3. Click *Save & Apply*.
 
 ---
 ## Online Time
@@ -50,15 +52,19 @@ Online Time is to set certain regular Internet access time for this profile.
 4. Click *Save*.
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/pc-online-time3.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
-You may *Enable / Modify / Delect* the online time entry any time.
+    You may *Enable / Modify / Delect* the online time entry any time.
 
 ---
 ## Web Filter
 Web Filter is to restrict the Internet Access for this profile. 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/pc-web-filter.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
-- Disable: No website will be excluded.  
-- Blacklist: Only the websites in the list will be prohibited. 
-- Whitelist: Only the websites in the list can be accessed. 
+1. Select an *Internet Access* rule.
+    - Disable: No website will be excluded.  
+    - Blacklist: Only the websites in the list will be prohibited. 
+    - Whitelist: Only the websites in the list can be accessed. 
+
+2. Add or delete website(s) for the Whitelist or Blacklist.
+3. Click *Save & Apply*.
 
 <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/pc-web-filter2.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />

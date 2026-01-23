@@ -85,7 +85,8 @@ If you want to enjoy IPTV or VoIP service, or your ISP requires VLAN tags, pleas
 3. Click *Save & Apply*.
 4. Connect the set-top box to the corresponding LAN port predetermined by the ISP or specified by you in STEP 2. You may need to configure your set-top box before enjoying your TV.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/done.webp"> Congratulations! Your IPTV setup is done now.
+!!! Success
+    Congratulations! Your IPTV setup is done now.
 
 ---
 ## QoS
@@ -149,7 +150,8 @@ To configure the static routing so that you can surf the Internet and visit my c
 
 4. Click *Save & Apply*.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/done.webp"> Congratulations! Now you can open a web browser on your PC, enter the company server’s  IP address to visit the company network.
+!!! Success
+    Congratulations! Now you can open a web browser on your PC, enter the company server’s  IP address to visit the company network.
 
 ---
 ## Port Forwards
@@ -178,7 +180,8 @@ For example, I want to share my personal website I’ve built on the local netwo
 
 4. Click *Save & Apply*. 
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/done.webp"> Done! Users on the Internet can enter *http://WAN IP* (in this example: *http://218.18.232.154*) to visit your personal website.
+!!! Success
+    Users on the Internet can enter *http://WAN IP* (in this example: *http://218.18.232.154*) to visit your personal website.
 
 !!! Note
     - The WAN IP should be a public IP address. For the WAN IP is assigned dynamically by the ISP, it is recommended to apply and register a domain name for the WAN. Then users on the Internet can use *http://domain name* to visit the website.
@@ -225,7 +228,8 @@ For example, you want to get the home PC to join an online game without port res
 3. Enable DMZ, and enter the PC’s IP address 192.168.10.100 manually in the (DMZ Host) IP 	Address field.
 4. Click *Save & Apply*.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/done.webp"> Congratulations! You’ve set your PC to a DMZ host and now you can make a team to game with other players.
+!!! Success
+    Congratulations! You’ve set your PC to a DMZ host and now you can make a team to game with other players.
 
 ----
 ## Online Detection
