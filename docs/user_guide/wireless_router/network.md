@@ -5,7 +5,7 @@ Network section allows you to manage and configure a series of network features 
 ## LAN
 The router is preset with a default LAN IP 192.168.10.1, which you can use to log in to its web management page. The LAN IP address together with the Subnet Mask also defines the subnet that the connected devices are on. If the IP address conflicts with another device on your local network or your network requires a specific IP subnet, you can change it.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/network-lan.webp" alt="" width="400px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/network-lan.webp" alt="" width="400px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Enter a new IP Address appropriate to your need. 
 2. Set the Subnet Mask or keep it as default. 
@@ -20,7 +20,7 @@ The router is preset with a default LAN IP 192.168.10.1, which you can use to lo
 ## Guest Network
 Guest Network allows you to provide Wi-Fi access for guests without disclosing your main network. When you have guests in your house, apartment, or workplace, you can create a guest network for them. In addition, you can customize guest network options to ensure network security and privacy. Please follow the steps below to set up a guest network.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/network-2.4g.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/network-2.4g.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 **To set up a guest network, please follow the steps below.**
 
@@ -36,14 +36,14 @@ Now your guests can access your guest network using the SSID and password you se
 ## DHCP Server
 DHCP Server is enabled by default and dynamically assigns TCP/lP parameters to client devices from the IP Address Pool. DO NOT disable DHCP server unless you have another DHCP server, or you want to manually assign the TCP/P parameters to every clients on the network. 
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/network-dhcp.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/network-dhcp.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 **To specify the IP address that the router assigns, please take the steps below.**
 
 1. Enable DHCP Server.
 2. Enter the starting IP address and the Limit number to create the IP address pool.
 3. (Optional) Enter the Preferred and Alternate DNS if your ISP provides.
-4. Set the Leasetime.
+4. Set the Lease time.
 5. Click *Save & Apply*.
 
 !!! Note 
@@ -61,7 +61,7 @@ If your ISP provides the networking service based on IGMP technology (e.g.Britis
 
 With IGMP proxy configured, IPTV can work under your router now. Then connect your set-top box to any of the router’s Ethernet port, and configure it. All these done, you may enjoy IPTV now.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/network-igmp.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/network-igmp.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 - No enforcement: It supports all three IGMP version: Enforce IGMPv1/v2/v3. You can select this option if not sure about the exact one.
 - Enforce IGMPv1: In this version, the router provides basic multicast group membership reporting, sufficient for simple home networks where multicast traffic is not heavily utilized .
@@ -72,7 +72,7 @@ With IGMP proxy configured, IPTV can work under your router now. Then connect yo
 ## IPTV/VLAN
 If you want to enjoy IPTV or VoIP service, or your ISP requires VLAN tags, please follow the steps below to configure the IPTV/VLAN.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/network-iptv.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/network-iptv.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Enable IPTV/VLAN.
 2. Select the Mode according to your ISP from the drop-down list.
@@ -94,7 +94,7 @@ QoS (Quality of Service) allows you to prioritize connection of specific devices
 
 **To set up QoS, please follow the steps below.**
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/network-qos.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/network-qos.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Click Add to add entries.
 2. Select the MAC-Address and make a comment to specify the devices, and set its Download/Upload rate.
@@ -104,7 +104,7 @@ QoS (Quality of Service) allows you to prioritize connection of specific devices
 ## Custom DNS
 If you set custom DNS servers, any DNS name will be resolved through the DNS Servers set here instead of the one obtained from WAN.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/network-custom-dns.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/network-custom-dns.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 - Rebind protection: This function may cause private DNS lookup failure. Do not enable it if your network has a captive portal.
 - Override All Clients' DNS: If Enabled, your router will bypass hard-coded DNS settings on all clients, such as Chrome cast, TV boxes, etc.
@@ -117,7 +117,7 @@ Dynamic Domain Name Service (Dynamic DNS or DDNS) is a service used to map a dom
 !!! Note
     DDNS would not work if the ISP assigns a private WAN IP address (e.g. 192.168.1.x) to the router.  
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/network-ddns.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/network-ddns.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 **To set up DDNS, please follow the steps below.**
 
@@ -135,13 +135,13 @@ For example, I want my PC to surf the Internet through router A and visit my com
 
 To configure the static routing so that you can surf the Internet and visit my company’s network at the same time, please follow the steps below.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/static-routing.webp" alt="" width="800px"/>
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/static-routing.webp" alt="" width="800px"/>
 
 1. Disable Router B’s DHCP function. Change the routers’ LAN IP addresses to two different IP addresses on the same subnet. 
-2. Log in to Router A’s management web page *http://cudy.net*, and go to Advanced Settings -> Network -> Static Routing.
+2. Log in to Router A’s management web page *http://Cudy.net*, and go to Advanced Settings -> Network -> Static Routing.
 3. Click Add, and enter the parameters as required.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/static-routing2.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/static-routing2.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 - Interface: Select the type of port (WAN or LAN)  that sends out data packets to the gateway.
 - Target: Enter the Host-IP or Network IP address you want to assign to a static route. This IP address cannot be on the same subnet with the WAN IP or LAN IP of Router A.
@@ -161,11 +161,11 @@ Different services use different service ports. Port 80 is used in HTTP service,
 
 For example, I want to share my personal website I’ve built on the local network to my friends on the Internet. Say, my personal PC IP address is 192.168.10.100, connecting to the router with WAN IP address 218.18.232.154. Please follow the step-by-step instructions to configure it.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/network-port-forwards.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/network-port-forwards.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 1. Assign a static IP address to your PC, for example 192.168.10.100.
 
-2. Log in to *http://cudy.net*, and go to Advanced Settings -> Network -> Port Forwards.
+2. Log in to *http://Cudy.net*, and go to Advanced Settings -> Network -> Port Forwards.
 
 3. Click Add, and enter the required parameters.
     - Name: Give a name for the entry.
@@ -195,7 +195,7 @@ The router can record the IP address of the host. When the data from the Interne
 
 Port Triggering is mainly applied to online games, VoIPs, video players and common applications including MSN Gaming Zone, Dialpad and QuickTime 4 players, etc.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/network-port-trigger.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/network-port-trigger.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 **To configure the Port Trigger rules, please follow the steps below.**
 
@@ -219,12 +219,12 @@ The DMZ host becomes a virtual server with all ports opened. When you are not cl
 !!! Note
     Due to the total exposure of DMZ host to the Internet, it will bring about certain potential safety hazards. So remember to dis-enable DMZ when not in use.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/network-dmz.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/network-dmz.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 For example, you want to get the home PC to join an online game without port restriction.You can set your PC as a DMZ host with all ports open. Please follow the steps below to configure it.
 
 1. Assign a static IP address to your PC, for example 192.168.10.100.
-2. Log in to *http://cudy.net*, and go to Advanced Settings -> Network -> DMZ.
+2. Log in to *http://Cudy.net*, and go to Advanced Settings -> Network -> DMZ.
 3. Enable DMZ, and enter the PC’s IP address 192.168.10.100 manually in the (DMZ Host) IP 	Address field.
 4. Click *Save & Apply*.
 
@@ -235,7 +235,7 @@ For example, you want to get the home PC to join an online game without port res
 ## Online Detection
 is essential for ensuring that your network remains online and operational even if there are issues with the primary WAN connection. It allows for automatic failover to a backup connection, which can be critical for businesses and homes that require continuous Internet access.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/network-online-detection.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/network-online-detection.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 **To configure the online detection, please follow the steps below.**
 
@@ -251,14 +251,14 @@ is essential for ensuring that your network remains online and operational even 
 ## TTL
 TTL (Time To Live) sets the maximum time for packets to survive in the network, and is filled in according to the requirements of the operator. By default, the router forwards the TTL of the incoming client device minus one. 
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/network-ttl.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/network-ttl.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 - Disabled: Select it if you do not need to modify TTL values for any specific reason.
 - Extend the TTL Value: Select it if you need to increase the TTL of incoming packets.
 - Spoof LAN TTL Value: Select it if you want to override outgoing packets' TTL to the router's default value.
 - Custom: Select Custom, and enter the specific IPv4 TTL value as needed (e.g., 65).
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/network-ttl2.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/network-ttl2.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 ----
 ## Wake on LAN
@@ -274,10 +274,10 @@ To use this function requires the main board and wired network adapter must supp
 
 **STEP 2: Go to configure the router then.**
 
-1. Login in to *http://cudy.net* with the password you’ve created and go to Advanced Settings -> Network -> Wake on LAN.
+1. Login in to *http://Cudy.net* with the password you’ve created and go to Advanced Settings -> Network -> Wake on LAN.
 2. Click *Add*.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/network-wol.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/network-wol.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 3. Enter the MAC-Address you have checked previously in STEP 1.3, give a description for the device, and determine the time duration (Min and Hour) and day frequency (Week Day).
 Delete the entries if needed.
@@ -291,7 +291,7 @@ Enable UPnP if you want to use applications for multi-player gaming, peer-to-pee
 
 For example, when you connect your Xbox to the router which has connected to the Internet to play online games, UPnP will send request to the router to open the corresponding  ports allowing the following data penetrating the NAT to transmit. Therefore, you can play Xbox online games without a hitch.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/network-upnp.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/network-upnp.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 !!! Note
     - UPnP is enabled by default in this router.

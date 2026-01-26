@@ -6,7 +6,7 @@
 
 ## Appearance
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/gs1024e.webp" width="800" alt="">
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/gs1024e.webp" width="800" alt="">
 
 ## LED & DIP
 <table>
@@ -38,7 +38,7 @@
     </tr>
     <tr>
         <td>Managed</td>
-        <td>(Default) Light-managed Mode. Allow to manage the swicth on the web-based GUI.</td>
+        <td>(Default) Light-managed Mode. Allow to manage the switch on the web-based GUI.</td>
     </tr>
     <tr>
         <td>VLAN</td>

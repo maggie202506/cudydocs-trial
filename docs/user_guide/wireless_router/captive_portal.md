@@ -6,7 +6,7 @@ Cudy Router comes embedded with six captive portal providers (HotspotSystem, Iro
 
 **To set up Captive Portal, please follow the steps below.**
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/captive-portal.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/captive-portal.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 1. Enable *Captive Portal*. 
 
@@ -18,8 +18,8 @@ Cudy Router comes embedded with six captive portal providers (HotspotSystem, Iro
 
 5. Select the *Profile* and enter the corresponding parameters. 
 
-    - For Profile HotspotSystem/Iron Wi-Fi/WorldSpot.net/ObiFi/VulaCoin, Leasetime is required. It is an authentication timeout when a client has to reconnect to the network.
-    - For Profile WiFiMAX, UAM Server address or hostname and Leasetime are required.
+    - For Profile HotspotSystem/Iron Wi-Fi/WorldSpot.net/ObiFi/VulaCoin, Lease time is required. It is an authentication timeout when a client has to reconnect to the network.
+    - For Profile WiFiMAX, UAM Server address or hostname and Lease time are required.
     - For Profile Manual, UAM Server address, Preferred DNS, and Lease time are required.
 
 6. Click *Save & Apply*.

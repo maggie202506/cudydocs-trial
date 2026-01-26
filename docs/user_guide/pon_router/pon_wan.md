@@ -1,8 +1,8 @@
 # WAN
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-26.webp" alt="" width=1000px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-26.webp" alt="" width=1000px style="border: 1px solid #eee;" />
 
-- Enable VLAN: Tick to enable the virtual LAN segmentation for traffic isolation.
+- Enable VLAN: Enable to enable the virtual LAN segmentation for traffic isolation.
 - VLAN ID: Unique tag (1-4094) to identify a VLAN group.
 - 802.1p Mark: QoS priority level (0-7) for latency-sensitive traffic.
 - Multicast VLAN ID: Dedicated VLAN (1-4095) for multicast streams like IPTV.
@@ -52,7 +52,7 @@ Requires username/password authentication to establish a connection, commonly us
         - Static: Manually configured IPv6 address, subnet, gateway, and DNS—ideal for fixed network requirements. No dependency on auto-configuration.
         - Stateful DHCPv6: DHCPv6 server assigns both IPv6 addresses and DNS/other settings (like SLAAC but fully managed). Common in enterprise networks.
         - Auto Detect Mode: Router automatically chooses between SLAAC, DHCPv6, or static based on ISP/network signals. Flexible but less predictable.
-    - Request Options: Tick to enable the router to dynamically request an IPv6 network prefix (e.g., /56) from the ISP via DHCPv6-PD, enabling subnet delegation for multiple LAN segments, which is ideal for multi-subnet networks. Untick it if the router operates without prefix delegation, relying only on a single WAN IPv6 address or manual configuration, which is simpler but lacks subnet flexibility.
+    - Request Options: Enable to enable the router to dynamically request an IPv6 network prefix (e.g., /56) from the ISP via DHCPv6-PD, enabling subnet delegation for multiple LAN segments, which is ideal for multi-subnet networks. disable it if the router operates without prefix delegation, relying only on a single WAN IPv6 address or manual configuration, which is simpler but lacks subnet flexibility.
     - Request DNS: Select *On* to automatically retrieve IPv6 DNS server addresses from the ISP when using DHCPv6/SLAAC; *Off* to manually configure the DNS.
     - Primary/Secondary IPv6 DNS: Manual or ISP-assigned DNS servers for IPv6 resolution. 
 

@@ -2,7 +2,7 @@
 
 ## Device
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image.webp" alt="" width="1000px" style="border: 1px solid #eee;">
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image.webp" alt="" width="1000px" style="border: 1px solid #eee;">
 
 **System**
 
@@ -49,7 +49,7 @@
 ----
 ## IPv6
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-1.webp" alt="" width="1000px" style="border: 1px solid #eee;">
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-1.webp" alt="" width="1000px" style="border: 1px solid #eee;">
 
 **LAN Configuration**
 
@@ -102,7 +102,7 @@
 ----
 ## PON
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-2.webp" alt="" width="1000px" style="border: 1px solid #eee;">
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-2.webp" alt="" width="1000px" style="border: 1px solid #eee;">
 
 **PON Status**
 
@@ -129,7 +129,7 @@
 ---
 ## LAN Port
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-3.webp" alt="" width="1000px" style="border: 1px solid #eee;">
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-3.webp" alt="" width="1000px" style="border: 1px solid #eee;">
 
 **LAN Port Status**
 
@@ -140,7 +140,7 @@
 ---
 ## TR069
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-5.webp" alt="" width="1000px" style="border: 1px solid #eee;">
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-5.webp" alt="" width="1000px" style="border: 1px solid #eee;">
 
 **TR069 Status**
 

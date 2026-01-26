@@ -4,13 +4,13 @@
 
 ### ARP Table
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-93.webp" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-93.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 ARP (Address Resolution Protocol) is a fundamental networking protocol used to map an IP address to a MAC address (physical hardware address) on a local network.
 
 ---
 ### Bridging
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-39.webp" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-39.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 - Aging Time: The duration a bridge retains unused MAC address entries in its forwarding table before discarding them to free up resources. Default value is 300 seconds.
 
@@ -21,14 +21,14 @@ For most networks—especially those with redundancy or unknown future changes�
 
 - Show MACs: Click to view the *Bridge Forwarding Database* with information about Port, MAC Address, Local, Ageing Timer.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-95.webp" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-95.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 ---
 ### Routing
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-40.webp" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-40.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
-- Enable: Tick to enable the Routing configuration.
+- Enable: Enable to enable the Routing configuration.
 
 - Destination: The target IP address or network where the packet needs to be delivered.
 
@@ -51,7 +51,7 @@ For most networks—especially those with redundancy or unknown future changes�
 --- 
 ### Link Mode
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-41.webp" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-41.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 Set the Ethernet Link Speed/Duplex Mode to ensure stable and efficient communication by matching the data rate (e.g.,10/100/1000 Mbps) and transmission direction, both way simultaneously (Full Duplex) or alternately (Half Duplex), between connected devices. Proper settings prevent performance issues like packet loss or speed degradation caused by mismatched parameters. 
 
@@ -72,7 +72,7 @@ Set the Ethernet Link Speed/Duplex Mode to ensure stable and efficient communica
 ---
 ### Print Server
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-42.webp" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-42.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 Printer Server on the router enables network-wide printing by sharing a locally connected USB printer, accessible via a web interface (e.g., http://192.168.1.1:631) for setup and management. 
 
@@ -88,7 +88,7 @@ Printer Server on the router enables network-wide printing by sharing a locally 
 
 ### Qos Policy
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-43.webp" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-43.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 IP QoS (Quality of Service) is a network technology that prioritizes and manages data traffic to ensure optimal performance for critical applications (e.g., VoIP, video streaming) by controlling bandwidth, latency, and packet loss.
 
@@ -96,8 +96,8 @@ IP QoS (Quality of Service) is a network technology that prioritizes and manages
 
 **QoS Queue Config**
 
-  - If select *Policy PRIO*, tick *Enable* behind the Queue. The smaller number, the higher priority.
-  - If select *Policy WRR*, enter the weight number (default is 40:30:20:10) for the queue and tick *Enable* behind it. 
+  - If select *Policy PRIO*, Enable *Enable* behind the Queue. The smaller number, the higher priority.
+  - If select *Policy WRR*, enter the weight number (default is 40:30:20:10) for the queue and Enable *Enable* behind it. 
 
 **QoS Bandwidth Config**
 
@@ -109,17 +109,17 @@ IP QoS (Quality of Service) is a network technology that prioritizes and manages
 ---  
 ### QoS Classification
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-44.webp" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-44.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 1. Click *Add* to configure the QoS Classification rules.
 2. Click *Apply Changes* to activate all the settings or changes.
-  <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-45.webp" alt="" width=600px style="border: 1px solid #eee;" />
+  <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-45.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 3. Enter a *RuleName* to identify the rule's purpose (e.g., VoIP_Priority).
 4. Enter a *RuleOrder* to identify evaluation sequence (higher priority rules checked first).
 5. Select *Precedence* as Queue priority level for IP packets.
-6. Select *DSCP Remarking* for a proper DSCP value. Here is a *DSCP Value Chart* for your referrence.
-  <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-94.webp" alt="" width=600px/>
+6. Select *DSCP Remarking* for a proper DSCP value. Here is a *DSCP Value Chart* for your reference.
+  <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-94.webp" alt="" width=600px/>
 
 7. Select a *802.1p* to prioritize VLAN traffic (0-7, e.g., 5 for real-time data).
 8. Select an IP QoS Rule by type：
@@ -145,13 +145,13 @@ IP QoS (Quality of Service) is a network technology that prioritizes and manages
 ---
 ### Traffic Shaping
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-46.webp" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-46.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 - Add: Click to configure the IP QoS Traffic Shaping Rule.
 
 - Apply Changes: Click to activate all the settings or changes.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-47.webp" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-47.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 - IP Version: Select the IP protocol version used, IPv4 or IPv6.
 
@@ -163,13 +163,13 @@ IP QoS (Quality of Service) is a network technology that prioritizes and manages
 
 - Protocol: Select a transport layer protocol,TCP or UDP, ICMP.
   
-*- In IPv4 Version**
+*- In IPv4 Version*
 
 - Source IP/Mask: Enter the originating IP address and subnet mask.
 
 - Destination IP/Mask: Enter the target IP address and subnet mask.
   
-*- In IPv6 Version**
+*- In IPv6 Version*
 
 - Source/Destination IP: Enter the full IPv6 address (e.g., 2001:db8::1 for a single device). Or
 use :: to shorten long strings of zeros (e.g., 2001:0db8::1 → 2001:db8::1).
@@ -194,7 +194,7 @@ use :: to shorten long strings of zeros (e.g., 2001:0db8::1 → 2001:db8::1).
 
 ### IPv6 Enable/Disable
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-48.webp" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-48.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 - IPv6: Select to *Enable* or *Disable* IPv6 configuration. 
 
@@ -203,7 +203,7 @@ use :: to shorten long strings of zeros (e.g., 2001:0db8::1 → 2001:db8::1).
 ---
 ### RADVD
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-49.webp" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-49.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 RADVD (Router Advertisement Daemon) is an IPv6 service that broadcasts network prefixes and routing information to hosts, enabling SLAAC  (StateLess Address Auto-Configuration) without DHCPv6. It allows devices to automatically generate IPv6 addresses and discover default gateways via RA (Router Advertisement) messages.
 
@@ -219,15 +219,15 @@ RADVD (Router Advertisement Daemon) is an IPv6 service that broadcasts network p
 
 - Prefix Mode: Select the Mode how network prefixes are advertised to devices.
 
-① Auto(SLAAC): The router automatically advertises prefixes, allowing devices to generate their own IPv6 addresses (using Stateless Address Autoconfiguration).For example, devices combine the prefix (2001:db8::/64) with their MAC to create a unique IP.
+① Auto(SLAAC): The router automatically advertises prefixes, allowing devices to generate their own IPv6 addresses (using Stateless Address Auto-configuration).For example, devices combine the prefix (2001:db8::/64) with their MAC to create a unique IP.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-99.webp" alt="" width=600px/>
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-99.webp" alt="" width=600px/>
 
 - RDNSS Mode: Select *HGW Proxy* to manually configure DNS (e.g., custom servers like Cloudflare) and force devices to route DNS queries through the gateway; select *WAN Connection Mode* to automatically advertise the ISP's default DNS servers obtained from the WAN interface (e.g., via PPPoE/DHCPv6).
 
 ② Manual: Prefixes are statically configured and advertised without SLAAC. Address assignment relies on DHCPv6 or manual input. For example, in controlled environments where specific prefixes must be enforced.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-97.webp" alt="" width=600px/>
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-97.webp" alt="" width=600px/>
 
   - Prefix: Enter the IPv6 network prefix.
 
@@ -246,7 +246,7 @@ RADVD (Router Advertisement Daemon) is an IPv6 service that broadcasts network p
 ---
 ### DHCPv6
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-50.webp" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-50.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 - DHCP Mode:
 
@@ -254,25 +254,25 @@ RADVD (Router Advertisement Daemon) is an IPv6 service that broadcasts network p
 
 ② DHCP Relay: The router forwards DHCP requests across subnets/VLANs (enterprise use, e.g., centralizing DHCP in a data center).
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-98.webp" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-98.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 - Apply Changes: Click to activate all the settings or changes.
 
 
 ③ DHCP Server: The router assigns IP addresses to clients (default for home networks, manages IP pools/leases).
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-100.webp" alt="" width=400px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-100.webp" alt="" width=400px style="border: 1px solid #eee;" />
 
 - DHCPv6 Server Type:
 
 ① Auto: The router automatically assigns IPv6 addresses and settings (like DNS) using SLAAC or DHCPv6, typically based on ISP or upstream network configurations.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-101.webp" alt="" width=400px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-101.webp" alt="" width=400px style="border: 1px solid #eee;" />
 
 
 ② Manual: You manually define the IPv6 address range, lease time, DNS servers, and other parameters for full control over DHCPv6 assignments.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-102.webp" alt="" width=400px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-102.webp" alt="" width=400px style="border: 1px solid #eee;" />
 
 - IP Pool Range: Set the range of IPv6 addresses available for DHCPv6 assignment (e.g., 2001:db8::1000 to 2001:db8::2000).
 
@@ -311,7 +311,7 @@ RADVD (Router Advertisement Daemon) is an IPv6 service that broadcasts network p
 ----
 ### MLD Proxy
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-51.webp" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-51.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 It is a protocol that forwards Multicast Listener Discovery (MLD) messages between IPv6 networks, enabling multicast routing without full PIM-SM support. It acts as a simple relay for multicast group memberships across subnet boundaries.
 
@@ -328,7 +328,7 @@ It is a protocol that forwards Multicast Listener Discovery (MLD) messages betwe
 ---
 ### MLD Snooping
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-52.webp" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-52.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 It is a Layer 2 optimization technique where switches listen to MLD (Multicast Listener Discovery) messages to intelligently forward IPv6 multicast traffic only to ports with interested receivers, reducing unnecessary network flooding.
 
@@ -342,11 +342,11 @@ It is a Layer 2 optimization technique where switches listen to MLD (Multicast L
 
 ### IPv6 Routing
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-53.webp" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-53.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 It manually configures fixed paths for network traffic by specifying destination prefixes and next-hop addresses, ideal for small or stable networks. Use it when routes rarely change, but avoid in large/dynamic networks due to lack of automatic updates.
 
-- Enable: Tick to turn on the static route.
+- Enable: Enable to turn on the static route.
 
 - Destination: Enter the target IPv6 network prefix (e.g., 2001:db8::/64).
 
@@ -369,7 +369,7 @@ It manually configures fixed paths for network traffic by specifying destination
 ----
 
 ### IP/Port Filtering
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-54.webp" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-54.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
   It controls network access by blocking/allowing specific IPv6 addresses and port numbers, enhancing security (e.g., deny 2001:db8::1 port 22). It operates at firewall or router levels to restrict unauthorized traffic.
 
@@ -379,7 +379,7 @@ It manually configures fixed paths for network traffic by specifying destination
 
 - Direction: Select the traffic flow for rule application. *Incoming* to control external-to-internal traffic (e.g., blocking attacks), while *Outgoing* to restrict internal-to-external flows (e.g., preventing data leaks).
 
-- Protocol: Select a filter by transport layer protocol. *TCP* for reliable connection-based data (e.g., web browsing), *UDP* for low-latency connectionless traffic (e.g., video streaming), while *ICMPv6* for network diagnostics (e.g., ping, MTU discovery).
+- Protocol: Select a filter by transport layer protocol. *TCP* for reliable connection-based data (e.g., web browsing), *UDP* for low-latency non-connection traffic (e.g., video streaming), while *ICMPv6* for network diagnostics (e.g., ping, MTU discovery).
 
 - Rule Action: Select Action to take if the rule matches (Permit or Block). *Allow* to explicitly permit matched traffic (e.g., whitelisting trusted services), while *Deny* to block specific threats or unwanted flows (e.g., blacklisting malicious IPs).
 
@@ -406,7 +406,7 @@ It manually configures fixed paths for network traffic by specifying destination
 ---
 ### IPv6 ACL
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-55.webp" alt="" width=600px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-55.webp" alt="" width=600px style="border: 1px solid #eee;" />
 
 IPv6 ACL (Access Control List) filters network traffic by defining permit/deny rules based on IPv6 addresses, ports, or protocols to enforce security policies.
 

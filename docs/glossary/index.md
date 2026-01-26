@@ -25,7 +25,7 @@ Explore key networking, router, and switch terms to get familiar with essential 
     A security system that monitors and controls incoming and outgoing network traffic based on predetermined rules.
 
 ??? glossary-item "IPv6"
-    (Internet Protocol Version 6) A network-layer protocol designed to replace IPv4, providing a vastly expanded address space, simplified header structure, and native support for autoconfiguration.
+    (Internet Protocol Version 6) A network-layer protocol designed to replace IPv4, providing a vastly expanded address space, simplified header structure, and native support for auto-configuration.
 
 [MORE >>>](router.md)
 

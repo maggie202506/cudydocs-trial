@@ -4,7 +4,7 @@
 
 2. The LEDs will flash and system will reboot to restore factory default settings.
 
-3. Log in to [http://cudy.net](http://cudy.net) to create a new login password.
+3. Log in to [http://Cudy.net](http://Cudy.net) to create a new login password.
 
 !!! Note
     You’ll need to reconfigure the Router to surf the Internet once the Router is reset, and please note down your new password  for future use.

@@ -1,7 +1,7 @@
 # Input/Output 
 
 ## Status 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/in-out-status.webp" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/in-out-status.webp" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
 *About I/O*
 
@@ -26,11 +26,11 @@
 
 ----
 ## Input 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/input.webp" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/input.webp" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
 Click *Add* to configure input rules to perform specified actions after the input meets the trigger conditions. 
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/digital-input-1.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/digital-input-1.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
 1. Click to Enable this entry of input rule.
 2. Select an *Input Type* to define the signal category (e.g., digital/analog/pulse).
@@ -62,19 +62,19 @@ Click *Add* to configure input rules to perform specified actions after the inpu
 
 Done! You have successfully configured an Input rule.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/input-output2.webp" alt="" width="600px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/input-output2.webp" alt="" width="600px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
-- Modify: Click on <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/edit.webp" alt=""/> to edit the entry, or <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/delete.webp" alt=""/> to delete the entry.
+- Modify: Click on <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/edit.webp" alt=""/> to edit the entry, or <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/delete.webp" alt=""/> to delete the entry.
 - Check Interval: Enter an interval in seconds to check analog input value. 
 - Save & Apply: Click to save and activate the new settings or changes.
 
 ----
 ## Output 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/output.webp" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/output.webp" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
 Click Add* to configure output scheduler to perform specified actions after the input meets the trigger conditions. 
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/output-scheduler.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/output-scheduler.webp" alt="" width="400px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
 1. Click to *Enable* this entry of output scheduler.
 
@@ -90,8 +90,8 @@ Click Add* to configure output scheduler to perform specified actions after the 
 
 Done! You have successfully configured an Output Scheduler.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/output-scheduler2.webp" alt="" width="600px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/output-scheduler2.webp" alt="" width="600px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
-- Modify: Click on <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/edit.webp" alt=""/> to edit the entry, or <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/delete.webp" alt=""/> to delete the entry.
+- Modify: Click on <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/edit.webp" alt=""/> to edit the entry, or <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/delete.webp" alt=""/> to delete the entry.
 
 - Save & Apply: Click to save and activate the new settings or changes.

@@ -1,12 +1,12 @@
 # Repository
-repo_name: cudy-docs
-repo_url: https://github.com/cudytech-pr/User-Guide
+repo_name: Cudy-docs
+repo_url: https://github.com/Cudytech-pr/User-Guide
 edit_uri: ""
 
 site_name: Docs
 site_description: Documentation for Cudy Products
 site_author: Cudy Docs
-site_url: https://docs.cudy.com
+site_url: https://docs.Cudy.com
 site_dir: site
 copyright: © 2025, Shenzhen Cudy Technology Co., Ltd.
 
@@ -14,7 +14,7 @@ docs_dir: docs
 
 theme: 
   name: material
-  logo: images/cudyicon.webp
+  logo: images/Cudyicon.webp
   custom_dir: overrides
   features:
     - search.highlight
@@ -60,20 +60,20 @@ extra:
   #   property: G-PEZ9H4DS1X
   social:
     - icon: fontawesome/solid/envelope
-      link: mailto:support@cudy.com
+      link: mailto:support@Cudy.com
     - icon: fontawesome/solid/globe
-      link: https://www.cudy.com
+      link: https://www.Cudy.com
     - icon: fontawesome/brands/github
-      link: https://github.com/cudytech-pr
+      link: https://github.com/Cudytech-pr
     - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/cudytech/
+      link: https://www.facebook.com/Cudytech/
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/company/cudytech
+      link: https://www.linkedin.com/company/Cudytech
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCi9XeBubGtEazL6KxO8In6w
     - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/cudytech
-  cname: docs.cudy.com
+      link: https://www.instagram.com/Cudytech
+  cname: docs.Cudy.com
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css

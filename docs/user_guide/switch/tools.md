@@ -5,7 +5,7 @@
 
 ## Cable Diagnostics
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/cable-diag.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/cable-diag.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Tools >> Cable Diagnostics** page, you can test and assess the condition of the cables connected to specific ports. Please follow the steps:
 
@@ -25,7 +25,7 @@ On the **Tools >> Cable Diagnostics** page, you can test and assess the conditio
 ---
 ## Firmware Upgrade
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/firmware-upgrade.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/firmware-upgrade.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Tools >> Firmware Upgrade** page, you can update the switch to its latest firmware, enhancing functionality, fixing bugs, or improving security. Please follow the steps:
 
@@ -40,7 +40,7 @@ On the **Tools >> Firmware Upgrade** page, you can update the switch to its late
 ---
 ## Ping Tool
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/ping.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/ping.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Tools >> Ping Tool** page, you can test connectivity to another device by sending ICMP echo requests and measuring the response time. Please follow the steps:
 
@@ -65,7 +65,7 @@ On the **Tools >> Ping Tool** page, you can test connectivity to another device 
 
 ## Backup Restore
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/backup-restore.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/backup-restore.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Tools >> Backup Restore** page, you can save or retrieve switch configuration settings, allowing you to back up current settings or restore previous ones. 
 
@@ -76,7 +76,7 @@ On the **Tools >> Backup Restore** page, you can save or retrieve switch configu
 ---
 ## System Reset
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/reset.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/reset.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Tools >> System Reset** page, you can reset the switch to its factory default settings, erasing all custom configurations. 
 
@@ -86,7 +86,7 @@ Easily just click *Reset* to restore the factory settings and restart the system
 
 ## System Reboot
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/reboot.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/reboot.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Tools >> System Reboot** page, you can restart the switch, reload the current firmware and configuration without erasing any settings.
 

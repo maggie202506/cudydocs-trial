@@ -10,12 +10,12 @@
 
 ## Connect the router
 1. Connect the powered-off modem to the router’s WAN port with an Ethernet cable.
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/connection.webp" alt="" width="800px">
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/connection.webp" alt="" width="800px">
 
 2. Power on the modem, and then wait about 2 minutes for it to restart.
 3. Connect the power adapter to the router, and wait about 2-3 minutes for the system LED  to turn solid on.
 4. Verify that the hardware connection is correct by checking the following LEDs.
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/led.webp" alt="" width="600px">
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/led.webp" alt="" width="600px">
 
 5. Connect your device (computer or smart phone) to the router.
     - Method 1 - With Ethernet Cable: Turn off the Wi-Fi on your computer and connect it to the LAN port of the router with an Ethernet cable.

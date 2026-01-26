@@ -4,9 +4,9 @@
 
 ### Basic Settings
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-10.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-10.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
-- Disable WLAN Interface: Once ticked, all the relevant WLAN settings, like *Band*, *SSID*, *WLAN Clients*, *Security*, *Access Control*, *Site survey*, *WPS* will be locked and unable to configure.
+- Disable WLAN Interface: Once Enabled, all the relevant WLAN settings, like *Band*, *SSID*, *WLAN Clients*, *Security*, *Access Control*, *Site survey*, *WPS* will be locked and unable to configure.
 
 - Band: Radio frequency range and protocol standards the router uses to transmit Wi-Fi signals.
         
@@ -45,13 +45,13 @@
 - Associated Clients: Devices currently connected to the Wi-Fi network.
 - Apply Changes: Click to activate all the settings or changes.
 - Show Active WLAN Clients: Click to view the client list.
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-79.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-79.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 ---
 
 ### Advanced Settings
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-11.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-11.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - Fragment Threshold: Maximum packet size (in bytes) before splitting data into smaller fragments, ranging from 256-2346. Keep it as default unless necessary.
 - RTS Threshold: Minimum packet size to trigger RTS/CTS handshake in order to reduce collisions, ranging from 0-2347. Keep it as default unless necessary.
@@ -73,7 +73,7 @@
 
 ### Security
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-12.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-12.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - SSID Type: Shows the Router's network name (SSID) broadcasted. Root AP-Cudy-xxxxxx is the default setting.
 - Encryption: Security protocol to scramble data over Wi-Fi.
@@ -91,7 +91,7 @@
 
 ### Access Control
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-13.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-13.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - Mode: Devices are allowed or blocked from connecting to the wireless network.
 
@@ -111,7 +111,7 @@
 
 ### Site Survey
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-14-1.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-14-1.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 The list will display these network's SSID/BSSID/Wireless Channel opened/Network Type/Encryption/Signal Strength. You may choose to connect the target network manually when client mode is enabled.
 
@@ -121,9 +121,9 @@ The list will display these network's SSID/BSSID/Wireless Channel opened/Network
 
 ### WPS
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-16.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-16.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
-- Disable WPS: WPS is enabled by default. Tick it if you want to disable the WPS function.
+- Disable WPS: WPS is enabled by default. Enable it if you want to disable the WPS function.
 - WPS Status: Configured by default.
 - Auto-lock-down state: Unlocked by default.
 - Self-PIN Number: Displays the current PIN number (an 8-digit numeric code used to securely connect devices to a Wi-Fi network via the Wi-Fi Protected Setup protocol).
@@ -137,7 +137,7 @@ The list will display these network's SSID/BSSID/Wireless Channel opened/Network
 
 ### Status
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-17.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-17.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 This page will display the current 5G WLAN Status, including Mode, Band, SSID, Channel Number, Encryption, BSSID and Associated Clients.
 
@@ -147,9 +147,9 @@ This page will display the current 5G WLAN Status, including Mode, Band, SSID, C
 
 ### Basic Settings
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-18.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-18.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
-- Disable WLAN Interface: Once ticked, all the relevant WLAN settings, like *Band*, *SSID*, *WLAN Clients*, *Security*, *Access Control*, *Site survey*, *WPS* will be locked and unable to configure.
+- Disable WLAN Interface: Once Enabled, all the relevant WLAN settings, like *Band*, *SSID*, *WLAN Clients*, *Security*, *Access Control*, *Site survey*, *WPS* will be locked and unable to configure.
 - Band: Radio frequency range and protocol standards the router uses to transmit Wi-Fi signals.
 
     - 2.4 GHz (B): 802.11b mode (11Mbps max)
@@ -186,7 +186,7 @@ This page will display the current 5G WLAN Status, including Mode, Band, SSID, C
 
 ### Advanced Settings
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-19.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-19.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - Fragment Threshold: Maximum packet size (in bytes) before splitting data into smaller fragments, ranging from 256-2346. Keep it as default unless necessary.
 - RTS Threshold: Minimum packet size to trigger RTS/CTS handshake in order to reduce collisions, ranging from 0-2347. Keep it as default unless necessary.
@@ -207,7 +207,7 @@ This page will display the current 5G WLAN Status, including Mode, Band, SSID, C
 
 ### Security
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-20.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-20.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - SSID Type: Shows the Router's network name (SSID) broadcasted. Root AP-Cudy-xxxxxx is the default setting.
 - Encryption: Security protocol to scramble data over Wi-Fi.
@@ -224,7 +224,7 @@ This page will display the current 5G WLAN Status, including Mode, Band, SSID, C
 
 ### Access Control
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-21.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-21.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - Mode: Devices are allowed or blocked from connecting to the wireless network.
 
@@ -243,11 +243,11 @@ This page will display the current 5G WLAN Status, including Mode, Band, SSID, C
 
 ### Site Survey
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-22.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-22.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - Refresh: Click to update the list of nearby networks available.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-22-2.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-22-2.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 The list will display these network's SSID/BSSID/Wireless Channel opened/Network Type/Encryption/Signal Strength. You may choose to connect the target network manually when client mode is enabled.
 
@@ -255,9 +255,9 @@ The list will display these network's SSID/BSSID/Wireless Channel opened/Network
 
 ### WPS
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-23.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-23.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
-- Disable WPS: WPS is enabled by default. Tick it if you want to disable the WPS function.
+- Disable WPS: WPS is enabled by default. Enable it if you want to disable the WPS function.
 - WPS Status: Configured by default.
 - Auto-lock-down state: Unlocked by default.
 - Self-PIN Number: Displays the current PIN number (an 8-digit numeric code used to securely connect devices to a Wi-Fi network via the Wi-Fi Protected Setup protocol).
@@ -270,7 +270,7 @@ The list will display these network's SSID/BSSID/Wireless Channel opened/Network
 
 ### Status
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-24.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-24.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 This page will display the current 2.4G WLAN Status, including Mode, Band, SSID, Channel Number, Encryption, BSSID and Associated Clients.
 
@@ -280,7 +280,7 @@ This page will display the current 2.4G WLAN Status, including Mode, Band, SSID,
 
 ### EasyMesh Interface Setup
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-80.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-80.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 EasyMesh enables cross-brand router connections, and configured via unified settings like auto-channel selection and WPA3 encryption.
 
@@ -297,6 +297,6 @@ EasyMesh enables cross-brand router connections, and configured via unified sett
 
 ### Topology
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-92.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-92.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - Refresh: Click to update the EasyMesh Network Topology.

@@ -1,6 +1,6 @@
 # LAN
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-6.webp" alt="" width=1000px style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-6.webp" alt="" width=1000px style="border: 1px solid #eee;" />
 
 On the **LAN** page, you can follow the steps to configure the LAN interfaces.
 

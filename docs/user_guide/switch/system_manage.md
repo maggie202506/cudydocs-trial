@@ -5,7 +5,7 @@
 
 ## System Info
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/system-info.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/system-info.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **System Manage >> System Info** page, you may:
 
@@ -28,7 +28,7 @@ On the **System Manage >> System Info** page, you may:
 
 ## IP Settings
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/ip-settings-enable.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/ip-settings-enable.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **System Manage >> IP Settings** page, you may:
 
@@ -60,7 +60,7 @@ On the **System Manage >> IP Settings** page, you may:
 ---
 
 ## Account Settings
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/account-settings.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/account-settings.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **System Manage >> Account Settings** page, you can configure the user account (administrator’s username and password) in order to refuse illegal users:
 
@@ -74,4 +74,4 @@ On the **System Manage >> Account Settings** page, you can configure the user ac
 2) Click *Apply* to save and apply your changes or settings.
 
 !!! Note
-    The length of the usename and new password cannot be more than 16 characlers, and ony numbers, Engish lellers and underscores can be used.
+    The length of the username and new password cannot be more than 16 characters, and ony numbers, English letters and underscores can be used.

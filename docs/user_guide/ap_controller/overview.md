@@ -1,10 +1,10 @@
 # Overview
 
 ## Package Content
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/package-content.webp"  width="600" alt="">
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/package-content.webp"  width="600" alt="">
 
 ## Appearance
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/front-panel.webp"  width="400" alt="">
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/front-panel.webp"  width="400" alt="">
 
 ----
 

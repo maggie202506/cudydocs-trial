@@ -14,4 +14,4 @@ shows the System status. Click *More Details* to view more information about it 
 - *Statistics* shows the detailed traffic information of each interface in the statistics list.
 - *ARP* lists the connected devices' IP address with its bound MAC address, Hostname and Interfaces.
 - *Active IP Routes* table contains a list of routes to network destinations associated with and known by the Router.
-- *System Log* tracks all the Router behaviors. It is used for [*technical support*](mailto:support@cudy.com) to diagnose and troubleshoot for the Router.
+- *System Log* tracks all the Router behaviors. It is used for [*technical support*](mailto:support@Cudy.com) to diagnose and troubleshoot for the Router.

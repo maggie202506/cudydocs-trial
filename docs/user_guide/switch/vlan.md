@@ -22,7 +22,7 @@ There are 4 types of VLAN modes supported on the switch:
 
 ## MTU VLAN
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/mtu-vlan-enable.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/mtu-vlan-enable.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **VLAN >> MTU VLAN** page, please follow the steps to configure it:
 
@@ -39,13 +39,13 @@ On the **VLAN >> MTU VLAN** page, please follow the steps to configure it:
 ---
 ## Port-based VLAN
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/pb-vlan.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/pb-vlan.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **VLAN >> Port-based VLAN** page, please follow the steps to configure it:
 
 1) Select to *Enable* Port-based VLAN, and click *Apply*.
 
-2) Enter the VLAN ID and select Port(s) to be added to the VLAN by ticking the checkbox of Member. Click *Apply*. To delete the VLAN created, enter the corresponding VLAN ID and click *Delete*.
+2) Enter the VLAN ID and select Port(s) to be added to the VLAN by Enabling the checkbox of Member. Click *Apply*. To delete the VLAN created, enter the corresponding VLAN ID and click *Delete*.
 
 3) Verify the configuration result of the port-based VLAN in the table below.
 
@@ -62,7 +62,7 @@ On the **VLAN >> Port-based VLAN** page, please follow the steps to configure it
 ---
 ## 802.1Q VLAN
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/802.1q-vlan-enable.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/802.1q-vlan-enable.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **VLAN >> 802.1Q VLAN** page, please follow the steps to configure it:
 
@@ -103,7 +103,7 @@ On the **VLAN >> 802.1Q VLAN** page, please follow the steps to configure it:
 ---
 ## Voice VLAN
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/voice-vlan2.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/voice-vlan2.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **VLAN >> Voice VLAN** page, please follow the steps to configure it:
 

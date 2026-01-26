@@ -5,7 +5,7 @@
 
 ## SNMP
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/snmp.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/snmp.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Protocol Management >> SNMP** page, you can configure SNMP to manage and monitor network devices. It allows network administrators to collect information from and configure devices such as routers, switches, and servers.  Please follow the steps:
 
@@ -31,7 +31,7 @@ On the **Protocol Management >> SNMP** page, you can configure SNMP to manage an
 
 ## IGMP Snooping
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/igmp.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/igmp.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Protocol Management >> IGMP Snooping** page, you can configure to monitor IGMP messages between hosts and routers, which help to optimize multicast traffic by ensuring that multicast packets are only forwarded to ports where interested receivers are present. Please follow the steps:
 
@@ -66,7 +66,7 @@ On the **Protocol Management >> IGMP Snooping** page, you can configure to monit
 
 ## DHCP Snooping
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/dhcp.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/dhcp.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Protocol Management >> DHCP Snooping** page, you can configure it to prevent unauthorized DHCP servers from assigning IP addresses to devices on the network and help protect against IP address spoofing and ensures that only legitimate DHCP servers can operate. Please follow the steps:
 
@@ -87,7 +87,7 @@ On the **Protocol Management >> DHCP Snooping** page, you can configure it to pr
 
 ## Loop Prevention
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/loop.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/loop.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Protocol Management >> Loop Prevention** page, you can configure it to avoid the creation of loops that can cause broadcast storms and network instability. Please follow the steps:
 
@@ -100,7 +100,7 @@ On the **Protocol Management >> Loop Prevention** page, you can configure it to 
 ---
 ## Spanning Tree
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/spantree.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/spantree.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Protocol Management >> Spanning Tree** page, you can configure STP to prevent loops in a network by ensuring that there is only one active path between any two network devices, which is achieved by creating a loop-free topology using a tree structure. Please follow the steps:
 
@@ -145,7 +145,7 @@ On the **Protocol Management >> Spanning Tree** page, you can configure STP to p
 
 ## LLDP Config
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/lldp-config.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/lldp-config.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Protocol Management >> LLDP Config** page, you can configure LLDP (Link Layer Discovery Protocol) to exchange information between adjacent network devices, which helps in discovering device information, such as device type, port details, and VLAN information, which can be useful for network management and troubleshooting. Please follow the steps:
 
@@ -171,7 +171,7 @@ On the **Protocol Management >> LLDP Config** page, you can configure LLDP (Link
 
 ## LLDP Neighbor
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/lldp-neighbor.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/lldp-neighbor.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Protocol Management >> LLDP Neighbor** page, you can view the information about the adjacent devices discovered via LLDP, including:
 

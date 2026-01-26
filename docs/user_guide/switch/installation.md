@@ -9,10 +9,10 @@ To install the switch in an EIA standard-sized 19-inch rack, follow the steps be
 
 1. Check the efficiency of the grounding system and the stability of the rack.
 2. Secure the rack-mounting brackets to the Switch with screws, as illustrated below.
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/installation-1.webp" alt="" width="800px" style="border: 1px solid #eee; display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/installation-1.webp" alt="" width="800px" style="border: 1px solid #eee; display:block; margin:0 auto;" />
 
 3. Secure the brackets to the rack with suitable screws, as illustrated below.
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/installation-2.webp" alt="" width="800px" style="border: 1px solid #eee; display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/installation-2.webp" alt="" width="800px" style="border: 1px solid #eee; display:block; margin:0 auto;" />
 
 !!! Note
     - Leave 5 to 10 cm gaps around the devices for air circulation.
@@ -27,4 +27,4 @@ To install the switch on the desk, follow the steps below:
 1. Place the switch on a flat surface, which is strong enough to support the entire weight of the device with all fittings.
 2. Remove the adhesive backing papers from the rubber feet.
 3. Attach the rubber feet to the bottom of the device to prevent it from slipping when placed on a desktop.
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/installation-3.webp" alt="" width="800px" style="border: 1px solid #eee; display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/installation-3.webp" alt="" width="800px" style="border: 1px solid #eee; display:block; margin:0 auto;" />

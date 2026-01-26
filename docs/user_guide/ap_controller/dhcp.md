@@ -6,24 +6,24 @@ Go to *Advanced Settings -> Network -> DHCP Server* or *System Status-> DHCP Ser
 
 ## DHCP Status
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/status-dhcp.webp" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/status-dhcp.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 - Status: Indicates whether the DHCP service is active (enabled) or inactive (disabled) on the network.
 - IP Start: Display the first IP address in the range that the DHCP server can assign to devices.
 - IP End: Display the last IP address in the assignable range for DHCP leases.
 - Preferred DNS: Display the primary DNS server IP provided by DHCP for domain resolution.
 - Default Gateway: Display the router/firewall IP that devices use to access external networks.
-- Leasetime: Display the duration a device retains an assigned IP before renewal.
+- Lease time: Display the duration a device retains an assigned IP before renewal.
 
 ## DHCP Leases
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/status-dhcp2.webp" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/status-dhcp2.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 The DHCP Leases will show a list of clients which the Router being a DHCP server has allocated an IP address to, including such information as IP address, MAC address and Host name.
 
 ## DHCP Settings
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/status-dhcp3.webp" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/status-dhcp3.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 **To specify the IP address that the Router assigns, please follow the steps below.**
 
@@ -33,7 +33,7 @@ The DHCP Leases will show a list of clients which the Router being a DHCP server
 
 3.(Optional) Enter the DNS if the ISP offers. 
 
-4.Enter the Leasetime.
+4.Enter the Lease time.
 
 5.Click *Save & Apply*.
 

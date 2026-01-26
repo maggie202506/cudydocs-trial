@@ -4,7 +4,7 @@
     Images of GS1024E are for reference only; details may vary by model.
 
 ## Port Settings
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/port-settings.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/port-settings.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Port Management >> Port Settings** page, you can configure the port parameters:
 
@@ -31,7 +31,7 @@ On the **Port Management >> Port Settings** page, you can configure the port par
 
 ---
 ## Port Trunk
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/port-trunk.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/port-trunk.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Port Management >> Port Trunk** page, you can configure the port trunk:
 
@@ -49,7 +49,7 @@ On the **Port Management >> Port Trunk** page, you can configure the port trunk:
 
 ---
 ## Port Mirror
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/port-mirror.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/port-mirror.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Port Management >> Port Mirror** page, you can configure the port mirroring:
 
@@ -73,7 +73,7 @@ On the **Port Management >> Port Mirror** page, you can configure the port mirro
 ---
 
 ## Speed Limit
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/speed-limit.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/speed-limit.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Port Management >> Speed Limit** page, you can configure the speed limit for the ports:
 
@@ -95,7 +95,7 @@ On the **Port Management >> Speed Limit** page, you can configure the speed limi
 ---
 
 ## Jumbo Frame
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/jumbo-frame.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/jumbo-frame.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Port Management >> Jumbo Frame** page, you can configure the Jumbo Frame for the ports:
 
@@ -108,7 +108,7 @@ On the **Port Management >> Jumbo Frame** page, you can configure the Jumbo Fram
 ---
 
 ## EEE Config
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/EEE-config.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/EEE-config.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Port Management >> EEE Config** page, you can enable EEE(Energy Efficient Ethernet) on ports to allow power reduction:
 
@@ -124,7 +124,7 @@ On the **Port Management >> EEE Config** page, you can enable EEE(Energy Efficie
 ---
 
 ## Storm Control
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/storm-control.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/storm-control.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Port Management >> Storm Control** page, you can control traffic storms by limiting the speed of unknown unicast, multicast, and broadcast packets.
 
@@ -148,7 +148,7 @@ On the **Port Management >> Storm Control** page, you can control traffic storms
 ---
 
 ## Traffic Monitor
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/traffic-monitor2.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/traffic-monitor2.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Port Management >> Traffic Monitor** page, you can track real-time data flow metrics including Tx/Rx bytes (transmitted/received data volume) and Tx/Rx pkts (packet counts) per port, in order to monitor bandwidth usage and detect anomalies. You may click *Clear* to empty the traffic data in the table.
 
@@ -163,7 +163,7 @@ On the **Port Management >> Traffic Monitor** page, you can track real-time data
 
 ---
 ## MAC Manage
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/mac-manage.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/mac-manage.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **Port Management >> MAC Manage** page, you can manage MAC addresses to enhance network security:
 

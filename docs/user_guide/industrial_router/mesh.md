@@ -2,27 +2,27 @@
 
 On the **System Status -> Mesh** page to add or manage a Mesh Unit, please follow the steps:
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/mesh.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;"/>
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/mesh.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;"/>
 
-1. Click <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/add-icon.webp" alt=""  width="20px"/> on the left to add new mesh unit.
+1. Click <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/add-icon.webp" alt=""  width="20px"/> on the left to add new mesh unit.
 
 2. Read the instructions and click *Next*.
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/mesh-add1.webp" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/mesh-add1.webp" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
 
 3. Wait a few moments for scanning.
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/mesh-add2.webp" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/mesh-add2.webp" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
 
-4. Select the unit you want to add and click <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/add-icon2.webp" alt=""  width="50px"/>.
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/mesh-add3.webp" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
+4. Select the unit you want to add and click <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/add-icon2.webp" alt=""  width="50px"/>.
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/mesh-add3.webp" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
 
 5. Wait a few moments for connecting.
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/mesh-add4.webp" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/mesh-add4.webp" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
 
 6. Click *Next* upon success. 
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/mesh-success.webp" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/mesh-success.webp" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
 
 7. Relocate the add-on mesh unit as instructed. Then click *Done* to complete.
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/mesh-relocate.webp" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/mesh-relocate.webp" alt="" width="500px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
 
 ----
 **Status** section displays information about the mesh units, including Status, Model, Device Name, IP Address, MAC-Address, Firmware Version, and two more for add-on mesh units Backhaul and 2.4G Pre-Hop.

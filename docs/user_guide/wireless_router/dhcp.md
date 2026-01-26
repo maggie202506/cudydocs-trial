@@ -4,26 +4,26 @@ Router acts as a DHCP (Dynamic Host Configuration Protocol) server, which is ena
 
 ## DHCP Status
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/dhcp-status.webp" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/dhcp-status.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
-Go to *System Status -> DHCP Server* to see it is *Enabled* or *Disabled* as welll as its IP address and subnet mask. Click *More Details* to know more information about it or make changes on Settings page. 
+Go to *System Status -> DHCP Server* to see it is *Enabled* or *Disabled* as well as its IP address and subnet mask. Click *More Details* to know more information about it or make changes on Settings page. 
 
 ## DHCP Leases
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/dhcp-lease.webp" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/dhcp-lease.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 The DHCP Leases will show a list of clients which the Router being a DHCP server has allocated an IP address to, including such information as IP address, MAC address and Host name.
 
 ## DHCP Settings
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/dhcp-settings.webp" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/dhcp-settings.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 **To specify the IP address that the Router assigns, please follow the steps below.**
 
 1. Enable the DHCP Server.
 2. Enter the starting IP addresses and the Limit number to create the IP Address Pool.
 3. (Optional) Enter the DNS if the ISP offers. 
-4. Enter the Leasetime.
+4. Enter the Lease time.
 5. Click *Save & Apply*.
 
 !!! Note

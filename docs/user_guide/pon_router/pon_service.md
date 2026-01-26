@@ -3,7 +3,7 @@
 ## Service
 
 ### DHCP
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-83.webp" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-83.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 On the **Service -> DHCP** page, configure the settings according to different DHCP modes.
 
@@ -11,11 +11,11 @@ On the **Service -> DHCP** page, configure the settings according to different D
 
 - **DHCP Relay**: The router forwards DHCP requests across subnets/VLANs (enterprise use, e.g., centralizing DHCP in a data center). Enter the DHCP Server IP address, or keep it default.
 
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-82.webp" alt="" width="600" style="border: 1px solid #eee;" />
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-82.webp" alt="" width="600" style="border: 1px solid #eee;" />
     
 - **DHCP Server**: The router assigns IP addresses to clients (default for home networks, manages IP pools/leases).
 
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-27.webp" alt="" width="600" style="border: 1px solid #eee;" />
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-27.webp" alt="" width="600" style="border: 1px solid #eee;" />
 
     - LAN IP Address: Displays the router's IP address.
     - Subnet Mask: Displays the router's subnet mask.
@@ -31,23 +31,23 @@ On the **Service -> DHCP** page, configure the settings according to different D
         - From Default Route WAN: Automatically uses the DNS servers provided by your ISP via the WAN connection.
 
     - Port-Based Filter: Blocks/allows DHCP requests based on the Ethernet port numbers (L2 physical interface), ideal for securing specific network jacks in offices or labs.
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-84.webp" alt="" width="600" style="border: 1px solid #eee;" />
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-84.webp" alt="" width="600" style="border: 1px solid #eee;" />
 
     - MAC-Based Filter: Whitelists/blacklists devices by their unique MAC addresses (L2 hardware ID), commonly used for IoT device management or guest network control.
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-85.webp" alt="" width="600" style="border: 1px solid #eee;" />
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-85.webp" alt="" width="600" style="border: 1px solid #eee;" />
 
 - **DHCP Client**: An upstream DHCP server (common in ISP modem-router setups) assigns an IP address to the router(client).
 
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-86.webp" alt="" width="600" style="border: 1px solid #eee;" />
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-86.webp" alt="" width="600" style="border: 1px solid #eee;" />
 
 ---
 ### Dynamic DNS
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-28.webp" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-28.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 Dynamic DNS (DDNS) supports automatically updating a domain name with your router's changing public IP address, allowing stable remote access (e.g., for home servers or cameras).
 
-1. Tick *Enable* to activate automatic IP updates for your dynamic domain (essential for remote access with changing ISP IPs).
+1. Enable *Enable* to activate automatic IP updates for your dynamic domain (essential for remote access with changing ISP IPs).
 2. Select a *DDNS Provider* and configure the following corresponding settings.
     - DynDNS.org: Pioneer DDNS service offering both free (legacy) and enterprise solutions with enhanced security.
         - Username: Enter your registered DynDNS account email.
@@ -73,7 +73,7 @@ Dynamic DNS (DDNS) supports automatically updating a domain name with your route
 ---
 
 ### IGMP Proxy
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-29.webp" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-29.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 - IGMP Robust Count: Defines how many consecutive missed queries trigger a group timeout (typically 2-5). Higher values improve stability in lossy networks.
 - Last Member Query Count: Number of last-member queries sent before concluding no members remain (default=2). Reduces premature group deletion.
@@ -85,7 +85,7 @@ Dynamic DNS (DDNS) supports automatically updating a domain name with your route
 ---
 
 ### UPnP
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-30.webp" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-30.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 UPnP (Universal Plug and Play) supports automatically opening and managing router ports for devices/apps that request external access (e.g., gaming consoles or VoIP), eliminating manual port forwarding.
 
@@ -113,7 +113,7 @@ UPnP (Universal Plug and Play) supports automatically opening and managing route
 
 ### RIP
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-87.webp" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-87.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 - Routing Protocol: Select to enable RIP for path selection.
 
@@ -125,7 +125,7 @@ UPnP (Universal Plug and Play) supports automatically opening and managing route
 
 - Add: Click to add entries into the RIP Config Table.
 
-- Select: Tick to select entries to delete.
+- Select: Enable to select entries to delete.
 
 - Delete Selected: Delete the selected entries in the table.
 
@@ -136,7 +136,7 @@ UPnP (Universal Plug and Play) supports automatically opening and managing route
 ## Firewall
 
 ### IP/Port Filtering
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-32.webp" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-32.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 - Outgoing Default Action: Firewall allows or denies the traffic from LAN to WAN (typically Allow for user convenience).
 
@@ -161,7 +161,7 @@ UPnP (Universal Plug and Play) supports automatically opening and managing route
 
 - Add: Click to add the entry into the Current Filter Table.
 
-- Select: Tick to select entries to delete.
+- Select: Enable to select entries to delete.
 
 - Delete Selected: Delete the selected entries in the table.
 
@@ -170,7 +170,7 @@ UPnP (Universal Plug and Play) supports automatically opening and managing route
 ---
 
 ### MAC Filtering
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-33.webp" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-33.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 MAC Filtering for bridge mode allows or blocks specific devices (identified by their MAC addresses) from accessing the network when the router operates in bridge mode, acting as a transparent pass-through while maintaining MAC-based access control.
 
@@ -196,7 +196,7 @@ MAC Filtering for bridge mode allows or blocks specific devices (identified by t
 
 ### Port Forwarding
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-34.webp" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-34.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 Port Forwarding redirects external traffic from specific ports to an internal device (e.g., for gaming servers or remote access). It requires static IP/DHCP reservation for stable operation.
 
@@ -230,7 +230,7 @@ Port Forwarding redirects external traffic from specific ports to an internal de
 
 ### URL Blocking
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-35.webp" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-35.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 URL Blocking blocks access to specific web addresses (e.g., socialmedia.com), often used for parental controls. It works at the application layer but may struggle with HTTPS traffic.
 
@@ -250,11 +250,11 @@ URL Blocking blocks access to specific web addresses (e.g., socialmedia.com), of
 
 ### Domain Blocking
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-36.webp" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-36.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 Domain Blocking prevents access to entire domains and subdomains via DNS filtering. More comprehensive than URL blocking and covers HTTPS sites.
 
-- Domain: Enter the exact website domain name (e.g., example.com) to be blocked, preventing access to all its subpages and services under that domain.
+- Domain: Enter the exact website domain name (e.g., example.com) to be blocked, preventing access to all its sub-pages and services under that domain.
 
 - Apply Changes: Click to save and activate the settings or changes.
 
@@ -268,7 +268,7 @@ Domain Blocking prevents access to entire domains and subdomains via DNS filteri
 
 ### DMZ
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/image-37.webp" alt="" width="1000" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/image-37.webp" alt="" width="1000" style="border: 1px solid #eee;" />
 
 DMZ (Demilitarized Zone) exposes one internal device directly to the internet, bypassing firewall protections.
 

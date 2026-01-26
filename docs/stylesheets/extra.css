@@ -7,7 +7,7 @@
 }
 
 /* ===== 产品卡片系统 ===== */
-.cudy-product-row {
+.Cudy-product-row {
   font-family: 'Lato', sans-serif;
   font-size: 15px !important;
   display: block;
@@ -15,14 +15,14 @@
   color: inherit; /* 继承黑色文本 */
 }
 
-.cudy-product-row-box {
+.Cudy-product-row-box {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 1%;
   margin-bottom: 25px;
 }
 
-.cudy-product-card {
+.Cudy-product-card {
   background-color: #FFFFFF;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
   border-radius: 3px;
@@ -32,39 +32,39 @@
   padding: 10px;
 }
 
-.cudy-product-card:hover {
+.Cudy-product-card:hover {
   border-color: #008CFF;
   transform: translateY(-3px);
 }
 
-.cudy-product-card img {
+.Cudy-product-card img {
   width: 70%;
 }
 
-div.cudy-product-model {
+div.Cudy-product-model {
   font-weight: bold;
   color: #008CFF;
 }
 
-.cudy-product-model-ap1300 {
+.Cudy-product-model-ap1300 {
   font-size: 12px;
   font-weight: bold;
 }
 
 /* 响应式布局 */
 @media only screen and (max-width: 480px) {
-  .cudy-product-row-box {
+  .Cudy-product-row-box {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 /* 桌面端布局 */
 @media only screen and (min-width: 992px) {
-  .cudy-50-desktop { width: 50%; }
-  .cudy-60-desktop { width: 60%; }
-  .cudy-70-desktop { width: 70%; }
-  .cudy-80-desktop { width: 80%; }
-  .cudy-90-desktop { width: 90%; }
+  .Cudy-50-desktop { width: 50%; }
+  .Cudy-60-desktop { width: 60%; }
+  .Cudy-70-desktop { width: 70%; }
+  .Cudy-80-desktop { width: 80%; }
+  .Cudy-90-desktop { width: 90%; }
 }
 
 /* ===== 其他组件 ===== */
@@ -75,7 +75,7 @@ div.cudy-product-model {
   color: inherit;
 }
 
-img.cudyboxshadow {
+img.Cudyboxshadow {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
 }
 

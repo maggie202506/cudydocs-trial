@@ -1,6 +1,6 @@
 # Firmware
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/firmware.webp" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/firmware.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 On the **General Settings >> Firmware** page, you can update the router's firmware to the latest version for better performance. Please choose an appropriate update method and follow the instructions.
 
@@ -22,11 +22,11 @@ On the **General Settings >> Firmware** page, you can update the router's firmwa
     - If you miss the prompt, please go to *General Settings -> Firmware* to check for update. If there is one, click *Update* and wait a few minutes for the update and reboot to complete. 
 
     !!! Note
-        If your current version is the lateset one, there will be no any instructions as above.
+        If your current version is the latest one, there will be no any instructions as above.
 
 - **Local Update**
 
-    Click *Browse...* to locate and upload the latest firmware file you’ve downloaded from <a href="http://www.cudy.com">www.cudy.com</a>. Wait a few minutes for the update and reboot to complete.
+    Click *Browse...* to locate and upload the latest firmware file you’ve downloaded from <a href="http://www.Cudy.com">www.Cudy.com</a>. Wait a few minutes for the update and reboot to complete.
 
     !!! Note
-        If you fail to update the firmware for the router, please contact our <a href="mailto:support@cudy.com">technical support</a>.
+        If you fail to update the firmware for the router, please contact our <a href="mailto:support@Cudy.com">technical support</a>.

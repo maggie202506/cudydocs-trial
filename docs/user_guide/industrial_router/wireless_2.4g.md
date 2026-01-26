@@ -1,6 +1,6 @@
 # Wireless 2.4G
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/wireless2.4g.webp" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/wireless2.4g.webp" alt="" width="800px" style="border:1px solid #eee; display:block; margin:0 auto;" />
 
 On the **General Settings >> Wireless 2.4G** page, you can customize the wireless 2.4G network. Please follow the steps below.
 

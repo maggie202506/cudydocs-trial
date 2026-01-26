@@ -1,10 +1,10 @@
 # Overview
 
 ## Package Content
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/package-content.webp" width="500" alt="">
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/package-content.webp" width="500" alt="">
 
 ## Front Panel
-<p><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/frontpanel.webp" width="500" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/frontpanel.webp" width="500" alt=""></p>
 <div>
 <table>
     <thead>
@@ -17,7 +17,7 @@
 <tbody>
     <tr>
     <td rowspan="3" style="text-align: left; vertical-align: middle;">
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/system-led.webp" alt="System Icon" width="20" height="20"><br>(System)</td>
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/system-led.webp" alt="System Icon" width="20" height="20"><br>(System)</td>
     <td><strong>On</strong></td>
     <td>The system has started up successfully.</td>
     </tr>
@@ -31,7 +31,7 @@
     </tr>
     <tr>
     <td rowspan="2" style="text-align: left; vertical-align: middle;">
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/internet-led.webp" alt="Internet Icon" width="20" height="20"><br>(Internet)</td>
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/internet-led.webp" alt="Internet Icon" width="20" height="20"><br>(Internet)</td>
     <td><strong>On</strong></td>
     <td>Internet service is available.</td>
     </tr>
@@ -40,7 +40,7 @@
     <td>The Router’s Internet port is unplugged or no Internet available.</td>
     </tr>
     <tr>
-    <td rowspan="2" style="text-align: left; vertical-align: middle;">    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/lan-led.webp" alt="LAN Icon" width="20" height="20"><br>(LAN)</td>
+    <td rowspan="2" style="text-align: left; vertical-align: middle;">    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/lan-led.webp" alt="LAN Icon" width="20" height="20"><br>(LAN)</td>
     <td><strong>On</strong></td>
     <td>1~4 powered-on device is connected to the Router’s LAN port.</td>
     </tr>
@@ -50,7 +50,7 @@
     </tr>
     <tr>
     <td rowspan="2" style="text-align: left; vertical-align: middle;">
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/wan-led.webp" alt="WAN Icon" width="20" height="20"><br>(WAN)</td>
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/wan-led.webp" alt="WAN Icon" width="20" height="20"><br>(WAN)</td>
     <td><strong>On</strong></td>
     <td>The Router’s WAN port is connected.</td>
     </tr>
@@ -60,7 +60,7 @@
     </tr>
     <tr>
     <td rowspan="3" style="text-align: left; vertical-align: middle;">
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/2.4g-led.webp" alt="2.4G" width="20" height="20"><br>(2.4GHz Wireless)</td>
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/2.4g-led.webp" alt="2.4G" width="20" height="20"><br>(2.4GHz Wireless)</td>
     <td><strong>On</strong></td>
     <td>2.4GHz Wireless Band is enabled.</td>
     </tr>
@@ -74,7 +74,7 @@
     </tr>
     <tr>
     <td rowspan="3" style="text-align: left; vertical-align: middle;">
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/5g-led.webp" alt="5G" width="20" height="20"><br>(5GHz Wireless)</td>
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/5g-led.webp" alt="5G" width="20" height="20"><br>(5GHz Wireless)</td>
     <td><strong>On</strong></td>
     <td>5GHz Wireless Band is enabled.</td>
     </tr>
@@ -91,7 +91,7 @@
 </div>
 
 ## Back Panel
-<p><img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/wireless_router/back-panel.webp" width="500" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/back-panel.webp" width="500" alt=""></p>
 <div>
 <table>
     <tr>

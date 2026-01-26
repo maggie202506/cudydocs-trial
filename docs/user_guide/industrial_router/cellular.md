@@ -4,7 +4,7 @@
 
 On **System Status >> Cellular >> Status/Statistics** section, you can check the current status and statistics of the cellular network.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/status-cellular1.webp" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/status-cellular1.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 - Network Type: The cellular technology standard in use (e.g., LTE, 5G).
 - Upload/Download: Data transfer speeds for sending/receiving data.
@@ -35,7 +35,7 @@ On **System Status >> Cellular >> Status/Statistics** section, you can check the
 On the **System Status >> Cellular >> Settings** or **General Settings >> Cellular** page，you can configure the following cellular features. 
 
 ### APN
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/general-settings-cellular-apn.webp" alt="" width="800px" style="border:  2px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/general-settings-cellular-apn.webp" alt="" width="800px" style="border:  2px solid #eee;" />
 
 1) Enable the APN feature. 
  
@@ -53,23 +53,23 @@ On the **System Status >> Cellular >> Settings** or **General Settings >> Cellul
 
 8) Select a specific frequency range allocated for LTE (4G) networks which vary by region and carrier for *LTE Bands*.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/lte-band.webp" alt="" width="500px" style="display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/lte-band.webp" alt="" width="500px" style="display: block; margin: 0 auto;" />
 
 9) Configure *APN Profile* to connect the router to the carrier’s data network, either selecting *Auto* or consulting your carrier for the APN parameters and manually enter it.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/cellular-APN-settings.webp" alt="" width="500px" style="border:  2px solid #eee;display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/cellular-APN-settings.webp" alt="" width="500px" style="border:  2px solid #eee;display: block; margin: 0 auto;" />
  
 10) Click *Save & Apply* to save and activate the new settings or changes.  Displays the current state of cellular network connectivity, Connected or Disconnected.
 
 
 ### SMS
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/general-settings-cellular-sms.webp" alt="" width="800px" style="border:  2px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/general-settings-cellular-sms.webp" alt="" width="800px" style="border:  2px solid #eee;" />
 
 Click *Enable* and then *Save & Apply* to manage or monitor the router remotely by sending simple text commands or receiving automated alerts.
 
 
 ### Data Settings
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/general-settings-cellular-data-settings2.webp" alt="" width="800px" style="border:  2px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/general-settings-cellular-data-settings2.webp" alt="" width="800px" style="border:  2px solid #eee;" />
 
 1) Select SIM Slot 1 or 2 for your settings.
 
@@ -94,11 +94,11 @@ Click *Enable* and then *Save & Apply* to manage or monitor the router remotely 
 11) Click *Save & Apply* to save and activate the new settings or changes.
 
 ### AT Command
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/general-settings-cellular-at.webp" alt="" width="800px" style="border:  2px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/general-settings-cellular-at.webp" alt="" width="800px" style="border:  2px solid #eee;" />
 
 AT Commands are standardized text-based instructions (e.g., AT+CSQ) used to configure, diagnose, and control cellular modules (4G/5G) in industrial routers, enabling APN setup, signal checks, and data management.
 
 ### Modem Reset
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/general-settings-cellular-modem-reset.webp" alt="" width="800px" style="border:  2px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/general-settings-cellular-modem-reset.webp" alt="" width="800px" style="border:  2px solid #eee;" />
 
 Click *Modem Reset* to reset the cellular modules (4G/5G) to factory settings, which may help to restore connectivity during network failures or configuration errors. 

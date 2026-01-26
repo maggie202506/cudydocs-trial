@@ -1,7 +1,7 @@
 # IPv6
 AP controller supports 7 types of IPv6 Internet connection, including Relay, Dynamic IP(SLAAC/DHCPv6), Static (Fixed lP), Passthrough, 464XLAT, MAP-E, and DS-Lite. Enable the IPv6 Internet connection, select a connection type accordingly and configure the required parameters provided by the ISP.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/ipv6-2.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/ipv6-2.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 !!! Note
      
@@ -12,7 +12,7 @@ AP controller supports 7 types of IPv6 Internet connection, including Relay, Dyn
 ## Relay
 Typically used for IPv6 transition mechanisms. The router will act as a relay between your local IPv6 network and an IPv4-based upstream network provided by your ISP. 
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/ipv6-relay.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/ipv6-relay.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 Select *Relay* and just click *Save & Apply* without any additional configuration.
 
@@ -20,7 +20,7 @@ Select *Relay* and just click *Save & Apply* without any additional configuratio
 ## Dynamic IP(SLAAC/DHCPv6)
 Automatically assigns IPv6 addresses via router advertisements (SLAAC) or DHCPv6 servers, ideal for plug-and-play deployments with changing network topologies.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/ipv6-dhcp.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/ipv6-dhcp.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 Select *Dynamic IP(SLAAC/DHCPv6)*, and configure MAC Clone and MTU as needed.Then click *Save & Apply*.
 
@@ -31,7 +31,7 @@ Select *Dynamic IP(SLAAC/DHCPv6)*, and configure MAC Clone and MTU as needed.The
 ## Static(Fixed lP)
 Manually configured IPv6 addresses for critical devices (e.g., PLCs), ensuring stable remote access and firewall rule consistency.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/ipv6-static.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/ipv6-static.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 Select *Static (Fixed IP)* and enter the fixed *IPv6 address*, *gateway*, *prefix* and *DNS* server address provided by your ISP. Configure MAC Clone and MTU as needed. Then click *Save & Apply*.
 
@@ -47,7 +47,7 @@ Select *Static (Fixed IP)* and enter the fixed *IPv6 address*, *gateway*, *prefi
 ## Passthrough
 Allows an IPv6-enabled device to manage its own IP settings directly from the ISP, bypassing the router's DHCP server. 
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/ipv6-passthrough.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/ipv6-passthrough.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 Select *Passthrough* and just click *Save & Apply* without any additional configuration.
 
@@ -55,7 +55,7 @@ Select *Passthrough* and just click *Save & Apply* without any additional config
 ## 464XLAT
 A stateless translation mechanism that allows IPv4-only devices to communicate over an IPv6 network. 
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/ipv6-464xlat.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/ipv6-464xlat.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 Select *464XLAT*, and configure MAC Clone and MTU as needed. Then click *Save & Apply*.
 
@@ -66,7 +66,7 @@ Select *464XLAT*, and configure MAC Clone and MTU as needed. Then click *Save & 
 ## MAP-E
 Namely, Mapping of Address and Port with Encapsulation, is a method for translating IPv6 addresses to IPv4 addresses. 
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/ipv6-mape.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/ipv6-mape.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 Select *MAP-E*, and configure MAC Clone and MTU as needed. Then click *Save & Apply*.
 
@@ -77,7 +77,7 @@ Select *MAP-E*, and configure MAC Clone and MTU as needed. Then click *Save & Ap
 ## DS-Lite
 A technology that allows ISPs to provide IPv4 service over an IPv6 network. 
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/ipv6-dslite.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/ipv6-dslite.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 Select *DS-Lite*, and configure MAC Clone and MTU as needed. Then click *Save & Apply*.
 

@@ -2,10 +2,10 @@
 To enhance your home network security with a kit of features built in Cudy router. In Wireless router mode, it includes Firewall, MAC filter, IP filter, Domain Filter, IP/MAC Binding, WPS, Wi-Fi Schedule, and ALG; while in Wireless Access Point mode, it consists of WPS and Wi-Fi Schedule.
 
 - For *Main Router and AP Controller* mode
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/advanced-mc.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/advanced-mc.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 - For *AP Controller* mode
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/advanced-ac.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/advanced-ac.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 ---
 ## Firewall
@@ -14,7 +14,7 @@ To enhance your home network security with a kit of features built in Cudy route
 
 Firewall is a security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It serves as a barrier between a trusted internal network and untrusted external networks, such as the Internet. This function is enabled by default. It is highly recommended to keep the default settings.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/firewall.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/firewall.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 - SPI Firewall: SPI (Stateful Packet Inspection) Firewall is a sophisticated network firewall that goes beyond basic packet filtering to provide deeper inspection and control over network traffic, offering better security and more intelligent traffic management.
 - DoS Protection: DoS (Denial of Service) Protection is a security feature that defends your network or online services against DoS attacks. It works by identifying and mitigating traffic that is intended to overwhelm your network or online services, rendering them unavailable to legitimate users. 
@@ -29,7 +29,7 @@ MAC Filter is a technology used in wireless routers to prevent unauthorized acce
 
 *To configure the MAC filter, please follow the steps below.*
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/mac-filter2.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/mac-filter2.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 1. Select a MAC Filter rule.
     - Disable: To disable the MAC Filter function. No MAC Address will be filtered.
@@ -48,7 +48,7 @@ IP Filter is a technique utilized in cyber security to control and protect a net
 
 *To configure the IP filter, please follow the steps below.*
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/ip-filter2.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/ip-filter2.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 1. Select an IP Filter rule.
     - Disable: To disable the IP Filter function. All devices are allowed to access the entire Internet.
@@ -70,7 +70,7 @@ Domain Filter is a technique to control or limit access to specific websites 
 
 *To configure the domain filter, please follow the steps below.*
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/domain-filter2.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/domain-filter2.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 1. Select a Domain Filter rule.
     - Disable: To disable the Domain Filter function. No devices will be filtered.
@@ -89,7 +89,7 @@ IP/MAC Binding, namely, ARP (Address Resolution Protocol) Binding, is used to bi
 
 *To configure the IP & MAC Binding, please follow the steps below.*
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/ip-mac-binding2.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/ip-mac-binding2.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 1. Click *Add* to add entries.
 2. Enter the *IP Address* and bind it with a *MAC-Address* (select from the list or enter manually), and make a comment. Delete if needed.
@@ -109,7 +109,7 @@ ALG (Application Layer Gateway) allows customized NAT traversal filters to be pl
 
 You may need to disable SIP ALG when you are using voice and video applications to create and accept a call through the router, since some voice and video communication applications do not work well with SIP ALG.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/alg.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/alg.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 ---
 ## WiFi Schedule
@@ -117,7 +117,7 @@ It allows the router's wireless network to turn on or off automatically at a spe
 
 *To configure the WiFi Schedule, please follow the steps below.*
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/wifi-schedule2.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/wifi-schedule2.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 1. Click *Add* to add entries.
 2. Specify the schedules, including *Week Days*, *Start Wi-Fi*, *Stop Wi-Fi*. 

@@ -18,5 +18,5 @@ Follow step-by-step tutorials to set up, configure, and use Cudy products with e
 
 
 !!! Tip
-    Still need help? Feel free to contact our support team at [support@cudy.com](mailto:support@cudy.com).
+    Still need help? Feel free to contact our support team at [support@Cudy.com](mailto:support@Cudy.com).
 

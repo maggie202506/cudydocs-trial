@@ -122,7 +122,7 @@
 ??? glossary-item "Forward Delay"
     The time a port spends in the Listening and Learning states before it starts forwarding data in Spanning Tree Protocol.
 
-??? glossary-item "Fullplex"
+??? glossary-item "Full-duplex"
     A technical shorthand for *Full Duplex*, where a port can transmit and receive data simultaneously.
 
 ??? glossary-item "Failover"

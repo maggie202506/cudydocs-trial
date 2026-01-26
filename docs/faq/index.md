@@ -22,4 +22,4 @@ Find answers to frequently asked questions and common issues to help you get the
 * [How to setup your Cudy Router via Cudy APP?](10007_How_to_setup_your_Cudy_Router_via_Cudy_APP.md)
 
 !!! Tip
-    Can’t find what you’re looking for? Feel free to contact our support team at [support@cudy.com](mailto:support@cudy.com).
+    Can’t find what you’re looking for? Feel free to contact our support team at [support@Cudy.com](mailto:support@Cudy.com).

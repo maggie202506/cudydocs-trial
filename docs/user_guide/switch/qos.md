@@ -5,7 +5,7 @@
 
 ## QoS Basic
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/qos-basic-sp.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/qos-basic-sp.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 On the **QoS >> QoS Basic** page, you can configure basic QoS feature according to your need. Please select a QoS Policy and then finish the required configurations.
 
@@ -13,7 +13,7 @@ On the **QoS >> QoS Basic** page, you can configure basic QoS feature according 
 
 2) If selecting *WRR* (namely, Weighted Round Robin), please configure the weight for each queue and then click *Apply*. 
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/qos-basic-wrr.webp" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/qos-basic-wrr.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 - *Queue* defines different groups of traffic.
 - *Weight* determines the proportion of bandwidth allocated to each queue based on its importance.
@@ -24,7 +24,7 @@ It is suitable when you want to allocate different amounts of bandwidth to diffe
 
 3) If selecting *WFQ* (namely, Weighted Fair Queuing), please configure the weight for each queue in different traffic classes and then click *Apply*. 
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/qos-basic-wfq.webp" alt="" width="800px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/qos-basic-wfq.webp" alt="" width="800px" style="border: 1px solid #eee;" />
 
 - *Queue* defines different flows of traffic.
 - *Weight* allocates bandwidth fairly among these flows based on their importance.
@@ -46,7 +46,7 @@ On the **QoS >> QoS Advanced** page, you can configure advanced QoS feature acco
 
 1) If selecting *Port_based* mode, please configure the parameters including port, priority and its queue. Then click *Apply*.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/qos-advanced-portb.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/qos-advanced-portb.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - Port: Select the specific port you want to configure.
 - Priority: Assign a priority level to the selected port. Higher numbers typically indicate higher priority. Higher priority traffic will be processed before lower priority traffic in the same queue.
@@ -55,7 +55,7 @@ On the **QoS >> QoS Advanced** page, you can configure advanced QoS feature acco
 
 2) If selecting *Based on 802.1p* mode, please configure the *Priority Queue Mapping* parameters. Then click *Apply*. 
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/qos-advanced-802.1p.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/qos-advanced-802.1p.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - Priority Queue Mapping: Map the 802.1p priority values (0-7) to specific transmit queues. This ensures that traffic with different 802.1p priorities is handled accordingly.
 - Priority: Assign a relative priority level to each 802.1p priority value. This helps in determining the order of processing within the same queue.
@@ -63,7 +63,7 @@ On the **QoS >> QoS Advanced** page, you can configure advanced QoS feature acco
 
 3) If selecting *Based on DSCP* mode, please configure the parameters including DSCP, priority and its queue. Then click *Apply*. 
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/qos-advanced-dscp.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/qos-advanced-dscp.webp" alt="" width="1000px" style="border: 1px solid #eee;" />
 
 - DSCP: Identify the DSCP value (0-63) of the traffic you want to prioritize.
 - Priority: Assign a priority level to the identified DSCP value. This helps in determining the order of processing within the same queue.

@@ -3,7 +3,7 @@
 
 **If  IP Address is a valid one, please try the methods below and try again:**
 
-1. Log in to [http://cudy.net](http://cudy.net) with the password you set for the Router management.
+1. Log in to [http://Cudy.net](http://Cudy.net) with the password you set for the Router management.
 
 2. Go to *Diagnostic Tools -> Diagnosis -> Go* to diagnose Internet status:
 
@@ -28,7 +28,7 @@
 
 **If the IP Address is 0.0.0.0, please try the methods below and try again:**
 
-1. Log in to [http://cudy.net](http://cudy.net) with the password you set for the Router management.
+1. Log in to [http://Cudy.net](http://Cudy.net) with the password you set for the Router management.
 
 2. Go to *Diagnostic Tools -> Diagnosis -> Go* to diagnose Internet status:
 
@@ -42,7 +42,7 @@
 
 5. Double-check the Internet connection type.
     - Confirm your Internet connection type, which can be learned from the ISP.
-    - Log in to http://cudy.net with the password you set for the Router management.
+    - Log in to http://Cudy.net with the password you set for the Router management.
     - Go to General Settings -> WAN Mode.
     - Select your Internet Connection Type (Protocol) and fill in the required parameters provided by ISP.
     - Click Save & Apply.
@@ -52,4 +52,4 @@
 
 !!!Note
     - If your existing ADSL modem/Router  happens to be in the range of 192.168.10.x, Cudy Router  will change its default LAN IP address from 192.168.10.1 to be 10.1.1.1 to avoid IP conflicts.
-    - If you’ve tried all the above methods but still cannot access the Internet, please contact the technical support via support@cudy.com.
+    - If you’ve tried all the above methods but still cannot access the Internet, please contact the technical support via support@Cudy.com.

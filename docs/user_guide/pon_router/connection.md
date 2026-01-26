@@ -1,6 +1,6 @@
 # Connect
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/pon_router/connection.webp"  alt="" style="width:600px">
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/pon_router/connection.webp"  alt="" style="width:600px">
 
 1. Connect the provided power adapter to the Power jack.
 2. Connect the telephone to the LAN 1/2/3 port.

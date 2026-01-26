@@ -12,7 +12,7 @@
 
 2. Make sure your computer/device is still in the range of your router/modem. Move it closer if it is currently too faraway.
 
-3. Log in to [http://cudy.net](http://cudy.net), and go to *General Settings -> Wireless* to check the wireless settings. Double-check your wireless Network Name or SSID is not hidden.
+3. Log in to [http://Cudy.net](http://Cudy.net), and go to *General Settings -> Wireless* to check the wireless settings. Double-check your wireless Network Name or SSID is not hidden.
 
 ## If can find your wireless network but fail to connect, please:
 

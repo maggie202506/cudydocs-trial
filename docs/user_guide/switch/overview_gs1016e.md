@@ -1,12 +1,12 @@
 # GS1016E
 ## Package Content
-<img src="https://www.cudy.com/cdn/shop/files/GS1016E.jpg?v=1749632718">
+<img src="https://www.Cudy.com/cdn/shop/files/GS1016E.jpg?v=1749632718">
 
 ---
 
 ## Appearance
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/switch/gs1016e.webp" width="800" alt="">
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/switch/gs1016e.webp" width="800" alt="">
 
 ## LED & DIP
 <table>
@@ -38,7 +38,7 @@
     </tr>
     <tr>
         <td>Managed</td>
-        <td>(Default) Light-managed Mode. Allow to manage the swicth on the web-based GUI.</td>
+        <td>(Default) Light-managed Mode. Allow to manage the switch on the web-based GUI.</td>
     </tr>
     <tr>
         <td>VLAN</td>

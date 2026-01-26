@@ -1,9 +1,9 @@
-# Intall & Power
+# Install & Power
 
 ## Install Router
 ### Method A. Wall-Mount
-Insert four screws (not provided) through themounting holes and fasten them into the wall.
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/wallmount.webp"  width="700" alt="">
+Insert four screws (not provided) through the mounting holes and fasten them into the wall.
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/wallmount.webp"  width="700" alt="">
 
 ### Method B. DIN-Rail
 1. Tighten the bracket onto the router with the provided screws.
@@ -12,12 +12,12 @@ Insert four screws (not provided) through themounting holes and fasten them into
 
 !!!Note
     The router must be grounded properly for optimal performance and safety.
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/dinrail.webp"  width="700" alt="">
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/dinrail.webp"  width="700" alt="">
 
 ---
 ## Install Antennas
 1. Assign the 4G/Wi-Fi antenna to each connector as labeled.
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/install-ant.webp"  width="500" alt="">
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/install-ant.webp"  width="500" alt="">
 
 2. Align the gold-plated SMA connector on the antennas and the router. Screw the nut clockwise until tight.
 3. Mount antennas vertically on the magnetic base.
@@ -33,11 +33,11 @@ Insert four screws (not provided) through themounting holes and fasten them into
 !!!Note
     Power off the router before installing antennas or SlM card.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/install-sim.webp"  width="500" alt="">
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/install-sim.webp"  width="500" alt="">
 
 ---
 ## Power Supply
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/power.webp"  width="500" alt="">
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/power.webp"  width="500" alt="">
 
 **Method A.** Connect the provided DC power adapter to PWR1.
 

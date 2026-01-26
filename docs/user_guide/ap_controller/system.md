@@ -2,9 +2,9 @@
 System is to manage the AP controller's systematic features. It includes System Time, Firmware, Backup/Restore, Administration, Admin Account, Language, Timed Reboot, Reboot, Reset, LED Control, and TR069 (not in Wireless Access Point mode).
 
 - For *Main AP controller and AP Controller* mode
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/advanced-mc.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/advanced-mc.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 - For *AP Controller* mode
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/advanced-ac.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/advanced-ac.webp" alt="" width="800px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 ----
 ## System Time
@@ -15,11 +15,11 @@ It is the time displayed while the AP controller is running. The system time you
 1. Select your Timezone from the drop-down list.
 2. Select a *Set Time* method: Get from Internet, Get from Managing Device, or Manual.
     - Get from the Internet: AP controller will synchronize the time with the Internet of the NTP server, for 	which you've entered its IP address or domain name.
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/system-time-internet.webp" alt="" width="400px" style="border: 1px solid #eee; display:block; margin:0 auto;"/>
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/system-time-internet.webp" alt="" width="400px" style="border: 1px solid #eee; display:block; margin:0 auto;"/>
     - Get from Managing Device: AP controller will synchronize the time with your device connected.
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/system-time-device.webp" alt="" width="400px" style="border: 1px solid #eee;display:block; margin:0 auto;"/>
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/system-time-device.webp" alt="" width="400px" style="border: 1px solid #eee;display:block; margin:0 auto;"/>
     - Manual: AP controller will display the time you have manually set (YY/MM/DD HH:MM:SS).
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/system-time-manual.webp" alt="" width="400px" style="border: 1px solid #eee;display:block; margin:0 auto;"/>
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/system-time-manual.webp" alt="" width="400px" style="border: 1px solid #eee;display:block; margin:0 auto;"/>
 
 3. Click *Save & Apply*.
 
@@ -27,7 +27,7 @@ It is the time displayed while the AP controller is running. The system time you
 ## Auto Upgrade
 It is to automatically download and install the latest firmware for connected APs during scheduled maintenance windows.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/advanced-system-autoupdate.webp" alt="" width="500px" style="border: 1px solid #eee; display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/advanced-system-autoupdate.webp" alt="" width="500px" style="border: 1px solid #eee; display:block; margin:0 auto;" />
 
 1. Toggle to enable *Auto Update*.
 2. Check the *Current Time*.
@@ -38,17 +38,17 @@ It is to automatically download and install the latest firmware for connected AP
 ## Backup/Restore
 The settings are stored as a configuration file in the AP controller. You can back up the configuration file in your computer for future use, or restore the AP controller to a previous settings from the backup file when needed.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/advanced-system-backup.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/advanced-system-backup.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 - To back up the configuration file, just click *Generate backup* to download and save a copy of the current settings in your local computer in the form of *.bin* file.
 - To restore the backup configuration file later on, click *Browser...* to locate and upload the backup configuration file stored in your computer, and then click *Restore* to restore and reboot. It may take a few minutes. Please do not turn off or reset the AP controller in this process.
-    <img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/ap_controller/advanced-system-restore.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+    <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/advanced-system-restore.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 ---
 ## Administration
 It allows you to access and manage the AP controller from the local network devices via Local Management, and access and manage the AP controller over the Internet via Remote Management.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/admin.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/admin.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 - Local Management
     - HTTPS Only: Enable to force secure HTTPS connections for all management access.
@@ -71,7 +71,7 @@ Click *Save & Apply* to save and activate the settings, and then the devices on 
 ## Admin Account
 To change your login password for the AP controller's web management page.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/admin-account.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/admin-account.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 1. Enter the old password.
 2. Create a new password and Confirm it. 
@@ -84,14 +84,14 @@ To change your login password for the AP controller's web management page.
 ## Language
 To customize the AP controller's web management language. Otherwise, the AP controller will auto-detect your system language and synchronize it. 
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/language.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/language.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 If any change, please click *Save & Apply* for the settings to take effect.
 
 ---
 ## Timed Reboot
 It will clean the cache to enhance the running performance of the AP controller as scheduled. 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/timed-reboot.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/timed-reboot.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 *To set the reboot schedule, please follow the steps below.*
 
@@ -104,7 +104,7 @@ It will clean the cache to enhance the running performance of the AP controller 
 ## Reboot 
 Rebooting the AP controller after working for a long periods of time can release some storage space in the RAM and improve system performance, making the operation of the AP controller smoother. Rebooting does not affect any settings of the AP controller.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/reboot.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/reboot.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 Click *OK* to reboot the system immediately. Wait a few minutes for the system to reboot. 
 
@@ -115,7 +115,7 @@ Click *OK* to reboot the system immediately. Wait a few minutes for the system t
 ## Reset
 will help you erase all the current settings and restore the AP controller to its factory defaults. Alternatively, you may reset the AP controller via the *RESET* button on the AP controller panel, or on this web management page.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/reset.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/reset.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 Before clicking *OK* to reset it, please note down the SSID and password (or refer them to the product label) for later reconnection.
 
@@ -132,7 +132,7 @@ Wait a moment for it to reboot and reset. When completed, it will pop up the log
 
 TR-069, also known as CWMP (CPE WAN Management), allows Auto-Configuration Server (ACS) to perform auto-configuration, provision, connection, and diagnostics to this device. You may configure this function under your ISP's instructions.
 
-<img src="https://cdn.jsdelivr.net/gh/cudytech-pr/User-Guide/docs/images/industrial_router/tr069.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/industrial_router/tr069.webp" alt="" width="500px" style="border: 1px solid #eee;display:block; margin:0 auto;" />
 
 Configure the parameters according to your ISP instructions, and click *Save & Apply*.
 
@@ -147,4 +147,4 @@ instructions.
 - ACS Username/Password: (Optional) Enter the username/password to log in to the ACS server.
 - Connection Request Auth: If enabled, you may optionally enter the *Username* and *Password* for the ACS server to log in to the AP controller; otherwise just ignore it.
 - Port: Enter the port (a value from 1024~65535) that connects to the ACS server.
-- STUN: If enabled, you need to enter the STUN server port and keepalive period, and optionally the STUN username/password/server address to log in the AP controller.
+- STUN: If enabled, you need to enter the STUN server port and kept-alive period, and optionally the STUN username/password/server address to log in the AP controller.

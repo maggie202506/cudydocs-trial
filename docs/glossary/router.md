@@ -150,7 +150,7 @@
     Settings used to separate digital TV signals from standard data traffic using virtual network tags.
 
 ??? glossary-item "IPv6"
-    (Internet Protocol Version 6) A network-layer protocol designed to replace IPv4, providing a vastly expanded address space, simplified header structure, and native support for autoconfiguration.
+    (Internet Protocol Version 6) A network-layer protocol designed to replace IPv4, providing a vastly expanded address space, simplified header structure, and native support for auto-configuration.
 
 ---
 
@@ -162,7 +162,7 @@
 ??? glossary-item "LAN"
     (Local Area Network) A private network segment managed by the router, providing internal IP addressing, switching, and local traffic forwarding among connected devices.
 
-??? glossary-item "Leasetime"
+??? glossary-item "Lease time"
     The duration for which a guest user is authorized to use the network after a successful portal login.
 
 ??? glossary-item "Local / Remote Management"
@@ -228,7 +228,7 @@
 ??? glossary-item "Preferred DNS"
     The primary Domain Name System server used to resolve human-readable domain names into IP addresses.
 
-??? glossary-item "Preshared Key"
+??? glossary-item "Pre-shared Key"
     A security string shared between the server and client beforehand to verify identity before encryption.
 
 ??? glossary-item "Protocol"
