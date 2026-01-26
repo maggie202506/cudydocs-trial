@@ -29,7 +29,7 @@ if (!hasConsent) {
             chat: {}, 
             marketing: {} 
         }, 
-        cookie: { domain: '.cudy.com'  }, 
+        cookie: { domain: '.Cudy.com'  }, 
         language: { 
             default: 'en', 
             translations: { 
