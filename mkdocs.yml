@@ -14,7 +14,7 @@ docs_dir: docs
 
 theme: 
   name: material
-  logo: images/Cudyicon.webp
+  logo: images/cudyicon.webp
   custom_dir: overrides
   features:
     - search.highlight
