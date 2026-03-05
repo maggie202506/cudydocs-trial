@@ -1,9 +1,9 @@
+# xPON Router
+
 !!! Note
     **Supported Models:** GP1200, GP1200V, GP3000, GP3000V...
 
     This guide takes GP1200 for example. Details may vary by model.
-
-
 
 ## Overview
 - Check the [package content](overview.md#package-content){ data-preview }.
