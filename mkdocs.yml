@@ -132,7 +132,7 @@ nav:
           - Overview: user_guide/switch/index.md
           
   - Tutorial:
-    - Turtorial: tutorial/index.md    
+    - Tutorial: tutorial/index.md    
   - FAQ:
     - FAQ: faq/index.md
   - Glossary:
