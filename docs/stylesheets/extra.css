@@ -6,65 +6,55 @@
   --md-default-fg-color: #000000;        /* 默认黑色文本 */
 }
 
-/* ===== 产品卡片系统 ===== */
-.Cudy-product-row {
-  font-family: 'Lato', sans-serif;
-  font-size: 15px !important;
-  display: block;
-  margin: 0px;
-  color: inherit; /* 继承黑色文本 */
-}
+/* ===============================
+   Modern Product Card System
+================================= */
 
-.Cudy-product-row-box {
+.product-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1%;
-  margin-bottom: 25px;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  margin: 30px 0 50px 0;
 }
 
-.Cudy-product-card {
-  background-color: #FFFFFF;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
-  border-radius: 3px;
-  border: 1px solid #FFFFFF;
+.product-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px 15px;
   text-align: center;
-  transition: border-color 0.3s ease, transform 0.2s ease;
-  padding: 10px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: all 0.25s ease;
+  border: 1px solid rgba(0,0,0,0.04);
 }
 
-.Cudy-product-card:hover {
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
   border-color: #008CFF;
-  transform: translateY(-3px);
 }
 
-.Cudy-product-card img {
-  width: 70%;
+.product-img {
+  width: 100%;
+  height: 110px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 15px;
 }
 
-div.Cudy-product-model {
-  font-weight: bold;
+.product-name {
+  font-size: 15px;
+  font-weight: 600;
   color: #008CFF;
+  line-height: 1.3;
 }
 
-.Cudy-product-model-ap1300 {
-  font-size: 12px;
-  font-weight: bold;
-}
-
-/* 响应式布局 */
-@media only screen and (max-width: 480px) {
-  .Cudy-product-row-box {
-    grid-template-columns: repeat(2, 1fr);
+/* 手机优化 */
+@media (max-width: 600px) {
+  .product-img {
+    height: 80px;
   }
-}
-
-/* 桌面端布局 */
-@media only screen and (min-width: 992px) {
-  .Cudy-50-desktop { width: 50%; }
-  .Cudy-60-desktop { width: 60%; }
-  .Cudy-70-desktop { width: 70%; }
-  .Cudy-80-desktop { width: 80%; }
-  .Cudy-90-desktop { width: 90%; }
 }
 
 /* ===== 其他组件 ===== */
@@ -150,11 +140,11 @@ img.Cudyboxshadow {
     color: #ffffff !important;
 }
 
-/* 手机端隐藏 Footer */
+/* 响应式 Footer：手机端隐藏*/
 @media (max-width: 768px) {
   .md-footer {
     display: none !important;
-  }
+   }
 }
 
 /* 1. 基础样式与折叠状态 (灰色) */
@@ -221,4 +211,106 @@ details.glossary-item > .admonition-content {
   border-top: 1px solid rgba(0,0,0,0.05);
 }
 
+<style>
+  /* 1. 让表格容器宽度自适应 */
+  .Cudy-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 0 40px 0;
+    display: block;
+  }
+
+  /* 2. tr 变成 Flex 容器，支持换行 */
+  .Cudy-table tr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border: none;
+  }
+
+  /* 3. 单元格宽度 */
+  .Cudy-table td {
+    display: block;
+    width: 14.28%;
+    min-width: 140px;
+    text-align: center;
+    padding: 15px 5px;
+    box-sizing: border-box;
+  }
+
+  /* 4. 图片自适应 */
+  .Cudy-table img {
+    height: 70px;
+    max-width: 100%;
+    object-fit: contain;
+    cursor: default;
+    transition: .2s ease;
+  }
+
+  .Cudy-product-model {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.2;
+    cursor: pointer;
+  }
+
+  /* 响应式 */
+  @media screen and (max-width: 1024px) {
+    .Cudy-table td { width: 25%; }
+  }
+  @media screen and (max-width: 600px) {
+    .Cudy-table td { width: 50%; padding: 10px 5px; }
+    .Cudy-table img { height: 60px; }
+    .Cudy-product-model { font-size: 13px; }
+  }
+
+  /* 链接样式 */
+  td a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+</style>
+
+/* ===============================
+   左侧导航子菜单折叠动画
+   =============================== */
+nav li > ul {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding-left: 0;
+}
+
+/* 展开状态 */
+nav li > ul.show {
+    max-height: 1000px;  /* 足够展开所有子项 */
+    padding-left: 1em;
+}
+
+/* 子项悬停效果 */
+nav li ul li a:hover {
+    background-color: rgba(0, 140, 255, 0.1);
+    border-radius: 4px;
+}
+
+/* 父级当前页样式高亮 */
+nav li.current > a {
+    font-weight: bold;
+    color: #008CFF; /* 或深色模式可调 */
+}
+
+/* 强制默认折叠 User Guide 下的所有子菜单 */
+.md-nav li.md-nav__item > ul {
+    max-height: 0 !important;
+    overflow: hidden !important;
+    padding-left: 0 !important;
+}
+
+.md-nav li.md-nav__item > ul.show {
+    max-height: 1000px !important;
+    padding-left: 1em !important;
+}
 
