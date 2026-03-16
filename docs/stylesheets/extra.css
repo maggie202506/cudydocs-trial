@@ -140,11 +140,19 @@ img.Cudyboxshadow {
     color: #ffffff !important;
 }
 
+<<<<<<< HEAD
 /* 响应式 Footer：手机端隐藏*/
 @media (max-width: 768px) {
   .md-footer {
     display: none !important;
    }
+=======
+/* 手机端隐藏 Footer */
+@media (max-width: 768px) {
+  .md-footer {
+    display: none !important;
+  }
+>>>>>>> 17d334a88abb8b948994d7245df47e8074cd4c5f
 }
 
 /* 1. 基础样式与折叠状态 (灰色) */

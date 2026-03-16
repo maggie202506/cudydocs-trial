@@ -1,4 +1,12 @@
 # AP Controller
+<<<<<<< HEAD
+=======
+
+!!! Note
+    **Supported Models**: C200P...
+
+     This guide takes C200P for example. Details may vary by model.
+>>>>>>> 17d334a88abb8b948994d7245df47e8074cd4c5f
 
 <div class="product-grid">
 

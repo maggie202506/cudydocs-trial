@@ -5,7 +5,7 @@
 1. Connect the management device to one of the LAN ports of C200P.
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/connection1.webp" alt="" width="800px" style=" display: block; margin: 0 auto;" />
 
-2. Launch a web browser, enter *[Cudyac.net](http://Cudyac.net)* in the address bar, and press *Enter*. Create an administrator password to log in.
+2. Launch a web browser, enter *[cudyac.net](http://cudyac.net)* in the address bar, and press *Enter*. Create an administrator password to log in.
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/admin.webp" alt="" width="400px" style="border:  2px solid #eee;display: block; margin: 0 auto;" />
 
 3. Select *Main Router and AP Controller* mode, and click *Next*.
@@ -39,7 +39,7 @@
 1. Connect the management device to one of the LAN ports of C200P.
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/connection2.webp" alt="" width="800px" style=" display: block; margin: 0 auto;" />
 
-2. Launch a web browser, enter *[Cudyac.net](http://Cudyac.net)* in the address bar, and press *Enter*. Create an administrator password to log in.
+2. Launch a web browser, enter *[cudyac.net](http://cudyac.net)* in the address bar, and press *Enter*. Create an administrator password to log in.
 <img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/ap_controller/admin.webp" alt="" width="400px" style="border:  2px solid #eee;display: block; margin: 0 auto;" />
 
 3. Select *AP Controller* mode, and click *Next*.

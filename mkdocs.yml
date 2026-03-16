@@ -120,6 +120,7 @@
         emoji_index: !!python/name:material.extensions.emoji.twemoji
         emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+<<<<<<< HEAD
   nav:
     - Home: index.md
     - User Guide:
@@ -140,3 +141,49 @@
           - Router: glossary/router.md  
           - Switch: glossary/switch.md
     - About: about/index.md
+=======
+markdown_extensions:
+  - attr_list
+  - def_list
+  - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - admonition
+  - toc:
+        permalink: true
+        toc_depth: 4
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+
+nav:
+  - Home: index.md
+  - User Guide:
+      - Wireless Router:
+          - Overview: user_guide/wireless_router/index.md
+      - Industrial Router:
+          - Overview: user_guide/industrial_router/index.md
+      - xPON Router:
+          - Overview: user_guide/pon_router/index.md
+      - AP Controller:
+          - Overview: user_guide/ap_controller/index.md   
+      - Switch:
+          - Overview: user_guide/switch/index.md
+          
+  - Tutorial:
+    - Tutorial: tutorial/index.md    
+  - FAQ:
+    - FAQ: faq/index.md
+  - Glossary:
+      - Overview: glossary/index.md
+      - Networking: glossary/networking.md      
+      - Router: glossary/router.md
+      - Switch: glossary/switch.md
+  - About: about/index.md
+>>>>>>> 17d334a88abb8b948994d7245df47e8074cd4c5f
