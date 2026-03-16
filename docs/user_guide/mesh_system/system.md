@@ -26,7 +26,7 @@ is the time displayed while the router is running. The system time you configure
 ## Firmware
 The current firmware version and hardware version will be displayed. Click *Browse...* to locate and upload the latest firmware file you have already downloaded from www.cudy.com. Wait a few minutes for the update and reboot to complete.
 
-<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/firmware.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/mesh_system/firmware.webp" alt="" width="500px" style="border: 1px solid #eee; display: block; margin: 0 auto;" />
 
 For more about firmware upgrading, please refer to [Advanced Settings-> Firmware].
 
