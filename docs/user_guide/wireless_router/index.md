@@ -1,21 +1,4 @@
 # Wireless Router
-<<<<<<< HEAD
-
-<div class="product-grid">
-=======
-
-!!! Note
-    **Supported Models:** WR11000, WR6500, WR6500H, WR3600, WR3600E/H, WR3000, WR3000E/H/P/S, TR3000, WR1500, WR1300, WR1300E/S, WR1200, WR1200E...
-
-    This guide takes WR3600 for example. Details may vary by model.
-
-
-## Overview
-- Check the [package content](overview.md#package-content){ data-preview }.
-- View the router's appearance—[front](overview.md#front-panel){ data-preview } and [back](overview.md#back-panel){ data-preview }.
-- View the [interfaces](overview.md#back-panel){ data-preview } layout and description. 
-- Check the [LED](overview.md#front-panel){ data-preview } status and indication.
->>>>>>> 17d334a88abb8b948994d7245df47e8074cd4c5f
 
   <a href="wr3600_h" class="product-card">
     <div class="product-img" style="background-image:url('https://www.cudy.com/cdn/shop/files/WR3600_1.0_WR3600H_1.0_4d1e8f65-209c-4236-b36c-d8b09b9ee6b0.png?v=1726274018')"></div>

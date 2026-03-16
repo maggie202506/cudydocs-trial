@@ -98,14 +98,11 @@
     <url>
          <loc>https://docs.cudy.com/tutorial/</loc>
          <lastmod>2026-03-16</lastmod>
-<<<<<<< HEAD
-=======
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.cudy.com/tutorial/10004_How_to_set_up_Parent_Control_on_the_Cudy_router/</loc>
          <lastmod>2026-03-16</lastmod>
->>>>>>> 17d334a88abb8b948994d7245df47e8074cd4c5f
          <changefreq>daily</changefreq>
     </url>
     <url>
@@ -131,14 +128,11 @@
     <url>
          <loc>https://docs.cudy.com/tutorial/How_to_set_up_Parent_Control_on_the_Cudy_router/</loc>
          <lastmod>2026-03-16</lastmod>
-<<<<<<< HEAD
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.cudy.com/user_guide/</loc>
          <lastmod>2026-03-16</lastmod>
-=======
->>>>>>> 17d334a88abb8b948994d7245df47e8074cd4c5f
          <changefreq>daily</changefreq>
     </url>
     <url>
@@ -154,14 +148,11 @@
     <url>
          <loc>https://docs.cudy.com/user_guide/ap_controller/ap_management/</loc>
          <lastmod>2026-03-16</lastmod>
-<<<<<<< HEAD
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.cudy.com/user_guide/ap_controller/c200p/</loc>
          <lastmod>2026-03-16</lastmod>
-=======
->>>>>>> 17d334a88abb8b948994d7245df47e8074cd4c5f
          <changefreq>daily</changefreq>
     </url>
     <url>
@@ -277,14 +268,11 @@
     <url>
          <loc>https://docs.cudy.com/user_guide/industrial_router/install_power/</loc>
          <lastmod>2026-03-16</lastmod>
-<<<<<<< HEAD
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.cudy.com/user_guide/industrial_router/ir04/</loc>
          <lastmod>2026-03-16</lastmod>
-=======
->>>>>>> 17d334a88abb8b948994d7245df47e8074cd4c5f
          <changefreq>daily</changefreq>
     </url>
     <url>
@@ -340,7 +328,6 @@
     <url>
          <loc>https://docs.cudy.com/user_guide/industrial_router/wisp/</loc>
          <lastmod>2026-03-16</lastmod>
-<<<<<<< HEAD
          <changefreq>daily</changefreq>
     </url>
     <url>
@@ -461,8 +448,6 @@
     <url>
          <loc>https://docs.cudy.com/user_guide/mesh_system/wisp/</loc>
          <lastmod>2026-03-16</lastmod>
-=======
->>>>>>> 17d334a88abb8b948994d7245df47e8074cd4c5f
          <changefreq>daily</changefreq>
     </url>
     <url>
@@ -476,16 +461,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-<<<<<<< HEAD
          <loc>https://docs.cudy.com/user_guide/pon_router/gp1200_v/</loc>
          <lastmod>2026-03-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.cudy.com/user_guide/pon_router/overview_gp1200_v/</loc>
-=======
-         <loc>https://docs.cudy.com/user_guide/pon_router/overview/</loc>
->>>>>>> 17d334a88abb8b948994d7245df47e8074cd4c5f
          <lastmod>2026-03-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -547,14 +528,11 @@
     <url>
          <loc>https://docs.cudy.com/user_guide/switch/gs1016e/</loc>
          <lastmod>2026-03-16</lastmod>
-<<<<<<< HEAD
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.cudy.com/user_guide/switch/gs1024e/</loc>
          <lastmod>2026-03-16</lastmod>
-=======
->>>>>>> 17d334a88abb8b948994d7245df47e8074cd4c5f
          <changefreq>daily</changefreq>
     </url>
     <url>
@@ -640,14 +618,11 @@
     <url>
          <loc>https://docs.cudy.com/user_guide/wireless_router/firmware/</loc>
          <lastmod>2026-03-16</lastmod>
-<<<<<<< HEAD
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.cudy.com/user_guide/wireless_router/mesh/</loc>
          <lastmod>2026-03-16</lastmod>
-=======
->>>>>>> 17d334a88abb8b948994d7245df47e8074cd4c5f
          <changefreq>daily</changefreq>
     </url>
     <url>
@@ -658,7 +633,6 @@
     <url>
          <loc>https://docs.cudy.com/user_guide/wireless_router/overview/</loc>
          <lastmod>2026-03-16</lastmod>
-<<<<<<< HEAD
          <changefreq>daily</changefreq>
     </url>
     <url>
@@ -714,8 +688,6 @@
     <url>
          <loc>https://docs.cudy.com/user_guide/wireless_router/overview_wr3600_h/</loc>
          <lastmod>2026-03-16</lastmod>
-=======
->>>>>>> 17d334a88abb8b948994d7245df47e8074cd4c5f
          <changefreq>daily</changefreq>
     </url>
     <url>
@@ -741,7 +713,6 @@
     <url>
          <loc>https://docs.cudy.com/user_guide/wireless_router/system/</loc>
          <lastmod>2026-03-16</lastmod>
-<<<<<<< HEAD
          <changefreq>daily</changefreq>
     </url>
     <url>
@@ -752,8 +723,6 @@
     <url>
          <loc>https://docs.cudy.com/user_guide/wireless_router/usb/</loc>
          <lastmod>2026-03-16</lastmod>
-=======
->>>>>>> 17d334a88abb8b948994d7245df47e8074cd4c5f
          <changefreq>daily</changefreq>
     </url>
     <url>
@@ -769,7 +738,6 @@
     <url>
          <loc>https://docs.cudy.com/user_guide/wireless_router/wireless/</loc>
          <lastmod>2026-03-16</lastmod>
-<<<<<<< HEAD
          <changefreq>daily</changefreq>
     </url>
     <url>
@@ -835,8 +803,6 @@
     <url>
          <loc>https://docs.cudy.com/user_guide/wireless_router/wr3600_h/</loc>
          <lastmod>2026-03-16</lastmod>
-=======
->>>>>>> 17d334a88abb8b948994d7245df47e8074cd4c5f
          <changefreq>daily</changefreq>
     </url>
 </urlset>
