@@ -219,6 +219,23 @@ initPhotoSwipeFromDOM('.gl-lightbox');
   text-decoration: underline;
 }
 
+<<<<<<< HEAD
+document.addEventListener("DOMContentLoaded", function () {
+  if (document.body.classList.contains("no-zoom")) {
+
+    document.querySelectorAll(".md-content img").forEach(img => {
+      img.style.pointerEvents = "none";
+      img.onclick = null;
+    });
+
+  }
+});
+
+nav li > ul {
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+=======
 /* ===== Mobile Footer Auto Hide (Material for MkDocs) ===== */
 
 function initMobileFooterHide() {
@@ -285,3 +302,4 @@ document.addEventListener("DOMContentLoaded", function() {
     lastScrollTop = st <= 0 ? 0 : st;
   });
 });
+>>>>>>> 17d334a88abb8b948994d7245df47e8074cd4c5f
