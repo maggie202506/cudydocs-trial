@@ -141,17 +141,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/user_guide/4g5g_router/IPv6/</loc>
-         <lastmod>2026-03-18</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://docs.cudy.com/user_guide/4g5g_router/cellular/</loc>
          <lastmod>2026-03-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/user_guide/4g5g_router/dhcp/</loc>
+         <loc>https://docs.cudy.com/user_guide/4g5g_router/devices/</loc>
          <lastmod>2026-03-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -161,12 +156,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/user_guide/4g5g_router/firmware/</loc>
-         <lastmod>2026-03-18</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.cudy.com/user_guide/4g5g_router/mesh/</loc>
+         <loc>https://docs.cudy.com/user_guide/4g5g_router/mesh%20-%20%E9%9C%80%E8%A6%81%E6%8D%A2%E5%9B%BE/</loc>
          <lastmod>2026-03-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -201,17 +191,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/user_guide/4g5g_router/status/</loc>
-         <lastmod>2026-03-18</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://docs.cudy.com/user_guide/4g5g_router/system/</loc>
          <lastmod>2026-03-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.cudy.com/user_guide/4g5g_router/vpn/</loc>
+         <loc>https://docs.cudy.com/user_guide/4g5g_router/system_status/</loc>
+         <lastmod>2026-03-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.cudy.com/user_guide/4g5g_router/vpn%20-%20%E9%9C%80%E8%A6%81%E6%8D%A2%E5%9B%BE/</loc>
          <lastmod>2026-03-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
