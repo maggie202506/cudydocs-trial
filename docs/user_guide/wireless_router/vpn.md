@@ -32,9 +32,9 @@
 4. Enable Site-to-Site to allow communication between VPN server and Clients.
 5. Select VPN Policy. 
     - Disable: VPN Policy is disabled. No restriction.
-    - VPN kill switch: Internet access will be disconnected upon VPN disconnection. It is highly 	recommended for users who transmit data all through VPN. Preferred (and optionally 	Alternate DNS) is required. 
-    - Domain: Select and configure to allow specified domain(s) to transmit data through VPN 	or not. DNS and Domain are required.
-    - Remote Subnet: Select and configure to allow devices with the specified subnet to transmit 	data through VPN. IP address and Subnet mask are required.
+    - VPN kill switch: Internet access will be disconnected upon VPN disconnection. It is highly recommended for users who transmit data all through VPN. Preferred (and optionally Alternate DNS) is required. 
+    - Domain: Select and configure to allow specified domain(s) to transmit data through VPN or not. DNS and Domain are required.
+    - Remote Subnet: Select and configure to allow devices with the specified subnet to transmit data through VPN. IP address and Subnet mask are required.
 
 6. Configure the PPTP Client:
     - Server Address/ Username/Password: Enter the parameters provided by the PPTP Server.
@@ -223,7 +223,7 @@ Now your client devices can directly access the router's management web page via
 **STEP 1. Get both Routers in the Headquarter and Branch Office ready.**
 
 1. Make sure both Routers are connected to the Internet, but two network can not be in the same LAN segment. 
-For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the branches 	should be in a different LAN segment, say, 192.168.20.0/24.
+For example, if the headquarter is in the LAN segment 192.168.10.0/24, then the branches should be in a different LAN segment, say, 192.168.20.0/24.
 2. Check and note down the WAN and LAN IP addresses of the Headquarter Router and Branch Office Router on their management Status page. WAN IP of the headquarters router is the remote gateway of the branch offices, and its LAN IP is the remote subnet of the branch offices; and vice versa.
 
 **STEP 2: Configure the IPSec VPN on the Router in the Headquarter.**
