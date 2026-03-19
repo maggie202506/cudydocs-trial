@@ -28,16 +28,16 @@ Go to *System Status -> Mesh -> More details* page to add or manage a Mesh Unit,
 
 ----
 
-<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/wireless_router/mesh2.webp" alt="" width="800px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
-
 **Status** section displays information about the mesh units, including Status, Model, Device Name, IP Address, MAC-Address, Firmware Version, and two more for add-on mesh units Backhaul and 2.4G Pre-Hop.
+
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/4g5g_router/mesh-status2.webp" alt="" width="800px" style="border: 1px solid #eee; display: block; margin: 0 auto;"/>
 
 - *Backhaul*: Main link between mesh nodes for fast and stable data transfer. Could be Wired, 2.4G WiFi or 5G WiFi.
 - *5G/2.4G Pre-Hop*: Backup 5GHz/2.4GHz path used when stronger signals fail, prioritizing coverage over speed.
 
-<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/4g5g_router/mesh-operation.webp" alt="" width="800px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
-
 **Operation** section facilitates the following configurations:
+
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/4g5g_router/mesh-operation.webp" alt="" width="800px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
 
 - *Management*: (only for add-on mesh units) Toggle to disconnect the add-on mesh unit. 
 - *Device Name*: Customize the device name of the mesh unit.
@@ -46,6 +46,6 @@ Go to *System Status -> Mesh -> More details* page to add or manage a Mesh Unit,
 - *Reset*: Restore the mesh unit to its factory defaults.
 - *LED Control*: (only for add-on mesh units) Toggle to turn off the LEDs when necessary, and then the LEDs will not light up unless manually turned on or triggered by a special event.
 
-<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/4g5g_router/mesh-devices.webp" alt="" width="800px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
-
 **Connected Devices** section displays information about the devices connected to the mesh unit, including hostname and its connection method, IP and MAC address, realtime rate and the connection duration.
+
+<img src="https://cdn.jsdelivr.net/gh/Cudytech-pr/User-Guide/docs/images/4g5g_router/mesh-devices.webp" alt="" width="800px" style="border: 1px solid #eee;display: block; margin: 0 auto;" />
