@@ -72,7 +72,7 @@
         link: https://www.youtube.com/channel/UCi9XeBubGtEazL6KxO8In6w
       - icon: fontawesome/brands/instagram
         link: https://www.instagram.com/Cudytech
-    cname: docs.cudy.com
+    cname: https://maggie202506.github.io/cudydocs-trial/
 
   extra_css:
     - https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css
