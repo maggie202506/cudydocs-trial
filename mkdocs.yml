@@ -101,6 +101,7 @@
     - javascripts/lazyload.js
     - javascripts/preview-panel.js
     - javascripts/nav-toggle.js
+    - javascripts/bot.js
 
   markdown_extensions:
     - attr_list
