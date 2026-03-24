@@ -1,0 +1,176 @@
+{
+  "en": [
+    {
+      "q": "Can't login to the router's web page",
+      "type": "tree",
+      "keywords": ["login", "web", "192.168.10.1", "cudy.net", "access"],
+      "link": "https://cudytech-pr.github.io/User-Guide/faq/10001/",
+      "tree": {
+        "step": "First, is your device connected to the Cudy Wi-Fi (Cudy-XXXX) or via Ethernet cable?",
+        "options": [
+          {
+            "label": "Yes, connected",
+            "next": {
+              "step": "Please try to enter http://cudy.net or 192.168.10.1 in the browser. Still fails?",
+              "options": [
+                {
+                  "label": "Still fails",
+                  "next": "Try: 1. Use a different browser (Chrome/Edge). 2. Disable VPN/Proxy on your phone. 3. Set your PC to 'Obtain IP automatically'."
+                },
+                {
+                  "label": "It works now",
+                  "next": "Great! You can now proceed with the setup."
+                }
+              ]
+            }
+          },
+          {
+            "label": "No, can't find Wi-Fi",
+            "next": "Please reset the router: Long press the RESET button for 3s until the LED flashes. Then wait 1 minute and search for 'Cudy-XXXX' again."
+          }
+        ]
+      }
+    },
+    {
+      "q": "Recover firmware via TFTP",
+      "type": "tree",
+      "keywords": ["tftp", "recover", "unbrick", "firmware", "bin"],
+      "link": "https://cudytech-pr.github.io/User-Guide/faq/10002/",
+      "tree": {
+        "step": "Have you prepared the 'recovery.bin' file and TFTP tool on your PC?",
+        "options": [
+          {
+            "label": "Yes, prepared",
+            "next": "1. Set PC static IP to 192.168.1.88. 2. Turn off PC Firewall. 3. Hold RESET, power on router, release when TFTP starts."
+          },
+          {
+            "label": "How to prepare?",
+            "next": "Download firmware from cudy.com, rename it to 'recovery.bin', and put it in the same folder as the TFTP tool."
+          }
+        ]
+      }
+    },
+    {
+      "q": "Slow speed on LT400/LT500",
+      "type": "answer",
+      "keywords": ["slow", "speed", "lte", "4g", "20mbps", "signal"],
+      "link": "https://cudytech-pr.github.io/User-Guide/faq/10003/",
+      "a": "1. Check if SIM data is throttled by ISP. <br>2. Check RSRP signal (should be > -90dBm). <br>3. Try <b>Band Lock</b> to a specific frequency. <br>4. Change TTL to 64 or 65 in Advanced Settings."
+    },
+    {
+      "q": "Set up Parental Control",
+      "type": "answer",
+      "keywords": ["parental", "kids", "time", "block", "website"],
+      "link": "https://cudytech-pr.github.io/User-Guide/faq/10004/",
+      "a": "1. Find your kid's device in the Client List. <br>2. Go to <b>Parental Control</b> and create a Profile. <br>3. Set <b>Online Time</b> (e.g., 8am-10pm). <br>4. Add keywords (e.g., 'facebook') to <b>Web Filter Blacklist</b>."
+    },
+    {
+      "q": "Configure IP Reservation",
+      "type": "answer",
+      "keywords": ["static", "ip", "reservation", "binding", "dhcp"],
+      "link": "https://cudytech-pr.github.io/User-Guide/faq/10005/",
+      "a": "Go to <b>Advanced Settings</b> -> <b>Security</b> -> <b>IP/MAC Binding</b>. Click 'Add', select the device, and assign the desired IP address."
+    },
+    {
+      "q": "Change NAT Type for Gaming",
+      "type": "answer",
+      "keywords": ["nat", "nat3", "gaming", "xbox", "ps5", "port"],
+      "link": "https://cudytech-pr.github.io/User-Guide/faq/10006/",
+      "a": "Method 1: Enable <b>DMZ</b> and enter your Console's IP. <br>Method 2: Use <b>Port Forwarding</b>. For Xbox, forward UDP 88, 3074 and TCP 3074."
+    },
+    {
+      "q": "Set up via Cudy APP",
+      "type": "answer",
+      "keywords": ["app", "setup", "mobile", "install", "quick"],
+      "link": "https://cudytech-pr.github.io/User-Guide/faq/10007/",
+      "a": "1. Download Cudy APP. <br>2. Connect phone to Cudy Wi-Fi. <br>3. Open APP, tap the router icon, and follow the <b>Quick Setup</b> wizard to set WAN and Wi-Fi."
+    }
+  ],
+  "cn": [
+    {
+      "q": "无法登录路由器管理页面",
+      "type": "tree",
+      "keywords": ["登录", "网页", "192.168.10.1", "cudy.net", "打不开"],
+      "link": "https://cudytech-pr.github.io/User-Guide/faq/10001/",
+      "tree": {
+        "step": "首先，请确认您的设备是否已连接 Cudy 的 Wi-Fi 或通过网线连接到 LAN 口？",
+        "options": [
+          {
+            "label": "已连接",
+            "next": {
+              "step": "请在浏览器输入 http://cudy.net 或 192.168.10.1。仍然失败吗？",
+              "options": [
+                {
+                  "label": "仍然失败",
+                  "next": "尝试：1. 换个浏览器（Chrome/Edge）。2. 关闭手机的 VPN 或移动数据。3. 确认电脑设置为“自动获取 IP”。"
+                },
+                {
+                  "label": "成功了",
+                  "next": "太棒了！您可以继续进行设置了。"
+                }
+              ]
+            }
+          },
+          {
+            "label": "连不上/找不到 Wi-Fi",
+            "next": "请复位路由器：长按 RESET 键 3 秒直到指示灯闪烁。等待 1 分钟后重新搜寻 'Cudy-XXXX'。"
+          }
+        ]
+      }
+    },
+    {
+      "q": "通过 TFTP 修复固件 (救砖)",
+      "type": "tree",
+      "keywords": ["tftp", "修复", "固件", "bin", "救砖"],
+      "link": "https://cudytech-pr.github.io/User-Guide/faq/10002/",
+      "tree": {
+        "step": "您是否已经在电脑上准备好了 'recovery.bin' 固件和 TFTP 工具？",
+        "options": [
+          {
+            "label": "准备好了",
+            "next": "1. 电脑 IP 设为静态 192.168.1.88。2. 关闭防火墙。3. 按住 RESET 电源开启，TFTP 开始传输后松开。"
+          },
+          {
+            "label": "如何准备？",
+            "next": "从 cudy.com 下载固件，重命名为 'recovery.bin'，并将其与 TFTP 工具放在同一个文件夹内。"
+          }
+        ]
+      }
+    },
+    {
+      "q": "LT400/LT500 网速慢怎么办？",
+      "type": "answer",
+      "keywords": ["慢", "网速", "4g", "lte", "信号"],
+      "link": "https://cudytech-pr.github.io/User-Guide/faq/10003/",
+      "a": "1. 确认 SIM 卡是否被运营商限速。 <br>2. 查看 RSRP 信号强度（应优于 -90dBm）。 <br>3. 尝试使用 <b>频段锁定 (Band Lock)</b>。 <br>4. 在高级设置中将 TTL 修改为 64 或 65。"
+    },
+    {
+      "q": "如何设置家长控制",
+      "type": "answer",
+      "keywords": ["家长", "孩子", "上网时间", "屏蔽", "网站"],
+      "link": "https://cudytech-pr.github.io/User-Guide/faq/10004/",
+      "a": "1. 在客户端列表找到孩子设备。 <br>2. 进入 <b>Parental Control</b> 创建配置文件。 <br>3. 设置<b>允许上网时间</b>（如 8am-10pm）。 <br>4. 在<b>网页过滤</b>中添加黑名单关键字（如 'facebook'）。"
+    },
+    {
+      "q": "配置静态 IP (IP 保留)",
+      "type": "answer",
+      "keywords": ["静态ip", "分配", "绑定", "dhcp"],
+      "link": "https://cudytech-pr.github.io/User-Guide/faq/10005/",
+      "a": "前往 <b>高级设置</b> -> <b>安全</b> -> <b>IP/MAC 绑定</b>。点击“添加”，选择设备并指定您想分配的 IP 地址。"
+    },
+    {
+      "q": "修改 NAT 类型以优化游戏",
+      "type": "answer",
+      "keywords": ["nat", "nat3", "游戏", "xbox", "ps5", "转发"],
+      "link": "https://cudytech-pr.github.io/User-Guide/faq/10006/",
+      "a": "方法 1：开启 <b>DMZ</b> 并输入游戏机的 IP 地址。<br>方法 2：使用<b>端口转发</b>。以 Xbox 为例，转发 UDP 88, 3074 和 TCP 3074。"
+    },
+    {
+      "q": "使用 Cudy APP 进行设置",
+      "type": "answer",
+      "keywords": ["app", "设置", "手机", "安装"],
+      "link": "https://cudytech-pr.github.io/User-Guide/faq/10007/",
+      "a": "1. 下载并安装 Cudy APP。 <br>2. 手机连接 Cudy Wi-Fi。 <br>3. 打开 APP 点击图标，通过 <b>快速设置</b> 向导完成上网和 Wi-Fi 配置。"
+    }
+  ]
+}
